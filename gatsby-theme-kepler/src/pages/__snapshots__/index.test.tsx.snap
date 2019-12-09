@@ -7,6 +7,11 @@ Array [
     Object {
       "lang": "en",
     }
+    <link
+      data-react-helmet={true}
+      href=""
+      rel="canonical"
+    />
     <meta
       content=""
       data-react-helmet={true}
@@ -21,6 +26,11 @@ Array [
       content=""
       data-react-helmet={true}
       property="og:title"
+    />
+    <meta
+      content=""
+      data-react-helmet={true}
+      property="og:url"
     />
     <meta
       content=""
@@ -42,6 +52,26 @@ Array [
       data-react-helmet={true}
       name="twitter:creator"
     />
+    <script
+      data-react-helmet={true}
+      type="application/ld+json"
+    >
+      Object {
+      "@context": "https://schema.org/",
+      "@type": "BreadcrumbList",
+      "itemListElement": Array [
+        Object {
+          "@type": "ListItem",
+          "item": Object {
+            "@id": "/",
+            "@type": "WebPage",
+            "name": "",
+          },
+          "position": 1,
+        },
+      ],
+    }
+    </script>
     <title
       data-react-helmet={true}
     >

@@ -103,7 +103,7 @@ describe("Index Page", (): void => {
     const tree = renderer
       .create(
         <Page
-          path="/"
+          location={{ pathname: "" }}
           data={{
             site: {
               siteMetadata: {
