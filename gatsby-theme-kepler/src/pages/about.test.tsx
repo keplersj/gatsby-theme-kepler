@@ -3,14 +3,6 @@ import renderer from "react-test-renderer";
 import { useStaticQuery } from "gatsby";
 import Page from "./about";
 
-jest.mock("gatsby-plugin-mdx", () => {
-  const MDXRenderer = ({ children }: any) => <p>{children}</p>;
-
-  return {
-    MDXRenderer
-  };
-});
-
 beforeEach((): void => {
   (useStaticQuery as jest.Mock).mockImplementation((): object => ({
     backdrop: {
