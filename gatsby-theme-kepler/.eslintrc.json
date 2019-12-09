@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "eslint-config-starstuff/typescript",
+    "eslint-config-starstuff/react",
+    "plugin:jest/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}

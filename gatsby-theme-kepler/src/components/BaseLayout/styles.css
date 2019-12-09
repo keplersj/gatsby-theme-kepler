@@ -1,0 +1,6 @@
+@media (prefers-color-scheme: dark) {
+  /* For some reason Atom One Dark is setting this element to black, manual override. */
+  span.mtk1 {
+    color: white !important;
+  }
+}

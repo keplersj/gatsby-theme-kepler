@@ -1,0 +1,550 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index Page renders correctly 1`] = `
+Array [
+  <head>
+    Object {}
+    Object {
+      "lang": "en",
+    }
+    <meta
+      content=""
+      data-react-helmet={true}
+      name="description"
+    />
+    <meta
+      content=""
+      data-react-helmet={true}
+      property="og:site_name"
+    />
+    <meta
+      content=""
+      data-react-helmet={true}
+      property="og:title"
+    />
+    <meta
+      content=""
+      data-react-helmet={true}
+      property="og:description"
+    />
+    <meta
+      content="summary"
+      data-react-helmet={true}
+      name="twitter:card"
+    />
+    <meta
+      content="@test"
+      data-react-helmet={true}
+      name="twitter:site"
+    />
+    <meta
+      content="@test"
+      data-react-helmet={true}
+      name="twitter:creator"
+    />
+    <title
+      data-react-helmet={true}
+    >
+      
+    </title>
+  </head>
+
+<script
+    type="application/ld+json"
+  >
+    Object {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "about": Object {
+      "@type": "Person",
+      "description": "",
+      "image": "",
+      "name": "Kepler Sticka-Jones",
+      "sameAs": Array [
+        "https://twitter.com/test",
+        "https://github.com/test",
+      ],
+      "url": "",
+    },
+    "description": "",
+    "name": "Kepler Sticka-Jones",
+    "url": "",
+  }
+  </script>,
+  .emotion-12 {
+  position: relative;
+}
+
+.emotion-12::before,
+.emotion-12::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -webkit-transition: opacity 0.5s ease 0.25s;
+  transition: opacity 0.5s ease 0.25s;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.emotion-12::after {
+  z-index: -100;
+  opacity: 0;
+  background-image: url("");
+}
+
+@media screen and (prefers-color-scheme:dark) {
+  .emotion-12::after {
+    background-image: url("");
+  }
+}
+
+.emotion-12::before {
+  z-index: -101;
+  opacity: 1;
+  background-image: url("");
+}
+
+@media screen and (prefers-color-scheme:dark) {
+  .emotion-12::before {
+    background-image: url("");
+  }
+}
+
+.emotion-0 {
+  opacity: 1;
+  background-image: url("");
+}
+
+@media screen and (prefers-color-scheme:dark) {
+  .emotion-0 {
+    background-image: url("");
+  }
+}
+
+.emotion-11 {
+  min-height: 66vh;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.emotion-10 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  padding: 3rem 1.5rem;
+  color: #fff;
+}
+
+.emotion-9 {
+  text-align: center !important;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+}
+
+@media screen and (min-width:1024px) {
+  .emotion-9 {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width:1216px) {
+  .emotion-9 {
+    max-width: 1152px;
+  }
+}
+
+.emotion-8 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  margin-top: -0.75rem;
+}
+
+.emotion-8:last-child {
+  margin-bottom: -0.75rem;
+}
+
+.emotion-7 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 0.75rem;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  width: 66.6666%;
+}
+
+.emotion-1 {
+  margin-bottom: 10px;
+  border-radius: 140px;
+}
+
+.emotion-2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.125;
+  margin-bottom: 1.5rem;
+}
+
+.emotion-6 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.emotion-3 {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 2.25em;
+  line-height: 1.5;
+  position: relative;
+  vertical-align: top;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border-width: 1px;
+  cursor: pointer;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: calc(0.375em - 1px);
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  padding-top: calc(0.375em - 1px);
+  text-align: center;
+  white-space: nowrap;
+  border-color: transparent;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.emotion-3:hover {
+  background-color: #f9f9f9;
+}
+
+.emotion-3:active {
+  background-color: #f2f2f2;
+}
+
+@media (prefers-color-scheme:dark) {
+  .emotion-3:hover {
+    background-color: #606060;
+  }
+
+  .emotion-3:active {
+    background-color: #d0d0d0;
+  }
+}
+
+<div
+    className="emotion-12"
+  >
+    <noscript
+      className="emotion-0"
+    />
+    <section
+      className="emotion-11"
+    >
+      <div
+        className="emotion-10"
+      >
+        <div
+          className="emotion-9"
+        >
+          <div
+            className="emotion-8"
+          >
+            <div
+              className="emotion-7"
+            >
+              <div
+                aria-label="Avatar"
+                role="img"
+              >
+                <div
+                  className="emotion-1 gatsby-image-wrapper"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "height": 100,
+                      "overflow": "hidden",
+                      "position": "relative",
+                      "width": 100,
+                    }
+                  }
+                >
+                  
+                  <picture>
+                    <source
+                      srcSet=""
+                    />
+                    <img
+                      alt="Avatar"
+                      height={100}
+                      loading="lazy"
+                      onLoad={[Function]}
+                      src=""
+                      srcSet=""
+                      style={
+                        Object {
+                          "height": "100%",
+                          "left": 0,
+                          "objectFit": "cover",
+                          "objectPosition": "center",
+                          "opacity": 0,
+                          "position": "absolute",
+                          "top": 0,
+                          "transition": "opacity 500ms",
+                          "width": "100%",
+                        }
+                      }
+                      width={100}
+                    />
+                  </picture>
+                  <noscript
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "<picture><source srcset=\\"\\" /><img loading=\\"lazy\\" width=\\"100\\" height=\\"100\\" src=\\"\\" alt=\\"Avatar\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+              <h1
+                className="emotion-2"
+              >
+                Kepler Sticka-Jones
+              </h1>
+              <div
+                className="emotion-6"
+              >
+                <a
+                  className="emotion-3"
+                  href="/blog"
+                >
+                  Blog
+                </a>
+                <a
+                  className="emotion-3"
+                  href="/projects"
+                >
+                  Projects
+                </a>
+                <a
+                  className="emotion-3"
+                  href="/about"
+                >
+                  About
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>,
+  .emotion-0 {
+  padding: 1em;
+}
+
+@media screen and (min-width:512px) {
+  .emotion-0 {
+    padding: 1em 2.5em;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .emotion-0 {
+    padding: 1em 5em;
+  }
+}
+
+<section
+    className="emotion-0"
+  >
+    <h2>
+      Biography
+    </h2>
+    <p>
+      I am a computer programmer and college student based out of Salt Lake City, with experience in entrepreneurship, student leadership, and open source software development.
+    </p>
+    <a
+      href="/about"
+    >
+      Read More...
+    </a>
+  </section>,
+  .emotion-4 {
+  padding: 1em;
+}
+
+@media screen and (min-width:512px) {
+  .emotion-4 {
+    padding: 1em 2.5em;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .emotion-4 {
+    padding: 1em 5em;
+  }
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: scroll;
+}
+
+.emotion-2 {
+  min-width: 15em;
+  border: 1px solid;
+  margin: 0.5em;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 0.5em;
+}
+
+.emotion-0 {
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+
+<section
+    className="emotion-4"
+  >
+    <script
+      type="application/ld+json"
+    >
+      Object {
+      "@context": "https://schema.org",
+      "@id": "/blog",
+      "@type": "Blog",
+      "blogPost": Array [
+        Object {
+          "@id": "",
+          "@type": "BlogPosting",
+        },
+      ],
+      "mainEntityOfPage": "/blog",
+      "url": "/blog",
+    }
+    </script>
+    <h2>
+      Blog Posts
+    </h2>
+    <div
+      className="emotion-3"
+    >
+      <article
+        className="emotion-2"
+      >
+        <script
+          type="application/ld+json"
+        >
+          Object {
+          "@context": "https://schema.org",
+          "@id": "",
+          "@type": "BlogPosting",
+          "datePublished": "",
+          "headline": "",
+          "mainEntityOfPage": "",
+          "name": "",
+          "url": "",
+        }
+        </script>
+        <div
+          className="emotion-1"
+        >
+          <a
+            href=""
+          >
+            <h3>
+              
+            </h3>
+          </a>
+          <time
+            dateTime=""
+          >
+            
+          </time>
+          <p>
+            
+          </p>
+          <a
+            className="emotion-0"
+            href=""
+          >
+            Read More...
+          </a>
+        </div>
+      </article>
+    </div>
+  </section>,
+]
+`;

@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`404 Page renders correctly 1`] = `
+.emotion-2 {
+  position: relative;
+}
+
+.emotion-2::before,
+.emotion-2::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -webkit-transition: opacity 0.5s ease 0.25s;
+  transition: opacity 0.5s ease 0.25s;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.emotion-2::after {
+  z-index: -100;
+  opacity: 0;
+  background-image: url("");
+}
+
+@media screen and (prefers-color-scheme:dark) {
+  .emotion-2::after {
+    background-image: url("");
+  }
+}
+
+.emotion-2::before {
+  z-index: -101;
+  opacity: 1;
+  background-image: url("");
+}
+
+@media screen and (prefers-color-scheme:dark) {
+  .emotion-2::before {
+    background-image: url("");
+  }
+}
+
+.emotion-0 {
+  opacity: 1;
+  background-image: url("");
+}
+
+@media screen and (prefers-color-scheme:dark) {
+  .emotion-0 {
+    background-image: url("");
+  }
+}
+
+.emotion-1 {
+  color: #505050;
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 1.5;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+@media (prefers-color-scheme:dark) {
+  .emotion-1 {
+    color: white;
+  }
+}
+
+<head>
+  Object {}
+  Object {
+    "lang": "en",
+  }
+  <meta
+    data-react-helmet={true}
+    name="description"
+  />
+  <meta
+    content=""
+    data-react-helmet={true}
+    property="og:site_name"
+  />
+  <meta
+    content="404!"
+    data-react-helmet={true}
+    property="og:title"
+  />
+  <meta
+    data-react-helmet={true}
+    property="og:description"
+  />
+  <meta
+    content="summary"
+    data-react-helmet={true}
+    name="twitter:card"
+  />
+  <meta
+    content="@test"
+    data-react-helmet={true}
+    name="twitter:site"
+  />
+  <meta
+    content="@test"
+    data-react-helmet={true}
+    name="twitter:creator"
+  />
+  <title
+    data-react-helmet={true}
+  >
+    404! | 
+  </title>
+</head>
+
+<div
+  className="emotion-2"
+>
+  <noscript
+    className="emotion-0"
+  />
+  <div
+    className="emotion-1"
+  >
+    <div>
+      <h1>
+        404!
+      </h1>
+      <span>
+        Maybe, go back to the 
+        <a
+          href="/"
+        >
+          home page
+        </a>
+        ?
+      </span>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,23 @@
+{
+  "name": "gatsby-theme-kepler-workspace",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "yarn workspace gatsby-theme-kepler test",
+    "develop": "yarn workspace example develop",
+    "build": "yarn workspace example build",
+    "semantic-release": "semantic-release"
+  },
+  "workspaces": [
+    "gatsby-theme-kepler",
+    "example"
+  ],
+  "version": "0.0.0-development",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keplersj/gatsby-theme-kepler.git"
+  },
+  "devDependencies": {
+    "semantic-release": "^15.13.31"
+  }
+}
