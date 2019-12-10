@@ -42,7 +42,7 @@ const BaseLayout = (
   props: React.PropsWithChildren<Props>
 ): React.ReactElement<React.PropsWithChildren<Props>> => {
   const data = useStaticQuery<BaseLayoutData>(graphql`
-    query BaseLayoutData {
+    query KeplerBaseLayoutData {
       site {
         siteMetadata {
           title

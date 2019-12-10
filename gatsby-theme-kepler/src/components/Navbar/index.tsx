@@ -62,7 +62,7 @@ interface NavbarData {
 
 export const Navbar = (): React.ReactElement<{}> => {
   const data = useStaticQuery<NavbarData>(graphql`
-    query NavbarData {
+    query KeplerNavbarData {
       site {
         siteMetadata {
           title

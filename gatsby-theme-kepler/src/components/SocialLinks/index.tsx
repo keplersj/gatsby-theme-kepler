@@ -35,7 +35,7 @@ export const SocialLinks = (
       siteMetadata: { social }
     }
   } = useStaticQuery<SocialLinksQuery>(graphql`
-    query SocialLinksQuery {
+    query KeplerSocialLinksQuery {
       site {
         siteMetadata {
           social {

@@ -30,7 +30,7 @@ export const BannerBackground = (
   props: React.PropsWithChildren<any>
 ): React.ReactElement => {
   const data = useStaticQuery<BannerData>(graphql`
-    query BannerBackgroundData {
+    query KeplerBannerBackgroundData {
       desktop: file(
         relativePath: { eq: "banner.jpg" }
         sourceInstanceName: { eq: "assets" }

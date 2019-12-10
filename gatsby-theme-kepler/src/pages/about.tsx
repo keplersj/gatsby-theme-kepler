@@ -206,7 +206,7 @@ const AboutPage = (props: Props): React.ReactElement => (
 export default AboutPage;
 
 export const query = graphql`
-  query AboutPageQuery {
+  query KeplerAboutPageQuery {
     biography: file(
       sourceInstanceName: { eq: "about" }
       relativePath: { eq: "biography.md" }

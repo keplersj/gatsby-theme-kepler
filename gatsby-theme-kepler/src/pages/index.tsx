@@ -304,7 +304,7 @@ const IndexPage = ({ data, location }: Props): React.ReactElement<Props> => {
 export default IndexPage;
 
 export const query = graphql`
-  query IndexPageData {
+  query KeplerIndexPageData {
     site {
       siteMetadata {
         title

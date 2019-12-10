@@ -18,7 +18,7 @@ interface AvatarComponentQuery {
 
 export const Avatar = (): React.ReactElement => {
   const data = useStaticQuery<AvatarComponentQuery>(graphql`
-    query AvatarComponentQuery {
+    query KeplerAvatarComponentQuery {
       image: file(
         relativePath: { eq: "avatar.jpg" }
         sourceInstanceName: { eq: "assets" }
