@@ -118,7 +118,7 @@ const StyledLocalButton = styled(LocalButton)`
   color: #fff;
 `;
 
-interface IndexPageData {
+export interface IndexPageData {
   site: {
     siteMetadata: {
       title: string;

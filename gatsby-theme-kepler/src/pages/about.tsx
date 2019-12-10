@@ -57,66 +57,68 @@ const Detail = styled.span`
   }
 `;
 
-interface Props extends PageRendererProps {
-  data: {
-    biography: {
-      childMdx: {
-        body: string;
-        frontmatter: {
-          title: string;
-        };
-      };
-    };
-
-    experience: {
-      edges: {
-        node: {
-          id: string;
-          childMdx: {
-            id: string;
-            body: string;
-            frontmatter: {
-              title: string;
-              position: string;
-              rawEnd?: string;
-              end_date?: string;
-              rawStart: string;
-              start_date: string;
-            };
-          };
-        };
-      }[];
-    };
-
-    education: {
-      edges: {
-        node: {
-          id: string;
-          childMdx: {
-            id: string;
-            body: string;
-            frontmatter: {
-              title: string;
-              degree?: string;
-              rawEnd?: string;
-              end_date?: string;
-              rawStart: string;
-              start_date: string;
-            };
-          };
-        };
-      }[];
-    };
-
-    skills: {
-      childMdx: {
-        body: string;
-        frontmatter: {
-          title: string;
-        };
+export interface AboutPageQuery {
+  biography: {
+    childMdx: {
+      body: string;
+      frontmatter: {
+        title: string;
       };
     };
   };
+
+  experience: {
+    edges: {
+      node: {
+        id: string;
+        childMdx: {
+          id: string;
+          body: string;
+          frontmatter: {
+            title: string;
+            position: string;
+            rawEnd?: string;
+            end_date?: string;
+            rawStart: string;
+            start_date: string;
+          };
+        };
+      };
+    }[];
+  };
+
+  education: {
+    edges: {
+      node: {
+        id: string;
+        childMdx: {
+          id: string;
+          body: string;
+          frontmatter: {
+            title: string;
+            degree?: string;
+            rawEnd?: string;
+            end_date?: string;
+            rawStart: string;
+            start_date: string;
+          };
+        };
+      };
+    }[];
+  };
+
+  skills: {
+    childMdx: {
+      body: string;
+      frontmatter: {
+        title: string;
+      };
+    };
+  };
+}
+
+interface Props extends PageRendererProps {
+  data: AboutPageQuery;
 }
 
 const AboutPage = (props: Props): React.ReactElement => (
