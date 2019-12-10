@@ -8,7 +8,7 @@ const RoundedImage = styled(Image)`
   border-radius: 140px;
 `;
 
-interface AvatarComponentQuery {
+export interface AvatarComponentQuery {
   image: {
     childImageSharp: {
       fixed: FixedObject;

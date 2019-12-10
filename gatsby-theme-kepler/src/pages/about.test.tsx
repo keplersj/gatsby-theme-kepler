@@ -2,6 +2,7 @@ import * as React from "react";
 import renderer from "react-test-renderer";
 import { useStaticQuery } from "gatsby";
 import Page from "./about";
+import { KeplerAvatarComponentQuery } from "../__mockData__/KeplerAvatarComponentQuery";
 
 beforeEach((): void => {
   (useStaticQuery as jest.Mock).mockImplementation((): object => ({
@@ -31,17 +32,7 @@ beforeEach((): void => {
         }
       }
     },
-    image: {
-      childImageSharp: {
-        fixed: {
-          base64: "",
-          width: 100,
-          height: 100,
-          src: "",
-          srcSet: ""
-        }
-      }
-    },
+    ...KeplerAvatarComponentQuery,
     site: {
       siteMetadata: {
         title: "",

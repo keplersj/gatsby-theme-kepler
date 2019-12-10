@@ -350,25 +350,28 @@ Array [
                   style={
                     Object {
                       "display": "inline-block",
-                      "height": 100,
+                      "height": 200,
                       "overflow": "hidden",
                       "position": "relative",
-                      "width": 100,
+                      "width": 200,
                     }
                   }
                 >
-                  
                   <picture>
                     <source
-                      srcSet=""
+                      srcSet="/static/example/2/avatar.jpg 1x,
+                /static/example/3/avatar.jpg 1.5x,
+                /static/example/4/avatar.jpg 2x"
                     />
                     <img
                       alt="Avatar"
-                      height={100}
+                      height={200}
                       loading="lazy"
                       onLoad={[Function]}
-                      src=""
-                      srcSet=""
+                      src="/static/example/1/avatar.jpg"
+                      srcSet="/static/example/2/avatar.jpg 1x,
+                /static/example/3/avatar.jpg 1.5x,
+                /static/example/4/avatar.jpg 2x"
                       style={
                         Object {
                           "height": "100%",
@@ -382,13 +385,17 @@ Array [
                           "width": "100%",
                         }
                       }
-                      width={100}
+                      width={200}
                     />
                   </picture>
                   <noscript
                     dangerouslySetInnerHTML={
                       Object {
-                        "__html": "<picture><source srcset=\\"\\" /><img loading=\\"lazy\\" width=\\"100\\" height=\\"100\\" src=\\"\\" alt=\\"Avatar\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                        "__html": "<picture><source srcset=\\"/static/example/2/avatar.jpg 1x,
+                /static/example/3/avatar.jpg 1.5x,
+                /static/example/4/avatar.jpg 2x\\" /><img loading=\\"lazy\\" width=\\"200\\" height=\\"200\\" srcset=\\"/static/example/2/avatar.jpg 1x,
+                /static/example/3/avatar.jpg 1.5x,
+                /static/example/4/avatar.jpg 2x\\" src=\\"/static/example/1/avatar.jpg\\" alt=\\"Avatar\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
                       }
                     }
                   />
