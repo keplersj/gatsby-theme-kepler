@@ -9,13 +9,7 @@ const ProfileLinksContainer = styled.address`
   flex-wrap: wrap;
 `;
 
-interface Platform {
-  name: string;
-  id: string;
-  url: string;
-}
-
-interface SocialLinksQuery {
+export interface SocialLinksQuery {
   site: {
     siteMetadata: {
       social: {

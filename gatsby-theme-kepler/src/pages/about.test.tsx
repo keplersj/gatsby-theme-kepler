@@ -6,7 +6,8 @@ import {
   KeplerAvatarComponentQuery,
   KeplerBannerBackgroundData,
   KeplerNavbarData,
-  KeplerBaseLayoutData
+  KeplerBaseLayoutData,
+  KeplerSocialLinksQuery
 } from "../__mockData__";
 import deepMerge from "deepmerge";
 
@@ -16,7 +17,8 @@ beforeEach((): void => {
       KeplerBannerBackgroundData,
       KeplerAvatarComponentQuery,
       KeplerNavbarData,
-      KeplerBaseLayoutData
+      KeplerBaseLayoutData,
+      KeplerSocialLinksQuery
     ])
   );
 });
