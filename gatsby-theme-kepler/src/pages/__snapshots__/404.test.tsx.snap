@@ -92,11 +92,12 @@ exports[`404 Page renders correctly 1`] = `
     "lang": "en",
   }
   <meta
+    content=""
     data-react-helmet={true}
     name="description"
   />
   <meta
-    content=""
+    content="Kepler Sticka-Jones"
     data-react-helmet={true}
     property="og:site_name"
   />
@@ -106,6 +107,7 @@ exports[`404 Page renders correctly 1`] = `
     property="og:title"
   />
   <meta
+    content=""
     data-react-helmet={true}
     property="og:description"
   />
@@ -127,7 +129,7 @@ exports[`404 Page renders correctly 1`] = `
   <title
     data-react-helmet={true}
   >
-    404! | 
+    404! | Kepler Sticka-Jones
   </title>
 </head>
 

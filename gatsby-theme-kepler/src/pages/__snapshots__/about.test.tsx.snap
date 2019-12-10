@@ -18,12 +18,12 @@ Array [
       name="description"
     />
     <meta
-      content=""
+      content="Kepler Sticka-Jones"
       data-react-helmet={true}
       property="og:site_name"
     />
     <meta
-      content=""
+      content="Kepler Sticka-Jones"
       data-react-helmet={true}
       property="og:title"
     />
@@ -65,7 +65,7 @@ Array [
           "item": Object {
             "@id": "/",
             "@type": "WebPage",
-            "name": "",
+            "name": "Kepler Sticka-Jones",
           },
           "position": 1,
         },
@@ -84,7 +84,7 @@ Array [
     <title
       data-react-helmet={true}
     >
-      
+      Kepler Sticka-Jones
     </title>
   </head>
 
@@ -218,7 +218,7 @@ Array [
           className="emotion-1"
           href="/"
         >
-          
+          Kepler Sticka-Jones
         </a>
       </div>
       <div
@@ -232,9 +232,9 @@ Array [
         </a>
         <a
           className="emotion-1"
-          href="/portfolio"
+          href="/projects"
         >
-          Portfolio
+          Projects
         </a>
         <a
           className="emotion-1"

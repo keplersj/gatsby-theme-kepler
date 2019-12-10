@@ -18,7 +18,7 @@ interface Props {
   location?: WindowLocation;
 }
 
-interface BaseLayoutData {
+export interface BaseLayoutData {
   site: {
     siteMetadata: {
       title: string;

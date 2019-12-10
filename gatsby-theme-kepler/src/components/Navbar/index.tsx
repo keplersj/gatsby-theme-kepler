@@ -48,7 +48,7 @@ const StyledLink = styled(Link)`
   }
 `;
 
-interface NavbarData {
+export interface NavbarData {
   site: {
     siteMetadata: {
       title: string;

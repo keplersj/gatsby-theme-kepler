@@ -4,49 +4,21 @@ import { useStaticQuery } from "gatsby";
 import Page from "./about";
 import {
   KeplerAvatarComponentQuery,
-  KeplerBannerBackgroundData
+  KeplerBannerBackgroundData,
+  KeplerNavbarData,
+  KeplerBaseLayoutData
 } from "../__mockData__";
+import deepMerge from "deepmerge";
 
 beforeEach((): void => {
-  (useStaticQuery as jest.Mock).mockImplementation((): object => ({
-    ...KeplerBannerBackgroundData,
-    ...KeplerAvatarComponentQuery,
-    site: {
-      siteMetadata: {
-        title: "",
-        description: "",
-        siteUrl: "",
-        social: [
-          {
-            name: "Twitter",
-            id: "@test",
-            url: "https://twitter.com/test",
-            isProfile: true
-          },
-          {
-            name: "GitHub",
-            id: "test",
-            url: "https://github.com/test",
-            isProfile: true
-          }
-        ],
-        nav: [
-          {
-            name: "Blog",
-            url: "/blog"
-          },
-          {
-            name: "Portfolio",
-            url: "/portfolio"
-          },
-          {
-            name: "About",
-            url: "/about"
-          }
-        ]
-      }
-    }
-  }));
+  (useStaticQuery as jest.Mock).mockImplementation((): object =>
+    deepMerge.all([
+      KeplerBannerBackgroundData,
+      KeplerAvatarComponentQuery,
+      KeplerNavbarData,
+      KeplerBaseLayoutData
+    ])
+  );
 });
 
 describe("About Page", (): void => {
