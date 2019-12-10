@@ -34,7 +34,7 @@
     "gatsby-remark-vscode": "^1.4.0",
     "gatsby-source-filesystem": "^2.1.42",
     "gatsby-theme-curiousity": "^1.0.79",
-    "gatsby-theme-early-bird": "^1.5.16",
+    "gatsby-theme-early-bird": "^1.5.18",
     "gatsby-transformer-remark": "^2.6.39",
     "gatsby-transformer-sharp": "^2.3.9",
     "modern-normalize": "^0.5.0",
