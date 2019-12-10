@@ -13938,6 +13938,13 @@ react-test-renderer@^16.12.0:
     react-is "^16.8.6"
     scheduler "^0.18.0"
 
+react-use-webp-support-check@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-use-webp-support-check/-/react-use-webp-support-check-1.0.0.tgz#1a9e8f12ddbb0771f9a5498b197924f5d6f9482d"
+  integrity sha512-W69+YyNOBikcekelUMxW+KM6OC7txiWynffksKJhQvJGkrlRlfumXNspraMbNsdCPpcrEyfUh/uuRts6AglTrA==
+  dependencies:
+    supports-webp "^2.0.1"
+
 react@^16.12.0:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.12.0.tgz#0c0a9c6a142429e3614834d5a778e18aa78a0b83"

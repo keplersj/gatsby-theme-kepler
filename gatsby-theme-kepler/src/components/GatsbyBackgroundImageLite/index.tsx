@@ -4,7 +4,7 @@ import { FixedObject, FluidObject } from "gatsby-image";
 import { css, jsx, SerializedStyles } from "@emotion/core";
 import { backgroundImages } from "polished";
 import { useInView } from "react-intersection-observer";
-import { useWebPSupportCheck } from "./useWebPSupportCheck";
+import { useWebPSupportCheck } from "react-use-webp-support-check";
 
 function createBackgrounds(
   img: FixedObject | FluidObject | FixedObject[] | FluidObject[],
