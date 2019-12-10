@@ -48,7 +48,7 @@ export const SocialLinks = (
         (platform): React.ReactElement => (
           <SocialLink
             role="listitem"
-            key={platform.id}
+            key={`${platform.name}__${platform.id}__${platform.url}`}
             name={platform.name}
             id={platform.id}
             url={platform.url}
