@@ -12,7 +12,10 @@ module.exports = {
       ],
       collectCoverage: true,
       coverageReporters: ["json", "text"],
-      coveragePathIgnorePatterns: ["/node_modules/", "<rootDir>/.jest/"],
+      coveragePathIgnorePatterns: [
+        "/node_modules/",
+        "<rootDir>/src/__mockData__/"
+      ],
       moduleNameMapper: {
         "modern-normalize": "jest-transform-stub",
         "starstuff-style": "jest-transform-stub"

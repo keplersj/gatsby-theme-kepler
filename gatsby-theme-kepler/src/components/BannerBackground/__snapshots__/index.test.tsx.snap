@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`404 Page renders correctly 1`] = `
-.emotion-2 {
+exports[`BannerBackground Component renders as expected 1`] = `
+.emotion-1 {
   position: relative;
 }
 
-.emotion-2::before,
-.emotion-2::after {
+.emotion-1::before,
+.emotion-1::after {
   content: "";
   display: block;
   position: absolute;
@@ -21,139 +21,46 @@ exports[`404 Page renders correctly 1`] = `
   background-size: cover;
 }
 
-.emotion-2::after {
+.emotion-1::after {
   z-index: -100;
   opacity: 0;
-  background-image: url("/static/banner_example/3/banner.jpg");
+  background-image: url("/static/banner_example/1/banner.jpg");
 }
 
 @media screen and (prefers-color-scheme:dark) {
-  .emotion-2::after {
-    background-image: url("/static/banner_dark_example/3/banner_dark.jpg");
+  .emotion-1::after {
+    background-image: url("/static/banner_example/1/banner_dark.jpg");
   }
 }
 
-.emotion-2::before {
+.emotion-1::before {
   z-index: -101;
   opacity: 1;
   background-image: url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z");
 }
 
 @media screen and (prefers-color-scheme:dark) {
-  .emotion-2::before {
+  .emotion-1::before {
     background-image: url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z");
   }
 }
 
 .emotion-0 {
   opacity: 1;
-  background-image: url("/static/banner_example/3/banner.jpg");
+  background-image: url("/static/banner_example/1/banner.jpg");
 }
 
 @media screen and (prefers-color-scheme:dark) {
   .emotion-0 {
-    background-image: url("/static/banner_dark_example/3/banner_dark.jpg");
+    background-image: url("/static/banner_example/1/banner_dark.jpg");
   }
 }
-
-.emotion-1 {
-  color: #505050;
-  font-size: 1.5em;
-  font-weight: 500;
-  line-height: 1.5;
-  height: 100vh;
-  width: 100vw;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  text-align: center;
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
-}
-
-@media (prefers-color-scheme:dark) {
-  .emotion-1 {
-    color: white;
-  }
-}
-
-<head>
-  Object {}
-  Object {
-    "lang": "en",
-  }
-  <meta
-    data-react-helmet={true}
-    name="description"
-  />
-  <meta
-    content=""
-    data-react-helmet={true}
-    property="og:site_name"
-  />
-  <meta
-    content="404!"
-    data-react-helmet={true}
-    property="og:title"
-  />
-  <meta
-    data-react-helmet={true}
-    property="og:description"
-  />
-  <meta
-    content="summary"
-    data-react-helmet={true}
-    name="twitter:card"
-  />
-  <meta
-    content="@test"
-    data-react-helmet={true}
-    name="twitter:site"
-  />
-  <meta
-    content="@test"
-    data-react-helmet={true}
-    name="twitter:creator"
-  />
-  <title
-    data-react-helmet={true}
-  >
-    404! | 
-  </title>
-</head>
 
 <div
-  className="emotion-2"
+  className="emotion-1"
 >
   <noscript
     className="emotion-0"
   />
-  <div
-    className="emotion-1"
-  >
-    <div>
-      <h1>
-        404!
-      </h1>
-      <span>
-        Maybe, go back to the 
-        <a
-          href="/"
-        >
-          home page
-        </a>
-        ?
-      </span>
-    </div>
-  </div>
 </div>
 `;

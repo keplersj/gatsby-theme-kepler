@@ -3,7 +3,7 @@ import { graphql, useStaticQuery } from "gatsby";
 import { BackgroundImage } from "../GatsbyBackgroundImageLite";
 import { FluidObject } from "gatsby-image";
 
-interface BannerData {
+export interface BannerData {
   desktop: {
     childImageSharp: {
       fluid: FluidObject;

@@ -2,6 +2,7 @@ import * as React from "react";
 import renderer from "react-test-renderer";
 import { useStaticQuery } from "gatsby";
 import { Navbar } from ".";
+import { KeplerBannerBackgroundData } from "../../__mockData__";
 
 beforeEach((): void => {
   (useStaticQuery as jest.Mock).mockImplementation((): object => ({
@@ -24,32 +25,7 @@ beforeEach((): void => {
         ]
       }
     },
-    backdrop: {
-      childImageSharp: {
-        fluid: {
-          base64: "",
-          aspectRatio: 1.333,
-          src: "",
-          srcSet: "",
-          srcWebp: "",
-          srcSetWebp: "",
-          sizes: ""
-        }
-      }
-    },
-    backdropDark: {
-      childImageSharp: {
-        fluid: {
-          base64: "",
-          aspectRatio: 1.333,
-          src: "",
-          srcSet: "",
-          srcWebp: "",
-          srcSetWebp: "",
-          sizes: ""
-        }
-      }
-    }
+    ...KeplerBannerBackgroundData
   }));
 });
 
