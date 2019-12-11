@@ -204,6 +204,7 @@ Array [
 
 <div
     className="emotion-8"
+    data-testid="BackgroundImageContainerElement"
   >
     <noscript
       className="emotion-0"

@@ -135,6 +135,7 @@ exports[`404 Page renders correctly 1`] = `
 
 <div
   className="emotion-2"
+  data-testid="BackgroundImageContainerElement"
 >
   <noscript
     className="emotion-0"

@@ -58,6 +58,7 @@ exports[`BannerBackground Component renders as expected 1`] = `
 
 <div
   className="emotion-1"
+  data-testid="BackgroundImageContainerElement"
 >
   <noscript
     className="emotion-0"

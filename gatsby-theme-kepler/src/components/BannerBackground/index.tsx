@@ -1,27 +1,29 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
-import { BackgroundImage } from "../GatsbyBackgroundImageLite";
-import { FluidObject } from "gatsby-image";
+import {
+  BackgroundImage,
+  BackgroundImageObject
+} from "gatsby-background-image-lite";
 
 export interface BannerData {
   desktop: {
     childImageSharp: {
-      fluid: FluidObject;
+      fluid: BackgroundImageObject;
     };
   };
   desktopDark: {
     childImageSharp: {
-      fluid: FluidObject;
+      fluid: BackgroundImageObject;
     };
   };
   backdrop: {
     childImageSharp: {
-      fluid: FluidObject;
+      fluid: BackgroundImageObject;
     };
   };
   backdropDark: {
     childImageSharp: {
-      fluid: FluidObject;
+      fluid: BackgroundImageObject;
     };
   };
 }
@@ -37,7 +39,7 @@ export const BannerBackground = (
       ) {
         childImageSharp {
           fluid(quality: 90, maxWidth: 4608) {
-            ...GatsbyImageSharpFluid_withWebp
+            ...GatsbyBackgroundImageSharpFluid
           }
         }
       }
@@ -48,7 +50,7 @@ export const BannerBackground = (
       ) {
         childImageSharp {
           fluid(quality: 90, maxWidth: 4608) {
-            ...GatsbyImageSharpFluid_withWebp
+            ...GatsbyBackgroundImageSharpFluid
           }
         }
       }
@@ -59,7 +61,7 @@ export const BannerBackground = (
       ) {
         childImageSharp {
           fluid(quality: 10, maxWidth: 4608) {
-            ...GatsbyImageSharpFluid_withWebp
+            ...GatsbyBackgroundImageSharpFluid
           }
         }
       }
@@ -70,7 +72,7 @@ export const BannerBackground = (
       ) {
         childImageSharp {
           fluid(quality: 10, maxWidth: 4608) {
-            ...GatsbyImageSharpFluid_withWebp
+            ...GatsbyBackgroundImageSharpFluid
           }
         }
       }
@@ -80,7 +82,7 @@ export const BannerBackground = (
   return (
     <BackgroundImage
       {...props}
-      fluid={[
+      image={[
         props.highQuality === true
           ? data.desktop.childImageSharp.fluid
           : data.backdrop.childImageSharp.fluid,

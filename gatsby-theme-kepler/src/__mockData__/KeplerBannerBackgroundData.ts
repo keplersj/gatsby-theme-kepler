@@ -8,12 +8,8 @@ export const KeplerBannerBackgroundData: BannerData = {
     childImageSharp: {
       fluid: {
         base64: sampleBase64,
-        aspectRatio: 1.333,
         src: "/static/banner_example/1/banner.jpg",
-        srcSet: "/static/banner_example/1/banner.jpg 1x",
-        srcWebp: "/static/banner_example/2/banner.jpg",
-        srcSetWebp: "/static/banner_example/2/banner.jpg 1x",
-        sizes: "(max-width: 4608px) 100vw, 4608px"
+        srcWebp: "/static/banner_example/2/banner.jpg"
       }
     }
   },
@@ -21,12 +17,8 @@ export const KeplerBannerBackgroundData: BannerData = {
     childImageSharp: {
       fluid: {
         base64: sampleBase64,
-        aspectRatio: 1.333,
         src: "/static/banner_example/1/banner_dark.jpg",
-        srcSet: "/static/banner_example/1/banner_dark.jpg 1x",
-        srcWebp: "/static/banner_example/2/banner_dark.webp",
-        srcSetWebp: "/static/banner_example/2/banner_dark.webp 1x",
-        sizes: "(max-width: 4608px) 100vw, 4608px"
+        srcWebp: "/static/banner_example/2/banner_dark.webp"
       }
     }
   },
@@ -34,12 +26,8 @@ export const KeplerBannerBackgroundData: BannerData = {
     childImageSharp: {
       fluid: {
         base64: sampleBase64,
-        aspectRatio: 1.333,
         src: "/static/banner_example/3/banner.jpg",
-        srcSet: "/static/banner_example/3/banner.jpg 1x",
-        srcWebp: "/static/banner_example/4/banner.webp",
-        srcSetWebp: "/static/banner_example/4/banner.webp 1x",
-        sizes: "(max-width: 4608px) 100vw, 4608px"
+        srcWebp: "/static/banner_example/4/banner.webp"
       }
     }
   },
@@ -47,12 +35,8 @@ export const KeplerBannerBackgroundData: BannerData = {
     childImageSharp: {
       fluid: {
         base64: sampleBase64,
-        aspectRatio: 1.333,
         src: "/static/banner_dark_example/3/banner_dark.jpg",
-        srcSet: "/static/banner_dark_example/3/banner_dark.jpg 1x",
-        srcWebp: "/static/banner_dark_example/4/banner_dark.webp",
-        srcSetWebp: "/static/banner_dark_example/4/banner_dark.webp 1x",
-        sizes: "(max-width: 4608px) 100vw, 4608px"
+        srcWebp: "/static/banner_dark_example/4/banner_dark.webp"
       }
     }
   }
