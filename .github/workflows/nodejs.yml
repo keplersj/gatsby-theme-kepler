@@ -16,11 +16,14 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: yarn install
-        run: yarn install
+      - run: yarn install
         env:
           CI: true
-      - name: yarn test
-        run: yarn test
+      - run: yarn test -- --ci
         env:
           CI: true
+      - name: stryker run
+        run: yarn workspace gatsby-theme-kepler test:mutation
+      - uses: codecov/codecov-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
