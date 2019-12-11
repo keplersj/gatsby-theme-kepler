@@ -6837,7 +6837,7 @@ gatsby-graphiql-explorer@^0.2.31:
   dependencies:
     "@babel/runtime" "^7.7.6"
 
-gatsby-image@^2.2.34, gatsby-image@^2.2.36:
+gatsby-image@^2.2.36:
   version "2.2.36"
   resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.2.36.tgz#9fd6fe9f6fde62d1e8fb2cabe50bc51c40a78521"
   integrity sha512-a5a/+busxSnKUWdZuWvCrMybLpHS6czK2Ltrt2Xa6ZIkGL/bZU4KR6t5ku8iO91Q0u32ss81WA2JwUCcctVDdA==
@@ -6896,7 +6896,7 @@ gatsby-plugin-feed@^2.3.25:
     lodash.merge "^4.6.2"
     rss "^1.2.2"
 
-gatsby-plugin-mdx@^1.0.46, gatsby-plugin-mdx@^1.0.61, gatsby-plugin-mdx@^1.0.62:
+gatsby-plugin-mdx@^1.0.46, gatsby-plugin-mdx@^1.0.62:
   version "1.0.62"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-mdx/-/gatsby-plugin-mdx-1.0.62.tgz#cb6485bdeed370320cbcce6761b6576c15fddf56"
   integrity sha512-vAHP6EFaWAJcKi1h3scAbvRY1+cKl+6va5pZU1uV2IKxbbEDouC1BXPsQAmm99wJR0R1/UZaq2oUS5/3V0FVPg==
@@ -7170,20 +7170,20 @@ gatsby-theme-curiousity@^1.0.82:
     starstuff-style "^1.0.1"
     typescript "^3.6.3"
 
-gatsby-theme-early-bird@^1.5.21:
-  version "1.5.21"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.5.21.tgz#5d85e1e1efd1ecadd71548be32fcaeabfe63c836"
-  integrity sha512-gQbpN039f11qDRG5wcF3FuMlxNvqKu/0aI9HBaJvik5x9b5qOsiZT7eUiUJZ854D86X4ca6MA2nPl41HPp1GVQ==
+gatsby-theme-early-bird@^1.5.23:
+  version "1.5.23"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.5.23.tgz#a791b641f8944a6a19d699a6757562646a8430da"
+  integrity sha512-xKHMw74sR9vnp9mdp8QUcyW9Fz/2lzHFYfngCyS3yesDaPFee8XW9U4DYfXg8SrUsHaWN39PshUWvMmf5OhU2A==
   dependencies:
     "@emotion/core" "^10.0.22"
     "@mdx-js/mdx" "^1.5.1"
     "@mdx-js/react" "^1.5.0"
     "@types/react" "^16.9.16"
     "@types/react-helmet" "^5.0.14"
-    gatsby-image "^2.2.34"
+    gatsby-image "^2.2.36"
     gatsby-plugin-emotion "^4.1.18"
     gatsby-plugin-feed "^2.3.25"
-    gatsby-plugin-mdx "^1.0.61"
+    gatsby-plugin-mdx "^1.0.62"
     gatsby-plugin-react-helmet "^3.1.18"
     gatsby-plugin-sharp "^2.3.7"
     gatsby-plugin-typescript "^2.1.22"
