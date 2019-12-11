@@ -9,7 +9,7 @@ Array [
     }
     <link
       data-react-helmet={true}
-      href=""
+      href="/"
       rel="canonical"
     />
     <meta
@@ -28,7 +28,7 @@ Array [
       property="og:title"
     />
     <meta
-      content=""
+      content="/"
       data-react-helmet={true}
       property="og:url"
     />
@@ -87,18 +87,23 @@ Array [
     "@type": "WebSite",
     "about": Object {
       "@type": "Person",
-      "description": "",
+      "description": "This is an example of a personal web site.",
+      "email": "test@example.dev",
       "image": "",
-      "name": "Kepler Sticka-Jones",
+      "name": "Example Site",
       "sameAs": Array [
-        "https://twitter.com/test",
-        "https://github.com/test",
+        "https://github.dev/test",
+        "https://twitter.dev/test",
+        "https://linkedin.dev/in/test",
+        "https://keybase.dev/test",
+        "https://instagram.dev/test",
+        "https://🤷🏼‍♂️.dev/test",
       ],
-      "url": "",
+      "url": "https://site.dev",
     },
-    "description": "",
-    "name": "Kepler Sticka-Jones",
-    "url": "",
+    "description": "This is an example of a personal web site.",
+    "name": "Example Site",
+    "url": "https://site.dev",
   }
   </script>,
   .emotion-12 {
@@ -404,7 +409,7 @@ Array [
               <h1
                 className="emotion-2"
               >
-                Kepler Sticka-Jones
+                Example Site
               </h1>
               <div
                 className="emotion-6"
@@ -417,9 +422,9 @@ Array [
                 </a>
                 <a
                   className="emotion-3"
-                  href="/projects"
+                  href="/portfolio"
                 >
-                  Projects
+                  Portfolio
                 </a>
                 <a
                   className="emotion-3"
@@ -520,16 +525,16 @@ Array [
     >
       Object {
       "@context": "https://schema.org",
-      "@id": "/blog",
+      "@id": "https://site.dev/blog",
       "@type": "Blog",
       "blogPost": Array [
         Object {
-          "@id": "",
+          "@id": "https://site.dev",
           "@type": "BlogPosting",
         },
       ],
-      "mainEntityOfPage": "/blog",
-      "url": "/blog",
+      "mainEntityOfPage": "https://site.dev/blog",
+      "url": "https://site.dev/blog",
     }
     </script>
     <h2>
@@ -546,13 +551,13 @@ Array [
         >
           Object {
           "@context": "https://schema.org",
-          "@id": "",
+          "@id": "https://site.dev",
           "@type": "BlogPosting",
           "datePublished": "",
           "headline": "",
-          "mainEntityOfPage": "",
+          "mainEntityOfPage": "https://site.dev",
           "name": "",
-          "url": "",
+          "url": "https://site.dev",
         }
         </script>
         <div

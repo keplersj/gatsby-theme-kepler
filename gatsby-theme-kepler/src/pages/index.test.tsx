@@ -25,7 +25,7 @@ beforeEach((): void => {
 describe("Index Page", (): void => {
   it("renders correctly", (): void => {
     const tree = renderer
-      .create(<Page location={{ pathname: "" }} data={KeplerIndexPageData} />)
+      .create(<Page location={{ pathname: "/" }} data={KeplerIndexPageData} />)
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
