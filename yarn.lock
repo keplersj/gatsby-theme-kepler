@@ -7198,10 +7198,10 @@ gatsby-theme-curiousity@^1.0.87:
     starstuff-style "^1.0.1"
     typescript "^3.6.3"
 
-gatsby-theme-early-bird@^1.5.26:
-  version "1.5.26"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.5.26.tgz#e83894520ca3a0e3cf47c4acf88899ec1249ceec"
-  integrity sha512-Sq6Z1lqxyDCnfw+Y22TZWCvO484DzPnu2gqT0cEztCV3rxRuiZ+Hyh26m7I8C6kwFb+Ms6qx/zAEMGlNhhHvRA==
+gatsby-theme-early-bird@^1.5.28:
+  version "1.5.28"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.5.28.tgz#5bc591965bdd2be1088317665f3ef3e73cb91229"
+  integrity sha512-RsFB3RiKqBxbXm5lmctQzPe2+Eh7CFiOOGTIgaUysAvafvmNTJtYkwwNlLkSkBJMshTFDFvFV1C+dqpAbVPPOw==
   dependencies:
     "@emotion/core" "^10.0.22"
     "@mdx-js/mdx" "^1.5.1"
@@ -7225,8 +7225,8 @@ gatsby-theme-early-bird@^1.5.26:
     react-schemaorg "^1.0.0"
     remark-slug "^5.1.2"
     schema-dts "^0.4.5"
-    starstuff-components "^1.2.4"
-    starstuff-style "^1.0.2"
+    starstuff-components "^1.2.5"
+    starstuff-style "^1.0.3"
     typescript "^3.7.3"
 
 gatsby-transformer-remark@^2.6.42:
@@ -15721,14 +15721,14 @@ stackframe@^1.1.0:
   resolved "https://registry.yarnpkg.com/stackframe/-/stackframe-1.1.0.tgz#e3fc2eb912259479c9822f7d1f1ff365bd5cbc83"
   integrity sha512-Vx6W1Yvy+AM1R/ckVwcHQHV147pTPBKWCRLrXMuPrFVfvBUc3os7PR1QLIWCMhPpRg5eX9ojzbQIMLGBwyLjqg==
 
-starstuff-components@^1.2.1, starstuff-components@^1.2.4, starstuff-components@^1.2.5:
+starstuff-components@^1.2.1, starstuff-components@^1.2.5:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/starstuff-components/-/starstuff-components-1.2.5.tgz#32b7c4653d216796682f98a8df730d14891b197a"
   integrity sha512-pEQPr5CPNBjonqbRG0EAFSkJl0ZQcG9TNWir40AKFb/2RoM1w+nk39CQJaZYZ57XKl+SIiFoReWdfrtM1/VTYQ==
   dependencies:
     "@emotion/styled" "^10.0.17"
 
-starstuff-style@^1.0.1, starstuff-style@^1.0.2, starstuff-style@^1.0.3:
+starstuff-style@^1.0.1, starstuff-style@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/starstuff-style/-/starstuff-style-1.0.3.tgz#d809291606fa87004c3a73ad138ae797aa5b57cf"
   integrity sha512-NUXCHyYYJyOoFmA34Up+QJFNwgO7iMn69uIyKGbXDH+SS9S9NXQpT23VbJbN7qGRfrhPwg4O97By9Fv4FIh1qA==
