@@ -43,7 +43,7 @@
     "react-icons": "^3.8.0",
     "react-schemaorg": "^1.0.0",
     "schema-dts": "^0.4.5",
-    "starstuff-components": "^1.2.4",
+    "starstuff-components": "^1.2.5",
     "starstuff-style": "^1.0.3",
     "typescript": "^3.7.3"
   },
