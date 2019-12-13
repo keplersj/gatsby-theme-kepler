@@ -15661,10 +15661,10 @@ starstuff-components@^1.2.1, starstuff-components@^1.2.4:
   dependencies:
     "@emotion/styled" "^10.0.17"
 
-starstuff-style@^1.0.1, starstuff-style@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/starstuff-style/-/starstuff-style-1.0.2.tgz#79fce97b2b8716f4e498f53ed85b7b718ecb2558"
-  integrity sha512-xLtr48US7yia8KXWVzAOsDYt71vO51aIOs6vENcsISUI/kGAOpYBOby54CLGEUXz2uxXDk3fgI9dJyzhn5Av0A==
+starstuff-style@^1.0.1, starstuff-style@^1.0.2, starstuff-style@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/starstuff-style/-/starstuff-style-1.0.3.tgz#d809291606fa87004c3a73ad138ae797aa5b57cf"
+  integrity sha512-NUXCHyYYJyOoFmA34Up+QJFNwgO7iMn69uIyKGbXDH+SS9S9NXQpT23VbJbN7qGRfrhPwg4O97By9Fv4FIh1qA==
 
 state-toggle@^1.0.0:
   version "1.0.2"
