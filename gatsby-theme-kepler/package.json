@@ -75,7 +75,7 @@
     "react-test-renderer": "^16.12.0",
     "semantic-release": "^15.13.31",
     "stylelint": "^12.0.0",
-    "stylelint-config-starstuff": "^1.0.4"
+    "stylelint-config-starstuff": "^1.0.5"
   },
   "peerDependencies": {
     "gatsby": "^2.18.11",
