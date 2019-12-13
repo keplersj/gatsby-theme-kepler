@@ -44,7 +44,7 @@
     "react-schemaorg": "^1.0.0",
     "schema-dts": "^0.4.5",
     "starstuff-components": "^1.2.4",
-    "starstuff-style": "^1.0.2",
+    "starstuff-style": "^1.0.3",
     "typescript": "^3.7.3"
   },
   "devDependencies": {
