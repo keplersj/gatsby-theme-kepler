@@ -9820,10 +9820,10 @@ jest-runtime@^24.9.0:
     strip-bom "^3.0.0"
     yargs "^13.3.0"
 
-jest-serializer-json-ld-script@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/jest-serializer-json-ld-script/-/jest-serializer-json-ld-script-1.0.4.tgz#0f6ab1a829b1d28b96b1b526ce30cf97a6090a03"
-  integrity sha512-ydLVrLLF2oldVQQ1pUKtuNZa/xLmTByoNNh/EYdlgKuf4Or/yRtwL8DKgWmW36y5VtLyVWyd1GI1WnzNQ7fEUA==
+jest-serializer-json-ld-script@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/jest-serializer-json-ld-script/-/jest-serializer-json-ld-script-1.0.5.tgz#256d233c8b0d5a44f2167dddedb5fbb25091b12e"
+  integrity sha512-rhlcaQLMdi77mDgpxj7w5ClYwm6UD2GNnF1CZVezUT2JluOvoTdnsqD6CcfI21Eog2ZiUbQGpf6yzYX169HeDA==
 
 jest-serializer-react-helmet@^1.0.3:
   version "1.0.3"
