@@ -7011,7 +7011,7 @@ gatsby-plugin-sitemap@^2.2.24:
     pify "^3.0.0"
     sitemap "^1.13.0"
 
-gatsby-plugin-typescript@^2.1.11, gatsby-plugin-typescript@^2.1.22, gatsby-plugin-typescript@^2.1.23:
+gatsby-plugin-typescript@^2.1.11, gatsby-plugin-typescript@^2.1.23:
   version "2.1.23"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-2.1.23.tgz#02b29bf1986816d74a3f94231437b17b32bf1d12"
   integrity sha512-qh321KlDNjHqhL8wKCL6wvrUWFZNQk625cUlEEnDjCoggJSBRJanLSwguzp3+wiXxk2eHNhfhqv1zpvrF/tB1A==
@@ -7057,7 +7057,7 @@ gatsby-remark-copy-linked-files@^2.1.33:
     probe-image-size "^4.1.1"
     unist-util-visit "^1.4.1"
 
-gatsby-remark-images@^3.1.37, gatsby-remark-images@^3.1.38:
+gatsby-remark-images@^3.1.38:
   version "3.1.38"
   resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-3.1.38.tgz#9e66ba43b3a0211f3a08167badc33bd7d0653bb3"
   integrity sha512-eMEq3anD/cCgCh2ZgcWhR/ejvd25R1tki2bS3jLEl0ceafJbOGvWD1hpSDL/N9KtpsX2zyVOTZn56tg5oRhTrQ==
@@ -7180,10 +7180,10 @@ gatsby-theme-curiousity@^1.0.84:
     starstuff-style "^1.0.1"
     typescript "^3.6.3"
 
-gatsby-theme-early-bird@^1.5.24:
-  version "1.5.24"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.5.24.tgz#8a274fc7a000402ce74addb976d6373ebb682586"
-  integrity sha512-uWqbBVl5uEvqCOvRjS4CYAkTgMH2IAJQsiBQYiPBmQbu9yJYO//vnXaXSNdhpVBiDlCPGPCeoutAxupuUFYQMw==
+gatsby-theme-early-bird@^1.5.25:
+  version "1.5.25"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.5.25.tgz#59e3fa43bf916e77bd230aa88720c1fdfabaddbb"
+  integrity sha512-LTIp1pWBsMp2VzAA0B3M9EwXW2p3QHXqdMJ/t3LTySB08aLUCH3PxBIVTJet7fiH9XFyiW7bztGGEbYF5UnCBQ==
   dependencies:
     "@emotion/core" "^10.0.22"
     "@mdx-js/mdx" "^1.5.1"
@@ -7196,9 +7196,9 @@ gatsby-theme-early-bird@^1.5.24:
     gatsby-plugin-mdx "^1.0.62"
     gatsby-plugin-react-helmet "^3.1.18"
     gatsby-plugin-sharp "^2.3.7"
-    gatsby-plugin-typescript "^2.1.22"
+    gatsby-plugin-typescript "^2.1.23"
     gatsby-remark-copy-linked-files "^2.1.33"
-    gatsby-remark-images "^3.1.37"
+    gatsby-remark-images "^3.1.38"
     gatsby-remark-smartypants "^2.1.19"
     gatsby-source-filesystem "^2.1.42"
     gatsby-transformer-sharp "^2.3.9"
