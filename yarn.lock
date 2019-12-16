@@ -1455,10 +1455,10 @@
     unist-builder "1.0.4"
     unist-util-visit "2.0.0"
 
-"@mdx-js/react@^1.5.0":
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-1.5.1.tgz#e0a9dbdc03826198abd82b29dcee91d661faf8a5"
-  integrity sha512-eF05YysHqtyXerLId0kPKtxmJ3PE60GJJvx1gOguEQndbs94fUeYTVSfBlnXPPAAzvOmVKrZmktIYsBQlVjpOw==
+"@mdx-js/react@^1.5.0", "@mdx-js/react@^1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-1.5.2.tgz#b95395220b4c170d5dc079cf14b99b29659edc42"
+  integrity sha512-EPRz3QiTs830JPbEYJ3AWbWA+yPPtXrvRGci9cTme4TYoR0XigOfB1wP+aghqp+pUdY+dTPrePDczvC6UwiqsA==
 
 "@mdx-js/util@^1.5.1":
   version "1.5.1"
@@ -7198,14 +7198,14 @@ gatsby-theme-curiousity@^1.0.87:
     starstuff-style "^1.0.1"
     typescript "^3.6.3"
 
-gatsby-theme-early-bird@^1.5.30:
-  version "1.5.30"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.5.30.tgz#421f617bb176b3f89f75f98ca86cbbaf85bae939"
-  integrity sha512-H6uh8AoX5BEzy+qVQLJai9R+BDQ657uqX1oeT/k3ge/rOEIySYd0OnFajIDOjh75nklB3eMzcxs6yotJSuTeAQ==
+gatsby-theme-early-bird@^1.5.31:
+  version "1.5.31"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.5.31.tgz#112fb59dbd59c36b5381c99ce5611bca670f6bd4"
+  integrity sha512-BrI9KRbDG27R/t3FDtLD33O3s8yomXf/KLn3765KvowK16xVdxLLqLoYn6rRmVVrWJ3qYJMx1dptVQ14OTNBwg==
   dependencies:
     "@emotion/core" "^10.0.22"
     "@mdx-js/mdx" "^1.5.1"
-    "@mdx-js/react" "^1.5.0"
+    "@mdx-js/react" "^1.5.2"
     "@types/react" "^16.9.16"
     "@types/react-helmet" "^5.0.14"
     gatsby-image "^2.2.36"
