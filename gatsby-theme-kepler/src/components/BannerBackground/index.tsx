@@ -28,8 +28,12 @@ export interface BannerData {
   };
 }
 
+interface Props {
+  highQuality?: boolean;
+}
+
 export const BannerBackground = (
-  props: React.PropsWithChildren<any>
+  props: React.PropsWithChildren<Props>
 ): React.ReactElement => {
   const data = useStaticQuery<BannerData>(graphql`
     query KeplerBannerBackgroundData {
