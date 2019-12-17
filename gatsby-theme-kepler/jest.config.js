@@ -7,7 +7,7 @@ module.exports = {
       preset: "jest-preset-gatsby/typescript",
       snapshotSerializers: [
         "jest-emotion",
-        "jest-serializer-react-helmet",
+        "jest-serializer-react-helmet-async",
         "jest-serializer-json-ld-script"
       ],
       collectCoverage: true,

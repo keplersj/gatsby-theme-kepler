@@ -104,7 +104,7 @@ module.exports = pluginOptions => ({
         mdx: false
       }
     },
-    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-react-helmet-async",
     "gatsby-plugin-emotion",
     "gatsby-plugin-typescript"
   ]

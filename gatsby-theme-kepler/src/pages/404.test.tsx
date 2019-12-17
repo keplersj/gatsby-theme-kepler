@@ -6,6 +6,9 @@ import {
   KeplerBannerBackgroundData,
   KeplerBaseLayoutData
 } from "../__mockData__";
+import { HelmetProvider } from "react-helmet-async";
+
+// HelmetProvider.canUseDom = false;
 
 beforeEach((): void => {
   (useStaticQuery as jest.Mock).mockImplementation((): object => ({
@@ -16,7 +19,16 @@ beforeEach((): void => {
 
 describe("404 Page", (): void => {
   it("renders correctly", (): void => {
-    const tree = renderer.create(<Page />).toJSON();
+    const context: { helmet?: object } = {};
+    const tree = renderer
+      .create(
+        <HelmetProvider context={context}>
+          <Page />
+        </HelmetProvider>
+      )
+      .toJSON();
+
     expect(tree).toMatchSnapshot();
+    expect(context.helmet).toMatchSnapshot();
   });
 });

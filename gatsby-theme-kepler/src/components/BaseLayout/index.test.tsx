@@ -8,6 +8,7 @@ import {
   KeplerNavbarData
 } from "../../__mockData__";
 import deepMerge from "deepmerge";
+import { HelmetProvider } from "react-helmet-async";
 
 beforeEach((): void => {
   (useStaticQuery as jest.Mock).mockImplementation((): object =>
@@ -21,13 +22,18 @@ beforeEach((): void => {
 
 describe("Base Layout", (): void => {
   it("renders correctly", (): void => {
+    const context: { helmet?: object } = {};
     const tree = renderer
       .create(
-        <Layout>
-          <span>Test</span>
-        </Layout>
+        <HelmetProvider context={context}>
+          <Layout>
+            <span>Test</span>
+          </Layout>
+        </HelmetProvider>
       )
       .toJSON();
+
     expect(tree).toMatchSnapshot();
+    expect(context.helmet).toMatchSnapshot();
   });
 });

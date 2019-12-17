@@ -2,93 +2,7 @@
 
 exports[`About Page renders correctly 1`] = `
 Array [
-  <head>
-    Object {}
-    Object {
-      "lang": "en",
-    }
-    <link
-      data-react-helmet={true}
-      href="/about/"
-      rel="canonical"
-    />
-    <meta
-      content=""
-      data-react-helmet={true}
-      name="description"
-    />
-    <meta
-      content="Kepler Sticka-Jones"
-      data-react-helmet={true}
-      property="og:site_name"
-    />
-    <meta
-      content="Kepler Sticka-Jones"
-      data-react-helmet={true}
-      property="og:title"
-    />
-    <meta
-      content="/about/"
-      data-react-helmet={true}
-      property="og:url"
-    />
-    <meta
-      content=""
-      data-react-helmet={true}
-      property="og:description"
-    />
-    <meta
-      content="summary"
-      data-react-helmet={true}
-      name="twitter:card"
-    />
-    <meta
-      content="@test"
-      data-react-helmet={true}
-      name="twitter:site"
-    />
-    <meta
-      content="@test"
-      data-react-helmet={true}
-      name="twitter:creator"
-    />
-    <script
-      data-react-helmet={true}
-      type="application/ld+json"
-    >
-      Object {
-      "@context": "https://schema.org/",
-      "@type": "BreadcrumbList",
-      "itemListElement": Array [
-        Object {
-          "@type": "ListItem",
-          "item": Object {
-            "@id": "/",
-            "@type": "WebPage",
-            "name": "Kepler Sticka-Jones",
-          },
-          "position": 1,
-        },
-        Object {
-          "@type": "ListItem",
-          "item": Object {
-            "@id": "/about/",
-            "@type": "WebPage",
-            "name": "About",
-          },
-          "position": 2,
-        },
-      ],
-    }
-    </script>
-    <title
-      data-react-helmet={true}
-    >
-      Kepler Sticka-Jones
-    </title>
-  </head>
-
-<a
+  <a
     data-reach-skip-link={true}
     href="#reach-skip-nav"
   >
@@ -844,4 +758,93 @@ Array [
     </main>
   </div>,
 ]
+`;
+
+exports[`About Page renders correctly 2`] = `
+<html
+  lang="en"
+>
+  <head>
+    <link
+      data-rh={true}
+      href="/about/"
+      rel="canonical"
+    />
+    <meta
+      content=""
+      data-rh={true}
+      name="description"
+    />
+    <meta
+      content="Kepler Sticka-Jones"
+      data-rh={true}
+      property="og:site_name"
+    />
+    <meta
+      content="Kepler Sticka-Jones"
+      data-rh={true}
+      property="og:title"
+    />
+    <meta
+      content="/about/"
+      data-rh={true}
+      property="og:url"
+    />
+    <meta
+      content=""
+      data-rh={true}
+      property="og:description"
+    />
+    <meta
+      content="summary"
+      data-rh={true}
+      name="twitter:card"
+    />
+    <meta
+      content="@test"
+      data-rh={true}
+      name="twitter:site"
+    />
+    <meta
+      content="@test"
+      data-rh={true}
+      name="twitter:creator"
+    />
+    <script
+      data-rh={true}
+      type="application/ld+json"
+    >
+      Object {
+      "@context": "https://schema.org/",
+      "@type": "BreadcrumbList",
+      "itemListElement": Array [
+        Object {
+          "@type": "ListItem",
+          "item": Object {
+            "@id": "/",
+            "@type": "WebPage",
+            "name": "Kepler Sticka-Jones",
+          },
+          "position": 1,
+        },
+        Object {
+          "@type": "ListItem",
+          "item": Object {
+            "@id": "/about/",
+            "@type": "WebPage",
+            "name": "About",
+          },
+          "position": 2,
+        },
+      ],
+    }
+    </script>
+    <title
+      data-rh={true}
+    >
+      Kepler Sticka-Jones
+    </title>
+  </head>
+  <body />
+</html>
 `;

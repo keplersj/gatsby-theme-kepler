@@ -86,53 +86,6 @@ exports[`404 Page renders correctly 1`] = `
   }
 }
 
-<head>
-  Object {}
-  Object {
-    "lang": "en",
-  }
-  <meta
-    content=""
-    data-react-helmet={true}
-    name="description"
-  />
-  <meta
-    content="Kepler Sticka-Jones"
-    data-react-helmet={true}
-    property="og:site_name"
-  />
-  <meta
-    content="404!"
-    data-react-helmet={true}
-    property="og:title"
-  />
-  <meta
-    content=""
-    data-react-helmet={true}
-    property="og:description"
-  />
-  <meta
-    content="summary"
-    data-react-helmet={true}
-    name="twitter:card"
-  />
-  <meta
-    content="@test"
-    data-react-helmet={true}
-    name="twitter:site"
-  />
-  <meta
-    content="@test"
-    data-react-helmet={true}
-    name="twitter:creator"
-  />
-  <title
-    data-react-helmet={true}
-  >
-    404! | Kepler Sticka-Jones
-  </title>
-</head>
-
 <div
   className="emotion-2"
   data-testid="BackgroundImageContainerElement"
@@ -159,4 +112,54 @@ exports[`404 Page renders correctly 1`] = `
     </div>
   </div>
 </div>
+`;
+
+exports[`404 Page renders correctly 2`] = `
+<html
+  lang="en"
+>
+  <head>
+    <meta
+      content=""
+      data-rh={true}
+      name="description"
+    />
+    <meta
+      content="Kepler Sticka-Jones"
+      data-rh={true}
+      property="og:site_name"
+    />
+    <meta
+      content="404!"
+      data-rh={true}
+      property="og:title"
+    />
+    <meta
+      content=""
+      data-rh={true}
+      property="og:description"
+    />
+    <meta
+      content="summary"
+      data-rh={true}
+      name="twitter:card"
+    />
+    <meta
+      content="@test"
+      data-rh={true}
+      name="twitter:site"
+    />
+    <meta
+      content="@test"
+      data-rh={true}
+      name="twitter:creator"
+    />
+    <title
+      data-rh={true}
+    >
+      404! | Kepler Sticka-Jones
+    </title>
+  </head>
+  <body />
+</html>
 `;

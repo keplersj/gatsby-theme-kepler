@@ -10,6 +10,7 @@ import {
   KeplerIndexPageData
 } from "../__mockData__";
 import deepMerge from "deepmerge";
+import { HelmetProvider } from "react-helmet-async";
 
 beforeEach((): void => {
   (useStaticQuery as jest.Mock).mockImplementation((): object =>
@@ -24,9 +25,16 @@ beforeEach((): void => {
 
 describe("Index Page", (): void => {
   it("renders correctly", (): void => {
+    const context: { helmet?: object } = {};
     const tree = renderer
-      .create(<Page location={{ pathname: "/" }} data={KeplerIndexPageData} />)
+      .create(
+        <HelmetProvider context={context}>
+          <Page location={{ pathname: "/" }} data={KeplerIndexPageData} />
+        </HelmetProvider>
+      )
       .toJSON();
+
     expect(tree).toMatchSnapshot();
+    expect(context.helmet).toMatchSnapshot();
   });
 });
