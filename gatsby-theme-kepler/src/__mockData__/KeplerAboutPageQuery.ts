@@ -13,18 +13,34 @@ export const KeplerAboutPageQuery: AboutPageQuery = {
     edges: [
       {
         node: {
-          id: "example-experience-listing",
+          id: "prior-example-experience-listing",
           childMdx: {
-            id: "example-experience-listing-mdx",
-            body: "",
+            id: "prior-example-experience-listing-mdx",
+            body: "This is an example prior experience listing.",
             frontmatter: {
-              title: "Example Workplace",
-              position: "Sample Position",
+              title: "Test Workplace",
               /* eslint-disable @typescript-eslint/camelcase */
               rawEnd: "2018-12-18",
               end_date: "Dec 2018",
               rawStart: "2017-12-18",
               start_date: "Dec 2017"
+              /* eslint-enable @typescript-eslint/camelcase */
+            }
+          }
+        }
+      },
+      {
+        node: {
+          id: "current-example-experience-listing",
+          childMdx: {
+            id: "current-example-experience-listing-mdx",
+            body: "This is an example current experience listing.",
+            frontmatter: {
+              title: "Example Workplace",
+              position: "Sample Position",
+              /* eslint-disable @typescript-eslint/camelcase */
+              rawStart: "2018-12-18",
+              start_date: "Dec 2018"
               /* eslint-enable @typescript-eslint/camelcase */
             }
           }

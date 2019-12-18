@@ -191,7 +191,7 @@ Array [
   <div
     id="reach-skip-nav"
   />,
-  .emotion-20 {
+  .emotion-21 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -210,7 +210,7 @@ Array [
 }
 
 @media (max-width:839px) {
-  .emotion-20 {
+  .emotion-21 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -269,7 +269,7 @@ Array [
   padding: 0.5em;
 }
 
-.emotion-19 {
+.emotion-20 {
   margin: 1em;
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
@@ -289,7 +289,7 @@ Array [
 }
 
 <div
-    className="emotion-20"
+    className="emotion-21"
     role="region"
   >
     <header
@@ -699,7 +699,7 @@ Array [
       </address>
     </header>
     <main
-      className="emotion-19"
+      className="emotion-20"
     >
       <div>
         <h1>
@@ -715,13 +715,8 @@ Array [
         </h1>
         <article>
           <h2>
-            Sample Position
+            Test Workplace
           </h2>
-          <span
-            className="emotion-15"
-          >
-            Example Workplace
-          </span>
           <span
             className="emotion-15"
           >
@@ -738,7 +733,31 @@ Array [
             </time>
           </span>
           <p>
-            
+            This is an example prior experience listing.
+          </p>
+        </article>
+        <article>
+          <h2>
+            Sample Position
+          </h2>
+          <span
+            className="emotion-15"
+          >
+            Example Workplace
+          </span>
+          <span
+            className="emotion-15"
+          >
+            <time
+              dateTime="2018-12-18"
+            >
+              Dec 2018
+            </time>
+             - 
+            Present
+          </span>
+          <p>
+            This is an example current experience listing.
           </p>
         </article>
       </div>

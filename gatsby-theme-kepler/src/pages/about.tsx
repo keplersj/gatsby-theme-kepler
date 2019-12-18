@@ -76,7 +76,7 @@ export interface AboutPageQuery {
           body: string;
           frontmatter: {
             title: string;
-            position: string;
+            position?: string;
             rawEnd?: string;
             end_date?: string;
             rawStart: string;
