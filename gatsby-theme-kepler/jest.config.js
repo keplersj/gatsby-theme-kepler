@@ -51,7 +51,7 @@ module.exports = {
         "/node_modules/",
         "/public/",
         "/reports/",
-        "/static/",
+        "/vendor/",
         "/package-lock.json",
         "/package.json"
       ]
