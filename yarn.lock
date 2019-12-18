@@ -6909,10 +6909,10 @@ gatsby-plugin-feed@^2.3.25:
     lodash.merge "^4.6.2"
     rss "^1.2.2"
 
-gatsby-plugin-mdx@^1.0.46, gatsby-plugin-mdx@^1.0.62:
-  version "1.0.62"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-mdx/-/gatsby-plugin-mdx-1.0.62.tgz#cb6485bdeed370320cbcce6761b6576c15fddf56"
-  integrity sha512-vAHP6EFaWAJcKi1h3scAbvRY1+cKl+6va5pZU1uV2IKxbbEDouC1BXPsQAmm99wJR0R1/UZaq2oUS5/3V0FVPg==
+gatsby-plugin-mdx@^1.0.46, gatsby-plugin-mdx@^1.0.62, gatsby-plugin-mdx@^1.0.63:
+  version "1.0.63"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-mdx/-/gatsby-plugin-mdx-1.0.63.tgz#2bee4c76ec73179c0411503a49435985c56231ff"
+  integrity sha512-nK376ITDK1cVrJG/kEIcOb8sKq8sjWBSejah7/4MzGaZ42NNTV8i2GU4H9BMQRSHaxIAXKqHT8JYfiGm8wFB5w==
   dependencies:
     "@babel/core" "^7.7.5"
     "@babel/generator" "^7.7.4"
@@ -7188,10 +7188,10 @@ gatsby-theme-curiousity@^1.0.90:
     starstuff-style "^1.0.1"
     typescript "^3.6.3"
 
-gatsby-theme-early-bird@^1.5.33:
-  version "1.5.33"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.5.33.tgz#2048ba0abeac59419c93bef45ab716eb8ba811cb"
-  integrity sha512-HdBoJQkszPZfL2n4Ia4tHTukmSsLlPftz0zzKZ9dlrVb3s0CTG64XL6RlyzIk6bsFtEMNGilXsItv+LDN/W03w==
+gatsby-theme-early-bird@^1.5.34:
+  version "1.5.34"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.5.34.tgz#0583521bbb6c97433dd0aa999e5c211e7a65868e"
+  integrity sha512-ONAr8+OMaeIgyYFXbQF+FrPiN2AExLX1x3EIXM1naIuakrSLFY6aLIl2JVfq8M3GBxvQ8vfm4WIVdrQgNGtjnQ==
   dependencies:
     "@emotion/core" "^10.0.22"
     "@mdx-js/mdx" "^1.5.2"
@@ -7201,7 +7201,7 @@ gatsby-theme-early-bird@^1.5.33:
     gatsby-image "^2.2.37"
     gatsby-plugin-emotion "^4.1.18"
     gatsby-plugin-feed "^2.3.25"
-    gatsby-plugin-mdx "^1.0.62"
+    gatsby-plugin-mdx "^1.0.63"
     gatsby-plugin-react-helmet "^3.1.18"
     gatsby-plugin-sharp "^2.3.9"
     gatsby-plugin-typescript "^2.1.23"
