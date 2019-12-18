@@ -17136,6 +17136,13 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
+uri-path-breakdown@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/uri-path-breakdown/-/uri-path-breakdown-1.0.0.tgz#5a8fd7501050ba0823fa09ea2386ee15a1580f26"
+  integrity sha512-k7W31Qa2jfRdustXpgkrWhubSyQSynlp+Q8qS5gxEzkQxCWJkb2KNIOeLOBO4VuJQuDXpggiZqYiCeyW7Hef6Q==
+  dependencies:
+    uri-js "^4.2.2"
+
 urix@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/urix/-/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"

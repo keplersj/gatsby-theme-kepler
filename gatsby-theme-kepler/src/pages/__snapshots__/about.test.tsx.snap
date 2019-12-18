@@ -2,6 +2,34 @@
 
 exports[`About Page renders correctly 1`] = `
 Array [
+  <script
+    type="application/ld+json"
+  >
+    Object {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": Array [
+      Object {
+        "@type": "ListItem",
+        "item": Object {
+          "@id": "/",
+          "@type": "WebPage",
+          "name": "Kepler Sticka-Jones",
+        },
+        "position": 1,
+      },
+      Object {
+        "@type": "ListItem",
+        "item": Object {
+          "@id": "/about/",
+          "@type": "WebPage",
+          "name": "About",
+        },
+        "position": 2,
+      },
+    ],
+  }
+  </script>,
   <a
     data-reach-skip-link={true}
     href="#reach-skip-nav"
@@ -810,35 +838,6 @@ exports[`About Page renders correctly 2`] = `
       data-rh={true}
       name="twitter:creator"
     />
-    <script
-      data-rh={true}
-      type="application/ld+json"
-    >
-      Object {
-      "@context": "https://schema.org/",
-      "@type": "BreadcrumbList",
-      "itemListElement": Array [
-        Object {
-          "@type": "ListItem",
-          "item": Object {
-            "@id": "/",
-            "@type": "WebPage",
-            "name": "Kepler Sticka-Jones",
-          },
-          "position": 1,
-        },
-        Object {
-          "@type": "ListItem",
-          "item": Object {
-            "@id": "/about/",
-            "@type": "WebPage",
-            "name": "About",
-          },
-          "position": 2,
-        },
-      ],
-    }
-    </script>
     <title
       data-rh={true}
     >

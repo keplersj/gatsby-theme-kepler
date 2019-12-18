@@ -7,6 +7,25 @@ Array [
   >
     Object {
     "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": Array [
+      Object {
+        "@type": "ListItem",
+        "item": Object {
+          "@id": "/",
+          "@type": "WebPage",
+          "name": "Kepler Sticka-Jones",
+        },
+        "position": 1,
+      },
+    ],
+  }
+  </script>,
+  <script
+    type="application/ld+json"
+  >
+    Object {
+    "@context": "https://schema.org",
     "@type": "WebSite",
     "about": Object {
       "@type": "Person",
@@ -565,26 +584,6 @@ exports[`Index Page renders correctly 2`] = `
       data-rh={true}
       name="twitter:creator"
     />
-    <script
-      data-rh={true}
-      type="application/ld+json"
-    >
-      Object {
-      "@context": "https://schema.org/",
-      "@type": "BreadcrumbList",
-      "itemListElement": Array [
-        Object {
-          "@type": "ListItem",
-          "item": Object {
-            "@id": "/",
-            "@type": "WebPage",
-            "name": "Kepler Sticka-Jones",
-          },
-          "position": 1,
-        },
-      ],
-    }
-    </script>
     <title
       data-rh={true}
     >
