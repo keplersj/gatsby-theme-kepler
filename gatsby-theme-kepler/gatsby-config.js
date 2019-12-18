@@ -7,7 +7,7 @@ const gatsbyRemarkPlugins = [
   {
     resolve: "gatsby-remark-vscode",
     options: {
-      extensionDataDirectory: path.resolve("./vendor/vscode"),
+      extensionDataDirectory: path.resolve(__dirname, "vendor/vscode"),
       languageAliases: {
         shell: "bash"
       },
