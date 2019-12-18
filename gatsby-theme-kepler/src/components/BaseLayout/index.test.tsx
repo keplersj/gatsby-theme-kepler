@@ -26,7 +26,7 @@ describe("Base Layout", (): void => {
     const tree = renderer
       .create(
         <HelmetProvider context={context}>
-          <Layout location={{ pathname: "/nested/test/" }} title="Test">
+          <Layout location={{ pathname: "/nested/01-test/" }} title="Test">
             <span>Test</span>
           </Layout>
         </HelmetProvider>

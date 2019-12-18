@@ -30,7 +30,7 @@ Array [
       Object {
         "@type": "ListItem",
         "item": Object {
-          "@id": "/nested/test/",
+          "@id": "/nested/01-test/",
           "@type": "WebPage",
           "name": "Test",
         },
@@ -213,7 +213,7 @@ exports[`Base Layout renders correctly 2`] = `
   <head>
     <link
       data-rh={true}
-      href="/nested/test/"
+      href="/nested/01-test/"
       rel="canonical"
     />
     <meta
@@ -232,7 +232,7 @@ exports[`Base Layout renders correctly 2`] = `
       property="og:title"
     />
     <meta
-      content="/nested/test/"
+      content="/nested/01-test/"
       data-rh={true}
       property="og:url"
     />
