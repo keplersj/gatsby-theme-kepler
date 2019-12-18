@@ -2,6 +2,43 @@
 
 exports[`Base Layout renders correctly 1`] = `
 Array [
+  <script
+    type="application/ld+json"
+  >
+    Object {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": Array [
+      Object {
+        "@type": "ListItem",
+        "item": Object {
+          "@id": "/",
+          "@type": "WebPage",
+          "name": "Kepler Sticka-Jones",
+        },
+        "position": 1,
+      },
+      Object {
+        "@type": "ListItem",
+        "item": Object {
+          "@id": "/nested/",
+          "@type": "WebPage",
+          "name": "Nested",
+        },
+        "position": 2,
+      },
+      Object {
+        "@type": "ListItem",
+        "item": Object {
+          "@id": "/nested/test/",
+          "@type": "WebPage",
+          "name": "Test",
+        },
+        "position": 3,
+      },
+    ],
+  }
+  </script>,
   <a
     data-reach-skip-link={true}
     href="#reach-skip-nav"
@@ -174,6 +211,11 @@ exports[`Base Layout renders correctly 2`] = `
   lang="en"
 >
   <head>
+    <link
+      data-rh={true}
+      href="/nested/test/"
+      rel="canonical"
+    />
     <meta
       content=""
       data-rh={true}
@@ -185,9 +227,14 @@ exports[`Base Layout renders correctly 2`] = `
       property="og:site_name"
     />
     <meta
-      content="Kepler Sticka-Jones"
+      content="Test"
       data-rh={true}
       property="og:title"
+    />
+    <meta
+      content="/nested/test/"
+      data-rh={true}
+      property="og:url"
     />
     <meta
       content=""
@@ -212,7 +259,7 @@ exports[`Base Layout renders correctly 2`] = `
     <title
       data-rh={true}
     >
-      Kepler Sticka-Jones
+      Test | Kepler Sticka-Jones
     </title>
   </head>
   <body />
