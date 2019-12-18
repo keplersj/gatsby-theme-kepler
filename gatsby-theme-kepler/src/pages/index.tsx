@@ -194,7 +194,7 @@ const IndexPage = ({ data, location }: Props): React.ReactElement<Props> => {
             name: data.site.siteMetadata.title,
             description: data.site.siteMetadata.description,
             url: data.site.siteMetadata.siteUrl,
-            email: email ? email.id : undefined,
+            email: email?.id,
             sameAs: data.site.siteMetadata.social
               .filter((platform): boolean => platform.isProfile === true)
               .map((platform): string => platform.url),
