@@ -1,9 +1,13 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
+const path = require("path");
+
 const gatsbyRemarkPlugins = [
   "gatsby-remark-smartypants",
   {
     resolve: "gatsby-remark-vscode",
     options: {
+      extensionDataDirectory: path.resolve("./vendor/vscode"),
       languageAliases: {
         shell: "bash"
       },
