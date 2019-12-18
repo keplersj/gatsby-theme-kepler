@@ -96,12 +96,32 @@ export const KeplerIndexPageData: IndexPageData = {
     edges: [
       {
         node: {
-          id: "",
-          title: "",
-          slug: "",
-          date: "",
-          rawDate: "",
-          excerpt: ""
+          id: "post-1",
+          title: "Test Post (without Image)",
+          slug: "/blog/01-post-without-image",
+          date: "Dec 18, 2018",
+          rawDate: "2018-12-18",
+          excerpt: "This is an example of a blog post without a featured image."
+        }
+      },
+      {
+        node: {
+          id: "post-2",
+          title: "Test Post (with Image)",
+          slug: "/blog/02-post-with-image",
+          date: "Dec 18, 2019",
+          rawDate: "2018-12-18",
+          excerpt: "This is an example of a blog post with a featured image.",
+          featuredImage: {
+            childImageSharp: {
+              fluid: {
+                aspectRatio: 1.0,
+                src: "/static/image-1/image.jpeg",
+                srcSet: "/static/image-1/image.jpeg 1x",
+                sizes: "(min-width 100px)"
+              }
+            }
+          }
         }
       }
     ]
