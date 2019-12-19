@@ -6968,7 +6968,7 @@ gatsby-plugin-react-helmet-async@^1.0.13:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet-async/-/gatsby-plugin-react-helmet-async-1.0.13.tgz#14de88f544899b3f7a3310b6a7fa8147cda5f6b8"
   integrity sha512-WAZH5W/vT7aE5gxe+hUR1GaxHfmjrgcjcXlkq31xRb1L4Rw4OG9hZE6FYhQ2fDH9a6rI8FQtO71L1XkBKuuZkg==
 
-gatsby-plugin-react-helmet@^3.1.10, gatsby-plugin-react-helmet@^3.1.18:
+gatsby-plugin-react-helmet@^3.1.10:
   version "3.1.18"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.1.18.tgz#093b5d92e50dafa837ae97ac2672d79a96feb201"
   integrity sha512-wwKH6Z5NK0Gl2hDfMnWNGE41GjWpZGq0eKczPydTJc/1SbPykBFCBrjYgrAPB2ZrRnA8AV06cRwPddJC0mY7sw==
@@ -7188,10 +7188,10 @@ gatsby-theme-curiousity@^1.0.91:
     starstuff-style "^1.0.1"
     typescript "^3.6.3"
 
-gatsby-theme-early-bird@^1.5.35:
-  version "1.5.35"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.5.35.tgz#1af9ad97acdc286d7b7543846536f75b98dd2709"
-  integrity sha512-KuLFMODtVOLiavIfTETRA0cKenHf5qSOibYZkDwOqlARm1Uj6UQBegAXWX/5c7Qt2l107tFMblFyDJpD9PqQQA==
+gatsby-theme-early-bird@^1.5.36:
+  version "1.5.36"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.5.36.tgz#3db4d4f15b4208d897b8f715820a7513d4a4c37d"
+  integrity sha512-g5ht+k+BVkC8PYmfaO8vH0fQrFUobvbxPBc8JPidHD017jb0JtQZp1U4+sRJo36x5izhE6agnJNiQvET6QJXFQ==
   dependencies:
     "@emotion/core" "^10.0.22"
     "@mdx-js/mdx" "^1.5.2"
@@ -7202,7 +7202,7 @@ gatsby-theme-early-bird@^1.5.35:
     gatsby-plugin-emotion "^4.1.18"
     gatsby-plugin-feed "^2.3.25"
     gatsby-plugin-mdx "^1.0.63"
-    gatsby-plugin-react-helmet "^3.1.18"
+    gatsby-plugin-react-helmet-async "^1.0.13"
     gatsby-plugin-sharp "^2.3.9"
     gatsby-plugin-typescript "^2.1.23"
     gatsby-remark-copy-linked-files "^2.1.33"
@@ -7211,13 +7211,14 @@ gatsby-theme-early-bird@^1.5.35:
     gatsby-source-filesystem "^2.1.42"
     gatsby-transformer-sharp "^2.3.9"
     modern-normalize "^0.5.0"
-    react-helmet "^5.2.1"
+    react-helmet-async "^1.0.4"
     react-schemaorg "^1.0.0"
     remark-slug "^5.1.2"
     schema-dts "^0.4.5"
     starstuff-components "^1.2.5"
     starstuff-style "^1.0.3"
     typescript "^3.7.3"
+    uri-path-breakdown "^1.0.0"
 
 gatsby-transformer-remark@^2.6.44:
   version "2.6.44"
