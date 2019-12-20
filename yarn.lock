@@ -7188,10 +7188,10 @@ gatsby-theme-curiousity@^1.0.95:
     starstuff-style "^1.0.1"
     typescript "^3.6.3"
 
-gatsby-theme-early-bird@^1.5.44:
-  version "1.5.44"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.5.44.tgz#7125aa4a8aedf654b974d6c59c248341ab18ca39"
-  integrity sha512-M51Nd+MPpWWVcV7n8H01usIcD3zojUgiyTNUTbp1FpQ2qfBNRzBnD0nGR2kjNaI72dhjotQvNxTAGrwCnIzupg==
+gatsby-theme-early-bird@^1.5.45:
+  version "1.5.45"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.5.45.tgz#c0515b82a5c8fd133da755a476fda9833f9ee7ae"
+  integrity sha512-xO6kOBck2ZdNk6AxiuyEK+EW/XZbWAjkFBSnzEnNtbvR57V+PBy5SzWxIBn2gw865XpTNifVl/75DvNFQBzR+Q==
   dependencies:
     "@emotion/core" "^10.0.22"
     "@mdx-js/mdx" "^1.5.3"
@@ -7217,7 +7217,7 @@ gatsby-theme-early-bird@^1.5.44:
     schema-dts "^0.4.5"
     starstuff-components "^1.2.5"
     starstuff-style "^1.0.3"
-    typescript "^3.7.3"
+    typescript "^3.7.4"
     uri-path-breakdown "^1.0.0"
 
 gatsby-transformer-remark@^2.6.45:
@@ -16745,7 +16745,7 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^3.6.3, typescript@^3.7.3, typescript@^3.7.4:
+typescript@^3.6.3, typescript@^3.7.4:
   version "3.7.4"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.4.tgz#1743a5ec5fef6a1fa9f3e4708e33c81c73876c19"
   integrity sha512-A25xv5XCtarLwXpcDNZzCGvW2D1S3/bACratYBx2sax8PefsFhlYmkQicKHvpYflFS8if4zne5zT5kpJ7pzuvw==
