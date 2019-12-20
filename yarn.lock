@@ -6983,7 +6983,7 @@ gatsby-plugin-robots-txt@^1.5.0:
     "@babel/runtime" "^7.5.1"
     generate-robotstxt "^7.1.0"
 
-gatsby-plugin-sharp@^2.2.27, gatsby-plugin-sharp@^2.3.10, gatsby-plugin-sharp@^2.3.9:
+gatsby-plugin-sharp@^2.2.27, gatsby-plugin-sharp@^2.3.10:
   version "2.3.10"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.3.10.tgz#072acfcaf5de0eda21bbaf3e7d6e0cd891cac6b2"
   integrity sha512-uoVLdSnnrnpWxeI+ZNdQ7nuvx60LI8+nqsuUu0KfyAmEhNgcuuExTDYlM4WDn1BCIifCylTwBBTP0xZU4YvPeA==
@@ -7188,10 +7188,10 @@ gatsby-theme-curiousity@^1.0.92:
     starstuff-style "^1.0.1"
     typescript "^3.6.3"
 
-gatsby-theme-early-bird@^1.5.37:
-  version "1.5.37"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.5.37.tgz#5b8159ace887dbba9bd9fce16a9a5d93f3682c6f"
-  integrity sha512-rDv+r+t7NRPZtusf5Gq5xAmQ1jnPrl15OtCqyv1NgOuvkOgrcwPOFPFCevzlfH3OM91rgzH+pqyRfEvDqCcwiA==
+gatsby-theme-early-bird@^1.5.38:
+  version "1.5.38"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.5.38.tgz#436dec90403783d510050b97b2b32ddf8faec6d5"
+  integrity sha512-6fM925W1Gj4R2/vFEY1RMFgSF4PK+I49vDMTHZJka+3nzAzYchl6LZg+qvTtCuOhC1oZ6muJtBjI56DJMrRqBQ==
   dependencies:
     "@emotion/core" "^10.0.22"
     "@mdx-js/mdx" "^1.5.2"
@@ -7203,7 +7203,7 @@ gatsby-theme-early-bird@^1.5.37:
     gatsby-plugin-feed "^2.3.25"
     gatsby-plugin-mdx "^1.0.63"
     gatsby-plugin-react-helmet-async "^1.0.13"
-    gatsby-plugin-sharp "^2.3.9"
+    gatsby-plugin-sharp "^2.3.10"
     gatsby-plugin-typescript "^2.1.23"
     gatsby-remark-copy-linked-files "^2.1.33"
     gatsby-remark-images "^3.1.38"
