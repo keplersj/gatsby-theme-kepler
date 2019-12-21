@@ -1,6 +1,7 @@
 import * as React from "react";
 import renderer from "react-test-renderer";
 import { useStaticQuery } from "gatsby";
+import { useLocalJsonForm } from "gatsby-tinacms-json";
 import Page from "./about";
 import {
   KeplerAvatarComponentQuery,
@@ -13,6 +14,10 @@ import {
 import deepMerge from "deepmerge";
 import { HelmetProvider } from "react-helmet-async";
 
+jest.mock("gatsby-tinacms-json", () => ({
+  useLocalJsonForm: jest.fn()
+}));
+
 beforeEach((): void => {
   (useStaticQuery as jest.Mock).mockImplementation((): object =>
     deepMerge.all([
@@ -23,6 +28,10 @@ beforeEach((): void => {
       KeplerSocialLinksQuery
     ])
   );
+
+  (useLocalJsonForm as jest.Mock).mockImplementationOnce(() => [
+    { name: "Example Name", location: "Example Location" }
+  ]);
 });
 
 describe("About Page", (): void => {

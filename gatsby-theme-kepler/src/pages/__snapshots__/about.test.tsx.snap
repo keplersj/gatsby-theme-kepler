@@ -361,7 +361,7 @@ Array [
         role="heading"
         title="Name"
       >
-        Kepler Sticka-Jones
+        Example Name
       </span>
       <span
         aria-level={2}
@@ -369,7 +369,7 @@ Array [
         role="heading"
         title="Location"
       >
-        Salt Lake City, UT, USA
+        Example Location
       </span>
       <address
         className="emotion-13"

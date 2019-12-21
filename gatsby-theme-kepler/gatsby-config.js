@@ -45,6 +45,17 @@ const gatsbyRemarkPlugins = [
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 module.exports = pluginOptions => ({
   plugins: [
+    "gatsby-tinacms-json",
+    {
+      resolve: "gatsby-plugin-tinacms",
+      options: {
+        sidebar: {
+          hidden: process.env.NODE_ENV === "production",
+          position: "displace"
+        },
+        plugins: ["gatsby-tinacms-git", "gatsby-tinacms-json"]
+      }
+    },
     "gatsby-plugin-catch-links",
     "gatsby-plugin-robots-txt",
     "gatsby-plugin-sitemap",

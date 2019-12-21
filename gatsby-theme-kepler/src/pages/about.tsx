@@ -5,6 +5,7 @@ import { Avatar } from "../components/Avatar";
 import { SocialLinks } from "../components/SocialLinks";
 import { PageRendererProps, graphql } from "gatsby";
 import { MDXRenderer } from "gatsby-plugin-mdx";
+import { useLocalJsonForm } from "gatsby-tinacms-json";
 
 // This is approximately the horizontal pixel measurement where the page begins to feel crampt,
 //  and more vainly and subjectively when the hyphen in my last name wraps to a second line :D
@@ -61,6 +62,11 @@ export interface AboutPageQuery {
   info: {
     name: string;
     location: string;
+
+    // Needed for TinaCMS
+    id: string;
+    rawJson: string;
+    fileRelativePath: string;
   };
 
   biography: {
@@ -126,89 +132,93 @@ interface Props extends PageRendererProps {
   data: AboutPageQuery;
 }
 
-const AboutPage = (props: Props): React.ReactElement => (
-  <BaseLayout location={props.location}>
-    <AboutContainer role="region">
-      <ProfileContainer>
-        <Avatar />
-        <Name role="heading" aria-level={1} title="Name">
-          {props.data.info.name}
-        </Name>
-        <Location role="heading" aria-level={2} title="Location">
-          {props.data.info.location}
-        </Location>
-        <SocialLinks id="contact" />
-      </ProfileContainer>
-      <ExperienceContainer>
-        <div>
-          <h1>{props.data.biography.childMdx.frontmatter.title}</h1>
-          <MDXRenderer>{props.data.biography.childMdx.body}</MDXRenderer>
-        </div>
-        <div>
-          <h1>Experience</h1>
-          {props.data.experience.edges.map(({ node }) => (
-            <article key={node.id}>
-              {node.childMdx.frontmatter.position ? (
-                <>
-                  <h2>{node.childMdx.frontmatter.position}</h2>
-                  <Detail>{node.childMdx.frontmatter.title}</Detail>
-                </>
-              ) : (
-                <h2>{node.childMdx.frontmatter.title}</h2>
-              )}
-              <Detail>
-                <time dateTime={node.childMdx.frontmatter.rawStart}>
-                  {node.childMdx.frontmatter.start_date}
-                </time>
-                {" - "}
-                {node.childMdx.frontmatter.end_date &&
-                node.childMdx.frontmatter.rawEnd ? (
-                  <time dateTime={node.childMdx.frontmatter.rawEnd}>
-                    {node.childMdx.frontmatter.end_date}
-                  </time>
+const AboutPage = (props: Props): React.ReactElement => {
+  const [info] = useLocalJsonForm(props.data.info);
+
+  return (
+    <BaseLayout location={props.location}>
+      <AboutContainer role="region">
+        <ProfileContainer>
+          <Avatar />
+          <Name role="heading" aria-level={1} title="Name">
+            {info.name}
+          </Name>
+          <Location role="heading" aria-level={2} title="Location">
+            {info.location}
+          </Location>
+          <SocialLinks id="contact" />
+        </ProfileContainer>
+        <ExperienceContainer>
+          <div>
+            <h1>{props.data.biography.childMdx.frontmatter.title}</h1>
+            <MDXRenderer>{props.data.biography.childMdx.body}</MDXRenderer>
+          </div>
+          <div>
+            <h1>Experience</h1>
+            {props.data.experience.edges.map(({ node }) => (
+              <article key={node.id}>
+                {node.childMdx.frontmatter.position ? (
+                  <>
+                    <h2>{node.childMdx.frontmatter.position}</h2>
+                    <Detail>{node.childMdx.frontmatter.title}</Detail>
+                  </>
                 ) : (
-                  // Assume if there is no end date, that we're still there
-                  "Present"
+                  <h2>{node.childMdx.frontmatter.title}</h2>
                 )}
-              </Detail>
-              <MDXRenderer>{node.childMdx.body}</MDXRenderer>
-            </article>
-          ))}
-        </div>
-        <div>
-          <h1>Education</h1>
-          {props.data.education.edges.map(({ node }) => (
-            <article key={node.id}>
-              <h2>{node.childMdx.frontmatter.title}</h2>
-              {node.childMdx.frontmatter.degree && (
-                <Detail>{node.childMdx.frontmatter.degree}</Detail>
-              )}
-              <Detail>
-                <time dateTime={node.childMdx.frontmatter.rawStart}>
-                  {node.childMdx.frontmatter.start_date}
-                </time>
-                {node.childMdx.frontmatter.end_date &&
-                  node.childMdx.frontmatter.rawEnd && (
-                    <>
-                      {" - "}
-                      <time dateTime={node.childMdx.frontmatter.rawEnd}>
-                        {node.childMdx.frontmatter.end_date}
-                      </time>
-                    </>
+                <Detail>
+                  <time dateTime={node.childMdx.frontmatter.rawStart}>
+                    {node.childMdx.frontmatter.start_date}
+                  </time>
+                  {" - "}
+                  {node.childMdx.frontmatter.end_date &&
+                  node.childMdx.frontmatter.rawEnd ? (
+                    <time dateTime={node.childMdx.frontmatter.rawEnd}>
+                      {node.childMdx.frontmatter.end_date}
+                    </time>
+                  ) : (
+                    // Assume if there is no end date, that we're still there
+                    "Present"
                   )}
-              </Detail>
-              <MDXRenderer>{node.childMdx.body}</MDXRenderer>
-            </article>
-          ))}
-        </div>
-        <div>
-          <h1>{props.data.skills.childMdx.frontmatter.title}</h1>
-          <MDXRenderer>{props.data.skills.childMdx.body}</MDXRenderer>
-        </div>
-      </ExperienceContainer>
-    </AboutContainer>
-  </BaseLayout>
-);
+                </Detail>
+                <MDXRenderer>{node.childMdx.body}</MDXRenderer>
+              </article>
+            ))}
+          </div>
+          <div>
+            <h1>Education</h1>
+            {props.data.education.edges.map(({ node }) => (
+              <article key={node.id}>
+                <h2>{node.childMdx.frontmatter.title}</h2>
+                {node.childMdx.frontmatter.degree && (
+                  <Detail>{node.childMdx.frontmatter.degree}</Detail>
+                )}
+                <Detail>
+                  <time dateTime={node.childMdx.frontmatter.rawStart}>
+                    {node.childMdx.frontmatter.start_date}
+                  </time>
+                  {node.childMdx.frontmatter.end_date &&
+                    node.childMdx.frontmatter.rawEnd && (
+                      <>
+                        {" - "}
+                        <time dateTime={node.childMdx.frontmatter.rawEnd}>
+                          {node.childMdx.frontmatter.end_date}
+                        </time>
+                      </>
+                    )}
+                </Detail>
+                <MDXRenderer>{node.childMdx.body}</MDXRenderer>
+              </article>
+            ))}
+          </div>
+          <div>
+            <h1>{props.data.skills.childMdx.frontmatter.title}</h1>
+            <MDXRenderer>{props.data.skills.childMdx.body}</MDXRenderer>
+          </div>
+        </ExperienceContainer>
+      </AboutContainer>
+    </BaseLayout>
+  );
+};
 
 export default AboutPage;
 
@@ -217,6 +227,11 @@ export const query = graphql`
     info: aboutJson {
       name
       location
+
+      # Needed for TinaCMS
+      id
+      rawJson
+      fileRelativePath
     }
 
     biography: file(
