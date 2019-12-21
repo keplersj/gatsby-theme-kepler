@@ -58,6 +58,11 @@ const Detail = styled.span`
 `;
 
 export interface AboutPageQuery {
+  info: {
+    name: string;
+    location: string;
+  };
+
   biography: {
     childMdx: {
       body: string;
@@ -127,10 +132,10 @@ const AboutPage = (props: Props): React.ReactElement => (
       <ProfileContainer>
         <Avatar />
         <Name role="heading" aria-level={1} title="Name">
-          Kepler Sticka-Jones
+          {props.data.info.name}
         </Name>
         <Location role="heading" aria-level={2} title="Location">
-          Salt Lake City, UT, USA
+          {props.data.info.location}
         </Location>
         <SocialLinks id="contact" />
       </ProfileContainer>
@@ -209,6 +214,11 @@ export default AboutPage;
 
 export const query = graphql`
   query KeplerAboutPageQuery {
+    info: aboutJson {
+      name
+      location
+    }
+
     biography: file(
       sourceInstanceName: { eq: "about" }
       relativePath: { eq: "biography.md" }

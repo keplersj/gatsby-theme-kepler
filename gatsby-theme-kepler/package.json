@@ -35,6 +35,7 @@
     "gatsby-source-filesystem": "^2.1.43",
     "gatsby-theme-curiousity": "^1.0.96",
     "gatsby-theme-early-bird": "^1.5.46",
+    "gatsby-transformer-json": "^2.2.22",
     "gatsby-transformer-remark": "^2.6.45",
     "gatsby-transformer-sharp": "^2.3.9",
     "modern-normalize": "^0.5.0",

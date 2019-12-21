@@ -76,6 +76,7 @@ module.exports = pluginOptions => ({
         path: "./content/education"
       }
     },
+    "gatsby-transformer-json",
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
     {
