@@ -7188,10 +7188,10 @@ gatsby-theme-curiousity@^1.0.96:
     starstuff-style "^1.0.1"
     typescript "^3.6.3"
 
-gatsby-theme-early-bird@^1.5.45:
-  version "1.5.45"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.5.45.tgz#c0515b82a5c8fd133da755a476fda9833f9ee7ae"
-  integrity sha512-xO6kOBck2ZdNk6AxiuyEK+EW/XZbWAjkFBSnzEnNtbvR57V+PBy5SzWxIBn2gw865XpTNifVl/75DvNFQBzR+Q==
+gatsby-theme-early-bird@^1.5.46:
+  version "1.5.46"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.5.46.tgz#7abaf539de3b5291133bdc0be3fea679be8cb520"
+  integrity sha512-8O2YHl0aDNFWgUsjW0qDe5NwT6AH2mZa+jl0xCue9TkcmFtjadNhnFgRjo+G2+R9N0mEAiS2ZLsg8yu4MvwaLw==
   dependencies:
     "@emotion/core" "^10.0.22"
     "@mdx-js/mdx" "^1.5.3"
