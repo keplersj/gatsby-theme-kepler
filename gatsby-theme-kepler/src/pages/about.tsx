@@ -133,7 +133,22 @@ interface Props extends PageRendererProps {
 }
 
 const AboutPage = (props: Props): React.ReactElement => {
-  const [info] = useLocalJsonForm(props.data.info);
+  const [info] = useLocalJsonForm(props.data.info, {
+    fields: [
+      {
+        name: "rawJson.name",
+        label: "Name",
+        component: "text",
+        description: "Name of the person featured on this page."
+      },
+      {
+        name: "rawJson.location",
+        label: "Location",
+        component: "text",
+        description: "Geographic location of the person featured on this page."
+      }
+    ]
+  });
 
   return (
     <BaseLayout location={props.location}>
@@ -141,10 +156,10 @@ const AboutPage = (props: Props): React.ReactElement => {
         <ProfileContainer>
           <Avatar />
           <Name role="heading" aria-level={1} title="Name">
-            {info.name}
+            {info?.name}
           </Name>
           <Location role="heading" aria-level={2} title="Location">
-            {info.location}
+            {info?.location}
           </Location>
           <SocialLinks id="contact" />
         </ProfileContainer>
