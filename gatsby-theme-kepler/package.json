@@ -12,7 +12,7 @@
     "test:mutation": "stryker run"
   },
   "dependencies": {
-    "@emotion/styled": "^10.0.23",
+    "@emotion/styled": "^10.0.27",
     "@reach/skip-nav": "^0.7.0",
     "@types/reach__skip-nav": "^0.1.0",
     "@types/react": "^16.9.17",
