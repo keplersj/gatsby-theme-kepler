@@ -6,24 +6,16 @@ import {
 } from "gatsby-background-image-lite";
 
 export interface BannerData {
-  desktop: {
+  banner: {
     childImageSharp: {
-      fluid: BackgroundImageObject;
+      highQuality: BackgroundImageObject;
+      lowQuality: BackgroundImageObject;
     };
   };
-  desktopDark: {
+  bannerDark: {
     childImageSharp: {
-      fluid: BackgroundImageObject;
-    };
-  };
-  backdrop: {
-    childImageSharp: {
-      fluid: BackgroundImageObject;
-    };
-  };
-  backdropDark: {
-    childImageSharp: {
-      fluid: BackgroundImageObject;
+      highQuality: BackgroundImageObject;
+      lowQuality: BackgroundImageObject;
     };
   };
 }
@@ -37,45 +29,31 @@ export const BannerBackground = (
 ): React.ReactElement => {
   const data = useStaticQuery<BannerData>(graphql`
     query KeplerBannerBackgroundData {
-      desktop: file(
+      banner: file(
         relativePath: { eq: "banner.jpg" }
         sourceInstanceName: { eq: "assets" }
       ) {
         childImageSharp {
-          fluid(quality: 90, maxWidth: 4608) {
+          highQuality: fluid(quality: 90, maxWidth: 4608) {
+            ...GatsbyBackgroundImageSharpFluid
+          }
+
+          lowQuality: fluid(quality: 10, maxWidth: 4608) {
             ...GatsbyBackgroundImageSharpFluid
           }
         }
       }
 
-      desktopDark: file(
+      bannerDark: file(
         relativePath: { eq: "banner_dark.jpg" }
         sourceInstanceName: { eq: "assets" }
       ) {
         childImageSharp {
-          fluid(quality: 90, maxWidth: 4608) {
+          highQuality: fluid(quality: 90, maxWidth: 4608) {
             ...GatsbyBackgroundImageSharpFluid
           }
-        }
-      }
 
-      backdrop: file(
-        relativePath: { eq: "banner.jpg" }
-        sourceInstanceName: { eq: "assets" }
-      ) {
-        childImageSharp {
-          fluid(quality: 10, maxWidth: 4608) {
-            ...GatsbyBackgroundImageSharpFluid
-          }
-        }
-      }
-
-      backdropDark: file(
-        relativePath: { eq: "banner_dark.jpg" }
-        sourceInstanceName: { eq: "assets" }
-      ) {
-        childImageSharp {
-          fluid(quality: 10, maxWidth: 4608) {
+          lowQuality: fluid(quality: 10, maxWidth: 4608) {
             ...GatsbyBackgroundImageSharpFluid
           }
         }
@@ -88,12 +66,12 @@ export const BannerBackground = (
       {...props}
       image={[
         props.highQuality === true
-          ? data.desktop.childImageSharp.fluid
-          : data.backdrop.childImageSharp.fluid,
+          ? data.banner.childImageSharp.highQuality
+          : data.banner.childImageSharp.lowQuality,
         {
           ...(props.highQuality === true
-            ? data.desktopDark.childImageSharp.fluid
-            : data.backdropDark.childImageSharp.fluid),
+            ? data.bannerDark.childImageSharp.highQuality
+            : data.bannerDark.childImageSharp.lowQuality),
           media: "screen and (prefers-color-scheme: dark)"
         }
       ]}
