@@ -7609,10 +7609,10 @@ gatsby-telemetry@^1.1.46:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-curiousity@^1.0.98:
-  version "1.0.98"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.0.98.tgz#3272300173f910d652c783d1cc75b370e47a854b"
-  integrity sha512-HKCJ1jy+ypffspl+l2bUv2MwCPo7LEyUTYIfFlgnMzbeFxmfhuNVC+LepiiYOQ4D7mrjY1dNsqNO0A9dyF/nqA==
+gatsby-theme-curiousity@^1.0.99:
+  version "1.0.99"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.0.99.tgz#25016a4263e7bfc3973983ba5ea1d7211b350fd6"
+  integrity sha512-guxKI40S97UutfB2/8pTYpfVzSFWmuCB9GHwEKJaTrvxtdk/pEjiUKYUC/RP3qD83YGtQe+5dTbi0KbRHkvvcg==
   dependencies:
     "@emotion/core" "^10.0.17"
     "@mdx-js/react" "^1.5.0"
@@ -7626,7 +7626,7 @@ gatsby-theme-curiousity@^1.0.98:
     gatsby-plugin-typescript "^2.1.11"
     gatsby-source-filesystem "^2.1.28"
     gatsby-transformer-sharp "^2.2.19"
-    modern-normalize "^0.5.0"
+    modern-normalize "^0.6.0"
     react-helmet "^5.2.1"
     starstuff-components "^1.2.1"
     starstuff-style "^1.0.1"
@@ -11863,11 +11863,6 @@ mkdirp@0.5.1, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.0, mkdirp@~0.5.1:
   integrity sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
   dependencies:
     minimist "0.0.8"
-
-modern-normalize@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/modern-normalize/-/modern-normalize-0.5.0.tgz#7f75bb7319c6ae708d716658dc8d9c9760274887"
-  integrity sha512-U1geaHG9Grp3a60djDV2JvSVKiDFhuZrhUHoQHusfjtGqbgGunI3HHw7hHtQ2ls2y0et3+Lpcf2hOSS1W8JUdg==
 
 modern-normalize@^0.6.0:
   version "0.6.0"
