@@ -117,7 +117,7 @@ module.exports = pluginOptions => ({
       resolve: "gatsby-theme-curiousity",
       options: {
         basePath: "/portfolio/",
-        mdx: false
+        remark: false
       }
     },
     "gatsby-plugin-react-helmet-async",
