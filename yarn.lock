@@ -7632,10 +7632,10 @@ gatsby-theme-curiousity@^1.0.99:
     starstuff-style "^1.0.1"
     typescript "^3.6.3"
 
-gatsby-theme-early-bird@^1.5.50:
-  version "1.5.50"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.5.50.tgz#262a10ab6f176e7c75d0c59bf4f7c782591dc6fb"
-  integrity sha512-tZQwaBpVvnETjzoON1o2ER2j3/kp3Y7ss237b0Yfdnt5wSAreG0pVhSLy2ZcrczKUX6bDh5lXLKgiphWGCN4qg==
+gatsby-theme-early-bird@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.6.0.tgz#e0e6530f29556c82cf9b03ed3fc2f98432bc1d0d"
+  integrity sha512-q1fntXmT1mswz3q9dTklZQAIcyTIWv9W8YAXkPUIPa6EpPmp6NHlL0mBTx/PagL0hY6atPb+0BjuIHHGBaQE8Q==
   dependencies:
     "@emotion/core" "^10.0.27"
     "@mdx-js/mdx" "^1.5.3"
@@ -7645,22 +7645,25 @@ gatsby-theme-early-bird@^1.5.50:
     gatsby-image "^2.2.37"
     gatsby-plugin-emotion "^4.1.18"
     gatsby-plugin-feed "^2.3.25"
-    gatsby-plugin-mdx "^1.0.64"
     gatsby-plugin-react-helmet-async "^1.0.13"
     gatsby-plugin-sharp "^2.3.10"
+    gatsby-plugin-tinacms "^0.1.17"
     gatsby-plugin-typescript "^2.1.23"
     gatsby-remark-copy-linked-files "^2.1.33"
     gatsby-remark-images "^3.1.39"
     gatsby-remark-smartypants "^2.1.19"
     gatsby-source-filesystem "^2.1.43"
+    gatsby-tinacms-git "^0.2.15"
+    gatsby-tinacms-remark "^0.6.1"
+    gatsby-transformer-remark "^2.6.45"
     gatsby-transformer-sharp "^2.3.9"
     modern-normalize "^0.6.0"
     react-helmet-async "^1.0.4"
     react-schemaorg "^1.0.0"
-    remark-slug "^5.1.2"
     schema-dts "^0.4.5"
     starstuff-components "^1.2.6"
     starstuff-style "^1.0.3"
+    styled-components "^4.4.1"
     typescript "^3.7.4"
     uri-path-breakdown "^1.0.0"
 
@@ -7692,6 +7695,18 @@ gatsby-tinacms-json@^0.8.1:
     "@tinacms/core" "^0.5.1"
     gatsby-plugin-tinacms "^0.1.17"
     graphql "^14.5.8"
+    slash "^3.0.0"
+    tinacms "^0.11.0"
+
+gatsby-tinacms-remark@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/gatsby-tinacms-remark/-/gatsby-tinacms-remark-0.6.1.tgz#559154ada62e87f6ff4222a19a74bc91574c64f8"
+  integrity sha512-p6hXIZGoFDeAtTY+Dppj940gcslJ4GWBAnpJNVUEOl3NVY2xfRlQEyjlG4D4Iq3AJoPX8qkX7AnX6JF6fe7hyg==
+  dependencies:
+    "@tinacms/core" "^0.5.1"
+    "@tinacms/form-builder" "^0.2.9"
+    gray-matter "^4.0.2"
+    lodash.get "^4.4.2"
     slash "^3.0.0"
     tinacms "^0.11.0"
 
@@ -8035,7 +8050,7 @@ github-from-package@0.0.0:
   resolved "https://registry.yarnpkg.com/github-from-package/-/github-from-package-0.0.0.tgz#97fb5d96bfde8973313f20e8288ef9a167fa64ce"
   integrity sha1-l/tdlr/eiXMxPyDoKI75oWf6ZM4=
 
-github-slugger@^1.0.0, github-slugger@^1.2.1:
+github-slugger@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/github-slugger/-/github-slugger-1.2.1.tgz#47e904e70bf2dccd0014748142d31126cfd49508"
   integrity sha512-SsZUjg/P03KPzQBt7OxJPasGw6NRO5uOgiZ5RGXVud5iSIZ0eNZeNp5rTwCxtavrRUa/A77j8mePVc5lEvk0KQ==
@@ -11499,7 +11514,7 @@ mdast-util-to-nlcst@^3.2.0:
     unist-util-position "^3.0.0"
     vfile-location "^2.0.0"
 
-mdast-util-to-string@^1.0.0, mdast-util-to-string@^1.0.5, mdast-util-to-string@^1.0.7:
+mdast-util-to-string@^1.0.5, mdast-util-to-string@^1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/mdast-util-to-string/-/mdast-util-to-string-1.0.7.tgz#62d8e9c6b2113070d8b497c7dc35bf12796f06ee"
   integrity sha512-P+gdtssCoHOX+eJUrrC30Sixqao86ZPlVjR5NEAoy0U79Pfxb1Y0Gntei0+GrnQD4T04X9xA8tcugp90cSmNow==
@@ -15234,15 +15249,6 @@ remark-retext@^3.1.3:
   integrity sha512-UujXAm28u4lnUvtOZQFYfRIhxX+auKI9PuA2QpQVTT7gYk1OgX6o0OUrSo1KOa6GNrFX+OODOtS5PWIHPxM7qw==
   dependencies:
     mdast-util-to-nlcst "^3.2.0"
-
-remark-slug@^5.1.2:
-  version "5.1.2"
-  resolved "https://registry.yarnpkg.com/remark-slug/-/remark-slug-5.1.2.tgz#715ecdef8df1226786204b1887d31ab16aa24609"
-  integrity sha512-DWX+Kd9iKycqyD+/B+gEFO3jjnt7Yg1O05lygYSNTe5i5PIxxxPjp5qPBDxPIzp5wreF7+1ROCwRgjEcqmzr3A==
-  dependencies:
-    github-slugger "^1.0.0"
-    mdast-util-to-string "^1.0.0"
-    unist-util-visit "^1.0.0"
 
 remark-squeeze-paragraphs@3.0.4:
   version "3.0.4"

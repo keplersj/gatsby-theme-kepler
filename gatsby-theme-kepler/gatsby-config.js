@@ -110,7 +110,7 @@ module.exports = pluginOptions => ({
       resolve: "gatsby-theme-early-bird",
       options: {
         basePath: "/blog/",
-        mdx: false
+        remark: false
       }
     },
     {

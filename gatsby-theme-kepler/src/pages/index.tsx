@@ -356,7 +356,7 @@ export const query = graphql`
           slug
           date(formatString: "MMMM DD, YYYY")
           rawDate: date
-          ... on MdxBlogPost {
+          ... on RemarkBlogPost {
             excerpt(pruneLength: 140)
           }
           featuredImage {
