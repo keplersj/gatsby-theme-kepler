@@ -1,6 +1,13 @@
 import { AboutPageQuery } from "../pages/about";
 
 export const KeplerAboutPageQuery: AboutPageQuery = {
+  info: {
+    name: "Example Name",
+    location: "Example Location",
+    id: "",
+    rawJson: "",
+    fileRelativePath: ""
+  },
   biography: {
     childMdx: {
       frontmatter: {

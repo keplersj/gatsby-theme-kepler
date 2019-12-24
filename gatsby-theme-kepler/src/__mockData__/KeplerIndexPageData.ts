@@ -55,22 +55,27 @@ export const KeplerIndexPageData: IndexPageData = {
           url: "https://🤷🏼‍♂️.dev/test",
           isProfile: true
         }
-      ],
-      nav: [
-        {
-          name: "Blog",
-          url: "/blog"
-        },
-        {
-          name: "Portfolio",
-          url: "/portfolio"
-        },
-        {
-          name: "About",
-          url: "/about"
-        }
       ]
     }
+  },
+  settingsJson: {
+    navLinks: [
+      {
+        name: "Blog",
+        url: "/blog"
+      },
+      {
+        name: "Portfolio",
+        url: "/portfolio"
+      },
+      {
+        name: "About",
+        url: "/about"
+      }
+    ],
+    id: "",
+    rawJson: "",
+    fileRelativePath: ""
   },
   biography: {
     childMdx: {
