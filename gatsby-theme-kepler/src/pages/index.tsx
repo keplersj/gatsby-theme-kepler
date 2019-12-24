@@ -6,6 +6,7 @@ import { Hyperbutton } from "starstuff-components";
 import { WebSite, BlogPosting, Blog, ImageObject } from "schema-dts";
 import { JsonLd } from "react-schemaorg";
 import { MDXRenderer } from "gatsby-plugin-mdx";
+import { useLocalJsonForm } from "gatsby-tinacms-json";
 import BaseLayout from "../components/BaseLayout";
 import { Avatar } from "../components/Avatar";
 import { BannerBackground } from "../components/BannerBackground";
@@ -138,6 +139,8 @@ export interface IndexPageData {
       name: string;
       url: string;
     }[];
+    id: string;
+    rawJson: string;
     fileRelativePath: string;
   };
 
@@ -180,6 +183,32 @@ interface Props extends PageRendererProps {
 }
 
 const IndexPage = ({ data, location }: Props): React.ReactElement<Props> => {
+  const [nav] = useLocalJsonForm(data.settingsJson as any, {
+    label: "Navigation Links",
+    fields: [
+      {
+        label: "Navigation Links",
+        name: "rawJson.navLinks",
+        component: "group-list",
+        itemProps: item => ({
+          key: item.name,
+          label: item.name
+        }),
+        fields: [
+          {
+            label: "Name",
+            name: "name",
+            component: "text"
+          },
+          {
+            label: "Link",
+            name: "url",
+            component: "text"
+          }
+        ]
+      } as any
+    ]
+  });
   const email = data.site.siteMetadata.social.find(
     (social): boolean => social.name === "Email"
   );
@@ -216,7 +245,7 @@ const IndexPage = ({ data, location }: Props): React.ReactElement<Props> => {
                   <Avatar />
                   <Name>{data.site.siteMetadata.title}</Name>
                   <Centered>
-                    {data.site.siteMetadata.nav.map(
+                    {nav.navLinks.map(
                       (link): React.ReactElement => (
                         <StyledLocalButton to={link.url} key={link.name}>
                           {link.name}
@@ -328,6 +357,8 @@ export const query = graphql`
         url
         name
       }
+      id
+      rawJson
       fileRelativePath
     }
 
