@@ -62,6 +62,13 @@ module.exports = pluginOptions => ({
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        name: "settings",
+        path: "./content/settings"
+      }
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         name: "assets",
         path: "./content/assets"
       }

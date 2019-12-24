@@ -13,20 +13,6 @@ module.exports = {
         url: "https://twitter.dev/test",
         isProfile: true
       }
-    ],
-    nav: [
-      {
-        name: "Blog",
-        url: "/blog"
-      },
-      {
-        name: "Portfolio",
-        url: "/portfolio"
-      },
-      {
-        name: "About",
-        url: "/about"
-      }
     ]
   },
   plugins: [

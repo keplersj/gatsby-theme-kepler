@@ -2,6 +2,7 @@ import * as React from "react";
 import { graphql, Link, useStaticQuery } from "gatsby";
 import styled from "@emotion/styled";
 import { BannerBackground } from "../BannerBackground";
+import { useGlobalJsonForm } from "gatsby-tinacms-json";
 
 const Background = styled(BannerBackground)`
   height: 3rem;
@@ -52,11 +53,16 @@ export interface NavbarData {
   site: {
     siteMetadata: {
       title: string;
-      nav: {
-        name: string;
-        url: string;
-      }[];
     };
+  };
+  settingsJson: {
+    navLinks: {
+      name: string;
+      url: string;
+    }[];
+    id: string;
+    rawJson: string;
+    fileRelativePath: string;
   };
 }
 
@@ -66,14 +72,45 @@ export const Navbar = (): React.ReactElement<{}> => {
       site {
         siteMetadata {
           title
-          nav {
-            name
-            url
-          }
         }
+      }
+      settingsJson {
+        navLinks {
+          url
+          name
+        }
+        id
+        rawJson
+        fileRelativePath
       }
     }
   `);
+  const [nav] = useGlobalJsonForm(data.settingsJson as any, {
+    label: "Navigation Links",
+    fields: [
+      {
+        label: "Navigation Links",
+        name: "rawJson.navLinks",
+        component: "group-list",
+        itemProps: item => ({
+          key: item.name,
+          label: item.name
+        }),
+        fields: [
+          {
+            label: "Name",
+            name: "name",
+            component: "text"
+          },
+          {
+            label: "Link",
+            name: "url",
+            component: "text"
+          }
+        ]
+      } as any
+    ]
+  });
 
   return (
     <Background Tag="nav">
@@ -82,7 +119,7 @@ export const Navbar = (): React.ReactElement<{}> => {
           <StyledLink to="/">{data.site.siteMetadata.title}</StyledLink>
         </LeftContent>
         <RightContent>
-          {data.site.siteMetadata.nav.map(
+          {nav.navLinks.map(
             (link): React.ReactElement => (
               <StyledLink to={link.url} key={link.name}>
                 {link.name}

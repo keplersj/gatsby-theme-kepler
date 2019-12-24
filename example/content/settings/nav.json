@@ -1,0 +1,16 @@
+{
+  "navLinks": [
+    {
+      "name": "Blog",
+      "url": "/blog"
+    },
+    {
+      "name": "Portfolio",
+      "url": "/portfolio"
+    },
+    {
+      "name": "About",
+      "url": "/about"
+    }
+  ]
+}

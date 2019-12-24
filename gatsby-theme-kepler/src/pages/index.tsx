@@ -130,11 +130,15 @@ export interface IndexPageData {
         url: string;
         isProfile?: boolean;
       }[];
-      nav: {
-        name: string;
-        url: string;
-      }[];
     };
+  };
+
+  settingsJson: {
+    navLinks: {
+      name: string;
+      url: string;
+    }[];
+    fileRelativePath: string;
   };
 
   biography: {
@@ -316,11 +320,15 @@ export const query = graphql`
           url
           isProfile
         }
-        nav {
-          name
-          url
-        }
       }
+    }
+
+    settingsJson {
+      navLinks {
+        url
+        name
+      }
+      fileRelativePath
     }
 
     metadataImage: file(
