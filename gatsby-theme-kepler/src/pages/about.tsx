@@ -10,6 +10,7 @@ import {
   SimpleRemarkSection,
   KeplerSimpleRemarkSection
 } from "../components/SimpleRemarkSection";
+import { DateRange } from "../components/DateRange";
 
 // This is approximately the horizontal pixel measurement where the page begins to feel crampt,
 //  and more vainly and subjectively when the hyphen in my last name wraps to a second line :D
@@ -174,23 +175,12 @@ const AboutPage = (props: Props): React.ReactElement => {
                   <h2>{node.childMarkdownRemark.frontmatter.title}</h2>
                 )}
                 <Detail>
-                  <time
-                    dateTime={node.childMarkdownRemark.frontmatter.rawStart}
-                  >
-                    {node.childMarkdownRemark.frontmatter.start_date}
-                  </time>
-                  {" - "}
-                  {node.childMarkdownRemark.frontmatter.end_date &&
-                  node.childMarkdownRemark.frontmatter.rawEnd ? (
-                    <time
-                      dateTime={node.childMarkdownRemark.frontmatter.rawEnd}
-                    >
-                      {node.childMarkdownRemark.frontmatter.end_date}
-                    </time>
-                  ) : (
-                    // Assume if there is no end date, that we're still there
-                    "Present"
-                  )}
+                  <DateRange
+                    startDate={node.childMarkdownRemark.frontmatter.start_date}
+                    startDateISO={node.childMarkdownRemark.frontmatter.rawStart}
+                    endDate={node.childMarkdownRemark.frontmatter.end_date}
+                    endDateISO={node.childMarkdownRemark.frontmatter.rawEnd}
+                  />
                 </Detail>
                 <section
                   dangerouslySetInnerHTML={{
@@ -209,22 +199,12 @@ const AboutPage = (props: Props): React.ReactElement => {
                   <Detail>{node.childMarkdownRemark.frontmatter.degree}</Detail>
                 )}
                 <Detail>
-                  <time
-                    dateTime={node.childMarkdownRemark.frontmatter.rawStart}
-                  >
-                    {node.childMarkdownRemark.frontmatter.start_date}
-                  </time>
-                  {node.childMarkdownRemark.frontmatter.end_date &&
-                    node.childMarkdownRemark.frontmatter.rawEnd && (
-                      <>
-                        {" - "}
-                        <time
-                          dateTime={node.childMarkdownRemark.frontmatter.rawEnd}
-                        >
-                          {node.childMarkdownRemark.frontmatter.end_date}
-                        </time>
-                      </>
-                    )}
+                  <DateRange
+                    startDate={node.childMarkdownRemark.frontmatter.start_date}
+                    startDateISO={node.childMarkdownRemark.frontmatter.rawStart}
+                    endDate={node.childMarkdownRemark.frontmatter.end_date}
+                    endDateISO={node.childMarkdownRemark.frontmatter.rawEnd}
+                  />
                 </Detail>
                 <section
                   dangerouslySetInnerHTML={{
