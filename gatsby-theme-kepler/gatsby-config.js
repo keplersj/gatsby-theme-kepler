@@ -2,46 +2,6 @@
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
 const path = require("path");
 
-const gatsbyRemarkPlugins = [
-  "gatsby-remark-smartypants",
-  {
-    resolve: "gatsby-remark-vscode",
-    options: {
-      extensionDataDirectory: path.resolve(__dirname, "vendor/vscode"),
-      languageAliases: {
-        shell: "bash"
-      },
-      colorTheme: {
-        defaultTheme: "Atom One Light",
-        prefersDarkTheme: "Atom One Dark"
-      },
-      extensions: [
-        {
-          identifier: "akamud.vscode-theme-onedark",
-          version: "2.1.0"
-        },
-        {
-          identifier: "akamud.vscode-theme-onelight",
-          version: "2.1.0"
-        }
-      ]
-    }
-  },
-  "gatsby-remark-autolink-headers",
-  // gatsby-remark-relative-images must
-  // go before gatsby-remark-images
-  "gatsby-remark-relative-images",
-  {
-    resolve: "gatsby-remark-images",
-    options: {
-      // It's important to specify the maxWidth (in pixels) of
-      // the content container as this plugin uses this as the
-      // base for generating different widths of each image.
-      maxWidth: 590
-    }
-  }
-];
-
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 module.exports = pluginOptions => ({
   plugins: [
@@ -98,19 +58,47 @@ module.exports = pluginOptions => ({
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
     {
-      resolve: "gatsby-plugin-mdx",
-      options: {
-        extensions: [".mdx", ".md"],
-        defaultLayouts: {
-          default: require.resolve("./src/components/BaseLayout/index.tsx")
-        },
-        gatsbyRemarkPlugins
-      }
-    },
-    {
       resolve: "gatsby-transformer-remark",
       options: {
-        plugins: gatsbyRemarkPlugins
+        plugins: [
+          "gatsby-remark-smartypants",
+          {
+            resolve: "gatsby-remark-vscode",
+            options: {
+              extensionDataDirectory: path.resolve(__dirname, "vendor/vscode"),
+              languageAliases: {
+                shell: "bash"
+              },
+              colorTheme: {
+                defaultTheme: "Atom One Light",
+                prefersDarkTheme: "Atom One Dark"
+              },
+              extensions: [
+                {
+                  identifier: "akamud.vscode-theme-onedark",
+                  version: "2.1.0"
+                },
+                {
+                  identifier: "akamud.vscode-theme-onelight",
+                  version: "2.1.0"
+                }
+              ]
+            }
+          },
+          "gatsby-remark-autolink-headers",
+          // gatsby-remark-relative-images must
+          // go before gatsby-remark-images
+          "gatsby-remark-relative-images",
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 590
+            }
+          }
+        ]
       }
     },
     {

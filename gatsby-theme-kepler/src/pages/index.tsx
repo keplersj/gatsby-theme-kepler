@@ -5,7 +5,6 @@ import styled from "@emotion/styled";
 import { Hyperbutton } from "starstuff-components";
 import { WebSite, BlogPosting, Blog, ImageObject } from "schema-dts";
 import { JsonLd } from "react-schemaorg";
-import { MDXRenderer } from "gatsby-plugin-mdx";
 import { useLocalJsonForm } from "gatsby-tinacms-json";
 import BaseLayout from "../components/BaseLayout";
 import { Avatar } from "../components/Avatar";
@@ -145,8 +144,8 @@ export interface IndexPageData {
   };
 
   biography: {
-    childMdx: {
-      body: string;
+    childMarkdownRemark: {
+      html: string;
       frontmatter: {
         title: string;
       };
@@ -260,8 +259,12 @@ const IndexPage = ({ data, location }: Props): React.ReactElement<Props> => {
         </Hero>
       </HeroBackground>
       <FeaturedContentContainer>
-        <h2>{data.biography.childMdx.frontmatter.title}</h2>
-        <MDXRenderer>{data.biography.childMdx.body}</MDXRenderer>
+        <h2>{data.biography.childMarkdownRemark.frontmatter.title}</h2>
+        <section
+          dangerouslySetInnerHTML={{
+            __html: data.biography.childMarkdownRemark.html
+          }}
+        />
         <Link to="/about">Read More...</Link>
       </FeaturedContentContainer>
       <FeaturedContentContainer>
@@ -379,8 +382,8 @@ export const query = graphql`
       sourceInstanceName: { eq: "about" }
       relativePath: { eq: "biography.md" }
     ) {
-      childMdx {
-        body
+      childMarkdownRemark {
+        html
         frontmatter {
           title
         }

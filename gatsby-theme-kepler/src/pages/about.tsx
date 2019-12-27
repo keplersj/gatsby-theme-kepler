@@ -70,8 +70,8 @@ export interface AboutPageQuery {
   };
 
   biography: {
-    childMdx: {
-      body: string;
+    childMarkdownRemark: {
+      html: string;
       frontmatter: {
         title: string;
       };
@@ -82,9 +82,9 @@ export interface AboutPageQuery {
     edges: {
       node: {
         id: string;
-        childMdx: {
+        childMarkdownRemark: {
           id: string;
-          body: string;
+          html: string;
           frontmatter: {
             title: string;
             position?: string;
@@ -102,9 +102,9 @@ export interface AboutPageQuery {
     edges: {
       node: {
         id: string;
-        childMdx: {
+        childMarkdownRemark: {
           id: string;
-          body: string;
+          html: string;
           frontmatter: {
             title: string;
             degree?: string;
@@ -119,8 +119,8 @@ export interface AboutPageQuery {
   };
 
   skills: {
-    childMdx: {
-      body: string;
+    childMarkdownRemark: {
+      html: string;
       frontmatter: {
         title: string;
       };
@@ -165,37 +165,53 @@ const AboutPage = (props: Props): React.ReactElement => {
         </ProfileContainer>
         <ExperienceContainer>
           <div>
-            <h1>{props.data.biography.childMdx.frontmatter.title}</h1>
-            <MDXRenderer>{props.data.biography.childMdx.body}</MDXRenderer>
+            <h1>
+              {props.data.biography.childMarkdownRemark.frontmatter.title}
+            </h1>
+            <section
+              dangerouslySetInnerHTML={{
+                __html: props.data.biography.childMarkdownRemark.html
+              }}
+            />
           </div>
           <div>
             <h1>Experience</h1>
             {props.data.experience.edges.map(({ node }) => (
               <article key={node.id}>
-                {node.childMdx.frontmatter.position ? (
+                {node.childMarkdownRemark.frontmatter.position ? (
                   <>
-                    <h2>{node.childMdx.frontmatter.position}</h2>
-                    <Detail>{node.childMdx.frontmatter.title}</Detail>
+                    <h2>{node.childMarkdownRemark.frontmatter.position}</h2>
+                    <Detail>
+                      {node.childMarkdownRemark.frontmatter.title}
+                    </Detail>
                   </>
                 ) : (
-                  <h2>{node.childMdx.frontmatter.title}</h2>
+                  <h2>{node.childMarkdownRemark.frontmatter.title}</h2>
                 )}
                 <Detail>
-                  <time dateTime={node.childMdx.frontmatter.rawStart}>
-                    {node.childMdx.frontmatter.start_date}
+                  <time
+                    dateTime={node.childMarkdownRemark.frontmatter.rawStart}
+                  >
+                    {node.childMarkdownRemark.frontmatter.start_date}
                   </time>
                   {" - "}
-                  {node.childMdx.frontmatter.end_date &&
-                  node.childMdx.frontmatter.rawEnd ? (
-                    <time dateTime={node.childMdx.frontmatter.rawEnd}>
-                      {node.childMdx.frontmatter.end_date}
+                  {node.childMarkdownRemark.frontmatter.end_date &&
+                  node.childMarkdownRemark.frontmatter.rawEnd ? (
+                    <time
+                      dateTime={node.childMarkdownRemark.frontmatter.rawEnd}
+                    >
+                      {node.childMarkdownRemark.frontmatter.end_date}
                     </time>
                   ) : (
                     // Assume if there is no end date, that we're still there
                     "Present"
                   )}
                 </Detail>
-                <MDXRenderer>{node.childMdx.body}</MDXRenderer>
+                <section
+                  dangerouslySetInnerHTML={{
+                    __html: node.childMarkdownRemark.html
+                  }}
+                />
               </article>
             ))}
           </div>
@@ -203,31 +219,43 @@ const AboutPage = (props: Props): React.ReactElement => {
             <h1>Education</h1>
             {props.data.education.edges.map(({ node }) => (
               <article key={node.id}>
-                <h2>{node.childMdx.frontmatter.title}</h2>
-                {node.childMdx.frontmatter.degree && (
-                  <Detail>{node.childMdx.frontmatter.degree}</Detail>
+                <h2>{node.childMarkdownRemark.frontmatter.title}</h2>
+                {node.childMarkdownRemark.frontmatter.degree && (
+                  <Detail>{node.childMarkdownRemark.frontmatter.degree}</Detail>
                 )}
                 <Detail>
-                  <time dateTime={node.childMdx.frontmatter.rawStart}>
-                    {node.childMdx.frontmatter.start_date}
+                  <time
+                    dateTime={node.childMarkdownRemark.frontmatter.rawStart}
+                  >
+                    {node.childMarkdownRemark.frontmatter.start_date}
                   </time>
-                  {node.childMdx.frontmatter.end_date &&
-                    node.childMdx.frontmatter.rawEnd && (
+                  {node.childMarkdownRemark.frontmatter.end_date &&
+                    node.childMarkdownRemark.frontmatter.rawEnd && (
                       <>
                         {" - "}
-                        <time dateTime={node.childMdx.frontmatter.rawEnd}>
-                          {node.childMdx.frontmatter.end_date}
+                        <time
+                          dateTime={node.childMarkdownRemark.frontmatter.rawEnd}
+                        >
+                          {node.childMarkdownRemark.frontmatter.end_date}
                         </time>
                       </>
                     )}
                 </Detail>
-                <MDXRenderer>{node.childMdx.body}</MDXRenderer>
+                <section
+                  dangerouslySetInnerHTML={{
+                    __html: node.childMarkdownRemark.html
+                  }}
+                />
               </article>
             ))}
           </div>
           <div>
-            <h1>{props.data.skills.childMdx.frontmatter.title}</h1>
-            <MDXRenderer>{props.data.skills.childMdx.body}</MDXRenderer>
+            <h1>{props.data.skills.childMarkdownRemark.frontmatter.title}</h1>
+            <section
+              dangerouslySetInnerHTML={{
+                __html: props.data.skills.childMarkdownRemark.html
+              }}
+            />
           </div>
         </ExperienceContainer>
       </AboutContainer>
@@ -253,8 +281,8 @@ export const query = graphql`
       sourceInstanceName: { eq: "about" }
       relativePath: { eq: "biography.md" }
     ) {
-      childMdx {
-        body
+      childMarkdownRemark {
+        html
         frontmatter {
           title
         }
@@ -268,9 +296,9 @@ export const query = graphql`
       edges {
         node {
           id
-          childMdx {
+          childMarkdownRemark {
             id
-            body
+            html
             frontmatter {
               title
               position
@@ -291,9 +319,9 @@ export const query = graphql`
       edges {
         node {
           id
-          childMdx {
+          childMarkdownRemark {
             id
-            body
+            html
             frontmatter {
               title
               degree
@@ -311,8 +339,8 @@ export const query = graphql`
       sourceInstanceName: { eq: "about" }
       relativePath: { eq: "skills.md" }
     ) {
-      childMdx {
-        body
+      childMarkdownRemark {
+        html
         frontmatter {
           title
         }

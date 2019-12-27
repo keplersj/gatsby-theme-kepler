@@ -9,11 +9,11 @@ export const KeplerAboutPageQuery: AboutPageQuery = {
     fileRelativePath: ""
   },
   biography: {
-    childMdx: {
+    childMarkdownRemark: {
       frontmatter: {
         title: "Biography"
       },
-      body: ""
+      html: "<p>This is a test biography</p>"
     }
   },
   experience: {
@@ -21,9 +21,9 @@ export const KeplerAboutPageQuery: AboutPageQuery = {
       {
         node: {
           id: "prior-example-experience-listing",
-          childMdx: {
+          childMarkdownRemark: {
             id: "prior-example-experience-listing-mdx",
-            body: "This is an example prior experience listing.",
+            html: "<p>This is an example prior experience listing.</p>",
             frontmatter: {
               title: "Test Workplace",
               /* eslint-disable @typescript-eslint/camelcase */
@@ -39,9 +39,9 @@ export const KeplerAboutPageQuery: AboutPageQuery = {
       {
         node: {
           id: "current-example-experience-listing",
-          childMdx: {
+          childMarkdownRemark: {
             id: "current-example-experience-listing-mdx",
-            body: "This is an example current experience listing.",
+            html: "<p>This is an example current experience listing.</p>",
             frontmatter: {
               title: "Example Workplace",
               position: "Sample Position",
@@ -60,9 +60,10 @@ export const KeplerAboutPageQuery: AboutPageQuery = {
       {
         node: {
           id: "example-education-listing",
-          childMdx: {
+          childMarkdownRemark: {
             id: "example-education-listing-mdx",
-            body: "",
+            html:
+              "<p>This is an example summary of an education experience</p>",
             frontmatter: {
               title: "Example Institution",
               degree: "Sample Degree",
@@ -79,11 +80,12 @@ export const KeplerAboutPageQuery: AboutPageQuery = {
     ]
   },
   skills: {
-    childMdx: {
+    childMarkdownRemark: {
       frontmatter: {
         title: "Skills"
       },
-      body: ""
+      html:
+        "<p>This is an example summary of someone's professional skills.</p>"
     }
   }
 };
