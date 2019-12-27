@@ -18,7 +18,9 @@ module.exports = {
       ],
       moduleNameMapper: {
         "modern-normalize": "jest-transform-stub",
-        "starstuff-style": "jest-transform-stub"
+        "starstuff-style": "jest-transform-stub",
+        // We reference a few things in the theme for TinaCMS, don't transform.
+        "gatsby-theme-early-bird": "jest-transform-stub"
       },
       transformIgnorePatterns: ["node_modules/(?!(gatsby-plugin-mdx)/)"]
     },

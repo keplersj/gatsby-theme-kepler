@@ -5,8 +5,10 @@ import styled from "@emotion/styled";
 import { Hyperbutton } from "starstuff-components";
 import { WebSite, BlogPosting, Blog, ImageObject } from "schema-dts";
 import { JsonLd } from "react-schemaorg";
+import { usePlugin } from "tinacms";
 import { useLocalJsonForm } from "gatsby-tinacms-json";
 import { useLocalRemarkForm } from "gatsby-tinacms-remark";
+import { CreatePostPlugin } from "gatsby-theme-early-bird/src/lib/tinacms-creator-plugin";
 import BaseLayout from "../components/BaseLayout";
 import { Avatar } from "../components/Avatar";
 import { BannerBackground } from "../components/BannerBackground";
@@ -229,6 +231,8 @@ const IndexPage = ({ data, location }: Props): React.ReactElement<Props> => {
       }
     ]
   });
+  usePlugin(CreatePostPlugin);
+
   const email = data.site.siteMetadata.social.find(
     (social): boolean => social.name === "Email"
   );
