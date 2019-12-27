@@ -129,6 +129,11 @@ export interface AboutPageQuery {
       frontmatter: {
         title: string;
       };
+      // Needed for TinaCMS
+      id: string;
+      fileRelativePath: string;
+      rawFrontmatter: string;
+      rawMarkdownBody: string;
     };
   };
 }
@@ -173,6 +178,21 @@ const AboutPage = (props: Props): React.ReactElement => {
       ]
     }
   );
+  const [skills] = useLocalRemarkForm(props.data.skills.childMarkdownRemark, {
+    label: "Skills",
+    fields: [
+      {
+        label: "Title",
+        name: "rawFrontmatter.title",
+        component: "text"
+      },
+      {
+        label: "Body",
+        name: "rawMarkdownBody",
+        component: "markdown"
+      }
+    ]
+  });
 
   return (
     <BaseLayout location={props.location}>
@@ -272,10 +292,10 @@ const AboutPage = (props: Props): React.ReactElement => {
             ))}
           </div>
           <div>
-            <h1>{props.data.skills.childMarkdownRemark.frontmatter.title}</h1>
+            <h1>{skills!.frontmatter.title}</h1>
             <section
               dangerouslySetInnerHTML={{
-                __html: props.data.skills.childMarkdownRemark.html
+                __html: skills!.html
               }}
             />
           </div>
@@ -367,6 +387,7 @@ export const query = graphql`
         frontmatter {
           title
         }
+        ...TinaRemark
       }
     }
   }
