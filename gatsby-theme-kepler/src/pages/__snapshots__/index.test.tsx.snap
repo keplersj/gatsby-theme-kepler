@@ -404,9 +404,13 @@ Array [
     <h2>
       Biography
     </h2>
-    <p>
-      I am a computer programmer and college student based out of Salt Lake City, with experience in entrepreneurship, student leadership, and open source software development.
-    </p>
+    <section
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<p>I am a computer programmer and college student based out of Salt Lake City, with experience in entrepreneurship, student leadership, and open source software development.</p>",
+        }
+      }
+    />
     <a
       href="/about"
     >

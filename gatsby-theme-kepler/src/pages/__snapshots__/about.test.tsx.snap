@@ -705,9 +705,13 @@ Array [
         <h1>
           Biography
         </h1>
-        <p>
-          
-        </p>
+        <section
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<p>This is a test biography</p>",
+            }
+          }
+        />
       </div>
       <div>
         <h1>
@@ -732,9 +736,13 @@ Array [
               Dec 2018
             </time>
           </span>
-          <p>
-            This is an example prior experience listing.
-          </p>
+          <section
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>This is an example prior experience listing.</p>",
+              }
+            }
+          />
         </article>
         <article>
           <h2>
@@ -756,9 +764,13 @@ Array [
              - 
             Present
           </span>
-          <p>
-            This is an example current experience listing.
-          </p>
+          <section
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>This is an example current experience listing.</p>",
+              }
+            }
+          />
         </article>
       </div>
       <div>
@@ -789,18 +801,26 @@ Array [
               Dec 2018
             </time>
           </span>
-          <p>
-            
-          </p>
+          <section
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>This is an example summary of an education experience</p>",
+              }
+            }
+          />
         </article>
       </div>
       <div>
         <h1>
           Skills
         </h1>
-        <p>
-          
-        </p>
+        <section
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<p>This is an example summary of someone's professional skills.</p>",
+            }
+          }
+        />
       </div>
     </main>
   </div>,
