@@ -6,6 +6,7 @@ import { Hyperbutton } from "starstuff-components";
 import { WebSite, BlogPosting, Blog, ImageObject } from "schema-dts";
 import { JsonLd } from "react-schemaorg";
 import { useLocalJsonForm } from "gatsby-tinacms-json";
+import { useLocalRemarkForm } from "gatsby-tinacms-remark";
 import BaseLayout from "../components/BaseLayout";
 import { Avatar } from "../components/Avatar";
 import { BannerBackground } from "../components/BannerBackground";
@@ -149,6 +150,11 @@ export interface IndexPageData {
       frontmatter: {
         title: string;
       };
+      // Needed for TinaCMS
+      id: string;
+      fileRelativePath: string;
+      rawFrontmatter: string;
+      rawMarkdownBody: string;
     };
   };
 
@@ -208,6 +214,21 @@ const IndexPage = ({ data, location }: Props): React.ReactElement<Props> => {
       } as any
     ]
   });
+  const [biography] = useLocalRemarkForm(data.biography.childMarkdownRemark, {
+    label: "Biography",
+    fields: [
+      {
+        label: "Title",
+        name: "rawFrontmatter.title",
+        component: "text"
+      },
+      {
+        label: "Body",
+        name: "rawMarkdownBody",
+        component: "markdown"
+      }
+    ]
+  });
   const email = data.site.siteMetadata.social.find(
     (social): boolean => social.name === "Email"
   );
@@ -259,10 +280,10 @@ const IndexPage = ({ data, location }: Props): React.ReactElement<Props> => {
         </Hero>
       </HeroBackground>
       <FeaturedContentContainer>
-        <h2>{data.biography.childMarkdownRemark.frontmatter.title}</h2>
+        <h2>{biography!.frontmatter.title}</h2>
         <section
           dangerouslySetInnerHTML={{
-            __html: data.biography.childMarkdownRemark.html
+            __html: biography!.html
           }}
         />
         <Link to="/about">Read More...</Link>
@@ -387,6 +408,7 @@ export const query = graphql`
         frontmatter {
           title
         }
+        ...TinaRemark
       }
     }
 
