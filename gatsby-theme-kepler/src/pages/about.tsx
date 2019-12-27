@@ -10,7 +10,10 @@ import {
   SimpleRemarkSection,
   KeplerSimpleRemarkSection
 } from "../components/SimpleRemarkSection";
-import { DateRange } from "../components/DateRange";
+import {
+  FrontmatterDateRange,
+  KeplerFrontmatterDateRange
+} from "../components/DateRange";
 
 // This is approximately the horizontal pixel measurement where the page begins to feel crampt,
 //  and more vainly and subjectively when the hyphen in my last name wraps to a second line :D
@@ -63,67 +66,78 @@ const Detail = styled.span`
   }
 `;
 
-export interface AboutPageQuery {
-  info: {
-    name: string;
-    location: string;
-
-    // Needed for TinaCMS
-    id: string;
-    rawJson: string;
-    fileRelativePath: string;
-  };
-
-  biography: KeplerSimpleRemarkSection;
-
-  experience: {
-    edges: {
-      node: {
-        id: string;
-        childMarkdownRemark: {
-          id: string;
-          html: string;
-          frontmatter: {
-            title: string;
-            position?: string;
-            rawEnd?: string;
-            end_date?: string;
-            rawStart: string;
-            start_date: string;
-          };
-        };
-      };
-    }[];
-  };
-
-  education: {
-    edges: {
-      node: {
-        id: string;
-        childMarkdownRemark: {
-          id: string;
-          html: string;
-          frontmatter: {
-            title: string;
-            degree?: string;
-            rawEnd?: string;
-            end_date?: string;
-            rawStart: string;
-            start_date: string;
-          };
-        };
-      };
-    }[];
-  };
-
-  skills: KeplerSimpleRemarkSection;
+interface ExperienceProps {
+  // remarkNode: {
+  //   frontmatter: {
+  //     position: string;
+  //     organization: string;
+  //     startDate: string;
+  //     startDateISO: string;
+  //     endDate?: string;
+  //     endDateISO?: string;
+  //   };
+  //   html: string;
+  // };
+  remarkNode: object;
 }
 
-interface Props extends PageRendererProps {
+const Experience = ({
+  remarkNode
+}: ExperienceProps): React.ReactElement<ExperienceProps> => {
+  const [data] = useLocalRemarkForm(remarkNode);
+
+  return (
+    <article>
+      {data!.frontmatter.position ? (
+        <>
+          <h2>{data!.frontmatter.position}</h2>
+          <Detail>{data!.frontmatter.title}</Detail>
+        </>
+      ) : (
+        <h2>{data!.frontmatter.title}</h2>
+      )}
+      <Detail>
+        <FrontmatterDateRange frontmatter={data!.frontmatter} />
+      </Detail>
+      <section
+        dangerouslySetInnerHTML={{
+          __html: data!.html
+        }}
+      />
+    </article>
+  );
+};
+
+interface EducationProps {
+  remarkNode: object;
+}
+
+const Education = ({
+  remarkNode
+}: EducationProps): React.ReactElement<EducationProps> => {
+  const [data] = useLocalRemarkForm(remarkNode);
+
+  return (
+    <article>
+      <h2>{data!.frontmatter.title}</h2>
+      {data!.frontmatter.degree && <Detail>{data!.frontmatter.degree}</Detail>}
+      <Detail>
+        <FrontmatterDateRange frontmatter={data!.frontmatter} />
+      </Detail>
+      <section
+        dangerouslySetInnerHTML={{
+          __html: data!.html
+        }}
+      />
+    </article>
+  );
+};
+
+interface PageProps extends PageRendererProps {
   data: AboutPageQuery;
 }
 
-const AboutPage = (props: Props): React.ReactElement => {
+const AboutPage = (props: PageProps): React.ReactElement => {
   const [info] = useLocalJsonForm(props.data.info, {
     label: "Information",
     fields: [
@@ -163,55 +177,13 @@ const AboutPage = (props: Props): React.ReactElement => {
           <div>
             <h1>Experience</h1>
             {props.data.experience.edges.map(({ node }) => (
-              <article key={node.id}>
-                {node.childMarkdownRemark.frontmatter.position ? (
-                  <>
-                    <h2>{node.childMarkdownRemark.frontmatter.position}</h2>
-                    <Detail>
-                      {node.childMarkdownRemark.frontmatter.title}
-                    </Detail>
-                  </>
-                ) : (
-                  <h2>{node.childMarkdownRemark.frontmatter.title}</h2>
-                )}
-                <Detail>
-                  <DateRange
-                    startDate={node.childMarkdownRemark.frontmatter.start_date}
-                    startDateISO={node.childMarkdownRemark.frontmatter.rawStart}
-                    endDate={node.childMarkdownRemark.frontmatter.end_date}
-                    endDateISO={node.childMarkdownRemark.frontmatter.rawEnd}
-                  />
-                </Detail>
-                <section
-                  dangerouslySetInnerHTML={{
-                    __html: node.childMarkdownRemark.html
-                  }}
-                />
-              </article>
+              <Experience key={node.id} remarkNode={node.childMarkdownRemark} />
             ))}
           </div>
           <div>
             <h1>Education</h1>
             {props.data.education.edges.map(({ node }) => (
-              <article key={node.id}>
-                <h2>{node.childMarkdownRemark.frontmatter.title}</h2>
-                {node.childMarkdownRemark.frontmatter.degree && (
-                  <Detail>{node.childMarkdownRemark.frontmatter.degree}</Detail>
-                )}
-                <Detail>
-                  <DateRange
-                    startDate={node.childMarkdownRemark.frontmatter.start_date}
-                    startDateISO={node.childMarkdownRemark.frontmatter.rawStart}
-                    endDate={node.childMarkdownRemark.frontmatter.end_date}
-                    endDateISO={node.childMarkdownRemark.frontmatter.rawEnd}
-                  />
-                </Detail>
-                <section
-                  dangerouslySetInnerHTML={{
-                    __html: node.childMarkdownRemark.html
-                  }}
-                />
-              </article>
+              <Education key={node.id} remarkNode={node.childMarkdownRemark} />
             ))}
           </div>
           <SimpleRemarkSection
@@ -225,6 +197,52 @@ const AboutPage = (props: Props): React.ReactElement => {
 };
 
 export default AboutPage;
+
+interface AboutPageQuery {
+  info: {
+    name: string;
+    location: string;
+
+    // Needed for TinaCMS
+    id: string;
+    rawJson: string;
+    fileRelativePath: string;
+  };
+
+  biography: KeplerSimpleRemarkSection;
+
+  experience: {
+    edges: {
+      node: {
+        id: string;
+        childMarkdownRemark: {
+          html: string;
+          frontmatter: {
+            title: string;
+            position?: string;
+          } & KeplerFrontmatterDateRange;
+        };
+      };
+    }[];
+  };
+
+  education: {
+    edges: {
+      node: {
+        id: string;
+        childMarkdownRemark: {
+          html: string;
+          frontmatter: {
+            title: string;
+            degree?: string;
+          } & KeplerFrontmatterDateRange;
+        };
+      };
+    }[];
+  };
+
+  skills: KeplerSimpleRemarkSection;
+}
 
 export const query = graphql`
   query KeplerAboutPageQuery {
@@ -253,16 +271,13 @@ export const query = graphql`
         node {
           id
           childMarkdownRemark {
-            id
             html
             frontmatter {
               title
               position
-              rawEnd: end_date
-              end_date(formatString: "MMM YYYY")
-              rawStart: start_date
-              start_date(formatString: "MMM YYYY")
+              ...KeplerFrontmatterDateRange
             }
+            ...TinaRemark
           }
         }
       }
@@ -276,16 +291,13 @@ export const query = graphql`
         node {
           id
           childMarkdownRemark {
-            id
             html
             frontmatter {
               title
               degree
-              rawEnd: end_date
-              end_date(formatString: "MMM YYYY")
-              rawStart: start_date
-              start_date(formatString: "MMM YYYY")
+              ...KeplerFrontmatterDateRange
             }
+            ...TinaRemark
           }
         }
       }
