@@ -12,7 +12,7 @@ Array [
       Object {
         "@type": "ListItem",
         "item": Object {
-          "@id": "/",
+          "@id": "https://site.dev/",
           "@type": "WebPage",
           "name": "Kepler Sticka-Jones",
         },
@@ -21,7 +21,7 @@ Array [
       Object {
         "@type": "ListItem",
         "item": Object {
-          "@id": "/nested/",
+          "@id": "https://site.dev/nested/",
           "@type": "WebPage",
           "name": "Nested",
         },
@@ -30,7 +30,7 @@ Array [
       Object {
         "@type": "ListItem",
         "item": Object {
-          "@id": "/nested/01-test/",
+          "@id": "https://site.dev/nested/01-test/",
           "@type": "WebPage",
           "name": "Test",
         },
@@ -213,7 +213,7 @@ exports[`Base Layout renders correctly 2`] = `
   <head>
     <link
       data-rh={true}
-      href="/nested/01-test/"
+      href="https://site.dev/nested/01-test/"
       rel="canonical"
     />
     <meta
@@ -232,7 +232,7 @@ exports[`Base Layout renders correctly 2`] = `
       property="og:title"
     />
     <meta
-      content="/nested/01-test/"
+      content="https://site.dev/nested/01-test/"
       data-rh={true}
       property="og:url"
     />

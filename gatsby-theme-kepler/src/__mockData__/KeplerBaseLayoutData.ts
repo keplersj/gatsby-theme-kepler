@@ -16,7 +16,7 @@ export const KeplerBaseLayoutData: BaseLayoutData = {
     siteMetadata: {
       title: "Kepler Sticka-Jones",
       description: "",
-      siteUrl: "",
+      siteUrl: "https://site.dev",
       social: [
         {
           name: "Twitter",

@@ -12,7 +12,7 @@ Array [
       Object {
         "@type": "ListItem",
         "item": Object {
-          "@id": "/",
+          "@id": "https://site.dev/",
           "@type": "WebPage",
           "name": "Kepler Sticka-Jones",
         },
@@ -21,7 +21,7 @@ Array [
       Object {
         "@type": "ListItem",
         "item": Object {
-          "@id": "/about/",
+          "@id": "https://site.dev/about/",
           "@type": "WebPage",
           "name": "About",
         },
@@ -834,7 +834,7 @@ exports[`About Page renders correctly 2`] = `
   <head>
     <link
       data-rh={true}
-      href="/about/"
+      href="https://site.dev/about/"
       rel="canonical"
     />
     <meta
@@ -853,7 +853,7 @@ exports[`About Page renders correctly 2`] = `
       property="og:title"
     />
     <meta
-      content="/about/"
+      content="https://site.dev/about/"
       data-rh={true}
       property="og:url"
     />

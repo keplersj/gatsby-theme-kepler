@@ -12,7 +12,7 @@ Array [
       Object {
         "@type": "ListItem",
         "item": Object {
-          "@id": "/",
+          "@id": "https://site.dev/",
           "@type": "WebPage",
           "name": "Kepler Sticka-Jones",
         },
@@ -668,7 +668,7 @@ exports[`Index Page renders correctly 2`] = `
   <head>
     <link
       data-rh={true}
-      href="/"
+      href="https://site.dev/"
       rel="canonical"
     />
     <meta
@@ -687,7 +687,7 @@ exports[`Index Page renders correctly 2`] = `
       property="og:title"
     />
     <meta
-      content="/"
+      content="https://site.dev/"
       data-rh={true}
       property="og:url"
     />
