@@ -4,8 +4,8 @@ import BaseLayout from "../components/BaseLayout";
 import { Avatar } from "../components/Avatar";
 import { SocialLinks } from "../components/SocialLinks";
 import { PageRendererProps, graphql } from "gatsby";
-import { MDXRenderer } from "gatsby-plugin-mdx";
 import { useLocalJsonForm } from "gatsby-tinacms-json";
+import { useLocalRemarkForm } from "gatsby-tinacms-remark";
 
 // This is approximately the horizontal pixel measurement where the page begins to feel crampt,
 //  and more vainly and subjectively when the hyphen in my last name wraps to a second line :D
@@ -75,6 +75,11 @@ export interface AboutPageQuery {
       frontmatter: {
         title: string;
       };
+      // Needed for TinaCMS
+      id: string;
+      fileRelativePath: string;
+      rawFrontmatter: string;
+      rawMarkdownBody: string;
     };
   };
 
@@ -134,6 +139,7 @@ interface Props extends PageRendererProps {
 
 const AboutPage = (props: Props): React.ReactElement => {
   const [info] = useLocalJsonForm(props.data.info, {
+    label: "Information",
     fields: [
       {
         name: "rawJson.name",
@@ -149,6 +155,24 @@ const AboutPage = (props: Props): React.ReactElement => {
       }
     ]
   });
+  const [biography] = useLocalRemarkForm(
+    props.data.biography.childMarkdownRemark,
+    {
+      label: "Biography",
+      fields: [
+        {
+          label: "Title",
+          name: "rawFrontmatter.title",
+          component: "text"
+        },
+        {
+          label: "Body",
+          name: "rawMarkdownBody",
+          component: "markdown"
+        }
+      ]
+    }
+  );
 
   return (
     <BaseLayout location={props.location}>
@@ -165,12 +189,10 @@ const AboutPage = (props: Props): React.ReactElement => {
         </ProfileContainer>
         <ExperienceContainer>
           <div>
-            <h1>
-              {props.data.biography.childMarkdownRemark.frontmatter.title}
-            </h1>
+            <h1>{biography!.frontmatter.title}</h1>
             <section
               dangerouslySetInnerHTML={{
-                __html: props.data.biography.childMarkdownRemark.html
+                __html: biography!.html
               }}
             />
           </div>
@@ -286,6 +308,7 @@ export const query = graphql`
         frontmatter {
           title
         }
+        ...TinaRemark
       }
     }
 
