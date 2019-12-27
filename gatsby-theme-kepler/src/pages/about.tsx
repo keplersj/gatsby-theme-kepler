@@ -6,6 +6,10 @@ import { SocialLinks } from "../components/SocialLinks";
 import { PageRendererProps, graphql } from "gatsby";
 import { useLocalJsonForm } from "gatsby-tinacms-json";
 import { useLocalRemarkForm } from "gatsby-tinacms-remark";
+import {
+  SimpleRemarkSection,
+  KeplerSimpleRemarkSection
+} from "../components/SimpleRemarkSection";
 
 // This is approximately the horizontal pixel measurement where the page begins to feel crampt,
 //  and more vainly and subjectively when the hyphen in my last name wraps to a second line :D
@@ -69,19 +73,7 @@ export interface AboutPageQuery {
     fileRelativePath: string;
   };
 
-  biography: {
-    childMarkdownRemark: {
-      html: string;
-      frontmatter: {
-        title: string;
-      };
-      // Needed for TinaCMS
-      id: string;
-      fileRelativePath: string;
-      rawFrontmatter: string;
-      rawMarkdownBody: string;
-    };
-  };
+  biography: KeplerSimpleRemarkSection;
 
   experience: {
     edges: {
@@ -123,19 +115,7 @@ export interface AboutPageQuery {
     }[];
   };
 
-  skills: {
-    childMarkdownRemark: {
-      html: string;
-      frontmatter: {
-        title: string;
-      };
-      // Needed for TinaCMS
-      id: string;
-      fileRelativePath: string;
-      rawFrontmatter: string;
-      rawMarkdownBody: string;
-    };
-  };
+  skills: KeplerSimpleRemarkSection;
 }
 
 interface Props extends PageRendererProps {
@@ -160,39 +140,6 @@ const AboutPage = (props: Props): React.ReactElement => {
       }
     ]
   });
-  const [biography] = useLocalRemarkForm(
-    props.data.biography.childMarkdownRemark,
-    {
-      label: "Biography",
-      fields: [
-        {
-          label: "Title",
-          name: "rawFrontmatter.title",
-          component: "text"
-        },
-        {
-          label: "Body",
-          name: "rawMarkdownBody",
-          component: "markdown"
-        }
-      ]
-    }
-  );
-  const [skills] = useLocalRemarkForm(props.data.skills.childMarkdownRemark, {
-    label: "Skills",
-    fields: [
-      {
-        label: "Title",
-        name: "rawFrontmatter.title",
-        component: "text"
-      },
-      {
-        label: "Body",
-        name: "rawMarkdownBody",
-        component: "markdown"
-      }
-    ]
-  });
 
   return (
     <BaseLayout location={props.location}>
@@ -208,14 +155,10 @@ const AboutPage = (props: Props): React.ReactElement => {
           <SocialLinks id="contact" />
         </ProfileContainer>
         <ExperienceContainer>
-          <div>
-            <h1>{biography!.frontmatter.title}</h1>
-            <section
-              dangerouslySetInnerHTML={{
-                __html: biography!.html
-              }}
-            />
-          </div>
+          <SimpleRemarkSection
+            label="Biography"
+            remarkNode={props.data.biography.childMarkdownRemark}
+          />
           <div>
             <h1>Experience</h1>
             {props.data.experience.edges.map(({ node }) => (
@@ -291,14 +234,10 @@ const AboutPage = (props: Props): React.ReactElement => {
               </article>
             ))}
           </div>
-          <div>
-            <h1>{skills!.frontmatter.title}</h1>
-            <section
-              dangerouslySetInnerHTML={{
-                __html: skills!.html
-              }}
-            />
-          </div>
+          <SimpleRemarkSection
+            label="Skils"
+            remarkNode={props.data.skills.childMarkdownRemark}
+          />
         </ExperienceContainer>
       </AboutContainer>
     </BaseLayout>
@@ -323,13 +262,7 @@ export const query = graphql`
       sourceInstanceName: { eq: "about" }
       relativePath: { eq: "biography.md" }
     ) {
-      childMarkdownRemark {
-        html
-        frontmatter {
-          title
-        }
-        ...TinaRemark
-      }
+      ...KeplerSimpleRemarkSection
     }
 
     experience: allFile(
@@ -382,13 +315,7 @@ export const query = graphql`
       sourceInstanceName: { eq: "about" }
       relativePath: { eq: "skills.md" }
     ) {
-      childMarkdownRemark {
-        html
-        frontmatter {
-          title
-        }
-        ...TinaRemark
-      }
+      ...KeplerSimpleRemarkSection
     }
   }
 `;
