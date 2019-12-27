@@ -12,6 +12,10 @@ import { CreatePostPlugin } from "gatsby-theme-early-bird/src/lib/tinacms-creato
 import BaseLayout from "../components/BaseLayout";
 import { Avatar } from "../components/Avatar";
 import { BannerBackground } from "../components/BannerBackground";
+import {
+  SimpleRemarkSection,
+  KeplerSimpleRemarkSection
+} from "../components/SimpleRemarkSection";
 
 const HeroBackground = styled(BannerBackground)`
   min-height: 66vh;
@@ -146,19 +150,7 @@ export interface IndexPageData {
     fileRelativePath: string;
   };
 
-  biography: {
-    childMarkdownRemark: {
-      html: string;
-      frontmatter: {
-        title: string;
-      };
-      // Needed for TinaCMS
-      id: string;
-      fileRelativePath: string;
-      rawFrontmatter: string;
-      rawMarkdownBody: string;
-    };
-  };
+  biography: KeplerSimpleRemarkSection;
 
   metadataImage: {
     childImageSharp: {
@@ -216,21 +208,6 @@ const IndexPage = ({ data, location }: Props): React.ReactElement<Props> => {
       } as any
     ]
   });
-  const [biography] = useLocalRemarkForm(data.biography.childMarkdownRemark, {
-    label: "Biography",
-    fields: [
-      {
-        label: "Title",
-        name: "rawFrontmatter.title",
-        component: "text"
-      },
-      {
-        label: "Body",
-        name: "rawMarkdownBody",
-        component: "markdown"
-      }
-    ]
-  });
   usePlugin(CreatePostPlugin);
 
   const email = data.site.siteMetadata.social.find(
@@ -284,11 +261,10 @@ const IndexPage = ({ data, location }: Props): React.ReactElement<Props> => {
         </Hero>
       </HeroBackground>
       <FeaturedContentContainer>
-        <h2>{biography!.frontmatter.title}</h2>
-        <section
-          dangerouslySetInnerHTML={{
-            __html: biography!.html
-          }}
+        <SimpleRemarkSection
+          label="Biography"
+          headerTag="h2"
+          remarkNode={data.biography.childMarkdownRemark}
         />
         <Link to="/about">Read More...</Link>
       </FeaturedContentContainer>
@@ -407,13 +383,7 @@ export const query = graphql`
       sourceInstanceName: { eq: "about" }
       relativePath: { eq: "biography.md" }
     ) {
-      childMarkdownRemark {
-        html
-        frontmatter {
-          title
-        }
-        ...TinaRemark
-      }
+      ...KeplerSimpleRemarkSection
     }
 
     blogPosts: allBlogPost(sort: { order: DESC, fields: date }) {

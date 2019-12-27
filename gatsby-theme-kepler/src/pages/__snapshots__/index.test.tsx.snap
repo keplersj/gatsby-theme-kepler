@@ -401,16 +401,18 @@ Array [
 <section
     className="emotion-0"
   >
-    <h2>
-      Biography
-    </h2>
-    <section
-      dangerouslySetInnerHTML={
-        Object {
-          "__html": "<p>I am a computer programmer and college student based out of Salt Lake City, with experience in entrepreneurship, student leadership, and open source software development.</p>",
+    <div>
+      <h2>
+        Biography
+      </h2>
+      <section
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<p>I am a computer programmer and college student based out of Salt Lake City, with experience in entrepreneurship, student leadership, and open source software development.</p>",
+          }
         }
-      }
-    />
+      />
+    </div>
     <a
       href="/about"
     >

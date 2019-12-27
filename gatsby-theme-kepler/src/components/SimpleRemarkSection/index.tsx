@@ -1,5 +1,5 @@
 import * as React from "react";
-import { useLocalRemarkForm, RemarkNode } from "gatsby-tinacms-remark";
+import { useLocalRemarkForm } from "gatsby-tinacms-remark";
 import { graphql } from "gatsby";
 
 interface Props {
@@ -10,9 +10,10 @@ interface Props {
     rawMarkdownBody: string;
     frontmatter?: any;
   };
+  headerTag?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
 }
 
-export const SimpleRemarkSection = (
+export const SimpleRemarkSection: React.FunctionComponent<Props> = (
   props: Props
 ): React.ReactElement<Props> => {
   const [data] = useLocalRemarkForm(props.remarkNode, {
@@ -31,9 +32,11 @@ export const SimpleRemarkSection = (
     ]
   });
 
+  const Header = props.headerTag!;
+
   return (
     <div>
-      <h1>{data!.frontmatter.title}</h1>
+      <Header>{data!.frontmatter.title}</Header>
       <section
         dangerouslySetInnerHTML={{
           __html: data!.html
@@ -41,6 +44,10 @@ export const SimpleRemarkSection = (
       />
     </div>
   );
+};
+
+SimpleRemarkSection.defaultProps = {
+  headerTag: "h1"
 };
 
 export const fragment = graphql`
