@@ -3,6 +3,7 @@ import { graphql, Link, useStaticQuery } from "gatsby";
 import styled from "@emotion/styled";
 import { BannerBackground } from "../BannerBackground";
 import { useGlobalJsonForm } from "gatsby-tinacms-json";
+import { NavigationLinksForm } from "../../lib/NavigationLinksForm";
 
 const Background = styled(BannerBackground)`
   height: 3rem;
@@ -85,32 +86,10 @@ export const Navbar = (): React.ReactElement<{}> => {
       }
     }
   `);
-  const [nav] = useGlobalJsonForm(data.settingsJson as any, {
-    label: "Navigation Links",
-    fields: [
-      {
-        label: "Navigation Links",
-        name: "rawJson.navLinks",
-        component: "group-list",
-        itemProps: item => ({
-          key: item.name,
-          label: item.name
-        }),
-        fields: [
-          {
-            label: "Name",
-            name: "name",
-            component: "text"
-          },
-          {
-            label: "Link",
-            name: "url",
-            component: "text"
-          }
-        ]
-      } as any
-    ]
-  });
+  const [nav] = useGlobalJsonForm(
+    data.settingsJson as any,
+    NavigationLinksForm
+  );
 
   return (
     <Background Tag="nav">

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavigationLinksForm returns as expected 1`] = `
+Object {
+  "fields": Array [
+    Object {
+      "component": "group-list",
+      "fields": Array [
+        Object {
+          "component": "text",
+          "label": "Name",
+          "name": "name",
+        },
+        Object {
+          "component": "text",
+          "label": "Link",
+          "name": "url",
+        },
+      ],
+      "itemProps": [Function],
+      "label": "Navigation Links",
+      "name": "rawJson.navLinks",
+    },
+  ],
+  "label": "Navigation Links",
+}
+`;

@@ -16,6 +16,7 @@ import {
   SimpleRemarkSection,
   KeplerSimpleRemarkSection
 } from "../components/SimpleRemarkSection";
+import { NavigationLinksForm } from "../lib/NavigationLinksForm";
 
 const HeroBackground = styled(BannerBackground)`
   min-height: 66vh;
@@ -182,32 +183,7 @@ interface Props extends PageRendererProps {
 }
 
 const IndexPage = ({ data, location }: Props): React.ReactElement<Props> => {
-  const [nav] = useLocalJsonForm(data.settingsJson as any, {
-    label: "Navigation Links",
-    fields: [
-      {
-        label: "Navigation Links",
-        name: "rawJson.navLinks",
-        component: "group-list",
-        itemProps: item => ({
-          key: item.name,
-          label: item.name
-        }),
-        fields: [
-          {
-            label: "Name",
-            name: "name",
-            component: "text"
-          },
-          {
-            label: "Link",
-            name: "url",
-            component: "text"
-          }
-        ]
-      } as any
-    ]
-  });
+  const [nav] = useLocalJsonForm(data.settingsJson as any, NavigationLinksForm);
   usePlugin(CreatePostPlugin);
 
   const email = data.site.siteMetadata.social.find(
