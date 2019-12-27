@@ -1,13 +1,12 @@
 import * as React from "react";
 import { graphql, Link, PageRendererProps } from "gatsby";
-import { default as Image, FixedObject, FluidObject } from "gatsby-image";
+import { FixedObject, FluidObject } from "gatsby-image";
 import styled from "@emotion/styled";
 import { Hyperbutton } from "starstuff-components";
-import { WebSite, BlogPosting, Blog, ImageObject } from "schema-dts";
+import { WebSite, BlogPosting, Blog } from "schema-dts";
 import { JsonLd } from "react-schemaorg";
 import { usePlugin } from "tinacms";
 import { useLocalJsonForm } from "gatsby-tinacms-json";
-import { useLocalRemarkForm } from "gatsby-tinacms-remark";
 import { CreatePostPlugin } from "gatsby-theme-early-bird/src/lib/tinacms-creator-plugin";
 import BaseLayout from "../components/BaseLayout";
 import { Avatar } from "../components/Avatar";
@@ -17,6 +16,7 @@ import {
   KeplerSimpleRemarkSection
 } from "../components/SimpleRemarkSection";
 import { NavigationLinksForm } from "../lib/NavigationLinksForm";
+import { ImageLD } from "../components/GatsbyImageWithLD";
 
 const HeroBackground = styled(BannerBackground)`
   min-height: 66vh;
@@ -282,20 +282,7 @@ const IndexPage = ({ data, location }: Props): React.ReactElement<Props> => {
               />
               {post.featuredImage && (
                 <Link to={post.slug}>
-                  <figure>
-                    <JsonLd<ImageObject>
-                      item={{
-                        "@context": "https://schema.org",
-                        "@type": "ImageObject",
-                        "@id": `${data.site.siteMetadata.siteUrl}${post.featuredImage.childImageSharp.fluid.src}`,
-                        representativeOfPage: false,
-                        contentUrl:
-                          post.featuredImage.childImageSharp.fluid.src,
-                        url: post.featuredImage.childImageSharp.fluid.src
-                      }}
-                    />
-                    <Image fluid={post.featuredImage.childImageSharp.fluid} />
-                  </figure>
+                  <ImageLD fluid={post.featuredImage.childImageSharp.fluid} />
                 </Link>
               )}
               <FeaturedContent>
