@@ -7264,10 +7264,10 @@ gatsby-plugin-page-creator@^2.1.37:
     lodash "^4.17.15"
     micromatch "^3.1.10"
 
-gatsby-plugin-react-helmet-async@^1.0.13:
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet-async/-/gatsby-plugin-react-helmet-async-1.0.13.tgz#14de88f544899b3f7a3310b6a7fa8147cda5f6b8"
-  integrity sha512-WAZH5W/vT7aE5gxe+hUR1GaxHfmjrgcjcXlkq31xRb1L4Rw4OG9hZE6FYhQ2fDH9a6rI8FQtO71L1XkBKuuZkg==
+gatsby-plugin-react-helmet-async@^1.0.13, gatsby-plugin-react-helmet-async@^1.0.14:
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet-async/-/gatsby-plugin-react-helmet-async-1.0.14.tgz#0b156c113ce9f9fbbba46f552234b65710e1ceb4"
+  integrity sha512-Xcvbmx2lgFycnPQlIsKMypR2PVm2BDR4o3aKnPwmd1cZgf76IgNq7smUZ+pRHJRsc4SVH+8DmiECrTSC5dxqEw==
 
 gatsby-plugin-react-helmet@^3.1.10:
   version "3.1.18"
