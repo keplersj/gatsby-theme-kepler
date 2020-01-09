@@ -24,7 +24,7 @@
     "gatsby-plugin-react-helmet-async": "^1.0.14",
     "gatsby-plugin-robots-txt": "^1.5.0",
     "gatsby-plugin-sharp": "^2.3.12",
-    "gatsby-plugin-sitemap": "^2.2.24",
+    "gatsby-plugin-sitemap": "^2.2.25",
     "gatsby-plugin-tinacms": "^0.1.17",
     "gatsby-plugin-typescript": "^2.1.25",
     "gatsby-remark-autolink-headers": "^2.1.22",
