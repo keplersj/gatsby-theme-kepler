@@ -7336,7 +7336,7 @@ gatsby-plugin-tinacms@^0.1.17:
     lodash.throttle "^4.1.1"
     tinacms "^0.11.0"
 
-gatsby-plugin-typescript@^2.1.11, gatsby-plugin-typescript@^2.1.25:
+gatsby-plugin-typescript@^2.1.25:
   version "2.1.25"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-2.1.25.tgz#1591a89783b20a5f12a6f7284a8a7be5e23ac0a6"
   integrity sha512-nuz/KoqdUSmtwgdrOxoMrEGHUqiQu+c9ERpbUaZST/iomekO+MdPgHfpvD5WSmOvze3f1Pm+sqEXgnwvgPZOKg==
@@ -7438,7 +7438,7 @@ gatsby-remark-vscode@^1.4.0:
     unist-util-visit "^1.4.1"
     vscode-textmate "4.2.2"
 
-gatsby-source-filesystem@^2.1.28, gatsby-source-filesystem@^2.1.45:
+gatsby-source-filesystem@^2.1.45:
   version "2.1.45"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.1.45.tgz#2dc661a240f3b6d8a3b40259b7d94e252b950ba8"
   integrity sha512-ARz7QdU2kMZ6wYVKmdf5EyuyyUG3lTjg5cbiNQZkOMViQYe/vB4vPs28GU45BL91bPTGNDyyPraTHdqeDwPGQQ==
@@ -7482,10 +7482,10 @@ gatsby-telemetry@^1.1.46:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-curiousity@^1.3.4:
-  version "1.3.4"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.3.4.tgz#6394145e79d80f48ad2bba80bf6aa4f01eca641e"
-  integrity sha512-VBXBsdSEZwdan9oMF82H4pUCfng0FNvOlxTfUlCI8UqpVESw67fopHwunuNuIwfveIMFWIhgCr+v6IP5kh2WaQ==
+gatsby-theme-curiousity@^1.3.8:
+  version "1.3.8"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.3.8.tgz#6d5ffc5e9e247c8a9dde2f89271593eea4d52273"
+  integrity sha512-vpcNNCtVQfRxEEy4Qp03U6PTOwkk/+ZM6kE8QiQLV7HDuNj1LCPqP3VXW3u18day2s/3lrdXp+9qg5td2jbBmQ==
   dependencies:
     "@emotion/core" "^10.0.17"
     "@types/react" "^16.9.3"
@@ -7496,12 +7496,12 @@ gatsby-theme-curiousity@^1.3.4:
     gatsby-plugin-react-helmet "^3.1.10"
     gatsby-plugin-sharp "^2.3.12"
     gatsby-plugin-tinacms "^0.1.17"
-    gatsby-plugin-typescript "^2.1.11"
-    gatsby-source-filesystem "^2.1.28"
+    gatsby-plugin-typescript "^2.1.25"
+    gatsby-source-filesystem "^2.1.45"
     gatsby-tinacms-git "^0.2.15"
     gatsby-tinacms-remark "^0.6.1"
-    gatsby-transformer-remark "^2.6.45"
-    gatsby-transformer-sharp "^2.2.19"
+    gatsby-transformer-remark "^2.6.47"
+    gatsby-transformer-sharp "^2.3.11"
     modern-normalize "^0.6.0"
     react-helmet "^5.2.1"
     react-schemaorg "^1.0.0"
@@ -7601,7 +7601,7 @@ gatsby-transformer-json@^2.2.24:
     "@babel/runtime" "^7.7.6"
     bluebird "^3.7.2"
 
-gatsby-transformer-remark@^2.6.45, gatsby-transformer-remark@^2.6.47:
+gatsby-transformer-remark@^2.6.47:
   version "2.6.47"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.6.47.tgz#1d7c6e810d6e70b7c86776f8ff43919792ed84e9"
   integrity sha512-s5pozickGtx0dB3JFR/g91kJTehYSbh75cLtFb/EbOvwKZ3AUb3O7NxfUaxoygaizu1pumzt3oMYtXIh4QaEuQ==
@@ -7628,7 +7628,7 @@ gatsby-transformer-remark@^2.6.45, gatsby-transformer-remark@^2.6.47:
     unist-util-select "^1.5.0"
     unist-util-visit "^1.4.1"
 
-gatsby-transformer-sharp@^2.2.19, gatsby-transformer-sharp@^2.3.11:
+gatsby-transformer-sharp@^2.3.11:
   version "2.3.11"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.3.11.tgz#599eb26cbd12c03e04b4459467ecb53a6a65347b"
   integrity sha512-+mR0jQsiJlpM8AzB4ZOSICXmwLkfh5jz9QMEGE4S1V9q03o5/5GwY6lwTnYhc0LHE09W/oB3ZHWZv+IUPcA6Rg==
