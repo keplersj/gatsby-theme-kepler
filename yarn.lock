@@ -7177,7 +7177,7 @@ gatsby-cli@^2.8.26:
     ink "^2.6.0"
     ink-spinner "^3.0.1"
 
-gatsby-core-utils@^1.0.12, gatsby-core-utils@^1.0.25, gatsby-core-utils@^1.0.26:
+gatsby-core-utils@^1.0.25, gatsby-core-utils@^1.0.26:
   version "1.0.26"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.0.26.tgz#e1cbdfad498d58d677d9d74f21a1ede661b49d6f"
   integrity sha512-NPflmXmyTcg3x2mp6cqp/51QeAHRKepfbf0X4erDsnVlewFJuGTe+25ZJvWkkwU2g1cPAxuwzlPe0jOL92iU4A==
@@ -7269,10 +7269,10 @@ gatsby-plugin-react-helmet-async@^1.0.14:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet-async/-/gatsby-plugin-react-helmet-async-1.0.14.tgz#0b156c113ce9f9fbbba46f552234b65710e1ceb4"
   integrity sha512-Xcvbmx2lgFycnPQlIsKMypR2PVm2BDR4o3aKnPwmd1cZgf76IgNq7smUZ+pRHJRsc4SVH+8DmiECrTSC5dxqEw==
 
-gatsby-plugin-react-helmet@^3.1.10:
-  version "3.1.18"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.1.18.tgz#093b5d92e50dafa837ae97ac2672d79a96feb201"
-  integrity sha512-wwKH6Z5NK0Gl2hDfMnWNGE41GjWpZGq0eKczPydTJc/1SbPykBFCBrjYgrAPB2ZrRnA8AV06cRwPddJC0mY7sw==
+gatsby-plugin-react-helmet@^3.1.21:
+  version "3.1.21"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.1.21.tgz#659f31020295f42d017e2eb03175d73516ab824d"
+  integrity sha512-6LZ2LEYTwqD+ZqyCH55mVpk2xEXbQoCTfijP1W4ZCQsKtpWGJP+vyd6b96FWVyEb2k5LsQ1u+jk4R8xXULSX+w==
   dependencies:
     "@babel/runtime" "^7.7.6"
 
@@ -7438,10 +7438,10 @@ gatsby-remark-vscode@^1.4.0:
     unist-util-visit "^1.4.1"
     vscode-textmate "4.2.2"
 
-gatsby-source-filesystem@^2.1.45:
-  version "2.1.45"
-  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.1.45.tgz#2dc661a240f3b6d8a3b40259b7d94e252b950ba8"
-  integrity sha512-ARz7QdU2kMZ6wYVKmdf5EyuyyUG3lTjg5cbiNQZkOMViQYe/vB4vPs28GU45BL91bPTGNDyyPraTHdqeDwPGQQ==
+gatsby-source-filesystem@^2.1.45, gatsby-source-filesystem@^2.1.46:
+  version "2.1.46"
+  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.1.46.tgz#ab90c4520f0664218c7334dbec6cd90acc85cf9d"
+  integrity sha512-5LC90+qMKK+/hJzZxKcazx5JvvOO1wHH+ZE7JDSHSzZ1QB+RKWnkvG4a7n6dyiFybo1HN3ql5YQXQLkBEiIfMg==
   dependencies:
     "@babel/runtime" "^7.7.6"
     better-queue "^3.8.10"
@@ -7449,7 +7449,7 @@ gatsby-source-filesystem@^2.1.45:
     chokidar "3.3.0"
     file-type "^12.4.0"
     fs-extra "^8.1.0"
-    gatsby-core-utils "^1.0.25"
+    gatsby-core-utils "^1.0.26"
     got "^7.1.0"
     md5-file "^3.2.3"
     mime "^2.4.4"
@@ -7482,26 +7482,26 @@ gatsby-telemetry@^1.1.47:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-curiousity@^1.3.8:
-  version "1.3.8"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.3.8.tgz#6d5ffc5e9e247c8a9dde2f89271593eea4d52273"
-  integrity sha512-vpcNNCtVQfRxEEy4Qp03U6PTOwkk/+ZM6kE8QiQLV7HDuNj1LCPqP3VXW3u18day2s/3lrdXp+9qg5td2jbBmQ==
+gatsby-theme-curiousity@^1.3.17:
+  version "1.3.17"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.3.17.tgz#83dfa9209026dae77a53e4145a513333151b10af"
+  integrity sha512-FrCLQ53uyxVsy11QCz1R8H4+oNkiP6io5cPjH4i81gpvHUDkWv5/9etKoEJKvYQBSZBZk2MtawfxIVLyWV5IJA==
   dependencies:
     "@emotion/core" "^10.0.17"
     "@types/react" "^16.9.3"
     "@types/react-helmet" "^5.0.15"
-    gatsby-core-utils "^1.0.12"
-    gatsby-image "^2.2.37"
-    gatsby-plugin-emotion "^4.1.20"
-    gatsby-plugin-react-helmet "^3.1.10"
-    gatsby-plugin-sharp "^2.3.12"
+    gatsby-core-utils "^1.0.26"
+    gatsby-image "^2.2.38"
+    gatsby-plugin-emotion "^4.1.21"
+    gatsby-plugin-react-helmet "^3.1.21"
+    gatsby-plugin-sharp "^2.3.13"
     gatsby-plugin-tinacms "^0.1.17"
-    gatsby-plugin-typescript "^2.1.25"
-    gatsby-source-filesystem "^2.1.45"
+    gatsby-plugin-typescript "^2.1.26"
+    gatsby-source-filesystem "^2.1.46"
     gatsby-tinacms-git "^0.2.15"
     gatsby-tinacms-remark "^0.6.1"
-    gatsby-transformer-remark "^2.6.47"
-    gatsby-transformer-sharp "^2.3.11"
+    gatsby-transformer-remark "^2.6.48"
+    gatsby-transformer-sharp "^2.3.12"
     modern-normalize "^0.6.0"
     react-helmet "^5.2.1"
     react-schemaorg "^1.0.0"
@@ -7601,14 +7601,14 @@ gatsby-transformer-json@^2.2.25:
     "@babel/runtime" "^7.7.6"
     bluebird "^3.7.2"
 
-gatsby-transformer-remark@^2.6.47:
-  version "2.6.47"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.6.47.tgz#1d7c6e810d6e70b7c86776f8ff43919792ed84e9"
-  integrity sha512-s5pozickGtx0dB3JFR/g91kJTehYSbh75cLtFb/EbOvwKZ3AUb3O7NxfUaxoygaizu1pumzt3oMYtXIh4QaEuQ==
+gatsby-transformer-remark@^2.6.47, gatsby-transformer-remark@^2.6.48:
+  version "2.6.48"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.6.48.tgz#a37df4be05650371804833aa2011374771e7a39e"
+  integrity sha512-VvfNGN7L+V+Lg6Lsfqh+SFxLPcMGEjEBpy7cDjhRwUq+AEbv5kZ4lt+6+ICUD7QitsSER1AgnZz0Yp61t9YEag==
   dependencies:
     "@babel/runtime" "^7.7.6"
     bluebird "^3.7.2"
-    gatsby-core-utils "^1.0.25"
+    gatsby-core-utils "^1.0.26"
     gray-matter "^4.0.2"
     hast-util-raw "^4.0.0"
     hast-util-to-html "^4.0.1"
