@@ -1637,17 +1637,17 @@
     react-lifecycles-compat "^3.0.4"
     warning "^3.0.0"
 
-"@reach/skip-nav@^0.7.1":
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/@reach/skip-nav/-/skip-nav-0.7.1.tgz#7d2f1fd5e1d4a6c0f3dcc9b64c8bde1c1114997a"
-  integrity sha512-241jDBLUJpo12aXt2HhhVk3yzEkRSVBRwCBgI3JydRoodW9VFH40xKFCmdCLQmQDMpixRRXhQKXKRrJm2s+h3g==
+"@reach/skip-nav@^0.7.2":
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/@reach/skip-nav/-/skip-nav-0.7.2.tgz#74e25e30750324c0f55722eea19fdb97ac3b35f7"
+  integrity sha512-0bb8GIy9my5q5ewrQmhdg/IpGv+92MkEaRtRYjAQwe/57ZbIJy8eEdw8uiRu/lWDfw+D3SbKA1Xj0cWt6MJIYw==
   dependencies:
-    "@reach/utils" "^0.7.1"
+    "@reach/utils" "^0.7.2"
 
-"@reach/utils@^0.7.1":
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/@reach/utils/-/utils-0.7.1.tgz#fc1ae737b7e8ac69a494ee95ecdc4685d99ba2b9"
-  integrity sha512-xNnvwZ99AQlsyjEY3jn+Rbi+nYtnLu1Gcck9Mwb9gh/phVY/MfHoT1IrjGWMwLZuZet5slJ0qPu8oBv/G8R4KQ==
+"@reach/utils@^0.7.2":
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/@reach/utils/-/utils-0.7.2.tgz#0bc91cc449a5a9be5735b4626c920ee3e74e0e8b"
+  integrity sha512-oGmA5eqM1f4NAyFSQvyFCcRRvgFTSiiPhw8Djn5PGfPY+sgmfyrUsJpo9FwJnl7P0nKb4liWq5jbWlZXUtWhLQ==
 
 "@sambego/storybook-styles@^1.0.0":
   version "1.0.0"
