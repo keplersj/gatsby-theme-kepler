@@ -246,24 +246,31 @@ Array [
   white-space: nowrap;
   border-color: transparent;
   font-size: 1.5rem;
+  color: #000000;
   color: #fff;
 }
 
-.emotion-3:hover {
-  background-color: #f9f9f9;
+.emotion-3:hover,
+.emotion-3:focus {
+  background-color: #5f5f5f;
 }
 
 .emotion-3:active {
-  background-color: #f2f2f2;
+  background-color: #373737;
 }
 
 @media (prefers-color-scheme:dark) {
-  .emotion-3:hover {
-    background-color: #606060;
+  .emotion-3 {
+    color: #ffffff;
+  }
+
+  .emotion-3:hover,
+  .emotion-3:focus {
+    background-color: #a0a0a0;
   }
 
   .emotion-3:active {
-    background-color: #d0d0d0;
+    background-color: #c8c8c8;
   }
 }
 
@@ -419,23 +426,23 @@ Array [
       Read More...
     </a>
   </section>,
-  .emotion-7 {
+  .emotion-8 {
   padding: 1em;
 }
 
 @media screen and (min-width:512px) {
-  .emotion-7 {
+  .emotion-8 {
     padding: 1em 2.5em;
   }
 }
 
 @media screen and (min-width:1024px) {
-  .emotion-7 {
+  .emotion-8 {
     padding: 1em 5em;
   }
 }
 
-.emotion-6 {
+.emotion-7 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -444,9 +451,20 @@ Array [
 }
 
 .emotion-2 {
-  min-width: 15em;
-  border: 1px solid;
-  margin: 0.5em;
+  --starstuff-card-default-background-color: 245,245,245;
+  --starstuff-card-default-shadow-color: 10,10,10;
+  border-radius: 10px;
+  margin: 1em;
+  background-color: rgba(var(--starstuff-card-default-background-color),0.5);
+  box-shadow: 0.5em 0.5em 0.75em rgba(var(--starstuff-card-default-shadow-color),0.3);
+  max-width: 25vw;
+}
+
+@media screen and (prefers-color-scheme:dark) {
+  .emotion-2 {
+    --starstuff-card-default-background-color: 40,40,40;
+    --starstuff-card-default-shadow-color: 20,20,20;
+  }
 }
 
 .emotion-1 {
@@ -466,8 +484,13 @@ Array [
   align-self: flex-end;
 }
 
+.emotion-3 .gatsby-image-wrapper {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
 <section
-    className="emotion-7"
+    className="emotion-8"
   >
     <script
       type="application/ld+json"
@@ -494,9 +517,9 @@ Array [
       Blog Posts
     </h2>
     <div
-      className="emotion-6"
+      className="emotion-7"
     >
-      <article
+      <div
         className="emotion-2"
       >
         <script
@@ -538,8 +561,8 @@ Array [
             Read More...
           </a>
         </div>
-      </article>
-      <article
+      </div>
+      <div
         className="emotion-2"
       >
         <script
@@ -563,7 +586,9 @@ Array [
         <a
           href="/blog/02-post-with-image"
         >
-          <figure>
+          <figure
+            className="emotion-3"
+          >
             <script
               type="application/ld+json"
             >
@@ -655,7 +680,7 @@ Array [
             Read More...
           </a>
         </div>
-      </article>
+      </div>
     </div>
   </section>,
 ]

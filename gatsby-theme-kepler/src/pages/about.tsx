@@ -187,7 +187,7 @@ const AboutPage = (props: PageProps): React.ReactElement => {
             ))}
           </div>
           <SimpleRemarkSection
-            label="Skils"
+            label="Skills"
             remarkNode={props.data.skills.childMarkdownRemark}
           />
         </ExperienceContainer>

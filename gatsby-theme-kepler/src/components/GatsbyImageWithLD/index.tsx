@@ -12,11 +12,14 @@ interface KeplerImageLD {
   };
 }
 
-interface Props {
+interface Props extends React.HTMLAttributes<HTMLDivElement> {
   fluid: FluidObject;
 }
 
-export const ImageLD = ({ fluid }: Props): React.ReactElement<Props> => {
+export const ImageLD = ({
+  fluid,
+  ...props
+}: Props): React.ReactElement<Props> => {
   const data = useStaticQuery<KeplerImageLD>(graphql`
     query KeplerImageLD {
       site {
@@ -28,7 +31,7 @@ export const ImageLD = ({ fluid }: Props): React.ReactElement<Props> => {
   `);
 
   return (
-    <figure>
+    <figure {...props}>
       <JsonLd<ImageObject>
         item={{
           "@context": "https://schema.org",

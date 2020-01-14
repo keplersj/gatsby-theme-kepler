@@ -2,7 +2,7 @@ import * as React from "react";
 import { graphql, Link, PageRendererProps } from "gatsby";
 import { FixedObject, FluidObject } from "gatsby-image";
 import styled from "@emotion/styled";
-import { Hyperbutton } from "starstuff-components";
+import { Hyperbutton, Card } from "starstuff-components";
 import { WebSite, BlogPosting, Blog } from "schema-dts";
 import { JsonLd } from "react-schemaorg";
 import { usePlugin } from "tinacms";
@@ -104,10 +104,15 @@ const ContentCarousel = styled.div`
   overflow: scroll;
 `;
 
-const Featured = styled.article`
-  min-width: 15em;
-  border: 1px solid;
-  margin: 0.5em;
+const Featured = styled(Card)`
+  max-width: 25vw;
+`;
+
+const FeaturedImage = styled(ImageLD)`
+  .gatsby-image-wrapper {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
 `;
 
 const FeaturedContent = styled.div`
@@ -282,7 +287,9 @@ const IndexPage = ({ data, location }: Props): React.ReactElement<Props> => {
               />
               {post.featuredImage && (
                 <Link to={post.slug}>
-                  <ImageLD fluid={post.featuredImage.childImageSharp.fluid} />
+                  <FeaturedImage
+                    fluid={post.featuredImage.childImageSharp.fluid}
+                  />
                 </Link>
               )}
               <FeaturedContent>
