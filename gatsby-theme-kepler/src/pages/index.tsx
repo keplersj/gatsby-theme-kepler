@@ -105,8 +105,8 @@ const ContentCarousel = styled.div`
 `;
 
 const Featured = styled(Card)`
+  min-width: 20em;
   max-width: 25vw;
-  min-width: 10em;
 `;
 
 const FeaturedImage = styled(ImageLD)`
