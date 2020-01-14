@@ -457,15 +457,23 @@ Array [
   margin: 1em;
   background-color: rgba(var(--starstuff-card-default-background-color),0.5);
   box-shadow: 0.5em 0.5em 0.75em rgba(var(--starstuff-card-default-shadow-color),0.3);
+  -webkit-transition: box-shadow 1s;
+  transition: box-shadow 1s;
   min-width: 20em;
   max-width: 25vw;
 }
 
 @media screen and (prefers-color-scheme:dark) {
   .emotion-2 {
-    --starstuff-card-default-background-color: 40,40,40;
-    --starstuff-card-default-shadow-color: 20,20,20;
+    --starstuff-card-default-background-color: 55,55,55;
   }
+}
+
+.emotion-2:active,
+.emotion-2:focus,
+.emotion-2:focus-within,
+.emotion-2:hover {
+  box-shadow: 0.8em 0.8em 1em rgba(var(--starstuff-card-default-shadow-color),0.4);
 }
 
 .emotion-1 {
