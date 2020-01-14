@@ -458,6 +458,7 @@ Array [
   background-color: rgba(var(--starstuff-card-default-background-color),0.5);
   box-shadow: 0.5em 0.5em 0.75em rgba(var(--starstuff-card-default-shadow-color),0.3);
   max-width: 25vw;
+  min-width: 10em;
 }
 
 @media screen and (prefers-color-scheme:dark) {
