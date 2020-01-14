@@ -16241,6 +16241,14 @@ starstuff-components@^1.2.1, starstuff-components@^1.2.6:
   dependencies:
     "@emotion/styled" "^10.0.17"
 
+starstuff-components@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/starstuff-components/-/starstuff-components-2.0.0.tgz#893fab24554bffd3411e97c71977378bf63adda4"
+  integrity sha512-VRjL9/vIe1a+fkWWfktRzeMXfAaZaWYogBoIHS1miL3GLtoF4ZF/jfh2lDeuMpWyglEJL8x/1J2X+Ez/s0pwUw==
+  dependencies:
+    "@emotion/styled" "^10.0.17"
+    polished "^3.4.2"
+
 starstuff-style@^1.0.1, starstuff-style@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/starstuff-style/-/starstuff-style-1.0.3.tgz#d809291606fa87004c3a73ad138ae797aa5b57cf"
