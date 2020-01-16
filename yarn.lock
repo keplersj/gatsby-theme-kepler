@@ -1581,10 +1581,10 @@
     unist-builder "1.0.4"
     unist-util-visit "2.0.1"
 
-"@mdx-js/react@^1.5.4":
-  version "1.5.4"
-  resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-1.5.4.tgz#50eca29ea5bc3f39ef5edb1a091a29197b7b5534"
-  integrity sha512-em3glbduH3AaFmdcxT0YhQYF54+UfHl3cMbDSv3DdA5yFKTowNEK+52073X3t2MsUEBeoOD/fT3iraAUM33bTQ==
+"@mdx-js/react@^1.5.5":
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-1.5.5.tgz#0036e65ec59521059f33292f535b9ef0d67bd0e6"
+  integrity sha512-Qwvri4zyU9ZbhhXsH0wfSZ/J9b8mARRTB6GSCTnyKRffO2CaQXl9oLsvRAeQSLRei/onEARc+RexH+jMeNS1rw==
 
 "@mdx-js/util@^1.5.5":
   version "1.5.5"
@@ -7604,14 +7604,14 @@ gatsby-theme-curiousity@^1.4.2:
     tinacms "^0.11.0"
     typescript "^3.7.5"
 
-gatsby-theme-early-bird@^1.7.32:
-  version "1.7.32"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.7.32.tgz#6cc4b65aa56e672f964b251402064588af9f0278"
-  integrity sha512-t3KjiR3hL7gYXvxXmuXKIXAWc7IEAZfrsQ1Y2GkQ9Cfdd98pRp0+e2Cb3JFDckltAxMrfWh22JNc/1wMrg1/Ug==
+gatsby-theme-early-bird@^1.7.34:
+  version "1.7.34"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.7.34.tgz#c4651fa205f2464960a23195456ab565aa8dbac3"
+  integrity sha512-rNuTSSmkfdzpPQM7FlKWB1FsUVbI9MLLAsn4tZQv8Jh+MKANR3WSe+L7NIbfafwt6P+o/2dHRlPUdPvyJ+OGZA==
   dependencies:
     "@emotion/core" "^10.0.27"
     "@mdx-js/mdx" "^1.5.5"
-    "@mdx-js/react" "^1.5.4"
+    "@mdx-js/react" "^1.5.5"
     "@types/react" "^16.9.17"
     "@types/react-helmet" "^5.0.15"
     gatsby-image "^2.2.38"
@@ -7638,7 +7638,7 @@ gatsby-theme-early-bird@^1.7.32:
     starstuff-style "^1.0.3"
     styled-components "^4.4.1"
     tinacms "^0.11.0"
-    typescript "^3.7.4"
+    typescript "^3.7.5"
     uri-path-breakdown "^1.0.0"
 
 gatsby-tinacms-git@^0.2.16:
@@ -17415,7 +17415,7 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^3.6.3, typescript@^3.7.4, typescript@^3.7.5:
+typescript@^3.6.3, typescript@^3.7.5:
   version "3.7.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.5.tgz#0692e21f65fd4108b9330238aac11dd2e177a1ae"
   integrity sha512-/P5lkRXkWHNAbcJIiHPfRoKqyd7bsyCma1hZNUGfn20qm64T6ZBlrzprymeu918H+mB/0rIg2gGK/BXkhhYgBw==
