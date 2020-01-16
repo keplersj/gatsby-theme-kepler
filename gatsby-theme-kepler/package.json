@@ -48,7 +48,7 @@
     "starstuff-components": "^2.1.0",
     "starstuff-style": "^1.0.3",
     "styled-components": "^4.4.1",
-    "typescript": "^3.7.4",
+    "typescript": "^3.7.5",
     "uri-path-breakdown": "^1.0.0"
   },
   "devDependencies": {
