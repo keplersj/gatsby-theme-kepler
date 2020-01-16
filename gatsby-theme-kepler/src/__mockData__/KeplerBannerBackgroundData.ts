@@ -6,6 +6,7 @@ const sampleBase64 =
 export const KeplerBannerBackgroundData: BannerData = {
   banner: {
     childImageSharp: {
+      sqip: { dataURI: "data+image/svg+xml" },
       highQuality: {
         base64: sampleBase64,
         src: "/static/banner_example/3/banner.jpg",
@@ -20,6 +21,7 @@ export const KeplerBannerBackgroundData: BannerData = {
   },
   bannerDark: {
     childImageSharp: {
+      sqip: { dataURI: "data+image/svg+xml" },
       highQuality: {
         base64: sampleBase64,
         src: "/static/banner_dark_example/3/banner_dark.jpg",

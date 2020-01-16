@@ -8,12 +8,14 @@ import {
 export interface BannerData {
   banner: {
     childImageSharp: {
+      sqip: { dataURI: string };
       highQuality: BackgroundImageObject;
       lowQuality: BackgroundImageObject;
     };
   };
   bannerDark: {
     childImageSharp: {
+      sqip: { dataURI: string };
       highQuality: BackgroundImageObject;
       lowQuality: BackgroundImageObject;
     };
@@ -34,6 +36,9 @@ export const BannerBackground = (
         sourceInstanceName: { eq: "assets" }
       ) {
         childImageSharp {
+          sqip(numberOfPrimitives: 100, blur: 0) {
+            dataURI
+          }
           highQuality: fluid(quality: 90, maxWidth: 4608) {
             ...GatsbyBackgroundImageSharpFluid
           }
@@ -49,6 +54,9 @@ export const BannerBackground = (
         sourceInstanceName: { eq: "assets" }
       ) {
         childImageSharp {
+          sqip(numberOfPrimitives: 100, blur: 0) {
+            dataURI
+          }
           highQuality: fluid(quality: 90, maxWidth: 4608) {
             ...GatsbyBackgroundImageSharpFluid
           }
@@ -65,13 +73,17 @@ export const BannerBackground = (
     <BackgroundImage
       {...props}
       image={[
-        props.highQuality === true
-          ? data.banner.childImageSharp.highQuality
-          : data.banner.childImageSharp.lowQuality,
+        {
+          ...(props.highQuality === true
+            ? data.banner.childImageSharp.highQuality
+            : data.banner.childImageSharp.lowQuality),
+          base64: data.banner.childImageSharp.sqip.dataURI
+        },
         {
           ...(props.highQuality === true
             ? data.bannerDark.childImageSharp.highQuality
             : data.bannerDark.childImageSharp.lowQuality),
+          base64: data.bannerDark.childImageSharp.sqip.dataURI,
           media: "screen and (prefers-color-scheme: dark)"
         }
       ]}

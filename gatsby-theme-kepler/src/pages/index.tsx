@@ -176,6 +176,7 @@ export interface IndexPageData {
         excerpt: string;
         featuredImage?: {
           childImageSharp: {
+            sqip: { dataURI: string };
             fluid: FluidObject;
           };
         };
@@ -289,7 +290,10 @@ const IndexPage = ({ data, location }: Props): React.ReactElement<Props> => {
               {post.featuredImage && (
                 <Link to={post.slug}>
                   <FeaturedImage
-                    fluid={post.featuredImage.childImageSharp.fluid}
+                    fluid={{
+                      ...post.featuredImage.childImageSharp.fluid,
+                      base64: post.featuredImage.childImageSharp.sqip.dataURI
+                    }}
                   />
                 </Link>
               )}
@@ -370,6 +374,9 @@ export const query = graphql`
           }
           featuredImage {
             childImageSharp {
+              sqip(numberOfPrimitives: 100, blur: 0) {
+                dataURI
+              }
               # Generate Picture up to 8K 4:3 ratio, crop and cover as appropriate
               fluid(
                 maxWidth: 7680

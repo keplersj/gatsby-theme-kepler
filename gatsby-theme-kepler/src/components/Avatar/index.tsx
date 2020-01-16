@@ -11,6 +11,7 @@ const RoundedImage = styled(Image)`
 export interface AvatarComponentQuery {
   image: {
     childImageSharp: {
+      sqip: { dataURI: string };
       fixed: FixedObject;
     };
   };
@@ -24,6 +25,9 @@ export const Avatar = (): React.ReactElement => {
         sourceInstanceName: { eq: "assets" }
       ) {
         childImageSharp {
+          sqip(numberOfPrimitives: 100, blur: 0) {
+            dataURI
+          }
           # Specify the image processing specifications right in the query.
           # Makes it trivial to update as your page's design changes.
           fixed(width: 200, height: 200) {
@@ -36,7 +40,13 @@ export const Avatar = (): React.ReactElement => {
 
   return (
     <div role="img" aria-label="Avatar">
-      <RoundedImage alt="Avatar" fixed={data.image.childImageSharp.fixed} />
+      <RoundedImage
+        alt="Avatar"
+        fixed={{
+          ...data.image.childImageSharp.fixed,
+          base64: data.image.childImageSharp.sqip.dataURI
+        }}
+      />
     </div>
   );
 };

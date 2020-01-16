@@ -3,6 +3,7 @@ import { AvatarComponentQuery } from "../components/Avatar";
 export const KeplerAvatarComponentQuery: AvatarComponentQuery = {
   image: {
     childImageSharp: {
+      sqip: { dataURI: "data+image/svg+xml" },
       fixed: {
         width: 200,
         height: 200,

@@ -119,6 +119,7 @@ export const KeplerIndexPageData: IndexPageData = {
           excerpt: "This is an example of a blog post with a featured image.",
           featuredImage: {
             childImageSharp: {
+              sqip: { dataURI: "data+image/svg+xml" },
               fluid: {
                 aspectRatio: 1.0,
                 src: "/static/image-1/image.jpeg",

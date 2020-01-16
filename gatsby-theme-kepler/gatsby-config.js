@@ -56,6 +56,7 @@ module.exports = pluginOptions => ({
       }
     },
     "gatsby-transformer-json",
+    "gatsby-transformer-sqip",
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
     {
