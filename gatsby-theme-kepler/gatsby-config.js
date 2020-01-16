@@ -5,6 +5,7 @@ const path = require("path");
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 module.exports = pluginOptions => ({
   plugins: [
+    "gatsby-plugin-nprogress",
     "gatsby-tinacms-json",
     {
       resolve: "gatsby-plugin-tinacms",
