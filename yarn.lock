@@ -7596,10 +7596,10 @@ gatsby-theme-curiousity@^1.4.1:
     tinacms "^0.11.0"
     typescript "^3.6.3"
 
-gatsby-theme-early-bird@^1.7.32:
-  version "1.7.32"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.7.32.tgz#6cc4b65aa56e672f964b251402064588af9f0278"
-  integrity sha512-t3KjiR3hL7gYXvxXmuXKIXAWc7IEAZfrsQ1Y2GkQ9Cfdd98pRp0+e2Cb3JFDckltAxMrfWh22JNc/1wMrg1/Ug==
+gatsby-theme-early-bird@^1.7.33:
+  version "1.7.33"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.7.33.tgz#b2538bfbb68fd63c1da8f6f55f92b3569e4dc59c"
+  integrity sha512-DMa3ncmLNS2C3bQT/LIBBvD70f2bWYOpZ5QkS0JAUFv+GnwCuKmYWDEMSS7KtBBROyTRifExxwsV0KkpK3/C4Q==
   dependencies:
     "@emotion/core" "^10.0.27"
     "@mdx-js/mdx" "^1.5.5"
@@ -7630,7 +7630,7 @@ gatsby-theme-early-bird@^1.7.32:
     starstuff-style "^1.0.3"
     styled-components "^4.4.1"
     tinacms "^0.11.0"
-    typescript "^3.7.4"
+    typescript "^3.7.5"
     uri-path-breakdown "^1.0.0"
 
 gatsby-tinacms-git@^0.2.16:
@@ -17402,7 +17402,7 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^3.6.3, typescript@^3.7.4, typescript@^3.7.5:
+typescript@^3.6.3, typescript@^3.7.5:
   version "3.7.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.5.tgz#0692e21f65fd4108b9330238aac11dd2e177a1ae"
   integrity sha512-/P5lkRXkWHNAbcJIiHPfRoKqyd7bsyCma1hZNUGfn20qm64T6ZBlrzprymeu918H+mB/0rIg2gGK/BXkhhYgBw==
