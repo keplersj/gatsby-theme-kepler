@@ -24,6 +24,7 @@ exports[`Avatar Component renders as expected 1`] = `
   >
     <img
       alt=""
+      aria-hidden={true}
       src="data+image/svg+xml"
       style={
         Object {

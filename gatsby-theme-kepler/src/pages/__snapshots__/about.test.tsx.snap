@@ -313,6 +313,7 @@ Array [
         >
           <img
             alt=""
+            aria-hidden={true}
             src="data+image/svg+xml"
             style={
               Object {
