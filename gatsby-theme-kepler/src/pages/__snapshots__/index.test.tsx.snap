@@ -314,6 +314,7 @@ Array [
                 >
                   <img
                     alt=""
+                    aria-hidden={true}
                     src="data+image/svg+xml"
                     style={
                       Object {
@@ -637,6 +638,7 @@ Array [
               }
             >
               <div
+                aria-hidden={true}
                 style={
                   Object {
                     "paddingBottom": "100%",
@@ -646,6 +648,7 @@ Array [
               />
               <img
                 alt=""
+                aria-hidden={true}
                 src="data+image/svg+xml"
                 style={
                   Object {
