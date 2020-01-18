@@ -611,6 +611,7 @@ Array [
         }
         </script>
         <a
+          aria-hidden={true}
           href="/blog/02-post-with-image"
         >
           <figure

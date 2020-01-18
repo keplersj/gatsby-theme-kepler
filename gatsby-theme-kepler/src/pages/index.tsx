@@ -288,7 +288,7 @@ const IndexPage = ({ data, location }: Props): React.ReactElement<Props> => {
                 }}
               />
               {post.featuredImage && (
-                <Link to={post.slug}>
+                <Link aria-hidden to={post.slug}>
                   <FeaturedImage
                     fluid={{
                       ...post.featuredImage.childImageSharp.fluid,
