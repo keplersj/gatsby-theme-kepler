@@ -31,7 +31,7 @@ export const Avatar = (): React.ReactElement => {
           # Specify the image processing specifications right in the query.
           # Makes it trivial to update as your page's design changes.
           fixed(width: 200, height: 200, quality: 90) {
-            ...GatsbyImageSharpFixed
+            ...GatsbyImageSharpFixed_withWebp_noBase64
           }
         }
       }

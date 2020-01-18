@@ -400,7 +400,7 @@ export const query = graphql`
                   7680
                 ]
               ) {
-                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_withWebp_noBase64
               }
             }
           }
