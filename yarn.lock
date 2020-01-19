@@ -7245,10 +7245,10 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-gatsby-background-image-lite@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/gatsby-background-image-lite/-/gatsby-background-image-lite-1.0.2.tgz#620118c642ca8f142e91c5e1bae138fe352614a5"
-  integrity sha512-/CiO7HxrM7kDJ1y0Zcc0klR93FlLeOHFkHCjqI28ZiW2ruDM9EP4mYQ4yoz5vOVzxxdUlSFRmfK+1JY8fFrJuQ==
+gatsby-background-image-lite@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/gatsby-background-image-lite/-/gatsby-background-image-lite-1.0.3.tgz#69c0d01104c259ce23239ddc6264678f13aa9e7d"
+  integrity sha512-xSsxDr8FasUoixSYjwsWI+TCrp8oXurahtVsd/4qQxt4yy/wdhb50GIrmHOQgS6JPvrauq6yz4QM9dpzDzbtsw==
   dependencies:
     "@emotion/core" "^10.0.22"
     polished "^3.4.2"

@@ -68,18 +68,6 @@ Array [
   background-size: cover;
 }
 
-.emotion-12::after {
-  z-index: -100;
-  opacity: 0;
-  background-image: url("/static/banner_example/3/banner.jpg");
-}
-
-@media screen and (prefers-color-scheme:dark) {
-  .emotion-12::after {
-    background-image: url("/static/banner_dark_example/3/banner_dark.jpg");
-  }
-}
-
 .emotion-12::before {
   z-index: -101;
   opacity: 1;
