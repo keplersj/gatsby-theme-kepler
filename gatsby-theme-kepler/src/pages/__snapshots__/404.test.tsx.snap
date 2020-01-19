@@ -21,18 +21,6 @@ exports[`404 Page renders correctly 1`] = `
   background-size: cover;
 }
 
-.emotion-2::after {
-  z-index: -100;
-  opacity: 0;
-  background-image: url("/static/banner_example/3/banner.jpg");
-}
-
-@media screen and (prefers-color-scheme:dark) {
-  .emotion-2::after {
-    background-image: url("/static/banner_dark_example/3/banner_dark.jpg");
-  }
-}
-
 .emotion-2::before {
   z-index: -101;
   opacity: 1;
