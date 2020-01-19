@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`BannerBackground Component renders as expected 1`] = `
-.emotion-1 {
+.emotion-0 {
   position: relative;
 }
 
-.emotion-1::before,
-.emotion-1::after {
+.emotion-0::before,
+.emotion-0::after {
   content: "";
   display: block;
   position: absolute;
@@ -21,35 +21,49 @@ exports[`BannerBackground Component renders as expected 1`] = `
   background-size: cover;
 }
 
-.emotion-1::before {
+.emotion-0::before {
   z-index: -101;
   opacity: 1;
   background-image: url("data+image/svg+xml");
 }
 
 @media screen and (prefers-color-scheme:dark) {
-  .emotion-1::before {
+  .emotion-0::before {
     background-image: url("data+image/svg+xml");
   }
 }
 
-.emotion-0 {
-  opacity: 1;
-  background-image: url("/static/banner_example/1/banner.jpg");
-}
-
-@media screen and (prefers-color-scheme:dark) {
-  .emotion-0 {
-    background-image: url("/static/banner_example/1/banner_dark.jpg");
-  }
+.emotion-0::after {
+  z-index: -100;
+  opacity: 0;
 }
 
 <div
-  className="emotion-1"
+  className="emotion-0"
   data-testid="BackgroundImageContainerElement"
 >
   <noscript
-    className="emotion-0"
-  />
+    className="gatsby-background-image-lite-noscript-wrapper"
+  >
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "
+              noscript .gatsby-background-image-lite-noscript-wrapper {
+                opacity: 1;
+                
+      background-image:url(\\"/static/banner_example/1/banner.jpg\\");
+      
+          @media screen and (prefers-color-scheme: dark) {
+            background-image: url(\\"/static/banner_example/1/banner_dark.jpg\\");
+          }
+        ;
+    ;
+              }
+            ",
+        }
+      }
+    />
+  </noscript>
 </div>
 `;
