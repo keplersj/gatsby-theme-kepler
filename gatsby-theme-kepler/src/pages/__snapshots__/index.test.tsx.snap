@@ -48,12 +48,12 @@ Array [
     "url": "https://site.dev",
   }
   </script>,
-  .emotion-12 {
+  .emotion-11 {
   position: relative;
 }
 
-.emotion-12::before,
-.emotion-12::after {
+.emotion-11::before,
+.emotion-11::after {
   content: "";
   display: block;
   position: absolute;
@@ -68,30 +68,24 @@ Array [
   background-size: cover;
 }
 
-.emotion-12::before {
+.emotion-11::before {
   z-index: -101;
   opacity: 1;
   background-image: url("data+image/svg+xml");
 }
 
 @media screen and (prefers-color-scheme:dark) {
-  .emotion-12::before {
+  .emotion-11::before {
     background-image: url("data+image/svg+xml");
   }
 }
 
-.emotion-0 {
-  opacity: 1;
-  background-image: url("/static/banner_example/3/banner.jpg");
+.emotion-11::after {
+  z-index: -100;
+  opacity: 0;
 }
 
-@media screen and (prefers-color-scheme:dark) {
-  .emotion-0 {
-    background-image: url("/static/banner_dark_example/3/banner_dark.jpg");
-  }
-}
-
-.emotion-11 {
+.emotion-10 {
   min-height: 66vh;
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
@@ -112,7 +106,7 @@ Array [
   justify-content: space-between;
 }
 
-.emotion-10 {
+.emotion-9 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -132,7 +126,7 @@ Array [
   color: #fff;
 }
 
-.emotion-9 {
+.emotion-8 {
   text-align: center !important;
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
@@ -147,18 +141,18 @@ Array [
 }
 
 @media screen and (min-width:1024px) {
-  .emotion-9 {
+  .emotion-8 {
     max-width: 960px;
   }
 }
 
 @media screen and (min-width:1216px) {
-  .emotion-9 {
+  .emotion-8 {
     max-width: 1152px;
   }
 }
 
-.emotion-8 {
+.emotion-7 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -168,11 +162,11 @@ Array [
   margin-top: -0.75rem;
 }
 
-.emotion-8:last-child {
+.emotion-7:last-child {
   margin-bottom: -0.75rem;
 }
 
-.emotion-7 {
+.emotion-6 {
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -183,24 +177,24 @@ Array [
   width: 66.6666%;
 }
 
-.emotion-1 {
+.emotion-0 {
   margin-bottom: 10px;
   border-radius: 140px;
 }
 
-.emotion-2 {
+.emotion-1 {
   font-size: 2.5rem;
   font-weight: 600;
   line-height: 1.125;
   margin-bottom: 1.5rem;
 }
 
-.emotion-6 {
+.emotion-5 {
   margin-left: auto;
   margin-right: auto;
 }
 
-.emotion-3 {
+.emotion-2 {
   -moz-appearance: none;
   -webkit-appearance: none;
   -webkit-align-items: center;
@@ -238,58 +232,78 @@ Array [
   color: #fff;
 }
 
-.emotion-3:hover,
-.emotion-3:focus {
+.emotion-2:hover,
+.emotion-2:focus {
   background-color: #5f5f5f;
 }
 
-.emotion-3:active {
+.emotion-2:active {
   background-color: #373737;
 }
 
 @media (prefers-color-scheme:dark) {
-  .emotion-3 {
+  .emotion-2 {
     color: #ffffff;
   }
 
-  .emotion-3:hover,
-  .emotion-3:focus {
+  .emotion-2:hover,
+  .emotion-2:focus {
     background-color: #a0a0a0;
   }
 
-  .emotion-3:active {
+  .emotion-2:active {
     background-color: #c8c8c8;
   }
 }
 
 <div
-    className="emotion-12"
+    className="emotion-11"
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      className="emotion-0"
-    />
+      className="gatsby-background-image-lite-noscript-wrapper"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "
+              noscript .gatsby-background-image-lite-noscript-wrapper {
+                opacity: 1;
+                
+      background-image:url(\\"/static/banner_example/3/banner.jpg\\");
+      
+          @media screen and (prefers-color-scheme: dark) {
+            background-image: url(\\"/static/banner_dark_example/3/banner_dark.jpg\\");
+          }
+        ;
+    ;
+              }
+            ",
+          }
+        }
+      />
+    </noscript>
     <section
-      className="emotion-11"
+      className="emotion-10"
     >
       <div
-        className="emotion-10"
+        className="emotion-9"
       >
         <div
-          className="emotion-9"
+          className="emotion-8"
         >
           <div
-            className="emotion-8"
+            className="emotion-7"
           >
             <div
-              className="emotion-7"
+              className="emotion-6"
             >
               <div
                 aria-label="Avatar"
                 role="img"
               >
                 <div
-                  className="emotion-1 gatsby-image-wrapper"
+                  className="emotion-0 gatsby-image-wrapper"
                   style={
                     Object {
                       "display": "inline-block",
@@ -363,27 +377,27 @@ Array [
                 </div>
               </div>
               <h1
-                className="emotion-2"
+                className="emotion-1"
               >
                 Example Site
               </h1>
               <div
-                className="emotion-6"
+                className="emotion-5"
               >
                 <a
-                  className="emotion-3"
+                  className="emotion-2"
                   href="/blog"
                 >
                   Blog
                 </a>
                 <a
-                  className="emotion-3"
+                  className="emotion-2"
                   href="/portfolio"
                 >
                   Portfolio
                 </a>
                 <a
-                  className="emotion-3"
+                  className="emotion-2"
                   href="/about"
                 >
                   About
