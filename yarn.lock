@@ -2350,10 +2350,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^16.9.18":
-  version "16.9.18"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.18.tgz#7dfb420a780e3740d43563506009834a86ae2af0"
-  integrity sha512-MvjiKX/kUE8o49ipppg49RDZ97p4XfW1WWksp/UlTUSJpisyhzd62pZAMXxAscFLoxfYOflkGANAnGkSeHTFQg==
+"@types/react@*", "@types/react@^16.9.18", "@types/react@^16.9.19":
+  version "16.9.19"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.19.tgz#c842aa83ea490007d29938146ff2e4d9e4360c40"
+  integrity sha512-LJV97//H+zqKWMms0kvxaKYJDG05U2TtQB3chRLF8MPNs+MQh/H1aGlyDUxjaHvu08EAGerdX2z4LTBc7ns77A==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
@@ -7766,15 +7766,15 @@ gatsby-theme-curiousity@^1.4.12:
     tinacms "^0.11.3"
     typescript "^3.7.5"
 
-gatsby-theme-early-bird@^1.7.45:
-  version "1.7.45"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.7.45.tgz#4b67c0a73657f8c18db0a4333e5dc66b11494e2b"
-  integrity sha512-lZxZKDhgz+Ha3pVzEH2QCqW6WRYNGURYWOL4Pc8Occ3jR0/MuGL/JPU5isGHKHhMw2rS8gP8hCawH9JFkdW9Iw==
+gatsby-theme-early-bird@^1.7.46:
+  version "1.7.46"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.7.46.tgz#85d8012d0c0a24c786eb9437e43e317fb03a128c"
+  integrity sha512-ubWJY+mtShqmjlmejYbWb+cwTAV4kV1LFbj+VHxWWZC4PrPHcWly7vyQRxmx0ZZSVPbrD+hjFFD9lh3vCTp/Mw==
   dependencies:
     "@emotion/core" "^10.0.27"
     "@mdx-js/mdx" "^1.5.5"
     "@mdx-js/react" "^1.5.5"
-    "@types/react" "^16.9.18"
+    "@types/react" "^16.9.19"
     "@types/react-helmet" "^5.0.15"
     gatsby-image "^2.2.39"
     gatsby-plugin-emotion "^4.1.21"
