@@ -7766,10 +7766,10 @@ gatsby-theme-curiousity@^1.4.12:
     tinacms "^0.11.3"
     typescript "^3.7.5"
 
-gatsby-theme-early-bird@^1.7.46:
-  version "1.7.46"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.7.46.tgz#85d8012d0c0a24c786eb9437e43e317fb03a128c"
-  integrity sha512-ubWJY+mtShqmjlmejYbWb+cwTAV4kV1LFbj+VHxWWZC4PrPHcWly7vyQRxmx0ZZSVPbrD+hjFFD9lh3vCTp/Mw==
+gatsby-theme-early-bird@^1.7.47:
+  version "1.7.47"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.7.47.tgz#363c8539caaf12e798efbe3b22e6abe18e95f5d6"
+  integrity sha512-F/miY120OZ9NmrTK21aL8+RdRsJNlEw8O2RfyyyeloF3UT/feo35maGBtc/5wqMEOTz5B1qowJpSx3WDvllChw==
   dependencies:
     "@emotion/core" "^10.0.27"
     "@mdx-js/mdx" "^1.5.5"
@@ -7794,7 +7794,7 @@ gatsby-theme-early-bird@^1.7.46:
     modern-normalize "^0.6.0"
     react-helmet-async "^1.0.4"
     react-schemaorg "^1.0.0"
-    schema-dts "^0.5.0"
+    schema-dts "^0.5.1"
     slugify "^1.3.6"
     starstuff-components "^2.1.0"
     starstuff-style "^1.0.3"
