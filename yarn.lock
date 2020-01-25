@@ -7797,10 +7797,10 @@ gatsby-telemetry@^1.1.47:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-curiousity@^1.4.20:
-  version "1.4.20"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.20.tgz#0367db3952301ae3c7abf32b72ec6d8396ec01e4"
-  integrity sha512-trzT5hRo6pWWc7EGlcPRC7oW5HwcXX4THTvjna8T++5TVl7nQZdHRIHuU9cX1O+XjlFsh64Tzx4HGZiuIIm1TA==
+gatsby-theme-curiousity@^1.4.21:
+  version "1.4.21"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.21.tgz#ac88dcb2d1ba6f170bd7d2c1b9f73b9a03777f48"
+  integrity sha512-UKLplhTA1dMIL8gOGaF9D9nYfzfX0aV8LwVDJXAC2EeRibxGZgAQ2uGGFwGjeGw6dFmbogLIB/5TQcLu2VEocA==
   dependencies:
     "@emotion/core" "^10.0.17"
     "@types/react" "^16.9.19"
