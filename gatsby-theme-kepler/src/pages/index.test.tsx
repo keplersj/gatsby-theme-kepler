@@ -1,7 +1,7 @@
 import * as React from "react";
 import renderer from "react-test-renderer";
 import { useStaticQuery } from "gatsby";
-import Page from "./index";
+import Page from ".";
 import {
   KeplerAvatarComponentQuery,
   KeplerBannerBackgroundData,

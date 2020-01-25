@@ -8,12 +8,12 @@ interface Props {
   endDateISO?: string;
 }
 
-export const DateRange = (props: Props): React.ReactElement<Props> => (
+export const DateRange = (properties: Props): React.ReactElement<Props> => (
   <>
-    <time dateTime={props.startDateISO}>{props.startDate}</time>
+    <time dateTime={properties.startDateISO}>{properties.startDate}</time>
     {" - "}
-    {props.endDate && props.endDateISO ? (
-      <time dateTime={props.endDateISO}>{props.endDate}</time>
+    {properties.endDate && properties.endDateISO ? (
+      <time dateTime={properties.endDateISO}>{properties.endDate}</time>
     ) : (
       // Assume if there is no end date, that we're still there
       "Present"
@@ -25,12 +25,12 @@ interface FrontmatterProps {
   frontmatter: KeplerFrontmatterDateRange;
 }
 
-export const FrontmatterDateRange = (props: FrontmatterProps) => (
+export const FrontmatterDateRange = (properties: FrontmatterProps) => (
   <DateRange
-    startDate={props.frontmatter.start_date}
-    startDateISO={props.frontmatter.rawStart}
-    endDate={props.frontmatter.end_date}
-    endDateISO={props.frontmatter.rawEnd}
+    startDate={properties.frontmatter.start_date}
+    startDateISO={properties.frontmatter.rawStart}
+    endDate={properties.frontmatter.end_date}
+    endDateISO={properties.frontmatter.rawEnd}
   />
 );
 

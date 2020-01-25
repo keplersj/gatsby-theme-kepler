@@ -1,9 +1,5 @@
 {
-  "extends": [
-    "eslint-config-starstuff/typescript",
-    "eslint-config-starstuff/react",
-    "plugin:jest/recommended"
-  ],
+  "extends": "starstuff/auto",
   "env": {
     "browser": true,
     "node": true

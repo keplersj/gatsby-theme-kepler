@@ -18,7 +18,7 @@ interface Props extends React.HTMLAttributes<HTMLDivElement> {
 
 export const ImageLD = ({
   fluid,
-  ...props
+  ...properties
 }: Props): React.ReactElement<Props> => {
   const data = useStaticQuery<KeplerImageLD>(graphql`
     query KeplerImageLD {
@@ -31,7 +31,7 @@ export const ImageLD = ({
   `);
 
   return (
-    <figure {...props}>
+    <figure {...properties}>
       <JsonLd<ImageObject>
         item={{
           "@context": "https://schema.org",

@@ -41,18 +41,18 @@ type Props = {
   HTMLAnchorElement
 >;
 
-export const SocialLink = (props: Props): React.ReactElement => {
-  const Icon = getIcon(props.name);
+export const SocialLink = (properties: Props): React.ReactElement => {
+  const Icon = getIcon(properties.name);
 
   return (
     <Link
       target="_blank"
       rel="noopener noreferrer"
-      href={props.url}
-      key={props.name}
-      {...props}
+      href={properties.url}
+      key={properties.name}
+      {...properties}
     >
-      <Icon size={LinkSize} title={`${props.name}: ${props.id}`} />
+      <Icon size={LinkSize} title={`${properties.name}: ${properties.id}`} />
     </Link>
   );
 };

@@ -14,10 +14,10 @@ interface Props {
 }
 
 export const SimpleRemarkSection: React.FunctionComponent<Props> = (
-  props: Props
+  properties: Props
 ): React.ReactElement<Props> => {
-  const [data] = useLocalRemarkForm(props.remarkNode, {
-    label: props.label,
+  const [data] = useLocalRemarkForm(properties.remarkNode, {
+    label: properties.label,
     fields: [
       {
         label: "Title",
@@ -32,7 +32,7 @@ export const SimpleRemarkSection: React.FunctionComponent<Props> = (
     ]
   });
 
-  const Header = props.headerTag!;
+  const Header = properties.headerTag!;
 
   return (
     <div>

@@ -27,7 +27,7 @@ interface Props {
 }
 
 export const BannerBackground = (
-  props: React.PropsWithChildren<Props>
+  properties: React.PropsWithChildren<Props>
 ): React.ReactElement => {
   const data = useStaticQuery<BannerData>(graphql`
     query KeplerBannerBackgroundData {
@@ -71,16 +71,16 @@ export const BannerBackground = (
 
   return (
     <BackgroundImage
-      {...props}
+      {...properties}
       image={[
         {
-          ...(props.highQuality === true
+          ...(properties.highQuality === true
             ? data.banner.childImageSharp.highQuality
             : data.banner.childImageSharp.lowQuality),
           base64: data.banner.childImageSharp.sqip.dataURI
         },
         {
-          ...(props.highQuality === true
+          ...(properties.highQuality === true
             ? data.bannerDark.childImageSharp.highQuality
             : data.bannerDark.childImageSharp.lowQuality),
           base64: data.bannerDark.childImageSharp.sqip.dataURI,
@@ -88,7 +88,7 @@ export const BannerBackground = (
         }
       ]}
     >
-      {props.children}
+      {properties.children}
     </BackgroundImage>
   );
 };

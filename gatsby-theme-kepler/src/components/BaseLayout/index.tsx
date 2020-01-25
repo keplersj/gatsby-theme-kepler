@@ -41,7 +41,7 @@ export interface BaseLayoutData {
 }
 
 const BaseLayout = (
-  props: React.PropsWithChildren<Props>
+  properties: React.PropsWithChildren<Props>
 ): React.ReactElement<React.PropsWithChildren<Props>> => {
   const data = useStaticQuery<BaseLayoutData>(graphql`
     query KeplerBaseLayoutData {
@@ -80,37 +80,37 @@ const BaseLayout = (
   return (
     <>
       <Helmet
-        title={props.title}
+        title={properties.title}
         titleTemplate={`%s | ${data.site.siteMetadata.title}`}
         defaultTitle={data.site.siteMetadata.title}
       >
         <html lang="en" />
         <meta
           name="description"
-          content={props.description || data.site.siteMetadata.description}
+          content={properties.description || data.site.siteMetadata.description}
         />
         {/* Assume the page is the canonical page, for now */}
-        {props.location && (
+        {properties.location && (
           <link
             rel="canonical"
-            href={`${data.site.siteMetadata.siteUrl}${props.location.pathname}`}
+            href={`${data.site.siteMetadata.siteUrl}${properties.location.pathname}`}
           />
         )}
 
         <meta property="og:site_name" content={data.site.siteMetadata.title} />
         <meta
           property="og:title"
-          content={props.title || data.site.siteMetadata.title}
+          content={properties.title || data.site.siteMetadata.title}
         />
-        {props.location && (
+        {properties.location && (
           <meta
             property="og:url"
-            content={`${data.site.siteMetadata.siteUrl}${props.location.pathname}`}
+            content={`${data.site.siteMetadata.siteUrl}${properties.location.pathname}`}
           />
         )}
         <meta
           property="og:description"
-          content={props.description || data.site.siteMetadata.description}
+          content={properties.description || data.site.siteMetadata.description}
         />
 
         <meta name="twitter:card" content="summary" />
@@ -118,18 +118,21 @@ const BaseLayout = (
         {twitter && <meta name="twitter:creator" content={twitter.id} />}
       </Helmet>
 
-      {props.location && (
+      {properties.location && (
         <JsonLd<BreadcrumbList>
           item={{
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
-            itemListElement: breakdownURIPath(props.location.pathname).map(
+            itemListElement: breakdownURIPath(properties.location.pathname).map(
               (segment, index, baseArray): ListItem => {
                 const getName = (): string => {
                   if (segment === "/") {
                     return data.site.siteMetadata.title;
-                  } else if (index === baseArray.length - 1 && props.title) {
-                    return props.title;
+                  } else if (
+                    index === baseArray.length - 1 &&
+                    properties.title
+                  ) {
+                    return properties.title;
                   }
 
                   const [splitSegment] = segment
@@ -156,7 +159,7 @@ const BaseLayout = (
         />
       )}
 
-      {!props.hideNavbar && (
+      {!properties.hideNavbar && (
         <>
           <SkipNavLink />
           <Navbar />
@@ -164,7 +167,7 @@ const BaseLayout = (
         </>
       )}
 
-      {props.children}
+      {properties.children}
     </>
   );
 };

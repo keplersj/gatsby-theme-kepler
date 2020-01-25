@@ -22,7 +22,7 @@ export interface SocialLinksQuery {
 }
 
 export const SocialLinks = (
-  props: React.ComponentProps<"section">
+  properties: React.ComponentProps<"section">
 ): React.ReactElement => {
   const {
     site: {
@@ -43,7 +43,7 @@ export const SocialLinks = (
   `);
 
   return (
-    <ProfileLinksContainer role="list" {...props}>
+    <ProfileLinksContainer role="list" {...properties}>
       {social.map(
         (platform): React.ReactElement => (
           <SocialLink

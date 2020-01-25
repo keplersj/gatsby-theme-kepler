@@ -137,8 +137,8 @@ interface PageProps extends PageRendererProps {
   data: AboutPageQuery;
 }
 
-const AboutPage = (props: PageProps): React.ReactElement => {
-  const [info] = useLocalJsonForm(props.data.info, {
+const AboutPage = (properties: PageProps): React.ReactElement => {
+  const [info] = useLocalJsonForm(properties.data.info, {
     label: "Information",
     fields: [
       {
@@ -157,7 +157,7 @@ const AboutPage = (props: PageProps): React.ReactElement => {
   });
 
   return (
-    <BaseLayout location={props.location}>
+    <BaseLayout location={properties.location}>
       <AboutContainer role="region">
         <ProfileContainer>
           <Avatar />
@@ -172,23 +172,23 @@ const AboutPage = (props: PageProps): React.ReactElement => {
         <ExperienceContainer>
           <SimpleRemarkSection
             label="Biography"
-            remarkNode={props.data.biography.childMarkdownRemark}
+            remarkNode={properties.data.biography.childMarkdownRemark}
           />
           <div>
             <h1>Experience</h1>
-            {props.data.experience.edges.map(({ node }) => (
+            {properties.data.experience.edges.map(({ node }) => (
               <Experience key={node.id} remarkNode={node.childMarkdownRemark} />
             ))}
           </div>
           <div>
             <h1>Education</h1>
-            {props.data.education.edges.map(({ node }) => (
+            {properties.data.education.edges.map(({ node }) => (
               <Education key={node.id} remarkNode={node.childMarkdownRemark} />
             ))}
           </div>
           <SimpleRemarkSection
             label="Skills"
-            remarkNode={props.data.skills.childMarkdownRemark}
+            remarkNode={properties.data.skills.childMarkdownRemark}
           />
         </ExperienceContainer>
       </AboutContainer>

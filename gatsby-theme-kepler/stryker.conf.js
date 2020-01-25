@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
-/* eslint-disable @typescript-eslint/no-var-requires */
+/* eslint-disable unicorn/prevent-abbreviations */
+/* eslint-disable-next-line @typescript-eslint/no-var-requires */
 const path = require("path");
 
 // Please see the handbook for more information: https://github.com/stryker-mutator/stryker-handbook/blob/master/stryker/guides/react.md#react
@@ -22,3 +23,5 @@ module.exports = function(config) {
     }
   });
 };
+/* eslint-enable @typescript-eslint/explicit-function-return-type */
+/* eslint-enable unicorn/prevent-abbreviations */

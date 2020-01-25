@@ -1,4 +1,4 @@
-import { IndexPageData } from "../pages/index";
+import { IndexPageData } from "../pages";
 
 export const KeplerIndexPageData: IndexPageData = {
   site: {
@@ -121,7 +121,7 @@ export const KeplerIndexPageData: IndexPageData = {
             childImageSharp: {
               sqip: { dataURI: "data+image/svg+xml" },
               fluid: {
-                aspectRatio: 1.0,
+                aspectRatio: 1,
                 src: "/static/image-1/image.jpeg",
                 srcSet: "/static/image-1/image.jpeg 1x",
                 sizes: "(min-width 100px)"
