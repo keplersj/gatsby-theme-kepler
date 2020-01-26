@@ -7797,10 +7797,10 @@ gatsby-telemetry@^1.1.47:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-curiousity@^1.4.21:
-  version "1.4.21"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.21.tgz#ac88dcb2d1ba6f170bd7d2c1b9f73b9a03777f48"
-  integrity sha512-UKLplhTA1dMIL8gOGaF9D9nYfzfX0aV8LwVDJXAC2EeRibxGZgAQ2uGGFwGjeGw6dFmbogLIB/5TQcLu2VEocA==
+gatsby-theme-curiousity@^1.4.22:
+  version "1.4.22"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.22.tgz#dd38b2648239f385f0622afcfcdcd9b0231c4510"
+  integrity sha512-D2qJf8BcWl525CqGfweLmpfF2MtrgD7WVfSiCHj/JabJmojlZqL4WPv+L9EsJki/BNwsjPHQPhqPSLj1h2yYTg==
   dependencies:
     "@emotion/core" "^10.0.17"
     "@types/react" "^16.9.19"
@@ -7818,7 +7818,7 @@ gatsby-theme-curiousity@^1.4.21:
     gatsby-transformer-remark "^2.6.48"
     gatsby-transformer-sharp "^2.3.13"
     modern-normalize "^0.6.0"
-    polished "^3.4.2"
+    polished "^3.4.3"
     react-helmet "^5.2.1"
     react-schemaorg "^1.0.0"
     schema-dts "^0.5.1"
@@ -13865,10 +13865,10 @@ pnp-webpack-plugin@^1.5.0:
   dependencies:
     ts-pnp "^1.1.2"
 
-polished@^3.4.2:
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/polished/-/polished-3.4.2.tgz#b4780dad81d64df55615fbfc77acb52fd17d88cd"
-  integrity sha512-9Rch6iMZckABr6EFCLPZsxodeBpXMo9H4fRlfR/9VjMEyy5xpo1/WgXlJGgSjPyVhEZNycbW7UmYMNyWS5MI0g==
+polished@^3.4.2, polished@^3.4.3:
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/polished/-/polished-3.4.3.tgz#9b2580a3ead4ef2e030265c3eccbc06a2b68a049"
+  integrity sha512-EcA6RleHgFalVDZg5djztOyraWOkZcFSNwDCASkq6MZf68B+QlciKWRiNJn5sUDtwOLrk/xbqgvxoTfMjazvuw==
   dependencies:
     "@babel/runtime" "^7.6.3"
 
