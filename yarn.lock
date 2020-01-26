@@ -6323,18 +6323,21 @@ eslint-config-react-app@^5.1.0:
   dependencies:
     confusing-browser-globals "^1.0.9"
 
-eslint-config-starstuff@^1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/eslint-config-starstuff/-/eslint-config-starstuff-1.2.3.tgz#5e3f1189fc8e526bcd5e2abc4ad66ec6349b8a67"
-  integrity sha512-PIZC2SB2STSSPfRlSevBtqkc4KPn9wfInvi3BdbhqitfImhUXYuv3QtEGc9sfDrMWRQEeuJ4XBUDw7tsYT9bNA==
+eslint-config-starstuff@^1.3.2:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/eslint-config-starstuff/-/eslint-config-starstuff-1.3.2.tgz#9e6a512345df718d41192b510526ae9730206a17"
+  integrity sha512-YJbwYaJ4tZuebqganycLQnX4liH/CnfSd2Z9aUhdBf0+rlaY26Pl+8PlxMlWhDSZT2m2yxnGTPtkCbFB9n9NSA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^2.3.2"
     "@typescript-eslint/parser" "^2.3.2"
     eslint-config-prettier "^6.3.0"
     eslint-plugin-eslint-comments "^3.1.2"
+    eslint-plugin-jest "^23.6.0"
+    eslint-plugin-jsx-a11y "^6.2.3"
     eslint-plugin-prettier "^3.1.1"
     eslint-plugin-promise "^4.2.1"
     eslint-plugin-react "^7.14.3"
+    eslint-plugin-react-hooks "^2.3.0"
     eslint-plugin-unicorn "^15.0.1"
     read-pkg-up "^7.0.1"
 
@@ -6450,6 +6453,11 @@ eslint-plugin-react-hooks@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-1.7.0.tgz#6210b6d5a37205f0b92858f895a4e827020a7d04"
   integrity sha512-iXTCFcOmlWvw4+TOE8CLWj6yX1GwzT0Y6cUfHHZqWnSk144VmVIRcVGtUAzrLES7C798lmvnt02C7rxaOX1HNA==
+
+eslint-plugin-react-hooks@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-2.3.0.tgz#53e073961f1f5ccf8dd19558036c1fac8c29d99a"
+  integrity sha512-gLKCa52G4ee7uXzdLiorca7JIQZPPXRAQDXV83J4bUEeUuc5pIEyZYAZ45Xnxe5IuupxEqHS+hUhSLIimK1EMw==
 
 eslint-plugin-react@^7.14.3, eslint-plugin-react@^7.17.0:
   version "7.17.0"
