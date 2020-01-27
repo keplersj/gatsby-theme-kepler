@@ -7600,7 +7600,7 @@ gatsby-plugin-robots-txt@^1.5.0:
     "@babel/runtime" "^7.5.1"
     generate-robotstxt "^7.1.0"
 
-gatsby-plugin-sharp@^2.4.2, gatsby-plugin-sharp@^2.4.3:
+gatsby-plugin-sharp@^2.4.3:
   version "2.4.3"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.4.3.tgz#b5c72a8e5eeeaedd13f49e6056ab6275a93882fc"
   integrity sha512-d7nxPHbswrpCccUf0HtzWf9dvAqmcVXLQllqgvfeoQ/nOetFwFAqT14aQaVXV+nOcbzGQIMEA/ShTNnrpF8Hag==
@@ -7829,10 +7829,10 @@ gatsby-theme-curiousity@^1.4.26:
     tinacms "^0.11.3"
     typescript "^3.7.5"
 
-gatsby-theme-early-bird@^1.7.55:
-  version "1.7.55"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.7.55.tgz#92997cd4edd3ba36b5136f2deca80babd02475fd"
-  integrity sha512-+ygKPPgJzcDAVl/JewF6pOuKrsEg4ULjsBFMFikdY3hfofy5JLZ9cKwKtD4JnATp784qGi0lJk6EcJphvczCuA==
+gatsby-theme-early-bird@^1.7.57:
+  version "1.7.57"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.7.57.tgz#9be1df5f6a87a3858d97474eada4c24cbb30d192"
+  integrity sha512-GC11SCChmCdEnR80PgyvzYYBFX1phXk3FiioYmT3EfCuOLw4n8YCtSefg6dm0PXHKRHmYWZJgZuG7Y8hh92m/Q==
   dependencies:
     "@emotion/core" "^10.0.27"
     "@mdx-js/mdx" "^1.5.5"
@@ -7843,7 +7843,7 @@ gatsby-theme-early-bird@^1.7.55:
     gatsby-plugin-emotion "^4.1.21"
     gatsby-plugin-feed "^2.3.26"
     gatsby-plugin-react-helmet-async "^1.0.14"
-    gatsby-plugin-sharp "^2.4.2"
+    gatsby-plugin-sharp "^2.4.3"
     gatsby-plugin-tinacms "^0.1.18"
     gatsby-plugin-typescript "^2.1.26"
     gatsby-remark-copy-linked-files "^2.1.36"
