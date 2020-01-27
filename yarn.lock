@@ -7829,10 +7829,10 @@ gatsby-theme-curiousity@^1.4.24:
     tinacms "^0.11.3"
     typescript "^3.7.5"
 
-gatsby-theme-early-bird@^1.7.55:
-  version "1.7.55"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.7.55.tgz#92997cd4edd3ba36b5136f2deca80babd02475fd"
-  integrity sha512-+ygKPPgJzcDAVl/JewF6pOuKrsEg4ULjsBFMFikdY3hfofy5JLZ9cKwKtD4JnATp784qGi0lJk6EcJphvczCuA==
+gatsby-theme-early-bird@^1.7.56:
+  version "1.7.56"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.7.56.tgz#e68f472d374f4573e4577463ffbb4851f1291230"
+  integrity sha512-9n+gNvpYX1H+6Bad0Uumq4LXOJayGKePRQkQfNINS0RflUqlJBmAQ+UA60Ae2t/3ZhdcnTYSeVQsMegQt55vpQ==
   dependencies:
     "@emotion/core" "^10.0.27"
     "@mdx-js/mdx" "^1.5.5"
@@ -7843,7 +7843,7 @@ gatsby-theme-early-bird@^1.7.55:
     gatsby-plugin-emotion "^4.1.21"
     gatsby-plugin-feed "^2.3.26"
     gatsby-plugin-react-helmet-async "^1.0.14"
-    gatsby-plugin-sharp "^2.4.2"
+    gatsby-plugin-sharp "^2.4.3"
     gatsby-plugin-tinacms "^0.1.18"
     gatsby-plugin-typescript "^2.1.26"
     gatsby-remark-copy-linked-files "^2.1.36"
