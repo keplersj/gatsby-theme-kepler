@@ -7868,10 +7868,10 @@ gatsby-theme-curiousity@^1.4.26:
     tinacms "^0.11.3"
     typescript "^3.7.5"
 
-gatsby-theme-early-bird@^1.7.57:
-  version "1.7.57"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.7.57.tgz#9be1df5f6a87a3858d97474eada4c24cbb30d192"
-  integrity sha512-GC11SCChmCdEnR80PgyvzYYBFX1phXk3FiioYmT3EfCuOLw4n8YCtSefg6dm0PXHKRHmYWZJgZuG7Y8hh92m/Q==
+gatsby-theme-early-bird@^1.7.61:
+  version "1.7.61"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.7.61.tgz#8af48687ba8c2a02e39d353883683d272303fce0"
+  integrity sha512-+IhYNcpSm/7WaLsnv4heHGTa69pk+UTBg/Wh2guCA/HitQ7ud3WPl+CfifBfd4t0pamTy3AIjeS5zMsgNKC2ig==
   dependencies:
     "@emotion/core" "^10.0.27"
     "@mdx-js/mdx" "^1.5.5"
@@ -7883,14 +7883,14 @@ gatsby-theme-early-bird@^1.7.57:
     gatsby-plugin-feed "^2.3.26"
     gatsby-plugin-react-helmet-async "^1.0.14"
     gatsby-plugin-sharp "^2.4.3"
-    gatsby-plugin-tinacms "^0.1.18"
+    gatsby-plugin-tinacms "^0.1.21"
     gatsby-plugin-typescript "^2.1.26"
     gatsby-remark-copy-linked-files "^2.1.36"
     gatsby-remark-images "^3.1.42"
     gatsby-remark-smartypants "^2.1.20"
     gatsby-source-filesystem "^2.1.46"
-    gatsby-tinacms-git "^0.2.17"
-    gatsby-tinacms-remark "^0.6.4"
+    gatsby-tinacms-git "^0.2.18"
+    gatsby-tinacms-remark "^0.7.0"
     gatsby-transformer-remark "^2.6.48"
     gatsby-transformer-sharp "^2.3.13"
     modern-normalize "^0.6.0"
@@ -7901,7 +7901,7 @@ gatsby-theme-early-bird@^1.7.57:
     starstuff-components "^2.1.0"
     starstuff-style "^1.1.1"
     styled-components "^4.4.1"
-    tinacms "^0.11.0"
+    tinacms "^0.12.0"
     typescript "^3.7.5"
     uri-path-breakdown "^1.0.0"
 
@@ -7935,6 +7935,15 @@ gatsby-tinacms-remark@^0.6.4:
     lodash.get "^4.4.2"
     slash "^3.0.0"
     tinacms "^0.11.3"
+
+gatsby-tinacms-remark@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/gatsby-tinacms-remark/-/gatsby-tinacms-remark-0.7.0.tgz#ca9e77d3b875b46cd55512e2c3da58a578b7fc97"
+  integrity sha512-Gk8VTJDmQm4ROYP5FVl9iDRSiltKoS6fByo3jj3w111o8Ij7WKR541tlTMJaXS2Y97Uf3HYHThaYkD+PXMlszA==
+  dependencies:
+    gray-matter "^4.0.2"
+    js-yaml "^3.13.1"
+    slash "^3.0.0"
 
 gatsby-transformer-json@^2.2.25:
   version "2.2.25"
@@ -17688,7 +17697,7 @@ timsort@^0.3.0:
   resolved "https://registry.yarnpkg.com/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
-tinacms@^0.11.0, tinacms@^0.11.3:
+tinacms@^0.11.3:
   version "0.11.3"
   resolved "https://registry.yarnpkg.com/tinacms/-/tinacms-0.11.3.tgz#290549b4569fe2f9f0748e2edc8976bd00c93cd1"
   integrity sha512-roASTLKnvQdB5DJyQe/awc5hLlXCNrVXOIkryN6S/Q0mV+VEjZkPnLGwtl3tcV+8W0mPEcvOmhIp9qXoxYmNlQ==
