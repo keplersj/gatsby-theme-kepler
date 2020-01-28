@@ -1,4 +1,4 @@
-const initialDataInHook = (initialData, options) => [initialData];
+const initialDataInHook = (initialData: any) => [initialData];
 
 export const useLocalJsonForm = jest.fn(initialDataInHook);
 
