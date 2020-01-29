@@ -7679,16 +7679,16 @@ gatsby-plugin-robots-txt@^1.5.0:
     "@babel/runtime" "^7.5.1"
     generate-robotstxt "^7.1.0"
 
-gatsby-plugin-sharp@^2.4.3:
-  version "2.4.3"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.4.3.tgz#b5c72a8e5eeeaedd13f49e6056ab6275a93882fc"
-  integrity sha512-d7nxPHbswrpCccUf0HtzWf9dvAqmcVXLQllqgvfeoQ/nOetFwFAqT14aQaVXV+nOcbzGQIMEA/ShTNnrpF8Hag==
+gatsby-plugin-sharp@^2.4.3, gatsby-plugin-sharp@^2.4.4:
+  version "2.4.4"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.4.4.tgz#d41ce4d21acf9b08fde0b27be383a507e92f7154"
+  integrity sha512-i8xY612UIHjOT78SD+FAkR7Wov4/pHn+2DJ7SiSvv7I3Pb1PTKm3XksvNKbKxFMjAfUROehqsRbYCIZIDaff5Q==
   dependencies:
     "@babel/runtime" "^7.7.6"
     async "^2.6.3"
     bluebird "^3.7.2"
     fs-extra "^8.1.0"
-    gatsby-core-utils "^1.0.26"
+    gatsby-core-utils "^1.0.27"
     got "^8.3.2"
     imagemin "^6.1.0"
     imagemin-mozjpeg "^8.0.0"
@@ -7867,25 +7867,25 @@ gatsby-telemetry@^1.1.47:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-curiousity@^1.4.35:
-  version "1.4.35"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.35.tgz#5d7c30151df8a60197a95f590258df04be522bb4"
-  integrity sha512-CdrctgljKraB1I9UDhrx1XHW7w13dQ7n/YWJpTDw8Epkv9ub4mO6mhx9g8NeC5Q9fg3pO2/1NO27s4nkeVo2Vg==
+gatsby-theme-curiousity@^1.4.37:
+  version "1.4.37"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.37.tgz#b8a39f53248b603bf1754109dcbdcf07326e8fa6"
+  integrity sha512-1motnTuTzOXWKtRw7maiwJjRvwbpt0lIAzW8fxwOavm4Ukn7jO1ReL3LPqGyvQNweWpgzOWWH7gtoeju8v8mXg==
   dependencies:
     "@emotion/core" "^10.0.17"
     "@types/react" "^16.9.19"
     "@types/react-helmet" "^5.0.15"
-    gatsby-core-utils "^1.0.26"
+    gatsby-core-utils "^1.0.27"
     gatsby-image "^2.2.39"
     gatsby-plugin-emotion "^4.1.21"
     gatsby-plugin-react-helmet "^3.1.21"
-    gatsby-plugin-sharp "^2.4.3"
+    gatsby-plugin-sharp "^2.4.4"
     gatsby-plugin-tinacms "^0.1.21"
     gatsby-plugin-typescript "^2.1.26"
     gatsby-source-filesystem "^2.1.46"
     gatsby-tinacms-git "^0.2.18"
     gatsby-tinacms-remark "^0.7.0"
-    gatsby-transformer-remark "^2.6.48"
+    gatsby-transformer-remark "^2.6.49"
     gatsby-transformer-sharp "^2.3.13"
     modern-normalize "^0.6.0"
     polished "^3.4.4"
