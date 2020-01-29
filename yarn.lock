@@ -7899,10 +7899,10 @@ gatsby-theme-curiousity@^1.4.35:
     tinacms "^0.12.0"
     typescript "^3.7.5"
 
-gatsby-theme-early-bird@^1.7.64:
-  version "1.7.64"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.7.64.tgz#ffe009e2ef39d55974f00f82055236e3095728f6"
-  integrity sha512-NOSR1YdeKu0zyeR0ORK7B8L6bzYgINJihjwejaD4PDAYVOOGKmxaGe+NdzVa18gMknpQ+q2vbcWHCr2vc5fefA==
+gatsby-theme-early-bird@^1.7.65:
+  version "1.7.65"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.7.65.tgz#498d66ba8117d906435f62d07443f6f18bb29131"
+  integrity sha512-us8v67yDWQyrT6QOk7e2E0Fp7W2ZjYlCJI8xMqRbveSajRltvKloVN3Hk6wY5fB0qAH1wxsAUN0hnLAGeoxYuA==
   dependencies:
     "@emotion/core" "^10.0.27"
     "@mdx-js/mdx" "^1.5.5"
