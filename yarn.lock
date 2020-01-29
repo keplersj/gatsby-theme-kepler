@@ -10591,10 +10591,10 @@ jest-runner-prettier@^0.3.6:
     create-jest-runner "^0.5.3"
     jest-diff "^24.8.0"
 
-jest-runner-stylelint@^2.2.3:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/jest-runner-stylelint/-/jest-runner-stylelint-2.2.3.tgz#89316c02987404606a56154b34f3630b0460e261"
-  integrity sha512-UZP/ASWXArwa22R8wCR7clEDbIDLh9FFBDr2iLwpybf85MmGYHtqDBZepBCy30hq+KS1dRW1UhHsHvlLuXHB4A==
+jest-runner-stylelint@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/jest-runner-stylelint/-/jest-runner-stylelint-2.2.4.tgz#bb9a275174ba0357ac2331dc923200320bbd1c0d"
+  integrity sha512-W2p9yMs6HpbSQP6n316FbiJiTSZpl09nKoOsaVOlfUEgRNC0rNuwVkgqB0iRRajlKFYb4buKkYs71nXy8Mxqxg==
   dependencies:
     create-jest-runner "^0.5.3"
 
