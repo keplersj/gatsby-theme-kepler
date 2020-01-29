@@ -7767,7 +7767,7 @@ gatsby-remark-copy-linked-files@^2.1.36:
     probe-image-size "^4.1.1"
     unist-util-visit "^1.4.1"
 
-gatsby-remark-images@^3.1.42, gatsby-remark-images@^3.1.43:
+gatsby-remark-images@^3.1.43:
   version "3.1.43"
   resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-3.1.43.tgz#dd1ec7f2fedc03b3de2f660ba52ee034afb009cf"
   integrity sha512-fFbtde+1NHI1cHIXmSsvsPBzK3kYtEh87W9t+i4wwvVitYb6unlFuskZsSgtPyqb2IQl5sMLXSNPJ/YHCYBfGA==
@@ -7899,10 +7899,10 @@ gatsby-theme-curiousity@^1.4.35:
     tinacms "^0.12.0"
     typescript "^3.7.5"
 
-gatsby-theme-early-bird@^1.7.65:
-  version "1.7.65"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.7.65.tgz#498d66ba8117d906435f62d07443f6f18bb29131"
-  integrity sha512-us8v67yDWQyrT6QOk7e2E0Fp7W2ZjYlCJI8xMqRbveSajRltvKloVN3Hk6wY5fB0qAH1wxsAUN0hnLAGeoxYuA==
+gatsby-theme-early-bird@^1.7.67:
+  version "1.7.67"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.7.67.tgz#78120169517a743fc2c2f01dd7bacfed775f4a32"
+  integrity sha512-wZzEz4gXOfZSyGfCZNiuzm6XHKpInVTqGt4qmyw7OhewqF0xFs+n+3+5uf/2t/EaR6AHmAWgCGSIbQacvhly3Q==
   dependencies:
     "@emotion/core" "^10.0.27"
     "@mdx-js/mdx" "^1.5.5"
@@ -7913,16 +7913,16 @@ gatsby-theme-early-bird@^1.7.65:
     gatsby-plugin-emotion "^4.1.21"
     gatsby-plugin-feed "^2.3.26"
     gatsby-plugin-react-helmet-async "^1.0.14"
-    gatsby-plugin-sharp "^2.4.3"
+    gatsby-plugin-sharp "^2.4.4"
     gatsby-plugin-tinacms "^0.1.21"
     gatsby-plugin-typescript "^2.1.26"
     gatsby-remark-copy-linked-files "^2.1.36"
-    gatsby-remark-images "^3.1.42"
+    gatsby-remark-images "^3.1.43"
     gatsby-remark-smartypants "^2.1.20"
-    gatsby-source-filesystem "^2.1.46"
+    gatsby-source-filesystem "^2.1.47"
     gatsby-tinacms-git "^0.2.18"
     gatsby-tinacms-remark "^0.7.0"
-    gatsby-transformer-remark "^2.6.48"
+    gatsby-transformer-remark "^2.6.49"
     gatsby-transformer-sharp "^2.3.13"
     modern-normalize "^0.6.0"
     react-helmet-async "^1.0.4"
