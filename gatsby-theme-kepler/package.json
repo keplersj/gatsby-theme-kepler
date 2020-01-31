@@ -49,7 +49,7 @@
     "schema-dts": "^0.5.1",
     "starstuff-components": "^2.1.2",
     "starstuff-style": "^1.1.1",
-    "styled-components": "^4.4.1",
+    "styled-components": "^5.0.0",
     "typescript": "^3.7.5",
     "uri-path-breakdown": "^1.0.0"
   },
