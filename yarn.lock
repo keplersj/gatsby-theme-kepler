@@ -7635,10 +7635,10 @@ gatsby-plugin-emotion@^4.1.21, gatsby-plugin-emotion@^4.1.22:
     "@babel/runtime" "^7.7.6"
     "@emotion/babel-preset-css-prop" "^10.0.23"
 
-gatsby-plugin-feed@^2.3.26:
-  version "2.3.26"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-feed/-/gatsby-plugin-feed-2.3.26.tgz#00043a581b81b73c595b7620fe0f381d241ca8da"
-  integrity sha512-L2/LyCkZ+cPF2QAISszEwi2D2CuRk6ELp75d8tN7oCRDKkcSCJZND6gzIvBxNzGjEnbxtTk9OhL/1TnmJTALNQ==
+gatsby-plugin-feed@^2.3.27:
+  version "2.3.27"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-feed/-/gatsby-plugin-feed-2.3.27.tgz#c3dd793bb22d62563687350adfd7cedbd84d826b"
+  integrity sha512-YdYyMi2k1d2vJtHq7GCFilWqHGBP74kMfv4vEjbGKnHwjUN+hu1u0ZbZHCO56OLz/Yyi+rG+pNdTDlbDFWD7lw==
   dependencies:
     "@babel/runtime" "^7.7.6"
     "@hapi/joi" "^15.1.1"
@@ -7755,10 +7755,10 @@ gatsby-remark-autolink-headers@^2.1.23:
     mdast-util-to-string "^1.0.7"
     unist-util-visit "^1.4.1"
 
-gatsby-remark-copy-linked-files@^2.1.36:
-  version "2.1.36"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-copy-linked-files/-/gatsby-remark-copy-linked-files-2.1.36.tgz#fdc22d99af67f8cfb7dd2c016dd6bc485af0a0fc"
-  integrity sha512-WEvdRLvWHr8ftrHUfq/77N0AbraGN62fkWe4E+p8/SKPCXb7WV7sY67Z/npiBAh6bRMNWsy/UZpKEkOk/oz04A==
+gatsby-remark-copy-linked-files@^2.1.37:
+  version "2.1.37"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-copy-linked-files/-/gatsby-remark-copy-linked-files-2.1.37.tgz#5a1e80ee20512d8b4de8aa0f7d44aefa84e66115"
+  integrity sha512-ZDmItZzATXnUlU5jywcFs3ujIpE47DxrisFnolR7RdLo9pMRIqWvt/HFnBGPEaMng8S8+VuvM9SZtCNZMmnRYg==
   dependencies:
     "@babel/runtime" "^7.7.6"
     cheerio "^1.0.0-rc.3"
@@ -7799,7 +7799,7 @@ gatsby-remark-relative-images@^0.2.3:
     slash "^2.0.0"
     unist-util-select "^1.5.0"
 
-gatsby-remark-smartypants@^2.1.20, gatsby-remark-smartypants@^2.1.21:
+gatsby-remark-smartypants@^2.1.21:
   version "2.1.21"
   resolved "https://registry.yarnpkg.com/gatsby-remark-smartypants/-/gatsby-remark-smartypants-2.1.21.tgz#2b6ba95a0da4c1f069e3375bc20da8d216618e7e"
   integrity sha512-iV+DaYeoo7w+IDv21JD0b3jrbxV7Q/0enJj7zB58q8o/lmbdTeFcuwJ/BJI5RW3TsqSiUeFct8n9FkdoAVhK3g==
@@ -7901,31 +7901,31 @@ gatsby-theme-curiousity@^1.4.41:
     tinacms "^0.12.0"
     typescript "^3.7.5"
 
-gatsby-theme-early-bird@^1.7.68:
-  version "1.7.68"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.7.68.tgz#13eb13c34dfc7f77629e7c66d03941f57ada0344"
-  integrity sha512-NjdbV4Qnwz/LIP7qANyc9mzXhH6bQAXYok+IpEtJ9MRX3C7bRj8+cnmTuih4w3zVarvdJwcEEhHNkruM9bWiiA==
+gatsby-theme-early-bird@^1.7.74:
+  version "1.7.74"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.7.74.tgz#0174063c6fd8fae063f568dd63f57735a8776c6e"
+  integrity sha512-/Sbn0tULeWnPLolCa3QcWduw7y36YofMOKsX+p+8uZ7oNmv+s+L4CfJRO7PzHwUfYYrrb0H/MdyuEu4RMo67HQ==
   dependencies:
     "@emotion/core" "^10.0.27"
     "@mdx-js/mdx" "^1.5.5"
     "@mdx-js/react" "^1.5.5"
     "@types/react" "^16.9.19"
     "@types/react-helmet" "^5.0.15"
-    gatsby-image "^2.2.39"
-    gatsby-plugin-emotion "^4.1.21"
-    gatsby-plugin-feed "^2.3.26"
+    gatsby-image "^2.2.40"
+    gatsby-plugin-emotion "^4.1.22"
+    gatsby-plugin-feed "^2.3.27"
     gatsby-plugin-react-helmet-async "^1.0.15"
     gatsby-plugin-sharp "^2.4.4"
     gatsby-plugin-tinacms "^0.1.21"
-    gatsby-plugin-typescript "^2.1.26"
-    gatsby-remark-copy-linked-files "^2.1.36"
+    gatsby-plugin-typescript "^2.1.27"
+    gatsby-remark-copy-linked-files "^2.1.37"
     gatsby-remark-images "^3.1.43"
-    gatsby-remark-smartypants "^2.1.20"
+    gatsby-remark-smartypants "^2.1.21"
     gatsby-source-filesystem "^2.1.47"
     gatsby-tinacms-git "^0.2.18"
     gatsby-tinacms-remark "^0.7.0"
     gatsby-transformer-remark "^2.6.49"
-    gatsby-transformer-sharp "^2.3.13"
+    gatsby-transformer-sharp "^2.3.14"
     modern-normalize "^0.6.0"
     react-helmet-async "^1.0.4"
     react-schemaorg "^1.0.0"
