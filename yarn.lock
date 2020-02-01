@@ -8000,10 +8000,10 @@ gatsby-transformer-remark@^2.6.49:
     unist-util-select "^1.5.0"
     unist-util-visit "^1.4.1"
 
-gatsby-transformer-sharp@^2.3.13:
-  version "2.3.13"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.3.13.tgz#b2bd2967fee1c2511ad896645acab34954d52bc6"
-  integrity sha512-jof7b1btkABcsN6lP5qd7cBMffPFv09qTKs6ZTgRIRB9jQBiBizJydmyT97eCqqIl0dKIr8/5Bt/eC6jyxMj8A==
+gatsby-transformer-sharp@^2.3.13, gatsby-transformer-sharp@^2.3.14:
+  version "2.3.14"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.3.14.tgz#425e309bc5d7a53ba6d13ea661f4b7477d0a1546"
+  integrity sha512-tjz74lcJdAUFNtngmNBtyqXbIjb2Ux0GVeCpJsHfrWheJOsogPiO2Y3tp/NZJuonAWUawV8Mvr4TFjjF9p2GZw==
   dependencies:
     "@babel/runtime" "^7.7.6"
     bluebird "^3.7.2"
@@ -16231,12 +16231,7 @@ semver@^6.0.0, semver@^6.1.2, semver@^6.2.0, semver@^6.3.0, semver@~6.3.0:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
   integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
 
-semver@^7.1.1:
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.1.1.tgz#29104598a197d6cbe4733eeecbe968f7b43a9667"
-  integrity sha512-WfuG+fl6eh3eZ2qAf6goB7nhiCd7NPXhmyFxigB/TOkQyeLP8w8GsVehvtGNtnNmyboz4TgeK40B1Kbql/8c5A==
-
-semver@^7.1.2:
+semver@^7.1.1, semver@^7.1.2:
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.1.2.tgz#847bae5bce68c5d08889824f02667199b70e3d87"
   integrity sha512-BJs9T/H8sEVHbeigqzIEo57Iu/3DG6c4QoqTfbQB3BPA4zgzAomh/Fk9E7QtjWQ8mx2dgA9YCfSF4y9k9bHNpQ==
