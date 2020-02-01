@@ -6386,10 +6386,10 @@ eslint-config-react-app@^5.1.0:
   dependencies:
     confusing-browser-globals "^1.0.9"
 
-eslint-config-starstuff@^1.4.5:
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/eslint-config-starstuff/-/eslint-config-starstuff-1.4.5.tgz#c83286f58b34d129e3fda9e84fced3f2fc58202c"
-  integrity sha512-V7C7VRPQ73ADX6fcFdWdGy1RvSNrC/LBAdZIZ22SdVUSD//eY/APCoYpSP0Ud5MgC2Xm6DZD5duQwC/eriiKJQ==
+eslint-config-starstuff@^1.4.6:
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/eslint-config-starstuff/-/eslint-config-starstuff-1.4.6.tgz#e690ac54966df5fb6d48bd9284f97462ef782d1c"
+  integrity sha512-3jX1/iI69lwBXrRTC0KhR3W6GCx7aP+x6dG2bDoVE8RP05NEHRDOuoIvt+fGPIfqU2VTvte7hXNjxttvlTWOEw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^2.3.2"
     "@typescript-eslint/parser" "^2.3.2"
@@ -6401,7 +6401,7 @@ eslint-config-starstuff@^1.4.5:
     eslint-plugin-promise "^4.2.1"
     eslint-plugin-react "^7.14.3"
     eslint-plugin-react-hooks "^2.3.0"
-    eslint-plugin-unicorn "^15.0.1"
+    eslint-plugin-unicorn "^16.0.0"
     eslint-plugin-you-dont-need-lodash-underscore "^6.8.0"
     eslint-plugin-you-dont-need-momentjs "^1.5.0"
     read-pkg-up "^7.0.1"
@@ -6540,10 +6540,10 @@ eslint-plugin-react@^7.14.3, eslint-plugin-react@^7.17.0:
     prop-types "^15.7.2"
     resolve "^1.13.1"
 
-eslint-plugin-unicorn@^15.0.1:
-  version "15.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-15.0.1.tgz#8379d1d6882f9f8631bec8025ac9e8fe89e43945"
-  integrity sha512-yahqrPGFUzwH5cnmnj+iPlgPapAiBIZ/ZNSDkhTVPgPCo7/mOEjJ2gDhEclrtQVBE9olmec4N+CKDnJuZ9XpRA==
+eslint-plugin-unicorn@^16.0.0:
+  version "16.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-16.0.0.tgz#5fc03d70b2944fa85099bf511c352b3d50201738"
+  integrity sha512-zqWMYzTopdixyqu0+3td4vIGmpBxwdBVeWBm3TzwnFMvHoAE6tTQ/w2Xv5RG/MklKkfQdHsRqa8CVsSpjSA4qQ==
   dependencies:
     ci-info "^2.0.0"
     clean-regexp "^1.0.0"
@@ -6560,7 +6560,7 @@ eslint-plugin-unicorn@^15.0.1:
     regexpp "^3.0.0"
     reserved-words "^0.1.2"
     safe-regex "^2.1.1"
-    semver "^6.3.0"
+    semver "^7.1.2"
 
 eslint-plugin-you-dont-need-lodash-underscore@^6.8.0:
   version "6.8.0"
@@ -16235,6 +16235,11 @@ semver@^7.1.1:
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.1.1.tgz#29104598a197d6cbe4733eeecbe968f7b43a9667"
   integrity sha512-WfuG+fl6eh3eZ2qAf6goB7nhiCd7NPXhmyFxigB/TOkQyeLP8w8GsVehvtGNtnNmyboz4TgeK40B1Kbql/8c5A==
+
+semver@^7.1.2:
+  version "7.1.2"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.1.2.tgz#847bae5bce68c5d08889824f02667199b70e3d87"
+  integrity sha512-BJs9T/H8sEVHbeigqzIEo57Iu/3DG6c4QoqTfbQB3BPA4zgzAomh/Fk9E7QtjWQ8mx2dgA9YCfSF4y9k9bHNpQ==
 
 semver@~5.3.0:
   version "5.3.0"
