@@ -7839,10 +7839,10 @@ gatsby-theme-curiousity@^1.4.46:
     tinacms "^0.12.0"
     typescript "^3.7.5"
 
-gatsby-theme-early-bird@^1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.0.tgz#a46ebedb9f50b43e38373cec1718cdaae5119f00"
-  integrity sha512-gWSBr3BNO5Pd5//VS3YZTESCl0F7wnqb0Ea9gy8IZ1mJzTEXO+uyPLIem2mc2UWa6xp5FY9MGjVf32TQ7AsLkQ==
+gatsby-theme-early-bird@^1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.1.tgz#d20c0a2a500cb0c16c49aff1bfd3e45cff03f818"
+  integrity sha512-AvDlzKBpvuqrCwoTR3XtYHHah1+MD393N2QH9m1ZhTFJ6cVS/+94XxLkNv6NCwvuuURbwu0H4Ji6mMrN4S1VAQ==
   dependencies:
     "@emotion/core" "^10.0.27"
     "@mdx-js/mdx" "^1.5.5"
@@ -7854,14 +7854,14 @@ gatsby-theme-early-bird@^1.8.0:
     gatsby-plugin-feed "^2.3.27"
     gatsby-plugin-react-helmet-async "^1.0.15"
     gatsby-plugin-sharp "^2.4.5"
-    gatsby-plugin-tinacms "^0.1.21"
+    gatsby-plugin-tinacms "^0.1.22"
     gatsby-plugin-typescript "^2.1.27"
     gatsby-remark-copy-linked-files "^2.1.37"
     gatsby-remark-images "^3.1.44"
     gatsby-remark-smartypants "^2.1.21"
     gatsby-source-filesystem "^2.1.48"
     gatsby-tinacms-git "^0.2.18"
-    gatsby-tinacms-remark "^0.7.0"
+    gatsby-tinacms-remark "^0.7.1"
     gatsby-transformer-remark "^2.6.50"
     gatsby-transformer-sharp "^2.3.14"
     gatsby-transformer-sqip "^2.1.64"
@@ -7892,10 +7892,10 @@ gatsby-tinacms-json@^0.8.6:
   dependencies:
     slash "^3.0.0"
 
-gatsby-tinacms-remark@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/gatsby-tinacms-remark/-/gatsby-tinacms-remark-0.7.0.tgz#ca9e77d3b875b46cd55512e2c3da58a578b7fc97"
-  integrity sha512-Gk8VTJDmQm4ROYP5FVl9iDRSiltKoS6fByo3jj3w111o8Ij7WKR541tlTMJaXS2Y97Uf3HYHThaYkD+PXMlszA==
+gatsby-tinacms-remark@^0.7.0, gatsby-tinacms-remark@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/gatsby-tinacms-remark/-/gatsby-tinacms-remark-0.7.1.tgz#ff0eddbec5c24b3948a72f3c87b82b79dbef8b4a"
+  integrity sha512-eDdj6nYmsMATjCRL+K7F0v22jITfWjVij9p6PJ64T5gN5nF1Aw6Gt40WmyMUm/s2wP4AsQ7hTfNvKUMupz4KPg==
   dependencies:
     gray-matter "^4.0.2"
     js-yaml "^3.13.1"
