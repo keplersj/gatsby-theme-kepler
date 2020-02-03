@@ -65,7 +65,7 @@
     "@types/react-test-renderer": "^16.9.2",
     "deepmerge": "^4.2.2",
     "eslint": "^6.8.0",
-    "eslint-config-starstuff": "^1.4.10",
+    "eslint-config-starstuff": "^1.4.12",
     "eslint-plugin-jest": "^23.6.0",
     "gatsby": "^2.19.12",
     "jest": "^24.9.0",
