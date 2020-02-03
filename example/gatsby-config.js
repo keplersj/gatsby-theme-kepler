@@ -23,6 +23,10 @@ module.exports = {
           {
             resolve: "gatsby-tinacms-git",
             options: {
+              sidebar: {
+                hidden: process.env.NODE_ENV === "production",
+                position: "displace"
+              },
               pathToRepo: REPO_ABSOLUTE_PATH,
               pathToContent: "example"
             }

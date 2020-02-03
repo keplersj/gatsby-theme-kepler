@@ -7,7 +7,6 @@ import "modern-normalize";
 import "starstuff-style";
 import "@reach/skip-nav/styles.css";
 import { Navbar } from "../Navbar";
-import "./styles.css";
 import { BreadcrumbList, ListItem } from "schema-dts";
 import { WindowLocation } from "@reach/router";
 import { breakdownURIPath } from "uri-path-breakdown";

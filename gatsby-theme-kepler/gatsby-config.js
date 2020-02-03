@@ -1,6 +1,3 @@
-/* eslint-disable-next-line @typescript-eslint/no-var-requires */
-const path = require("path");
-
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
 module.exports = () => ({
@@ -67,24 +64,19 @@ module.exports = () => ({
           {
             resolve: "gatsby-remark-vscode",
             options: {
-              extensionDataDirectory: path.resolve(__dirname, "vendor/vscode"),
               languageAliases: {
                 shell: "bash"
               },
-              colorTheme: {
-                defaultTheme: "Atom One Light",
-                prefersDarkTheme: "Atom One Dark"
+              theme: {
+                default: "Atom One Light",
+                media: [
+                  {
+                    match: "screen and (prefers-color-scheme: dark)",
+                    theme: "Atom One Dark"
+                  }
+                ]
               },
-              extensions: [
-                {
-                  identifier: "akamud.vscode-theme-onedark",
-                  version: "2.1.0"
-                },
-                {
-                  identifier: "akamud.vscode-theme-onelight",
-                  version: "2.1.0"
-                }
-              ]
+              extensions: ["vscode-theme-onedark", "vscode-theme-onelight"]
             }
           },
           "gatsby-remark-autolink-headers",
