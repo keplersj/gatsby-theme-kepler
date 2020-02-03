@@ -7656,7 +7656,7 @@ gatsby-plugin-sitemap@^2.2.27:
     pify "^3.0.0"
     sitemap "^1.13.0"
 
-gatsby-plugin-tinacms@^0.1.21, gatsby-plugin-tinacms@^0.1.22:
+gatsby-plugin-tinacms@^0.1.22:
   version "0.1.22"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-tinacms/-/gatsby-plugin-tinacms-0.1.22.tgz#72e80be6ab72b168538dcfe482685b0326474f10"
   integrity sha512-9waiSwjO4nEFdWxAniiPEdSDelLlRNgx//yiHzXZYphP+YIZVIO30/DXwbugAnPJk7Tbg/fniaVZcYoZ98pdwA==
@@ -7807,10 +7807,10 @@ gatsby-telemetry@^1.1.49:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-curiousity@^1.4.46:
-  version "1.4.46"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.46.tgz#fa52182bc45e8f45c7f1bdcb3bf80655a57a2800"
-  integrity sha512-szO3/2DUTbJSRloD/sDgnGrXOW7Et1TNQrYTsTpQqWuncy4dnlZQitDaga1+LXLg1QrRs6FC1Id7+xpKJz0lbw==
+gatsby-theme-curiousity@^1.4.47:
+  version "1.4.47"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.47.tgz#7f5d05a7c60eebf6c3b2f9fadabb194cb7781322"
+  integrity sha512-tgxTE34Q+D9b7y5x0RaOpQBGmfphqs9aUMF6CrLGVy0Zg+J1TqOHLGlpeqmL9gTWKaH2GEHtOfmaY+kUD3pj4Q==
   dependencies:
     "@emotion/core" "^10.0.17"
     "@types/react" "^16.9.19"
@@ -7820,11 +7820,11 @@ gatsby-theme-curiousity@^1.4.46:
     gatsby-plugin-emotion "^4.1.22"
     gatsby-plugin-react-helmet-async "^1.0.15"
     gatsby-plugin-sharp "^2.4.5"
-    gatsby-plugin-tinacms "^0.1.21"
+    gatsby-plugin-tinacms "^0.1.22"
     gatsby-plugin-typescript "^2.1.27"
     gatsby-source-filesystem "^2.1.48"
     gatsby-tinacms-git "^0.2.18"
-    gatsby-tinacms-remark "^0.7.0"
+    gatsby-tinacms-remark "^0.7.1"
     gatsby-transformer-remark "^2.6.50"
     gatsby-transformer-sharp "^2.3.14"
     modern-normalize "^0.6.0"
@@ -7836,7 +7836,7 @@ gatsby-theme-curiousity@^1.4.46:
     starstuff-components "^2.1.2"
     starstuff-style "^1.1.1"
     styled-components "^4.4.1"
-    tinacms "^0.12.0"
+    tinacms "^0.12.1"
     typescript "^3.7.5"
 
 gatsby-theme-early-bird@^1.8.1:
@@ -7892,7 +7892,7 @@ gatsby-tinacms-json@^0.8.6:
   dependencies:
     slash "^3.0.0"
 
-gatsby-tinacms-remark@^0.7.0, gatsby-tinacms-remark@^0.7.1:
+gatsby-tinacms-remark@^0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/gatsby-tinacms-remark/-/gatsby-tinacms-remark-0.7.1.tgz#ff0eddbec5c24b3948a72f3c87b82b79dbef8b4a"
   integrity sha512-eDdj6nYmsMATjCRL+K7F0v22jITfWjVij9p6PJ64T5gN5nF1Aw6Gt40WmyMUm/s2wP4AsQ7hTfNvKUMupz4KPg==
