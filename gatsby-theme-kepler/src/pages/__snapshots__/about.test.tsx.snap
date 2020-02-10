@@ -74,39 +74,40 @@ Array [
 }
 
 .emotion-6 {
-  height: 3rem;
-  max-width: 100vw;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  max-width: 100vw;
+  height: 3rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 
 .emotion-1 {
-  text-align: start;
   max-width: 50%;
+  text-align: start;
 }
 
 .emotion-0 {
-  font-weight: 600;
   color: #141414;
+  font-weight: 600;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.emotion-0:hover {
+.emotion-0:hover,
+.emotion-0:focus {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
@@ -118,8 +119,8 @@ Array [
 }
 
 .emotion-5 {
-  text-align: end;
   max-width: 50%;
+  text-align: end;
 }
 
 .emotion-5 > :not(:last-child) {

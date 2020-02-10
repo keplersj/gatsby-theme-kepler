@@ -6,30 +6,33 @@ import { useGlobalJsonForm } from "gatsby-tinacms-json";
 import { NavigationLinksForm } from "../../lib/NavigationLinksForm";
 
 const Background = styled(BannerBackground)`
-  height: 3rem;
   width: 100vw;
+  height: 3rem;
   margin-bottom: 1em;
 `;
 
 const ContentContainer = styled.div`
-  height: 3rem;
-  max-width: 100vw;
   display: flex;
-  backdrop-filter: blur(5px);
   align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
   justify-content: space-between;
+  max-width: 100vw;
+  height: 3rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+
+  backdrop-filter: blur(5px);
 `;
 
 const LeftContent = styled.div`
-  text-align: start;
   max-width: 50%;
+
+  text-align: start;
 `;
 
 const RightContent = styled.div`
-  text-align: end;
   max-width: 50%;
+
+  text-align: end;
 
   & > :not(:last-child) {
     margin-right: 1em;
@@ -37,11 +40,12 @@ const RightContent = styled.div`
 `;
 
 const StyledLink = styled(Link)`
-  font-weight: 600;
   color: #141414;
+  font-weight: 600;
   text-decoration: none;
 
-  :hover {
+  :hover,
+  :focus {
     text-decoration: underline;
   }
 
