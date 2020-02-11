@@ -1954,12 +1954,11 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@tinacms/api-git@^0.5.4":
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/@tinacms/api-git/-/api-git-0.5.4.tgz#f7f93ed4c7dd8f7481d8ba9997f9bb948ef246d5"
-  integrity sha512-exyjj+O1owsnIGPI3TAz+fTu/w4TtU98Ymc5IyW9zGNOJR0m/OOl61tQ/ZPkSgrVpRhOz8Tj9CYBaFo/YVni0w==
+"@tinacms/api-git@^0.5.5":
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/@tinacms/api-git/-/api-git-0.5.5.tgz#b374e4369b26bddce14dd6b4ed995aea6ecd797b"
+  integrity sha512-8fhdv/jvR+RAHVm9ySVrWscXAYPzJv6owVZmHo/3zDDs2E2CWPjPraKa1vtuiNYDZEeORisvr2Rccd4TuACFVA==
   dependencies:
-    "@types/multer" "^1.3.10"
     atob "2.1.2"
     cors "^2.8.5"
     express "^4.17.1"
@@ -2020,10 +2019,10 @@
     final-form "^4.18.2"
     final-form-arrays "^3.0.1"
 
-"@tinacms/git-client@^0.4.1":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@tinacms/git-client/-/git-client-0.4.1.tgz#f6b870944ba7aec9a7829061a297804e95478f70"
-  integrity sha512-DIQj7oaB0xFjBfo52obVljbFP7+Vjgr6CICXiBBbL53f18sVzWy2OITLyQEaSv0uuNva/Z53dm+Uy+fNpkyopA==
+"@tinacms/git-client@^0.4.2":
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/@tinacms/git-client/-/git-client-0.4.2.tgz#2a087fe7df2e08b00656ada072cb9a5414eab741"
+  integrity sha512-0FXEL2AEwaeju/fTPZg2eZ8i7amlQCHQn78a8Hm+tgBXxfL3mY7N2HFVC94js9D/of05GWvjews72a4F+QUDHw==
 
 "@tinacms/icons@^0.5.0":
   version "0.5.0"
@@ -2076,14 +2075,6 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
-"@types/body-parser@*":
-  version "1.17.1"
-  resolved "https://registry.yarnpkg.com/@types/body-parser/-/body-parser-1.17.1.tgz#18fcf61768fb5c30ccc508c21d6fd2e8b3bf7897"
-  integrity sha512-RoX2EZjMiFMjZh9lmYrwgoP9RTpAjSHiJxdp4oidAQVO02T7HER3xj9UKue5534ULWeqVEkujhWcyvUce+d68w==
-  dependencies:
-    "@types/connect" "*"
-    "@types/node" "*"
-
 "@types/color-name@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
@@ -2093,13 +2084,6 @@
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@types/configstore/-/configstore-2.1.1.tgz#cd1e8553633ad3185c3f2f239ecff5d2643e92b6"
   integrity sha1-zR6FU2M60xhcPy8jns/10mQ+krY=
-
-"@types/connect@*":
-  version "3.4.33"
-  resolved "https://registry.yarnpkg.com/@types/connect/-/connect-3.4.33.tgz#31610c901eca573b8713c3330abc6e6b9f588546"
-  integrity sha512-2+FrkXY4zllzTNfJth7jOqEHC+enpLeGslEhpnTAkg21GkRrWV4SsAtqchtT4YS9/nODBU2/ZfsBY2X4J/dX7A==
-  dependencies:
-    "@types/node" "*"
 
 "@types/debug@^0.0.29":
   version "0.0.29"
@@ -2122,23 +2106,6 @@
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@types/events/-/events-3.0.0.tgz#2862f3f58a9a7f7c3e78d79f130dd4d71c25c2a7"
   integrity sha512-EaObqwIvayI5a8dCzhFrjKzVwKLxjoG9T6Ppd5CEo07LRKfQ8Yokw54r5+Wq7FaBQ+yXRvQAYPrHwya1/UFt9g==
-
-"@types/express-serve-static-core@*":
-  version "4.17.2"
-  resolved "https://registry.yarnpkg.com/@types/express-serve-static-core/-/express-serve-static-core-4.17.2.tgz#f6f41fa35d42e79dbf6610eccbb2637e6008a0cf"
-  integrity sha512-El9yMpctM6tORDAiBwZVLMcxoTMcqqRO9dVyYcn7ycLWbvR8klrDn8CAOwRfZujZtWD7yS/mshTdz43jMOejbg==
-  dependencies:
-    "@types/node" "*"
-    "@types/range-parser" "*"
-
-"@types/express@*":
-  version "4.17.2"
-  resolved "https://registry.yarnpkg.com/@types/express/-/express-4.17.2.tgz#a0fb7a23d8855bac31bc01d5a58cadd9b2173e6c"
-  integrity sha512-5mHFNyavtLoJmnusB8OKJ5bshSzw+qkMIBAobLrIM48HJvunFva9mOa6aBwh64lBFyNwBbs0xiEFuj4eU/NjCA==
-  dependencies:
-    "@types/body-parser" "*"
-    "@types/express-serve-static-core" "*"
-    "@types/serve-static" "*"
 
 "@types/get-port@^0.0.4":
   version "0.0.4"
@@ -2213,11 +2180,6 @@
   dependencies:
     "@types/unist" "*"
 
-"@types/mime@*":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@types/mime/-/mime-2.0.1.tgz#dc488842312a7f075149312905b5e3c0b054c79d"
-  integrity sha512-FwI9gX75FgVBJ7ywgnq/P7tw+/o1GUbtP0KzbtusLigAOgIgNISRK0ZPl4qertvXSIE8YbsVJueQ90cDt9YYyw==
-
 "@types/minimatch@*":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
@@ -2232,13 +2194,6 @@
   version "0.3.29"
   resolved "https://registry.yarnpkg.com/@types/mkdirp/-/mkdirp-0.3.29.tgz#7f2ad7ec55f914482fc9b1ec4bb1ae6028d46066"
   integrity sha1-fyrX7FX5FEgvybHsS7GuYCjUYGY=
-
-"@types/multer@^1.3.10":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@types/multer/-/multer-1.4.0.tgz#a4a83bee02696f61f63b65a87f9ebe8bdf12b767"
-  integrity sha512-mF3lGy1HTixLELNGufKTvLWGUZKd0Amz/nZYj79nzCXWye2wTlgIo4CZ+mze7xMkezcWmQviV9uXYRMpZ0qk1w==
-  dependencies:
-    "@types/express" "*"
 
 "@types/node@*", "@types/node@>= 8":
   version "13.7.0"
@@ -2269,11 +2224,6 @@
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
   integrity sha512-ce5d3q03Ex0sy4R14722Rmt6MT07Ua+k4FwDfdcToYJcMKNtRVQvJ6JCAPdAmAnbRb6CsX6aYb9m96NGod9uTw==
-
-"@types/range-parser@*":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@types/range-parser/-/range-parser-1.2.3.tgz#7ee330ba7caafb98090bece86a5ee44115904c2c"
-  integrity sha512-ewFXqrQHlFsgc09MK5jP5iR7vumV/BYayNC6PgJO2LPe8vrnNFyjQjSppfEngITi0qvfKtzFvgKymGheFM9UOA==
 
 "@types/reach__router@^1.2.6":
   version "1.2.6"
@@ -2346,14 +2296,6 @@
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/@types/retry/-/retry-0.12.0.tgz#2b35eccfcee7d38cd72ad99232fbd58bffb3c84d"
   integrity sha512-wWKOClTTiizcZhXnPY4wikVAwmdYHp8q6DmC+EJUzAMsycb7HB32Kh9RN4+0gExjmPmZSAQjgURXIGATPegAvA==
-
-"@types/serve-static@*":
-  version "1.13.3"
-  resolved "https://registry.yarnpkg.com/@types/serve-static/-/serve-static-1.13.3.tgz#eb7e1c41c4468272557e897e9171ded5e2ded9d1"
-  integrity sha512-oprSwp094zOglVrXdlo/4bAHtKTAxX6VT8FOZlBKrmyLbNvE1zxZyJ6yikMVtHIvwP45+ZQGJn+FdXGKTozq0g==
-  dependencies:
-    "@types/express-serve-static-core" "*"
-    "@types/mime" "*"
 
 "@types/stack-utils@^1.0.1":
   version "1.0.1"
@@ -7900,13 +7842,13 @@ gatsby-theme-early-bird@^1.8.2:
     typescript "^3.7.5"
     uri-path-breakdown "^1.0.0"
 
-gatsby-tinacms-git@^0.2.18:
-  version "0.2.18"
-  resolved "https://registry.yarnpkg.com/gatsby-tinacms-git/-/gatsby-tinacms-git-0.2.18.tgz#cbf0d00a3ae1dd54e159897470f34235352aa693"
-  integrity sha512-5m7EbJvCbAXev/vAKAustxOFzdVgEZielLOiirzwcdjNO1+MmdWbsA1AMBOxtXBtd+vrLanQsUWSV9Yl4u+7Iw==
+gatsby-tinacms-git@^0.2.18, gatsby-tinacms-git@^0.2.19:
+  version "0.2.19"
+  resolved "https://registry.yarnpkg.com/gatsby-tinacms-git/-/gatsby-tinacms-git-0.2.19.tgz#d3c2301675214aeede359df9c10802353ab901a4"
+  integrity sha512-hVVB/wQyFYSna1w81re9m5l/lFZiDO7q62JhyhM0bbRaybkDBesSFtnwQXZRsCVlcP8wDw6CPWWoxTlR5E3T0Q==
   dependencies:
-    "@tinacms/api-git" "^0.5.4"
-    "@tinacms/git-client" "^0.4.1"
+    "@tinacms/api-git" "^0.5.5"
+    "@tinacms/git-client" "^0.4.2"
 
 gatsby-tinacms-json@^0.8.6:
   version "0.8.6"
