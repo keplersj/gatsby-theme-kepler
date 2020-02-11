@@ -7804,10 +7804,10 @@ gatsby-theme-curiousity@^1.4.48:
     tinacms "^0.12.1"
     typescript "^3.7.5"
 
-gatsby-theme-early-bird@^1.8.2:
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.2.tgz#61a3d2e5ea710e446cf227852513d21e5b2b9b5e"
-  integrity sha512-EpbokmabaXtbvG88LR5F1LIj5vr3GHySCbkseP90qdG/eA6KTX16fh9cA6bWbVI5y8zQDaJuP18usjTU4LQUeQ==
+gatsby-theme-early-bird@^1.8.3:
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.3.tgz#dc211b28c9f9b3fef436682fc3d64edc53ff9ad8"
+  integrity sha512-cvYblaQwOQK6Ou8x+DrYvTqmoQdwXzzZ8CkBfmgDKWG0JD9DsHRd6NNJqoRh+cFNW1X+ZveFp/2SGj4YGAAJYg==
   dependencies:
     "@emotion/core" "^10.0.27"
     "@mdx-js/mdx" "^1.5.5"
@@ -7825,7 +7825,7 @@ gatsby-theme-early-bird@^1.8.2:
     gatsby-remark-images "^3.1.44"
     gatsby-remark-smartypants "^2.1.21"
     gatsby-source-filesystem "^2.1.48"
-    gatsby-tinacms-git "^0.2.18"
+    gatsby-tinacms-git "^0.2.19"
     gatsby-tinacms-remark "^0.7.1"
     gatsby-transformer-remark "^2.6.50"
     gatsby-transformer-sharp "^2.3.14"
