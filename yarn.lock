@@ -7772,10 +7772,10 @@ gatsby-telemetry@^1.1.49:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-curiousity@^1.4.48:
-  version "1.4.48"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.48.tgz#003760035154da442b24bb9ec46e29563d3746a2"
-  integrity sha512-76F5iEH4ODFq6uxX7pjQRNqSMrxNRsf1QAJOw+AUy3m6pyUUTZBoKwy7kEdpKzabdQW6ux/3IfCO2w1rmoWY+A==
+gatsby-theme-curiousity@^1.4.49:
+  version "1.4.49"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.49.tgz#ba0342382af8e1c7977c5014ded9f38429862be3"
+  integrity sha512-gCgdHMs74qEOeH9du62TpeoVLjmMvN1c4kciO7e8/xagTMul2mAQ6jCGJBa/ezTMzipNA3/fuHveAWetWyIpLA==
   dependencies:
     "@emotion/core" "^10.0.17"
     "@types/react" "^16.9.19"
@@ -7789,7 +7789,7 @@ gatsby-theme-curiousity@^1.4.48:
     gatsby-plugin-typescript "^2.1.27"
     gatsby-source-filesystem "^2.1.48"
     gatsby-tinacms-git "^0.2.18"
-    gatsby-tinacms-remark "^0.7.1"
+    gatsby-tinacms-remark "^0.7.2"
     gatsby-transformer-remark "^2.6.50"
     gatsby-transformer-sharp "^2.3.14"
     modern-normalize "^0.6.0"
@@ -7857,10 +7857,10 @@ gatsby-tinacms-json@^0.8.6:
   dependencies:
     slash "^3.0.0"
 
-gatsby-tinacms-remark@^0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/gatsby-tinacms-remark/-/gatsby-tinacms-remark-0.7.1.tgz#ff0eddbec5c24b3948a72f3c87b82b79dbef8b4a"
-  integrity sha512-eDdj6nYmsMATjCRL+K7F0v22jITfWjVij9p6PJ64T5gN5nF1Aw6Gt40WmyMUm/s2wP4AsQ7hTfNvKUMupz4KPg==
+gatsby-tinacms-remark@^0.7.1, gatsby-tinacms-remark@^0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/gatsby-tinacms-remark/-/gatsby-tinacms-remark-0.7.2.tgz#66336bf0374b68fff0e85e820458f9db0e4324e2"
+  integrity sha512-DkKt/N3kj2KsRzkbmOAUcrj5ZD7L+5hQ8e9wpmuqBMT03pGv7XCwUV70ya1PNsuUr08M3mL3LlD8vaQuYRBJYg==
   dependencies:
     gray-matter "^4.0.2"
     js-yaml "^3.13.1"
