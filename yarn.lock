@@ -17266,10 +17266,10 @@ stylelint-config-standard@^20.0.0:
   dependencies:
     stylelint-config-recommended "^3.0.0"
 
-stylelint-config-starstuff@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/stylelint-config-starstuff/-/stylelint-config-starstuff-1.1.3.tgz#982f468f97a7af5eb9645e4ce8a292c889bcd944"
-  integrity sha512-t0EkEN0ojA4mIcPSLr/Fdm9xxiblO7lBD62y18Ag5xz+fqXNg5P9xbVe+2WGC8BSUhMrNuIGcu2SFl573woZOA==
+stylelint-config-starstuff@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/stylelint-config-starstuff/-/stylelint-config-starstuff-1.1.4.tgz#bf4d9c4fc9304c6b1258195fb852d42c0d8f8e9d"
+  integrity sha512-U4wTbdRk4dHIwmXw23Z3b2Qa++VlB1oNh9D4VWGZ2neKAwLG+zDlcomMcHG3Yu+Adpi4FRNnVNxqCh39jy3pLg==
   dependencies:
     stylelint-a11y "^1.2.2"
     stylelint-config-prettier "^8.0.0"
