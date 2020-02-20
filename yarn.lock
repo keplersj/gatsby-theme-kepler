@@ -1612,10 +1612,10 @@
     unist-builder "1.0.4"
     unist-util-visit "2.0.1"
 
-"@mdx-js/react@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-1.5.5.tgz#0036e65ec59521059f33292f535b9ef0d67bd0e6"
-  integrity sha512-Qwvri4zyU9ZbhhXsH0wfSZ/J9b8mARRTB6GSCTnyKRffO2CaQXl9oLsvRAeQSLRei/onEARc+RexH+jMeNS1rw==
+"@mdx-js/react@^1.5.6":
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-1.5.6.tgz#cfa67db8a7f9f279f29bb273f7ae8208b5efb14a"
+  integrity sha512-gIF2psllUHJnmS0+GymkaB16EFjp7uaSdfVtkAEtXY4cFqxWhBOY8YL5rZVeC3R8oXROOQJqf5mTwNk/2R8bWg==
 
 "@mdx-js/util@^1.5.5":
   version "1.5.5"
@@ -7809,14 +7809,14 @@ gatsby-theme-curiousity@^1.4.57:
     tinacms "^0.13.0"
     typescript "^3.7.5"
 
-gatsby-theme-early-bird@^1.8.12:
-  version "1.8.12"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.12.tgz#1974a8885e639f3ce3955ca5e849d609f9589bb8"
-  integrity sha512-OpiSxPiOHUMDKzrXdGtDUpuGkBzVW1PAauV6lcYLpLp/W6W1TSByI6DGY2Ud4ml4U4v3hAtxiZCwHb02dbzsyQ==
+gatsby-theme-early-bird@^1.8.13:
+  version "1.8.13"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.13.tgz#196cafa94c727d2e4a7e5d4568d051cd1c456eaa"
+  integrity sha512-dmNbyk8vsufwx1/dpMzRTmyout6P10gGfw/Bti+j542vFfOm1ewdDws3EbkSn0MdOTB7p5YCJQoA9i/sLLU2Lw==
   dependencies:
     "@emotion/core" "^10.0.27"
     "@mdx-js/mdx" "^1.5.5"
-    "@mdx-js/react" "^1.5.5"
+    "@mdx-js/react" "^1.5.6"
     "@types/react" "^16.9.21"
     "@types/react-helmet" "^5.0.15"
     gatsby-image "^2.2.41"
