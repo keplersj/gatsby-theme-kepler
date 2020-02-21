@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@emotion/styled": "^10.0.27",
-    "@reach/skip-nav": "^0.8.4",
+    "@reach/skip-nav": "^0.8.5",
     "@types/reach__skip-nav": "^0.1.0",
     "@types/react": "^16.9.22",
     "gatsby-background-image-lite": "^1.0.15",
