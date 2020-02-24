@@ -1906,10 +1906,10 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@tinacms/api-git@^0.5.5":
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/@tinacms/api-git/-/api-git-0.5.5.tgz#b374e4369b26bddce14dd6b4ed995aea6ecd797b"
-  integrity sha512-8fhdv/jvR+RAHVm9ySVrWscXAYPzJv6owVZmHo/3zDDs2E2CWPjPraKa1vtuiNYDZEeORisvr2Rccd4TuACFVA==
+"@tinacms/api-git@^0.5.6":
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/@tinacms/api-git/-/api-git-0.5.6.tgz#e9248d4558259f4ab0c723e6465badef209a36bb"
+  integrity sha512-um1fEPS92yGcaKJrYaHslnOveh97VE8K7uB21YvL+lwIfdzEStPhdj/L0qXukRNPMm4rxaPOiPMGc+VA17O9jQ==
   dependencies:
     atob "2.1.2"
     cors "^2.8.5"
@@ -7792,12 +7792,12 @@ gatsby-theme-early-bird@^1.8.18:
     typescript "^3.8.2"
     uri-path-breakdown "^1.0.0"
 
-gatsby-tinacms-git@^0.2.19:
-  version "0.2.19"
-  resolved "https://registry.yarnpkg.com/gatsby-tinacms-git/-/gatsby-tinacms-git-0.2.19.tgz#d3c2301675214aeede359df9c10802353ab901a4"
-  integrity sha512-hVVB/wQyFYSna1w81re9m5l/lFZiDO7q62JhyhM0bbRaybkDBesSFtnwQXZRsCVlcP8wDw6CPWWoxTlR5E3T0Q==
+gatsby-tinacms-git@^0.2.19, gatsby-tinacms-git@^0.2.20:
+  version "0.2.20"
+  resolved "https://registry.yarnpkg.com/gatsby-tinacms-git/-/gatsby-tinacms-git-0.2.20.tgz#affcf916326429e9bb6eb45df52ece730e3a9854"
+  integrity sha512-ZGSnuA69M4bcvLIvEDcN+d9q6VkrlsRleOBkz8kY5SA0Dg6QhAuKDmDH0kwJPzuaYR7YNUBsroBch3siBK3xmg==
   dependencies:
-    "@tinacms/api-git" "^0.5.5"
+    "@tinacms/api-git" "^0.5.6"
     "@tinacms/git-client" "^0.4.2"
 
 gatsby-tinacms-json@^0.8.9:
