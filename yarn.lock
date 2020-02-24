@@ -7755,10 +7755,10 @@ gatsby-telemetry@^1.1.49:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-curiousity@^1.4.59:
-  version "1.4.59"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.59.tgz#87584a314c27026d9767b446bb1f624d81dbecc8"
-  integrity sha512-WUeKx4fmxqQ3K25ECIknQxukRwdG5fGMc3lVI+HtLlmyoU5WnyGNA1ojaiZ385R1jkpk9FG1wVTpPxjFGWc8VA==
+gatsby-theme-curiousity@^1.4.62:
+  version "1.4.62"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.62.tgz#92061b54090c939bb5ad7692a340c5d2607a1cd2"
+  integrity sha512-Q56AB5GZ/qRnRApSO5u7jas4iWO2n3FlATEnK3ljlavbMa+B1UT8C+G/fk/IVl2vfx0MIixlz3jt06GczTGaqQ==
   dependencies:
     "@emotion/core" "^10.0.17"
     "@types/react" "^16.9.22"
@@ -7768,11 +7768,11 @@ gatsby-theme-curiousity@^1.4.59:
     gatsby-plugin-emotion "^4.1.22"
     gatsby-plugin-react-helmet-async "^1.0.15"
     gatsby-plugin-sharp "^2.4.5"
-    gatsby-plugin-tinacms "^0.1.24"
+    gatsby-plugin-tinacms "^0.1.25"
     gatsby-plugin-typescript "^2.1.27"
     gatsby-source-filesystem "^2.1.48"
-    gatsby-tinacms-git "^0.2.19"
-    gatsby-tinacms-remark "^0.7.3"
+    gatsby-tinacms-git "^0.2.20"
+    gatsby-tinacms-remark "^0.7.4"
     gatsby-transformer-remark "^2.6.53"
     gatsby-transformer-sharp "^2.3.14"
     modern-normalize "^0.6.0"
@@ -7784,7 +7784,7 @@ gatsby-theme-curiousity@^1.4.59:
     starstuff-components "^2.1.2"
     starstuff-style "^1.1.1"
     styled-components "^5.0.1"
-    tinacms "^0.13.0"
+    tinacms "^0.14.0"
     typescript "^3.8.2"
 
 gatsby-theme-early-bird@^1.8.18:
@@ -7840,10 +7840,10 @@ gatsby-tinacms-json@^0.8.9:
   dependencies:
     slash "^3.0.0"
 
-gatsby-tinacms-remark@^0.7.3:
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/gatsby-tinacms-remark/-/gatsby-tinacms-remark-0.7.3.tgz#aeb6f7a0032b678a5bf9ad049083957e74983753"
-  integrity sha512-VGKnROfn5zp061lWHY4GmmYlh+qFSQzFKcxu1gAZwlpxaiswr2z+p/eEzSZXsZbEGh9E9Mc2cSoE3OeZkCod1Q==
+gatsby-tinacms-remark@^0.7.3, gatsby-tinacms-remark@^0.7.4:
+  version "0.7.4"
+  resolved "https://registry.yarnpkg.com/gatsby-tinacms-remark/-/gatsby-tinacms-remark-0.7.4.tgz#b55b988e3eca8ffa67ed73b2ab648b4457e916a4"
+  integrity sha512-jUTk0QJVljL8dPKb3ZR+HfIzJdvxB/gBj9WXByqgkJ2493MpD13VMXlICJ6EbcYz4OnHgeSbUT0qUuBnxy4R8w==
   dependencies:
     gray-matter "^4.0.2"
     js-yaml "^3.13.1"
