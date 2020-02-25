@@ -7755,15 +7755,15 @@ gatsby-theme-curiousity@^1.4.62:
     tinacms "^0.14.0"
     typescript "^3.8.2"
 
-gatsby-theme-early-bird@^1.8.20:
-  version "1.8.20"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.20.tgz#ec8c0ad004672dfb31f306224635801e1a860540"
-  integrity sha512-kTktWv70GfDbINByeL9yg9YMgtDtUF3wXcKriLxpkvf9gNdIRhittLXES+th2fL9RdJwqOE/D8jZVwdgDTnn4A==
+gatsby-theme-early-bird@^1.8.21:
+  version "1.8.21"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.21.tgz#585e46a02c05c5fd4e4b899380948bddcd332a06"
+  integrity sha512-yV0xsEE7c71pV8hYS/Ej8jUvDz0J+u5+Fqd4DaqlFzDK3mH9bCv8mQ8CVT3Ff4FRXNb5elkFaBdEU/r5sPVsdw==
   dependencies:
     "@emotion/core" "^10.0.27"
     "@mdx-js/mdx" "^1.5.7"
     "@mdx-js/react" "^1.5.7"
-    "@types/react" "^16.9.22"
+    "@types/react" "^16.9.23"
     "@types/react-helmet" "^5.0.15"
     gatsby-image "^2.2.41"
     gatsby-plugin-emotion "^4.1.22"
