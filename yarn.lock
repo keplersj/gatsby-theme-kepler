@@ -7723,10 +7723,10 @@ gatsby-telemetry@^1.1.49:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-curiousity@^1.4.64:
-  version "1.4.64"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.64.tgz#2fb662b427c5b75115d3ee95ed0731cfc4cd74d0"
-  integrity sha512-FL37RHoxXdIIBSaNJBaG7AaRSFgeZ6L+tAh5TTid/fhCeunpKA7SBsIV/rn3KM0UznXXSIMNn6piVGlzdMdVMQ==
+gatsby-theme-curiousity@^1.4.65:
+  version "1.4.65"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.65.tgz#bed8bd1297a906964a1b45a3a3548c158e9456ca"
+  integrity sha512-mlV2C/q8kxXv32gSWSNI2eCi1FtJOcrAKo74Te4jjhVbOikewSFIQ57rX443K36Hie5/JX1n/A1R19cG5NZjtA==
   dependencies:
     "@emotion/core" "^10.0.17"
     "@types/react" "^16.9.23"
@@ -7742,7 +7742,7 @@ gatsby-theme-curiousity@^1.4.64:
     gatsby-tinacms-git "^0.2.20"
     gatsby-tinacms-remark "^0.7.4"
     gatsby-transformer-remark "^2.6.53"
-    gatsby-transformer-sharp "^2.3.15"
+    gatsby-transformer-sharp "^2.3.16"
     modern-normalize "^0.6.0"
     polished "^3.4.4"
     react-helmet-async "^1.0.4"
@@ -7852,7 +7852,7 @@ gatsby-transformer-remark@^2.6.53:
     unist-util-select "^1.5.0"
     unist-util-visit "^1.4.1"
 
-gatsby-transformer-sharp@^2.3.15, gatsby-transformer-sharp@^2.3.16:
+gatsby-transformer-sharp@^2.3.16:
   version "2.3.16"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.3.16.tgz#e71507a27fa28f14601ac9ce90df504899fd894c"
   integrity sha512-XYQGwtIW6PKZ9KOvS/20IIZanAV7aXPRo1LqmnSK5KYQdgS0vgXCkMM35Sham26sZDKxsNM3+AjmDtCnWIblnw==
