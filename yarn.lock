@@ -7865,10 +7865,10 @@ gatsby-transformer-sharp@^2.3.16:
     semver "^5.7.1"
     sharp "^0.23.4"
 
-gatsby-transformer-sqip@^2.1.64:
-  version "2.1.64"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-sqip/-/gatsby-transformer-sqip-2.1.64.tgz#891e8347047c9896408a6b5c04b9b0838bd444fe"
-  integrity sha512-oI1UXjmfbZr/lQYcj5Bcd+gawsLymLzefZ+hOj3sBW8LlLuQUWPia+d5iFRlBCAjrbMZsM4YhpyyObiIPs6W5g==
+gatsby-transformer-sqip@^2.1.64, gatsby-transformer-sqip@^2.1.65:
+  version "2.1.65"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-sqip/-/gatsby-transformer-sqip-2.1.65.tgz#f7aa0e0668b703c369a3bacc103dab1f7ec24de9"
+  integrity sha512-16OK+xYn1VYhobnDxEYK76Ou1lvwq+lgBMwrZPGL/16/QzMhv165AEVWT9f9IFmlWJXaHOC9N4RRSwBjYmRdFw==
   dependencies:
     "@babel/runtime" "^7.7.6"
     bluebird "^3.7.2"
