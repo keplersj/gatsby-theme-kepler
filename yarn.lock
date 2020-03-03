@@ -1906,17 +1906,6 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@tinacms/api-git@^0.5.6":
-  version "0.5.6"
-  resolved "https://registry.yarnpkg.com/@tinacms/api-git/-/api-git-0.5.6.tgz#e9248d4558259f4ab0c723e6465badef209a36bb"
-  integrity sha512-um1fEPS92yGcaKJrYaHslnOveh97VE8K7uB21YvL+lwIfdzEStPhdj/L0qXukRNPMm4rxaPOiPMGc+VA17O9jQ==
-  dependencies:
-    atob "2.1.2"
-    cors "^2.8.5"
-    express "^4.17.1"
-    multer "1.4.2"
-    simple-git "1.126.0"
-
 "@tinacms/api-git@^0.6.0":
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/@tinacms/api-git/-/api-git-0.6.0.tgz#15d833cca41e25e9790d348cade2df637d86c6b6"
@@ -1982,11 +1971,6 @@
   dependencies:
     final-form "^4.18.2"
     final-form-arrays "^3.0.1"
-
-"@tinacms/git-client@^0.4.2":
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/@tinacms/git-client/-/git-client-0.4.2.tgz#2a087fe7df2e08b00656ada072cb9a5414eab741"
-  integrity sha512-0FXEL2AEwaeju/fTPZg2eZ8i7amlQCHQn78a8Hm+tgBXxfL3mY7N2HFVC94js9D/of05GWvjews72a4F+QUDHw==
 
 "@tinacms/git-client@^0.5.0":
   version "0.5.0"
@@ -7798,10 +7782,10 @@ gatsby-theme-curiousity@^1.4.73:
     tinacms "^0.14.0"
     typescript "^3.8.3"
 
-gatsby-theme-early-bird@^1.8.30:
-  version "1.8.30"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.30.tgz#66cb622e411561c0be5d8113f23b9a899cefbc48"
-  integrity sha512-kDQl1ojIpT88fTxugO4JIdsHy6jd0/coZO3o2TzkhN7Jd5FkxDCnk4aLp1AZX4R2OfxqJxOph9WJgoiI9NRQiQ==
+gatsby-theme-early-bird@^1.8.31:
+  version "1.8.31"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.31.tgz#c7e3330f3e36c48d5b95bfecb8f6df54a6f767a5"
+  integrity sha512-HMe0kUsr0PdV1PqfHSQyJnqziEt63/qoylyyH0NB4DfC+tEwEmGgyygI1k2bG6rrv9nBG/BwJeyPIVJhjMAlZQ==
   dependencies:
     "@emotion/core" "^10.0.28"
     "@mdx-js/mdx" "^1.5.7"
@@ -7819,7 +7803,7 @@ gatsby-theme-early-bird@^1.8.30:
     gatsby-remark-images "^3.1.44"
     gatsby-remark-smartypants "^2.1.21"
     gatsby-source-filesystem "^2.1.48"
-    gatsby-tinacms-git "^0.2.20"
+    gatsby-tinacms-git "^0.3.0"
     gatsby-tinacms-remark "^0.7.5"
     gatsby-transformer-remark "^2.6.53"
     gatsby-transformer-sharp "^2.3.16"
@@ -7835,14 +7819,6 @@ gatsby-theme-early-bird@^1.8.30:
     tinacms "^0.14.0"
     typescript "^3.8.3"
     uri-path-breakdown "^1.0.0"
-
-gatsby-tinacms-git@^0.2.20:
-  version "0.2.20"
-  resolved "https://registry.yarnpkg.com/gatsby-tinacms-git/-/gatsby-tinacms-git-0.2.20.tgz#affcf916326429e9bb6eb45df52ece730e3a9854"
-  integrity sha512-ZGSnuA69M4bcvLIvEDcN+d9q6VkrlsRleOBkz8kY5SA0Dg6QhAuKDmDH0kwJPzuaYR7YNUBsroBch3siBK3xmg==
-  dependencies:
-    "@tinacms/api-git" "^0.5.6"
-    "@tinacms/git-client" "^0.4.2"
 
 gatsby-tinacms-git@^0.3.0:
   version "0.3.0"
