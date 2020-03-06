@@ -6267,10 +6267,10 @@ eslint-config-react-app@^5.1.0:
   dependencies:
     confusing-browser-globals "^1.0.9"
 
-eslint-config-starstuff@^1.4.31:
-  version "1.4.31"
-  resolved "https://registry.yarnpkg.com/eslint-config-starstuff/-/eslint-config-starstuff-1.4.31.tgz#f957179c9c54b68cce7fca920931231ac9c4fbd9"
-  integrity sha512-/5rJlaQ5FFl2OOkH4iGbhS2VjiQSUotl8i8iNJnZEWX8BBIE5VIHrcXBP/mpmuJb5YGQ6UDF6T1/129NvgFLiQ==
+eslint-config-starstuff@^1.4.32:
+  version "1.4.32"
+  resolved "https://registry.yarnpkg.com/eslint-config-starstuff/-/eslint-config-starstuff-1.4.32.tgz#dd4ca1bf54e03e55486f194b08b3545051047b0b"
+  integrity sha512-1o8eMeoNc3lricWEQt4NWkx7njt/js4I7jqsHEHWZ9DOS2nn34jzken+X8/ZtzLq4N0WHE5n+ajphYa1Ba/EZQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^2.3.2"
     "@typescript-eslint/parser" "^2.3.2"
@@ -7462,15 +7462,6 @@ gatsby-cli@^2.10.1:
     ink-spinner "^3.0.1"
 
 gatsby-core-utils@^1.0.29, gatsby-core-utils@^1.0.30:
-  version "1.0.30"
-  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.0.30.tgz#c2b61017405b01e2f34f2c57117b4716c75e010f"
-  integrity sha512-+WYFxf9dT4u67vecXdROe9iF2jzPKoTVbWI3FYLCcNANY2Y/vEec11vhG5FnBHdLpgmD3cnLPdhCAileKWBldA==
-  dependencies:
-    ci-info "2.0.0"
-    configstore "^5.0.0"
-    node-object-hash "^2.0.0"
-
-gatsby-core-utils@^1.0.30:
   version "1.0.30"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.0.30.tgz#c2b61017405b01e2f34f2c57117b4716c75e010f"
   integrity sha512-+WYFxf9dT4u67vecXdROe9iF2jzPKoTVbWI3FYLCcNANY2Y/vEec11vhG5FnBHdLpgmD3cnLPdhCAileKWBldA==
