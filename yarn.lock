@@ -7469,6 +7469,15 @@ gatsby-core-utils@^1.0.29:
     ci-info "2.0.0"
     node-object-hash "^2.0.0"
 
+gatsby-core-utils@^1.0.30:
+  version "1.0.30"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.0.30.tgz#c2b61017405b01e2f34f2c57117b4716c75e010f"
+  integrity sha512-+WYFxf9dT4u67vecXdROe9iF2jzPKoTVbWI3FYLCcNANY2Y/vEec11vhG5FnBHdLpgmD3cnLPdhCAileKWBldA==
+  dependencies:
+    ci-info "2.0.0"
+    configstore "^5.0.0"
+    node-object-hash "^2.0.0"
+
 gatsby-graphiql-explorer@^0.2.35:
   version "0.2.35"
   resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-0.2.35.tgz#23b0f9260ad66524e8f7ce1b8596ca7e6a041c41"
@@ -7658,15 +7667,15 @@ gatsby-remark-copy-linked-files@^2.1.38:
     probe-image-size "^4.1.1"
     unist-util-visit "^1.4.1"
 
-gatsby-remark-images@^3.1.45:
-  version "3.1.45"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-3.1.45.tgz#e575e21575c1f75a02f3e83f9165f6a92259f1dc"
-  integrity sha512-Znr0DY3W6BCZyu3gB9WCB8xeKknDvt8BLuUdGdpTEGaYLx+R0RsekMBwDN6163WQpRQE/FgFFpmdu54Pe8z/5g==
+gatsby-remark-images@^3.1.45, gatsby-remark-images@^3.1.46:
+  version "3.1.46"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-3.1.46.tgz#4882b16ac5cc7fd1542632d1f8c96c6294a1486a"
+  integrity sha512-E99qAVLCUB2d0z8FCrgZd1EQvaRK3Z4UvxKsjR8T2YcwQhDVgHZ59IfbPAIRPbzrUrEzVTkQiZKmDzFOZj3ndA==
   dependencies:
     "@babel/runtime" "^7.7.6"
     chalk "^2.4.2"
     cheerio "^1.0.0-rc.3"
-    gatsby-core-utils "^1.0.29"
+    gatsby-core-utils "^1.0.30"
     is-relative-url "^3.0.0"
     lodash "^4.17.15"
     mdast-util-definitions "^1.2.5"
@@ -7787,10 +7796,10 @@ gatsby-theme-curiousity@^1.4.81:
     tinacms "^0.15.0"
     typescript "^3.8.3"
 
-gatsby-theme-early-bird@^1.8.38:
-  version "1.8.38"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.38.tgz#de0e2171def6d88806b070919a0e3c28932de449"
-  integrity sha512-j4JdTynf6F5mv5CAndp10tuZ8Rminc2bdxS239PMZd0Ukb/hz663RePoY/iXcpoxwYLdu+eOiUzJV/kmhJC5Zg==
+gatsby-theme-early-bird@^1.8.39:
+  version "1.8.39"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.39.tgz#f09852b6d67b41a6809bad9c5a1940039c7bdacc"
+  integrity sha512-IiSqnYMnCaLKKcY02TJgVQOMsc0d3sbqTRF9yfvvYAE8ZhdnYteakoDOtlRjowzjP4swiUhv2huTRRVqPyAxUw==
   dependencies:
     "@emotion/core" "^10.0.28"
     "@mdx-js/mdx" "^1.5.7"
@@ -7805,7 +7814,7 @@ gatsby-theme-early-bird@^1.8.38:
     gatsby-plugin-tinacms "^0.1.26"
     gatsby-plugin-typescript "^2.2.1"
     gatsby-remark-copy-linked-files "^2.1.38"
-    gatsby-remark-images "^3.1.45"
+    gatsby-remark-images "^3.1.46"
     gatsby-remark-smartypants "^2.1.22"
     gatsby-source-filesystem "^2.1.49"
     gatsby-tinacms-git "^0.3.0"
