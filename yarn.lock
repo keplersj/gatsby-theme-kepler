@@ -7750,26 +7750,26 @@ gatsby-telemetry@^1.1.49:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-curiousity@^1.4.75:
-  version "1.4.75"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.75.tgz#aac7acbf1f9eed4458ff2ec654f91a42f7119a31"
-  integrity sha512-SL9BBtgSNNxbUVA5/vfaufxKGkKabsWZaLJrDNGwjayXmbMSAGxAf/RtVSs8oDFMRsuU8mO97g1SoO6FMcx3mA==
+gatsby-theme-curiousity@^1.4.81:
+  version "1.4.81"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.81.tgz#f2eee52ff157677e989633b58876195edd03ab0f"
+  integrity sha512-GsGd1VqXRcbigu+OIOtLtCDfqHDbFjrlzREwgknIQlTh6r+I4MOEQJUc6ZZp+cM4MIQyO8//EA54vMjl/nlqvg==
   dependencies:
     "@emotion/core" "^10.0.28"
     "@types/react" "^16.9.23"
     "@types/react-helmet" "^5.0.15"
-    gatsby-core-utils "^1.0.28"
-    gatsby-image "^2.2.42"
-    gatsby-plugin-emotion "^4.1.23"
+    gatsby-core-utils "^1.0.29"
+    gatsby-image "^2.2.43"
+    gatsby-plugin-emotion "^4.1.24"
     gatsby-plugin-react-helmet-async "^1.0.15"
-    gatsby-plugin-sharp "^2.4.5"
+    gatsby-plugin-sharp "^2.4.6"
     gatsby-plugin-tinacms "^0.1.26"
-    gatsby-plugin-typescript "^2.2.0"
-    gatsby-source-filesystem "^2.1.48"
+    gatsby-plugin-typescript "^2.2.1"
+    gatsby-source-filesystem "^2.1.49"
     gatsby-tinacms-git "^0.3.0"
     gatsby-tinacms-remark "^0.7.5"
-    gatsby-transformer-remark "^2.6.53"
-    gatsby-transformer-sharp "^2.3.16"
+    gatsby-transformer-remark "^2.6.54"
+    gatsby-transformer-sharp "^2.3.17"
     modern-normalize "^0.6.0"
     polished "^3.4.4"
     react-helmet-async "^1.0.4"
@@ -7852,14 +7852,14 @@ gatsby-transformer-json@^2.2.27:
     "@babel/runtime" "^7.7.6"
     bluebird "^3.7.2"
 
-gatsby-transformer-remark@^2.6.53:
-  version "2.6.53"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.6.53.tgz#f35c4c196eb4e6b96fed03c9a2ebde005619ae0b"
-  integrity sha512-Gg5d93B20cE0xp5q3ieuVwn4CaYDBBImw1SpQCySixUo43yjdQIWfwkSePYDaKNPzaICdRyy/7+X2bbZP43e5w==
+gatsby-transformer-remark@^2.6.53, gatsby-transformer-remark@^2.6.54:
+  version "2.6.54"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.6.54.tgz#b84aa384f4e2d6bdc1b302a930d1f216c5a9078b"
+  integrity sha512-4Oq+sO8yoTawLV/MPJrC5yECwdihPiqZhpgLZuI08o9oediKbMdkDnS3N4rzCnbDU/NeWd1kmfDN4y6+3z59Kg==
   dependencies:
     "@babel/runtime" "^7.7.6"
     bluebird "^3.7.2"
-    gatsby-core-utils "^1.0.28"
+    gatsby-core-utils "^1.0.29"
     gray-matter "^4.0.2"
     hast-util-raw "^4.0.0"
     hast-util-to-html "^4.0.1"
