@@ -7765,19 +7765,19 @@ gatsby-telemetry@^1.1.50:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-curiousity@^1.4.81:
-  version "1.4.81"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.81.tgz#f2eee52ff157677e989633b58876195edd03ab0f"
-  integrity sha512-GsGd1VqXRcbigu+OIOtLtCDfqHDbFjrlzREwgknIQlTh6r+I4MOEQJUc6ZZp+cM4MIQyO8//EA54vMjl/nlqvg==
+gatsby-theme-curiousity@^1.4.82:
+  version "1.4.82"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.82.tgz#bfe2cb23b41dd59be55e2a44a36c2f8ea784afd5"
+  integrity sha512-Wfa1pFGYKZDjtIAy0yEXDcfog7fCFBtmcAv2fvjBlJM57yyVFS6mP2yAQuLYIx9gwiFf2/a6nYmoQJndxDiGFQ==
   dependencies:
     "@emotion/core" "^10.0.28"
     "@types/react" "^16.9.23"
     "@types/react-helmet" "^5.0.15"
-    gatsby-core-utils "^1.0.29"
+    gatsby-core-utils "^1.0.30"
     gatsby-image "^2.2.43"
     gatsby-plugin-emotion "^4.1.24"
     gatsby-plugin-react-helmet-async "^1.0.15"
-    gatsby-plugin-sharp "^2.4.6"
+    gatsby-plugin-sharp "^2.4.7"
     gatsby-plugin-tinacms "^0.1.26"
     gatsby-plugin-typescript "^2.2.1"
     gatsby-source-filesystem "^2.1.49"
