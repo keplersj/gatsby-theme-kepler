@@ -7712,7 +7712,7 @@ gatsby-remark-vscode@^2.0.3:
     unist-util-visit "^1.4.1"
     vscode-textmate "4.2.2"
 
-gatsby-source-filesystem@^2.1.49, gatsby-source-filesystem@^2.1.50:
+gatsby-source-filesystem@^2.1.50:
   version "2.1.50"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.1.50.tgz#cce82defe88bb280e5d206caac26fc6b880c1cd9"
   integrity sha512-BSjxTFT3srIhRxlD4sPeJ+p6xtBzqeJ4zMyyzjVgsAkRcnWFzpyGVnH9eBWnYuhPIz1I9bXvKtQZYsIYcYUYCw==
@@ -7756,10 +7756,10 @@ gatsby-telemetry@^1.1.51:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-curiousity@^1.4.82:
-  version "1.4.82"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.82.tgz#bfe2cb23b41dd59be55e2a44a36c2f8ea784afd5"
-  integrity sha512-Wfa1pFGYKZDjtIAy0yEXDcfog7fCFBtmcAv2fvjBlJM57yyVFS6mP2yAQuLYIx9gwiFf2/a6nYmoQJndxDiGFQ==
+gatsby-theme-curiousity@^1.4.85:
+  version "1.4.85"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.85.tgz#1581e662b355c7a382a4e7d3a4cb27b38a44b0ff"
+  integrity sha512-wcnJhn0pIxUpjUSTkhumw68jfATOZKJNrK4UexKiyL1ZRppUMvoH8+NuTkqYcF+gfYJJn+06cnDkJZboX6+l5A==
   dependencies:
     "@emotion/core" "^10.0.28"
     "@types/react" "^16.9.23"
@@ -7767,14 +7767,14 @@ gatsby-theme-curiousity@^1.4.82:
     gatsby-core-utils "^1.0.30"
     gatsby-image "^2.2.43"
     gatsby-plugin-emotion "^4.1.24"
-    gatsby-plugin-react-helmet-async "^1.0.15"
+    gatsby-plugin-react-helmet-async "^1.0.16"
     gatsby-plugin-sharp "^2.4.7"
     gatsby-plugin-tinacms "^0.1.26"
     gatsby-plugin-typescript "^2.2.1"
-    gatsby-source-filesystem "^2.1.49"
+    gatsby-source-filesystem "^2.1.50"
     gatsby-tinacms-git "^0.3.0"
     gatsby-tinacms-remark "^0.7.5"
-    gatsby-transformer-remark "^2.6.54"
+    gatsby-transformer-remark "^2.6.55"
     gatsby-transformer-sharp "^2.3.17"
     modern-normalize "^0.6.0"
     polished "^3.4.4"
@@ -7858,7 +7858,7 @@ gatsby-transformer-json@^2.2.27:
     "@babel/runtime" "^7.7.6"
     bluebird "^3.7.2"
 
-gatsby-transformer-remark@^2.6.54, gatsby-transformer-remark@^2.6.55:
+gatsby-transformer-remark@^2.6.55:
   version "2.6.55"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.6.55.tgz#1a4e76c083d8b9633fd7b8d62079e81fd378ab9f"
   integrity sha512-z3bkfjQzJd45jKs9bKRUFAvrotKTmne0fIAit6YLn44+YnpN59m9fa354ihDwNcyf34ODtvCHEYBNdZq2+GBxQ==
