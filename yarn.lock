@@ -7612,7 +7612,7 @@ gatsby-plugin-tinacms@^0.1.26:
   dependencies:
     tinacms "^0.15.0"
 
-gatsby-plugin-typescript@^2.2.1, gatsby-plugin-typescript@^2.2.2:
+gatsby-plugin-typescript@^2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-2.2.2.tgz#37ab70aaf96b28e7c1cc5852fae26df55ea8a75a"
   integrity sha512-U4fYeDIgMF6jHf0UajxeUubtQblQZIHZrX5ZdD39nJsDTuEZ4aHrrATZ7+cqsRRRfH3aNcqMOUPRuBZ9/YjSUQ==
@@ -7756,10 +7756,10 @@ gatsby-telemetry@^1.1.51:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-curiousity@^1.4.85:
-  version "1.4.85"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.85.tgz#1581e662b355c7a382a4e7d3a4cb27b38a44b0ff"
-  integrity sha512-wcnJhn0pIxUpjUSTkhumw68jfATOZKJNrK4UexKiyL1ZRppUMvoH8+NuTkqYcF+gfYJJn+06cnDkJZboX6+l5A==
+gatsby-theme-curiousity@^1.4.86:
+  version "1.4.86"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.86.tgz#515dbc669b1a44a5206717899febad356088b5b8"
+  integrity sha512-KdhT/a8xylyrK+yTcau1K8RkMd2w2edwp00tgKZReqnHSugq6WxyKVcy5hM8QJ9rC576aj/vGQKUAy3ENCt4lw==
   dependencies:
     "@emotion/core" "^10.0.28"
     "@types/react" "^16.9.23"
@@ -7770,7 +7770,7 @@ gatsby-theme-curiousity@^1.4.85:
     gatsby-plugin-react-helmet-async "^1.0.16"
     gatsby-plugin-sharp "^2.4.7"
     gatsby-plugin-tinacms "^0.1.26"
-    gatsby-plugin-typescript "^2.2.1"
+    gatsby-plugin-typescript "^2.2.2"
     gatsby-source-filesystem "^2.1.50"
     gatsby-tinacms-git "^0.3.0"
     gatsby-tinacms-remark "^0.7.5"
