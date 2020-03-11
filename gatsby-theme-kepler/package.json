@@ -70,7 +70,7 @@
     "gatsby": "^2.19.38",
     "jest": "^25.1.0",
     "jest-emotion": "^10.0.27",
-    "jest-preset-gatsby": "^1.0.34",
+    "jest-preset-gatsby": "^1.0.35",
     "jest-runner-eslint": "^0.7.6",
     "jest-runner-prettier": "^0.3.6",
     "jest-runner-stylelint": "^2.3.1",
