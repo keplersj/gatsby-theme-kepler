@@ -1884,10 +1884,10 @@
     typed-inject "~2.1.1"
     typed-rest-client "~1.7.1"
 
-"@stryker-mutator/html-reporter@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/html-reporter/-/html-reporter-3.0.1.tgz#ae8bffd18d8e1de76c456ad1f90a499566d1ad95"
-  integrity sha512-yLUhnhyRW2aInxkiKZjeRwo0m+tiuNW26rXtKSQQVk3bxOlRy0SmlbiPI75KU6pnnpskzj6zgHYMD5p21lFzPg==
+"@stryker-mutator/html-reporter@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/html-reporter/-/html-reporter-3.0.2.tgz#97a7479b1a14802c4c2d67edaccf44fbe386eb84"
+  integrity sha512-46oQPLFDk3fDZdKfeKrIDzl5pN9gX5CKwJzAWC6e8WVvbrElo8+N5gIlINDg1GSUCQXP8u11C+KD36zt9NBgbA==
 
 "@stryker-mutator/jest-runner@^3.0.1":
   version "3.0.1"
