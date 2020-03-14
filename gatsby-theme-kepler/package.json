@@ -48,7 +48,7 @@
     "react-schemaorg": "^1.0.0",
     "schema-dts": "^0.5.1",
     "starstuff-components": "^2.1.2",
-    "starstuff-style": "^1.1.1",
+    "starstuff-style": "^1.1.2",
     "styled-components": "^5.0.1",
     "typescript": "^3.8.3",
     "uri-path-breakdown": "^1.0.0",
