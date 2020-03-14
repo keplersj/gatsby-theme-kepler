@@ -6310,10 +6310,10 @@ eslint-config-react-app@^5.1.0:
   dependencies:
     confusing-browser-globals "^1.0.9"
 
-eslint-config-starstuff@^1.4.38:
-  version "1.4.38"
-  resolved "https://registry.yarnpkg.com/eslint-config-starstuff/-/eslint-config-starstuff-1.4.38.tgz#c033c57fca0714a751103b1c474c25469ba57705"
-  integrity sha512-aEtmHUi/Ht2BgTakR2TBSZ/1cMI07DWmlJMYkqxDredSuBD/jmpLsMAlSZqdeizBGm5hVspcge9RoYq2XHH0Hw==
+eslint-config-starstuff@^1.4.39:
+  version "1.4.39"
+  resolved "https://registry.yarnpkg.com/eslint-config-starstuff/-/eslint-config-starstuff-1.4.39.tgz#133822c445f48cdf22b448239b5a49658c66b282"
+  integrity sha512-7q44f6ZmGoZQBQ0J6iK2WBgAJE+gWEYyFrtLmqKE9R3MvX4MW9GzPxRV2ztmrFZOINqBpK6sDwCtDe6OFMA4QQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^2.3.2"
     "@typescript-eslint/parser" "^2.3.2"
