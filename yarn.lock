@@ -18999,8 +18999,9 @@ vscode-theme-onedark@akamud/vscode-theme-onedark:
   resolved "https://codeload.github.com/akamud/vscode-theme-onedark/tar.gz/11ef483921495ea6c086f56149dfa0ca6225ae53"
 
 vscode-theme-onelight@akamud/vscode-theme-onelight:
-  version "2.1.0"
-  resolved "https://codeload.github.com/akamud/vscode-theme-onelight/tar.gz/b6e1a53d5ed5e6bc5878fe2e77513ee5395fb4ea"
+  version "2.2.0"
+  uid "3f000acfd71fbaa3b90740bd48a5c3abfabc66ed"
+  resolved "https://codeload.github.com/akamud/vscode-theme-onelight/tar.gz/3f000acfd71fbaa3b90740bd48a5c3abfabc66ed"
 
 w3c-hr-time@^1.0.1:
   version "1.0.1"
