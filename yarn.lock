@@ -18973,8 +18973,9 @@ vscode-textmate@4.2.2:
     oniguruma "^7.2.0"
 
 vscode-theme-onedark@akamud/vscode-theme-onedark:
-  version "2.1.0"
-  resolved "https://codeload.github.com/akamud/vscode-theme-onedark/tar.gz/11ef483921495ea6c086f56149dfa0ca6225ae53"
+  version "2.2.0"
+  uid "9198a4923d9000829cf2dbb63f245d97f3c4012b"
+  resolved "https://codeload.github.com/akamud/vscode-theme-onedark/tar.gz/9198a4923d9000829cf2dbb63f245d97f3c4012b"
 
 vscode-theme-onelight@akamud/vscode-theme-onelight:
   version "2.2.0"
