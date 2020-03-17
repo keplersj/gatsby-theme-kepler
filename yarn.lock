@@ -11963,7 +11963,7 @@ mdast-util-to-nlcst@^3.2.0:
     unist-util-position "^3.0.0"
     vfile-location "^2.0.0"
 
-mdast-util-to-string@^1.0.5, mdast-util-to-string@^1.0.7, mdast-util-to-string@^1.1.0:
+mdast-util-to-string@^1.0.5, mdast-util-to-string@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/mdast-util-to-string/-/mdast-util-to-string-1.1.0.tgz#27055500103f51637bd07d01da01eb1967a43527"
   integrity sha512-jVU0Nr2B9X3MU4tSK7JP1CMkSvOj7X5l/GboG1tKRw52lLF1x2Ju92Ms9tNetCcbfX3hzlM73zYo2NKkWSfF/A==
@@ -15276,10 +15276,10 @@ react-refresh@^0.7.0:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.7.2.tgz#f30978d21eb8cac6e2f2fde056a7d04f6844dd50"
   integrity sha512-u5l7fhAJXecWUJzVxzMRU2Zvw8m4QmDNHlTrT5uo3KBlYBhmChd7syAakBoay1yIiVhx/8Fi7a6v6kQZfsw81Q==
 
-react-schemaorg@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/react-schemaorg/-/react-schemaorg-1.0.0.tgz#976a036a965eca597db8682455a2e7c8cd95f0b0"
-  integrity sha512-dMSxyXBeFB0A3VLpsGLMK8W1rMh05+N7YzlBgp0WLMqt+9Y1yHDCO/gR4+dK8lu9574kknYomeZr79woBtFRYw==
+react-schemaorg@^1.0.0, react-schemaorg@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-schemaorg/-/react-schemaorg-1.0.1.tgz#c8865a81861f424181efaa2f5919164287c920c4"
+  integrity sha512-nt/37U4yORyYL5y2ZL4f5mtVtuchqo9I2vMSVPEHkV9cPsqQJLsYrhHkPkJmecN7DTqHue9D3v2gnPoVmFp0DQ==
 
 react-select@^2.3.0:
   version "2.4.4"
