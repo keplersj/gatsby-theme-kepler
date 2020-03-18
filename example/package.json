@@ -8,7 +8,7 @@
     "build": "gatsby build"
   },
   "devDependencies": {
-    "gatsby": "^2.19.45",
+    "gatsby": "^2.19.46",
     "gatsby-theme-kepler": "0.0.0-development",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
