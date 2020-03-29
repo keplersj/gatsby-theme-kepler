@@ -68,7 +68,7 @@
     "eslint-config-starstuff": "^1.4.42",
     "eslint-plugin-jest": "^23.8.2",
     "gatsby": "^2.20.8",
-    "jest": "^25.2.3",
+    "jest": "^25.2.4",
     "jest-emotion": "^10.0.32",
     "jest-preset-gatsby": "^1.0.42",
     "jest-runner-eslint": "^0.7.6",
