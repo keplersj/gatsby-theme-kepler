@@ -59,7 +59,7 @@
     "@stryker-mutator/core": "^3.0.2",
     "@stryker-mutator/html-reporter": "^3.1.0",
     "@stryker-mutator/jest-runner": "^3.0.2",
-    "@stryker-mutator/typescript": "^3.0.2",
+    "@stryker-mutator/typescript": "^3.1.0",
     "@types/deepmerge": "^2.2.0",
     "@types/jest": "^25.1.4",
     "@types/react-test-renderer": "^16.9.2",
