@@ -8003,10 +8003,10 @@ gatsby-tinacms-git@^0.4.4:
     "@tinacms/api-git" "^0.7.0"
     "@tinacms/git-client" "^0.6.3"
 
-gatsby-tinacms-json@^0.8.12:
-  version "0.8.12"
-  resolved "https://registry.yarnpkg.com/gatsby-tinacms-json/-/gatsby-tinacms-json-0.8.12.tgz#be00ad33c6ab057904d9d75a2dd72f7f64fde082"
-  integrity sha512-K9aRoBK0mcvxQB7ihHt9oyiUkYeeLLDP5MZcHVVDbY+nMkUVHkD69xrFwPuJ27+CJij8NWog/cdeYUkysLFFxQ==
+gatsby-tinacms-json@^0.8.15:
+  version "0.8.15"
+  resolved "https://registry.yarnpkg.com/gatsby-tinacms-json/-/gatsby-tinacms-json-0.8.15.tgz#c5b538f798ee83408f5ae7e362e82be64098422e"
+  integrity sha512-6LX2Aiabg0D1BKYvm4mrWMEkUmz9Mx7yzH4UMgKzBW7+NOb5lFxvMBr53s67w0k+W94Bybo7jDo4+v57rJ2X0Q==
   dependencies:
     slash "^3.0.0"
 
