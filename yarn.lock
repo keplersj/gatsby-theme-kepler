@@ -2133,10 +2133,10 @@
   resolved "https://registry.yarnpkg.com/@tinacms/git-client/-/git-client-0.5.0.tgz#866cdb7e86f8be4e9bfd0f7ca2aadf1fefd137fd"
   integrity sha512-odnCWbbeT//nm6Dzc5OODS5lgrEgoI/9eMrn5rYL2JBhj1LJX5oORj6DnzaCkYHRWowLrIAqyhbim4tNgGDjww==
 
-"@tinacms/git-client@^0.6.4":
-  version "0.6.4"
-  resolved "https://registry.yarnpkg.com/@tinacms/git-client/-/git-client-0.6.4.tgz#a77412571fb2ba94c56992c97299a52639ad4ad3"
-  integrity sha512-dupLoH9MKkK8U8llAz9gFSJ2VbJ9m3zGhBkRWQoIkT+mR89Vqrg5vj8ZxB9q915FJqhQa+8PKzBINPF1v/HlsA==
+"@tinacms/git-client@^0.6.5":
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/@tinacms/git-client/-/git-client-0.6.5.tgz#454a863d9403cfec0385c3189d1cd438d1337fe6"
+  integrity sha512-Cd2OClabxTtvdW+uch7EbyhFqMy7urHnXVTXZOl4cfS65mr4iQ3fghE7sA5bcYpYapZtFtAs+n9XogdSUuxBHw==
 
 "@tinacms/icons@^0.6.0":
   version "0.6.0"
@@ -8071,13 +8071,13 @@ gatsby-tinacms-git@^0.3.0:
     "@tinacms/api-git" "^0.6.0"
     "@tinacms/git-client" "^0.5.0"
 
-gatsby-tinacms-git@^0.4.5:
-  version "0.4.5"
-  resolved "https://registry.yarnpkg.com/gatsby-tinacms-git/-/gatsby-tinacms-git-0.4.5.tgz#102fccc210b0376cbc3abf6aa92338630fd2dc4b"
-  integrity sha512-s5reZxN3KFyP2QHA23rSx6KfksFHdhq36BWwR0p78h1bzpcgxZVSZ4jXJadeaShKWwXOUrNcRp6CilZsbSQnuw==
+gatsby-tinacms-git@^0.4.6:
+  version "0.4.6"
+  resolved "https://registry.yarnpkg.com/gatsby-tinacms-git/-/gatsby-tinacms-git-0.4.6.tgz#b525263d320631c7f35a2c63bdd01c1ad2e0cd5a"
+  integrity sha512-lGPqXBW1iBIzEWl/HZ43vCCLUuJTkUVbn6jXJ5Td2pueL41RgRmmrw3AQAUiAIpMuINirpfFDOMJ731VzbeFGQ==
   dependencies:
     "@tinacms/api-git" "^0.7.0"
-    "@tinacms/git-client" "^0.6.4"
+    "@tinacms/git-client" "^0.6.5"
 
 gatsby-tinacms-json@^0.8.12:
   version "0.8.12"
@@ -14631,7 +14631,7 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.13, postcss@^7.0.14, postcss@^7.0.1
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-potrace@^2.1.2, potrace@^2.1.5:
+potrace@^2.1.5:
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/potrace/-/potrace-2.1.5.tgz#4d0c284ad5af39b74affe7a738b26bb009000b91"
   integrity sha512-huAWS0flSZttRm+WA5IGSFxHLXgVd9JCGU8+heDD3fAvFmW1Wf1Y7qq3Un2hH2xBNMwDY7vP1PYA0VQUh7CC+Q==
