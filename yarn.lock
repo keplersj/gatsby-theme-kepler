@@ -2133,10 +2133,10 @@
   resolved "https://registry.yarnpkg.com/@tinacms/git-client/-/git-client-0.5.0.tgz#866cdb7e86f8be4e9bfd0f7ca2aadf1fefd137fd"
   integrity sha512-odnCWbbeT//nm6Dzc5OODS5lgrEgoI/9eMrn5rYL2JBhj1LJX5oORj6DnzaCkYHRWowLrIAqyhbim4tNgGDjww==
 
-"@tinacms/git-client@^0.6.5":
-  version "0.6.5"
-  resolved "https://registry.yarnpkg.com/@tinacms/git-client/-/git-client-0.6.5.tgz#454a863d9403cfec0385c3189d1cd438d1337fe6"
-  integrity sha512-Cd2OClabxTtvdW+uch7EbyhFqMy7urHnXVTXZOl4cfS65mr4iQ3fghE7sA5bcYpYapZtFtAs+n9XogdSUuxBHw==
+"@tinacms/git-client@^0.6.6":
+  version "0.6.6"
+  resolved "https://registry.yarnpkg.com/@tinacms/git-client/-/git-client-0.6.6.tgz#9ed3b02968c2fa024c6866f50e42643577d666c6"
+  integrity sha512-AzwoZegi6Kg7pJUQsURzxDbuigvX9aFtuSOXX5EOSJGCfMQxXiqmw46Phf8dj1dJ+/7f1XB2uI8o1aOGRt0xyA==
 
 "@tinacms/icons@^0.6.0":
   version "0.6.0"
@@ -8071,13 +8071,13 @@ gatsby-tinacms-git@^0.3.0:
     "@tinacms/api-git" "^0.6.0"
     "@tinacms/git-client" "^0.5.0"
 
-gatsby-tinacms-git@^0.4.6:
-  version "0.4.6"
-  resolved "https://registry.yarnpkg.com/gatsby-tinacms-git/-/gatsby-tinacms-git-0.4.6.tgz#b525263d320631c7f35a2c63bdd01c1ad2e0cd5a"
-  integrity sha512-lGPqXBW1iBIzEWl/HZ43vCCLUuJTkUVbn6jXJ5Td2pueL41RgRmmrw3AQAUiAIpMuINirpfFDOMJ731VzbeFGQ==
+gatsby-tinacms-git@^0.4.7:
+  version "0.4.7"
+  resolved "https://registry.yarnpkg.com/gatsby-tinacms-git/-/gatsby-tinacms-git-0.4.7.tgz#44a7dfee2919e9be3f62f02566c6321f1ca7b146"
+  integrity sha512-wI4ctWy5yhdxZ2CUfej+YPDa/u74i84J9isdKiqIRv7UECAn8o7smOvvkMuIDX2SwO7wVbDDSGqJri7omniGVQ==
   dependencies:
     "@tinacms/api-git" "^0.7.0"
-    "@tinacms/git-client" "^0.6.5"
+    "@tinacms/git-client" "^0.6.6"
 
 gatsby-tinacms-json@^0.8.12:
   version "0.8.12"
