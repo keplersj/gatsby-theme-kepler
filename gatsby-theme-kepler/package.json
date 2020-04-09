@@ -15,7 +15,7 @@
     "@emotion/styled": "^10.0.27",
     "@reach/skip-nav": "^0.8.6",
     "@types/reach__skip-nav": "^0.1.0",
-    "@types/react": "^16.9.33",
+    "@types/react": "^16.9.34",
     "gatsby-background-image-lite": "^1.0.21",
     "gatsby-image": "^2.3.2",
     "gatsby-link": "^2.3.2",
