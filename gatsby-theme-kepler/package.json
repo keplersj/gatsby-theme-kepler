@@ -81,7 +81,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-test-renderer": "^16.13.1",
-    "semantic-release": "^17.0.4",
+    "semantic-release": "^17.0.5",
     "stylelint": "^13.3.2",
     "stylelint-config-starstuff": "^1.1.6"
   },
