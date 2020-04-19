@@ -7965,15 +7965,6 @@ gatsby-core-utils@^1.0.30, gatsby-core-utils@^1.1.1, gatsby-core-utils@^1.1.2:
     configstore "^5.0.1"
     node-object-hash "^2.0.0"
 
-gatsby-core-utils@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.1.2.tgz#635a0a20bca46dfb1c0dd99a4065aed0c3cf5431"
-  integrity sha512-a+nkA7JYlL5ROvI+Ysq2IzRO7EIwAiMEMQWRtmor2KgvGuiVbov4OCfoG3k77s52J0TR7ittrIm1k6xgpxNlCw==
-  dependencies:
-    ci-info "2.0.0"
-    configstore "^5.0.1"
-    node-object-hash "^2.0.0"
-
 gatsby-graphiql-explorer@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-0.3.1.tgz#ea38430e1b748c681be0e17e85b9ead8ad51fdeb"
@@ -17643,10 +17634,10 @@ stackframe@^1.1.1:
   resolved "https://registry.yarnpkg.com/stackframe/-/stackframe-1.1.1.tgz#ffef0a3318b1b60c3b58564989aca5660729ec71"
   integrity sha512-0PlYhdKh6AfFxRyK/v+6/k+/mMfyiEBbTM5L94D0ZytQnJ166wuwoTYLHFWGbs2dpA8Rgq763KGWmN1EQEYHRQ==
 
-starstuff-components@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/starstuff-components/-/starstuff-components-2.1.2.tgz#375882121a1f377ece72eb123507a502cc5ac564"
-  integrity sha512-q0qwkvu8bZtF6xkfhuroFgf22ZTcbSqEunW20Np1/4m0PbZB+WZiJqOJF+k2CvCdCMJHYMm+2CaEgAlUl4PHKw==
+starstuff-components@^2.1.2, starstuff-components@^2.1.6:
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/starstuff-components/-/starstuff-components-2.1.6.tgz#95500b6c5b04c31a82efe5815133806be6f48dad"
+  integrity sha512-4lp5ghqjvNJVzl+Ri+qrrALb/09kE6QR6YReVYmC6HVLej7LjiUSKHOiGJtleLEJmA823KLGnXjeU1kim+y1GA==
   dependencies:
     "@emotion/styled" "^10.0.17"
     polished "^3.4.2"
