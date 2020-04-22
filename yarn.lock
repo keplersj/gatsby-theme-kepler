@@ -8201,10 +8201,10 @@ gatsby-telemetry@^1.2.5:
     stack-utils "1.0.2"
     uuid "3.4.0"
 
-gatsby-theme-curiousity@^1.4.86:
-  version "1.4.170"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.170.tgz#320f7e395ce2550ef24c227f004480bc34285a80"
-  integrity sha512-EuKPQDk/DuNwtKECVlRcUSQU8saeqrHckrdZzJNAT0dVO/X1rljrvQKEhqrbD31A/OZ2ViXoBL8crfEmqL2X2w==
+gatsby-theme-curiousity@^1.4.171:
+  version "1.4.171"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.171.tgz#c41b1818c0fb9df6b358d1b510843981c47362f0"
+  integrity sha512-mWAbcYA888p1yt7PrWdz8CCkvF1emklG4Iu6vxMrpA6WVUSL6BZBNqBMiMvOznKHXLxA6VSeo9I6fp42nLfDVw==
   dependencies:
     "@emotion/core" "^10.0.28"
     "@types/react" "^16.9.34"
@@ -8219,7 +8219,7 @@ gatsby-theme-curiousity@^1.4.86:
     gatsby-source-filesystem "^2.2.4"
     gatsby-tinacms-git "^0.4.7"
     gatsby-tinacms-remark "^0.7.13"
-    gatsby-transformer-remark "^2.7.3"
+    gatsby-transformer-remark "^2.7.4"
     gatsby-transformer-sharp "^2.4.6"
     modern-normalize "^0.6.0"
     polished "^3.5.2"
@@ -8303,7 +8303,7 @@ gatsby-transformer-json@^2.3.2:
     "@babel/runtime" "^7.8.7"
     bluebird "^3.7.2"
 
-gatsby-transformer-remark@^2.7.3, gatsby-transformer-remark@^2.7.4:
+gatsby-transformer-remark@^2.7.4:
   version "2.7.4"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.7.4.tgz#20ce5e26716f7d6888c424b855f5cd7c343801b8"
   integrity sha512-p/eMLpL5KcRM7ZBPk/C4TE95woS5aqzqkpyRPrATf03MbpAEQFCwpfvCf2P62IKF2PBMMMtd1LmS/1NZV+On2w==
