@@ -44,7 +44,7 @@ export const Avatar = (): React.ReactElement => {
         alt="Avatar"
         fixed={{
           ...data.image.childImageSharp.fixed,
-          base64: data.image.childImageSharp.sqip.dataURI
+          base64: data.image.childImageSharp.sqip.dataURI,
         }}
       />
     </div>

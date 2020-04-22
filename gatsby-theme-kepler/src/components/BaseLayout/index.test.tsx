@@ -5,7 +5,7 @@ import Layout from ".";
 import {
   KeplerBannerBackgroundData,
   KeplerBaseLayoutData,
-  KeplerNavbarData
+  KeplerNavbarData,
 } from "../../__mockData__";
 import deepMerge from "deepmerge";
 import { HelmetProvider } from "react-helmet-async";
@@ -15,7 +15,7 @@ beforeEach((): void => {
     deepMerge.all([
       KeplerBannerBackgroundData,
       KeplerNavbarData,
-      KeplerBaseLayoutData
+      KeplerBaseLayoutData,
     ])
   );
 });

@@ -11,20 +11,20 @@ export const NavigationLinksForm = {
       component: "group-list",
       itemProps: (item: Item) => ({
         key: item.name,
-        label: item.name
+        label: item.name,
       }),
       fields: [
         {
           label: "Name",
           name: "name",
-          component: "text"
+          component: "text",
         },
         {
           label: "Link",
           name: "url",
-          component: "text"
-        }
-      ]
-    }
-  ]
+          component: "text",
+        },
+      ],
+    },
+  ],
 };

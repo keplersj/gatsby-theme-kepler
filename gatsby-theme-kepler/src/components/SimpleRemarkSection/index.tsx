@@ -22,14 +22,14 @@ export const SimpleRemarkSection: React.FunctionComponent<Props> = (
       {
         label: "Title",
         name: "rawFrontmatter.title",
-        component: "text"
+        component: "text",
       },
       {
         label: "Body",
         name: "rawMarkdownBody",
-        component: "markdown"
-      }
-    ]
+        component: "markdown",
+      },
+    ],
   });
 
   const Header = properties.headerTag!;
@@ -39,7 +39,7 @@ export const SimpleRemarkSection: React.FunctionComponent<Props> = (
       <Header>{data!.frontmatter.title}</Header>
       <section
         dangerouslySetInnerHTML={{
-          __html: data!.html
+          __html: data!.html,
         }}
       />
     </div>
@@ -47,7 +47,7 @@ export const SimpleRemarkSection: React.FunctionComponent<Props> = (
 };
 
 SimpleRemarkSection.defaultProps = {
-  headerTag: "h1"
+  headerTag: "h1",
 };
 
 export const fragment = graphql`

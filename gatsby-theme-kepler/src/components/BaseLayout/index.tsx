@@ -136,7 +136,7 @@ const BaseLayout = (
 
                   const [splitSegment] = segment
                     .split("/")
-                    .filter(value => value != "")
+                    .filter((value) => value != "")
                     .slice(-1);
                   return `${splitSegment[0].toUpperCase()}${splitSegment.slice(
                     1
@@ -149,11 +149,11 @@ const BaseLayout = (
                   item: {
                     "@id": `${data.site.siteMetadata.siteUrl}${segment}`,
                     "@type": "WebPage",
-                    name: getName()
-                  }
+                    name: getName(),
+                  },
                 };
               }
-            )
+            ),
           }}
         />
       )}

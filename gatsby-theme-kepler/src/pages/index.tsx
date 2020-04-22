@@ -13,7 +13,7 @@ import { Avatar } from "../components/Avatar";
 import { BannerBackground } from "../components/BannerBackground";
 import {
   SimpleRemarkSection,
-  KeplerSimpleRemarkSection
+  KeplerSimpleRemarkSection,
 } from "../components/SimpleRemarkSection";
 import { NavigationLinksForm } from "../lib/NavigationLinksForm";
 import { ImageLD } from "../components/GatsbyImageWithLD";
@@ -215,8 +215,8 @@ const IndexPage = ({ data, location }: Props): React.ReactElement<Props> => {
             sameAs: data.site.siteMetadata.social
               .filter((platform): boolean => platform.isProfile === true)
               .map((platform): string => platform.url),
-            image: data.metadataImage.childImageSharp.fixed.src
-          }
+            image: data.metadataImage.childImageSharp.fixed.src,
+          },
         }}
       />
 
@@ -262,9 +262,9 @@ const IndexPage = ({ data, location }: Props): React.ReactElement<Props> => {
             blogPost: data.blogPosts.edges.map(
               ({ node: post }): BlogPosting => ({
                 "@type": "BlogPosting",
-                "@id": `${data.site.siteMetadata.siteUrl}${post.slug}`
+                "@id": `${data.site.siteMetadata.siteUrl}${post.slug}`,
               })
-            )
+            ),
           }}
         />
         <h2>Blog Posts</h2>
@@ -283,8 +283,8 @@ const IndexPage = ({ data, location }: Props): React.ReactElement<Props> => {
                   mainEntityOfPage: `${data.site.siteMetadata.siteUrl}${post.slug}`,
                   image: post.featuredImage && {
                     "@type": "ImageObject",
-                    "@id": `${data.site.siteMetadata.siteUrl}${post.featuredImage.childImageSharp.fluid.src}`
-                  }
+                    "@id": `${data.site.siteMetadata.siteUrl}${post.featuredImage.childImageSharp.fluid.src}`,
+                  },
                 }}
               />
               {post.featuredImage && (
@@ -292,7 +292,7 @@ const IndexPage = ({ data, location }: Props): React.ReactElement<Props> => {
                   <FeaturedImage
                     fluid={{
                       ...post.featuredImage.childImageSharp.fluid,
-                      base64: post.featuredImage.childImageSharp.sqip.dataURI
+                      base64: post.featuredImage.childImageSharp.sqip.dataURI,
                     }}
                   />
                 </Link>

@@ -26,8 +26,8 @@ export const SocialLinks = (
 ): React.ReactElement => {
   const {
     site: {
-      siteMetadata: { social }
-    }
+      siteMetadata: { social },
+    },
   } = useStaticQuery<SocialLinksQuery>(graphql`
     query KeplerSocialLinksQuery {
       site {

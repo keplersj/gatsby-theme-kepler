@@ -11,7 +11,7 @@ describe("NavigationLinksForm", () => {
 
       const testItem = {
         name: "Test Name",
-        url: "https://example.dev/"
+        url: "https://example.dev/",
       };
 
       expect(field.itemProps(testItem)).toMatchInlineSnapshot(`

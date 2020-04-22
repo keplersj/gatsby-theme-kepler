@@ -8,9 +8,9 @@ export const KeplerBaseLayoutData: BaseLayoutData = {
         width: 100,
         height: 100,
         src: "",
-        srcSet: ""
-      }
-    }
+        srcSet: "",
+      },
+    },
   },
   site: {
     siteMetadata: {
@@ -21,14 +21,14 @@ export const KeplerBaseLayoutData: BaseLayoutData = {
         {
           name: "Twitter",
           id: "@test",
-          url: "https://twitter.com/test"
+          url: "https://twitter.com/test",
         },
         {
           name: "GitHub",
           id: "test",
-          url: "https://github.com/test"
-        }
-      ]
-    }
-  }
+          url: "https://github.com/test",
+        },
+      ],
+    },
+  },
 };

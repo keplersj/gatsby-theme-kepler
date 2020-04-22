@@ -4,12 +4,12 @@
 const path = require("path");
 
 // Please see the handbook for more information: https://github.com/stryker-mutator/stryker-handbook/blob/master/stryker/guides/react.md#react
-module.exports = function(config) {
+module.exports = function (config) {
   config.set({
     mutate: [
       "src/**/*.ts?(x)",
       "!src/**/*@(.test|.spec|Spec).ts?(x)",
-      "!src/__mocks__/**/*.ts?(x)"
+      "!src/__mocks__/**/*.ts?(x)",
     ],
     mutator: "typescript",
     testRunner: "jest",
@@ -19,8 +19,8 @@ module.exports = function(config) {
       projectType: "custom",
       // Only use the unit test project
       config: require(path.resolve(__dirname, "./jest.config.js")).projects[0],
-      enableFindRelatedTests: true
-    }
+      enableFindRelatedTests: true,
+    },
   });
 };
 /* eslint-enable @typescript-eslint/explicit-function-return-type */

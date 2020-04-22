@@ -3,26 +3,26 @@ import { NavbarData } from "../components/Navbar";
 export const KeplerNavbarData: NavbarData = {
   site: {
     siteMetadata: {
-      title: "Kepler Sticka-Jones"
-    }
+      title: "Kepler Sticka-Jones",
+    },
   },
   settingsJson: {
     navLinks: [
       {
         name: "Blog",
-        url: "/blog"
+        url: "/blog",
       },
       {
         name: "Projects",
-        url: "/projects"
+        url: "/projects",
       },
       {
         name: "About",
-        url: "/about"
-      }
+        url: "/about",
+      },
     ],
     id: "",
     rawJson: "",
-    fileRelativePath: ""
-  }
+    fileRelativePath: "",
+  },
 };

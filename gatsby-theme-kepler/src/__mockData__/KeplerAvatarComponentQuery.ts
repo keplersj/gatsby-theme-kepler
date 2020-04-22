@@ -10,8 +10,8 @@ export const KeplerAvatarComponentQuery: AvatarComponentQuery = {
         src: "/static/example/1/avatar.jpg",
         srcSet: `/static/example/2/avatar.jpg 1x,
                 /static/example/3/avatar.jpg 1.5x,
-                /static/example/4/avatar.jpg 2x`
-      }
-    }
-  }
+                /static/example/4/avatar.jpg 2x`,
+      },
+    },
+  },
 };

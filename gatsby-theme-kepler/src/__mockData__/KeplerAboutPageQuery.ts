@@ -6,15 +6,15 @@ export const KeplerAboutPageQuery: AboutPageQuery = {
     location: "Example Location",
     id: "",
     rawJson: "",
-    fileRelativePath: ""
+    fileRelativePath: "",
   },
   biography: {
     childMarkdownRemark: {
       frontmatter: {
-        title: "Biography"
+        title: "Biography",
       },
-      html: "<p>This is a test biography</p>"
-    }
+      html: "<p>This is a test biography</p>",
+    },
   },
   experience: {
     edges: [
@@ -30,11 +30,11 @@ export const KeplerAboutPageQuery: AboutPageQuery = {
               rawEnd: "2018-12-18",
               end_date: "Dec 2018",
               rawStart: "2017-12-18",
-              start_date: "Dec 2017"
+              start_date: "Dec 2017",
               /* eslint-enable @typescript-eslint/camelcase */
-            }
-          }
-        }
+            },
+          },
+        },
       },
       {
         node: {
@@ -47,13 +47,13 @@ export const KeplerAboutPageQuery: AboutPageQuery = {
               position: "Sample Position",
               /* eslint-disable @typescript-eslint/camelcase */
               rawStart: "2018-12-18",
-              start_date: "Dec 2018"
+              start_date: "Dec 2018",
               /* eslint-enable @typescript-eslint/camelcase */
-            }
-          }
-        }
-      }
-    ]
+            },
+          },
+        },
+      },
+    ],
   },
   education: {
     edges: [
@@ -71,21 +71,21 @@ export const KeplerAboutPageQuery: AboutPageQuery = {
               rawEnd: "2018-12-18",
               end_date: "Dec 2018",
               rawStart: "2017-12-18",
-              start_date: "Dec 2017"
+              start_date: "Dec 2017",
               /* eslint-enable @typescript-eslint/camelcase */
-            }
-          }
-        }
-      }
-    ]
+            },
+          },
+        },
+      },
+    ],
   },
   skills: {
     childMarkdownRemark: {
       frontmatter: {
-        title: "Skills"
+        title: "Skills",
       },
       html:
-        "<p>This is an example summary of someone's professional skills.</p>"
-    }
-  }
+        "<p>This is an example summary of someone's professional skills.</p>",
+    },
+  },
 };

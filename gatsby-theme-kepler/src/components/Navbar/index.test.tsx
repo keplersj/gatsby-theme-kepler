@@ -4,13 +4,13 @@ import { useStaticQuery } from "gatsby";
 import { Navbar } from ".";
 import {
   KeplerBannerBackgroundData,
-  KeplerNavbarData
+  KeplerNavbarData,
 } from "../../__mockData__";
 
 beforeEach((): void => {
   (useStaticQuery as jest.Mock).mockImplementation((): object => ({
     ...KeplerNavbarData,
-    ...KeplerBannerBackgroundData
+    ...KeplerBannerBackgroundData,
   }));
 });
 

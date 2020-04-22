@@ -8,11 +8,11 @@ import { useLocalJsonForm } from "gatsby-tinacms-json";
 import { useLocalRemarkForm } from "gatsby-tinacms-remark";
 import {
   SimpleRemarkSection,
-  KeplerSimpleRemarkSection
+  KeplerSimpleRemarkSection,
 } from "../components/SimpleRemarkSection";
 import {
   FrontmatterDateRange,
-  KeplerFrontmatterDateRange
+  KeplerFrontmatterDateRange,
 } from "../components/DateRange";
 
 // This is approximately the horizontal pixel measurement where the page begins to feel crampt,
@@ -82,7 +82,7 @@ interface ExperienceProps {
 }
 
 const Experience = ({
-  remarkNode
+  remarkNode,
 }: ExperienceProps): React.ReactElement<ExperienceProps> => {
   const [data] = useLocalRemarkForm(remarkNode);
 
@@ -101,7 +101,7 @@ const Experience = ({
       </Detail>
       <section
         dangerouslySetInnerHTML={{
-          __html: data!.html
+          __html: data!.html,
         }}
       />
     </article>
@@ -113,7 +113,7 @@ interface EducationProps {
 }
 
 const Education = ({
-  remarkNode
+  remarkNode,
 }: EducationProps): React.ReactElement<EducationProps> => {
   const [data] = useLocalRemarkForm(remarkNode);
 
@@ -126,7 +126,7 @@ const Education = ({
       </Detail>
       <section
         dangerouslySetInnerHTML={{
-          __html: data!.html
+          __html: data!.html,
         }}
       />
     </article>
@@ -145,15 +145,15 @@ const AboutPage = (properties: PageProps): React.ReactElement => {
         name: "rawJson.name",
         label: "Name",
         component: "text",
-        description: "Name of the person featured on this page."
+        description: "Name of the person featured on this page.",
       },
       {
         name: "rawJson.location",
         label: "Location",
         component: "text",
-        description: "Geographic location of the person featured on this page."
-      }
-    ]
+        description: "Geographic location of the person featured on this page.",
+      },
+    ],
   });
 
   return (

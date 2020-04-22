@@ -4,7 +4,7 @@ import { useStaticQuery } from "gatsby";
 import Page from "./404";
 import {
   KeplerBannerBackgroundData,
-  KeplerBaseLayoutData
+  KeplerBaseLayoutData,
 } from "../__mockData__";
 import { HelmetProvider } from "react-helmet-async";
 
@@ -13,7 +13,7 @@ import { HelmetProvider } from "react-helmet-async";
 beforeEach((): void => {
   (useStaticQuery as jest.Mock).mockImplementation((): object => ({
     ...KeplerBannerBackgroundData,
-    ...KeplerBaseLayoutData
+    ...KeplerBaseLayoutData,
   }));
 });
 

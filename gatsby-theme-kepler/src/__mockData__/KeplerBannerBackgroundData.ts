@@ -10,14 +10,14 @@ export const KeplerBannerBackgroundData: BannerData = {
       highQuality: {
         base64: sampleBase64,
         src: "/static/banner_example/3/banner.jpg",
-        srcWebp: "/static/banner_example/4/banner.webp"
+        srcWebp: "/static/banner_example/4/banner.webp",
       },
       lowQuality: {
         base64: sampleBase64,
         src: "/static/banner_example/1/banner.jpg",
-        srcWebp: "/static/banner_example/2/banner.jpg"
-      }
-    }
+        srcWebp: "/static/banner_example/2/banner.jpg",
+      },
+    },
   },
   bannerDark: {
     childImageSharp: {
@@ -25,13 +25,13 @@ export const KeplerBannerBackgroundData: BannerData = {
       highQuality: {
         base64: sampleBase64,
         src: "/static/banner_dark_example/3/banner_dark.jpg",
-        srcWebp: "/static/banner_dark_example/4/banner_dark.webp"
+        srcWebp: "/static/banner_dark_example/4/banner_dark.webp",
       },
       lowQuality: {
         base64: sampleBase64,
         src: "/static/banner_example/1/banner_dark.jpg",
-        srcWebp: "/static/banner_example/2/banner_dark.webp"
-      }
-    }
-  }
+        srcWebp: "/static/banner_example/2/banner_dark.webp",
+      },
+    },
+  },
 };

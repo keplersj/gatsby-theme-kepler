@@ -7,7 +7,7 @@ import {
   FaKey,
   FaLinkedin,
   FaInstagram,
-  FaExternalLinkSquareAlt
+  FaExternalLinkSquareAlt,
 } from "react-icons/fa";
 import { IconType } from "react-icons";
 import styled from "@emotion/styled";
@@ -25,7 +25,7 @@ const Icons: { [index: string]: IconType } = {
   Twitter: FaTwitter,
   LinkedIn: FaLinkedin,
   Keybase: FaKeybase,
-  Instagram: FaInstagram
+  Instagram: FaInstagram,
 };
 
 function getIcon(name: string): IconType {

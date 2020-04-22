@@ -11,80 +11,80 @@ export const KeplerIndexPageData: IndexPageData = {
           name: "Email",
           id: "test@example.dev",
           url: "mailto:test@example.dev",
-          isProfile: false
+          isProfile: false,
         },
         {
           name: "PGP",
           id: "XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX",
           url: "https://example.dev/pub.asc",
-          isProfile: false
+          isProfile: false,
         },
         {
           name: "GitHub",
           id: "test",
           url: "https://github.dev/test",
-          isProfile: true
+          isProfile: true,
         },
         {
           name: "Twitter",
           id: "@test",
           url: "https://twitter.dev/test",
-          isProfile: true
+          isProfile: true,
         },
         {
           name: "LinkedIn",
           id: "test",
           url: "https://linkedin.dev/in/test",
-          isProfile: true
+          isProfile: true,
         },
         {
           name: "Keybase",
           id: "test",
           url: "https://keybase.dev/test",
-          isProfile: true
+          isProfile: true,
         },
         {
           name: "Instagram",
           id: "@test",
           url: "https://instagram.dev/test",
-          isProfile: true
+          isProfile: true,
         },
         {
           name: "Unknown Platform of the Future",
           id: "test",
           url: "https://🤷🏼‍♂️.dev/test",
-          isProfile: true
-        }
-      ]
-    }
+          isProfile: true,
+        },
+      ],
+    },
   },
   settingsJson: {
     navLinks: [
       {
         name: "Blog",
-        url: "/blog"
+        url: "/blog",
       },
       {
         name: "Portfolio",
-        url: "/portfolio"
+        url: "/portfolio",
       },
       {
         name: "About",
-        url: "/about"
-      }
+        url: "/about",
+      },
     ],
     id: "",
     rawJson: "",
-    fileRelativePath: ""
+    fileRelativePath: "",
   },
   biography: {
     childMarkdownRemark: {
       frontmatter: {
-        title: "Biography"
+        title: "Biography",
       },
       html:
-        "<p>I am a computer programmer and college student based out of Salt Lake City, with experience in entrepreneurship, student leadership, and open source software development.</p>"
-    }
+        "<p>I am a computer programmer and college student based out of Salt Lake City, with experience in entrepreneurship, student leadership, and open source software development.</p>",
+    },
   },
   metadataImage: {
     childImageSharp: {
@@ -93,9 +93,9 @@ export const KeplerIndexPageData: IndexPageData = {
         width: 100,
         height: 100,
         src: "",
-        srcSet: ""
-      }
-    }
+        srcSet: "",
+      },
+    },
   },
   blogPosts: {
     edges: [
@@ -106,8 +106,9 @@ export const KeplerIndexPageData: IndexPageData = {
           slug: "/blog/01-post-without-image",
           date: "Dec 18, 2018",
           rawDate: "2018-12-18",
-          excerpt: "This is an example of a blog post without a featured image."
-        }
+          excerpt:
+            "This is an example of a blog post without a featured image.",
+        },
       },
       {
         node: {
@@ -124,12 +125,12 @@ export const KeplerIndexPageData: IndexPageData = {
                 aspectRatio: 1,
                 src: "/static/image-1/image.jpeg",
                 srcSet: "/static/image-1/image.jpeg 1x",
-                sizes: "(min-width 100px)"
-              }
-            }
-          }
-        }
-      }
-    ]
-  }
+                sizes: "(min-width 100px)",
+              },
+            },
+          },
+        },
+      },
+    ],
+  },
 };

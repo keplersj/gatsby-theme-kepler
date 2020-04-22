@@ -24,5 +24,5 @@ module.exports = {
     }): React.ReactElement => <a {...rest} href={to} />
   ),
   StaticQuery: jest.fn(),
-  useStaticQuery: jest.fn()
+  useStaticQuery: jest.fn(),
 };

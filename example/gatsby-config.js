@@ -11,9 +11,9 @@ module.exports = {
         id: "@test",
         name: "Twitter",
         url: "https://twitter.dev/test",
-        isProfile: true
-      }
-    ]
+        isProfile: true,
+      },
+    ],
   },
   plugins: [
     {
@@ -25,15 +25,15 @@ module.exports = {
             options: {
               sidebar: {
                 hidden: process.env.NODE_ENV === "production",
-                position: "displace"
+                position: "displace",
               },
               pathToRepo: REPO_ABSOLUTE_PATH,
-              pathToContent: "example"
-            }
-          }
-        ]
-      }
+              pathToContent: "example",
+            },
+          },
+        ],
+      },
     },
-    "gatsby-theme-kepler"
-  ]
+    "gatsby-theme-kepler",
+  ],
 };

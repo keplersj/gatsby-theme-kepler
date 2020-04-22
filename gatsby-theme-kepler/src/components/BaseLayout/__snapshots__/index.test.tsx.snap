@@ -40,7 +40,8 @@ Array [
   }
   </script>,
   <a
-    data-reach-skip-link={true}
+    data-reach-skip-link=""
+    data-reach-skip-nav-link=""
     href="#reach-skip-nav"
   >
     Skip to content
@@ -197,6 +198,7 @@ Array [
     </div>
   </div>,
   <div
+    data-reach-skip-nav-content=""
     id="reach-skip-nav"
   />,
   <span>

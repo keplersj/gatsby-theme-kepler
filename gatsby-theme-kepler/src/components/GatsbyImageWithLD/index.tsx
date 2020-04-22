@@ -39,7 +39,7 @@ export const ImageLD = ({
           "@id": `${data.site.siteMetadata.siteUrl}${fluid.src}`,
           representativeOfPage: false,
           contentUrl: fluid.src,
-          url: fluid.src
+          url: fluid.src,
         }}
       />
       <Image fluid={fluid} />

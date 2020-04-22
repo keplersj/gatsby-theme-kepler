@@ -8,21 +8,21 @@ module.exports = {
       snapshotSerializers: [
         "jest-emotion",
         "jest-serializer-react-helmet-async",
-        "jest-serializer-json-ld-script"
+        "jest-serializer-json-ld-script",
       ],
       collectCoverage: true,
       coverageReporters: ["json", "text"],
       coveragePathIgnorePatterns: [
         "/node_modules/",
-        "<rootDir>/src/__mockData__/"
+        "<rootDir>/src/__mockData__/",
       ],
       moduleNameMapper: {
         "modern-normalize": "jest-transform-stub",
         "starstuff-style": "jest-transform-stub",
         // We reference a few things in the theme for TinaCMS, don't transform.
-        "gatsby-theme-early-bird": "jest-transform-stub"
+        "gatsby-theme-early-bird": "jest-transform-stub",
       },
-      transformIgnorePatterns: ["node_modules/(?!(gatsby-plugin-mdx)/)"]
+      transformIgnorePatterns: ["node_modules/(?!(gatsby-plugin-mdx)/)"],
     },
     {
       runner: "eslint",
@@ -31,7 +31,7 @@ module.exports = {
         "<rootDir>/**/*.jsx",
         "<rootDir>/**/*.js",
         "<rootDir>/**/*.tsx",
-        "<rootDir>/**/*.ts"
+        "<rootDir>/**/*.ts",
       ],
       testPathIgnorePatterns: [
         "/.cache/",
@@ -41,8 +41,8 @@ module.exports = {
         "/reports/",
         "/static/",
         "/package-lock.json",
-        "/package.json"
-      ]
+        "/package.json",
+      ],
     },
     {
       preset: "jest-runner-prettier",
@@ -55,8 +55,8 @@ module.exports = {
         "/reports/",
         "/vendor/",
         "/package-lock.json",
-        "/package.json"
-      ]
+        "/package.json",
+      ],
     },
     {
       preset: "jest-runner-stylelint",
@@ -66,8 +66,8 @@ module.exports = {
         "/coverage/",
         "/node_modules/",
         "/public/",
-        "/reports/"
-      ]
-    }
-  ]
+        "/reports/",
+      ],
+    },
+  ],
 };

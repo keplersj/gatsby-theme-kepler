@@ -9,10 +9,10 @@ module.exports = () => ({
       options: {
         sidebar: {
           hidden: process.env.NODE_ENV === "production",
-          position: "displace"
+          position: "displace",
         },
-        plugins: ["gatsby-tinacms-git", "gatsby-tinacms-json"]
-      }
+        plugins: ["gatsby-tinacms-git", "gatsby-tinacms-json"],
+      },
     },
     "gatsby-plugin-catch-links",
     "gatsby-plugin-robots-txt",
@@ -21,36 +21,36 @@ module.exports = () => ({
       resolve: "gatsby-source-filesystem",
       options: {
         name: "settings",
-        path: "./content/settings"
-      }
+        path: "./content/settings",
+      },
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "assets",
-        path: "./content/assets"
-      }
+        path: "./content/assets",
+      },
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "about",
-        path: "./content/about"
-      }
+        path: "./content/about",
+      },
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "experience",
-        path: "./content/experience"
-      }
+        path: "./content/experience",
+      },
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "education",
-        path: "./content/education"
-      }
+        path: "./content/education",
+      },
     },
     "gatsby-transformer-json",
     "gatsby-transformer-sqip",
@@ -65,19 +65,19 @@ module.exports = () => ({
             resolve: "gatsby-remark-vscode",
             options: {
               languageAliases: {
-                shell: "bash"
+                shell: "bash",
               },
               theme: {
                 default: "Atom One Light",
                 media: [
                   {
                     match: "screen and (prefers-color-scheme: dark)",
-                    theme: "Atom One Dark"
-                  }
-                ]
+                    theme: "Atom One Dark",
+                  },
+                ],
               },
-              extensions: ["vscode-theme-onedark", "vscode-theme-onelight"]
-            }
+              extensions: ["vscode-theme-onedark", "vscode-theme-onelight"],
+            },
           },
           "gatsby-remark-autolink-headers",
           // gatsby-remark-relative-images must
@@ -89,28 +89,28 @@ module.exports = () => ({
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
-              maxWidth: 590
-            }
-          }
-        ]
-      }
+              maxWidth: 590,
+            },
+          },
+        ],
+      },
     },
     {
       resolve: "gatsby-theme-early-bird",
       options: {
         basePath: "/blog/",
-        remark: false
-      }
+        remark: false,
+      },
     },
     {
       resolve: "gatsby-theme-curiousity",
       options: {
         basePath: "/portfolio/",
-        remark: false
-      }
+        remark: false,
+      },
     },
     "gatsby-plugin-react-helmet-async",
     "gatsby-plugin-emotion",
-    "gatsby-plugin-typescript"
-  ]
+    "gatsby-plugin-typescript",
+  ],
 });
