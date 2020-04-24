@@ -33,7 +33,7 @@
     "gatsby-remark-relative-images": "^0.3.0",
     "gatsby-remark-smartypants": "^2.2.1",
     "gatsby-remark-vscode": "^2.0.3",
-    "gatsby-source-filesystem": "^2.2.3",
+    "gatsby-source-filesystem": "^2.2.5",
     "gatsby-theme-curiousity": "^1.4.171",
     "gatsby-theme-early-bird": "^1.8.136",
     "gatsby-tinacms-git": "^0.4.7",
