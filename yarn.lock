@@ -8116,10 +8116,10 @@ gatsby-telemetry@^1.2.6:
     stack-utils "1.0.2"
     uuid "3.4.0"
 
-gatsby-theme-curiousity@^1.4.177:
-  version "1.4.177"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.177.tgz#2ba568883230cc1493c4972ba85b8be4d195cdda"
-  integrity sha512-ZeNqZg1pgnHQEJvkYdOC75ABTj5xk8UgoO1L8XXUDHRCAfIEfH+QplHQ5p0stZR93TTakbgmajlwJnCApQSuZg==
+gatsby-theme-curiousity@^1.4.178:
+  version "1.4.178"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.178.tgz#65e3d3945450c4c6b1e1d19cd01b4798de4e27eb"
+  integrity sha512-bw5vA0as/HeS8+Zly+omRogTGCnPHgdP4l2WpzG02wXeU7niKK2VhX/lMptCtRCU6THMeyCJNUE/gsrYhStuag==
   dependencies:
     "@emotion/core" "^10.0.28"
     "@types/react" "^16.9.34"
@@ -8142,10 +8142,10 @@ gatsby-theme-curiousity@^1.4.177:
     react-schemaorg "^1.0.1"
     schema-dts "^0.5.2"
     slugify "^1.4.0"
-    starstuff-components "^2.1.2"
+    starstuff-components "^2.1.7"
     starstuff-style "^1.1.2"
     styled-components "^5.1.0"
-    tinacms "^0.18.2"
+    tinacms "^0.18.4"
     typescript "^3.8.3"
 
 gatsby-theme-early-bird@^1.8.140:
@@ -17502,7 +17502,7 @@ stackframe@^1.1.1:
   resolved "https://registry.yarnpkg.com/stackframe/-/stackframe-1.1.1.tgz#ffef0a3318b1b60c3b58564989aca5660729ec71"
   integrity sha512-0PlYhdKh6AfFxRyK/v+6/k+/mMfyiEBbTM5L94D0ZytQnJ166wuwoTYLHFWGbs2dpA8Rgq763KGWmN1EQEYHRQ==
 
-starstuff-components@^2.1.2, starstuff-components@^2.1.7:
+starstuff-components@^2.1.7:
   version "2.1.7"
   resolved "https://registry.yarnpkg.com/starstuff-components/-/starstuff-components-2.1.7.tgz#9af470f7fc48ada22d76de0e8d07de8a2e796376"
   integrity sha512-Ta9HYmi+g9i3w3/sGUEpXyd+AYhGV7wpI64reA0uvJqOn5pansPw83ErkYwLg1WULavONlUH15K6zKw0s6NwcA==
