@@ -7811,12 +7811,12 @@ gatsby-page-utils@^0.1.4:
     lodash "^4.17.15"
     micromatch "^3.1.10"
 
-gatsby-plugin-catch-links@^2.2.4:
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-catch-links/-/gatsby-plugin-catch-links-2.2.4.tgz#36852eccea4c7ac737370859b33107fc0865f343"
-  integrity sha512-3gIgdVcjaSiGa+qMRDEu1yLFK5qWNPf8+/0yjIKAX/3OLR1BQb8bLicOZ4cSQkGNUER6MlFG7ddCx45X4JDNOQ==
+gatsby-plugin-catch-links@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-catch-links/-/gatsby-plugin-catch-links-2.3.0.tgz#75cdee9c62c6948b0d509a83c6876cea3a54c53b"
+  integrity sha512-Neoa6ijOG0+EeMH1SudOX9s8qKimguOmtxPgbr9WvbXEbY1zjz4Pi3iE3Np1sLodXTiHdjlPuHewv3NUnaFflg==
   dependencies:
-    "@babel/runtime" "^7.8.7"
+    "@babel/runtime" "^7.9.2"
     escape-string-regexp "^1.0.5"
 
 gatsby-plugin-emotion@^4.2.3, gatsby-plugin-emotion@^4.3.0:
@@ -8058,7 +8058,7 @@ gatsby-remark-relative-images@^0.3.0:
     slash "^2.0.0"
     unist-util-select "^1.5.0"
 
-gatsby-remark-smartypants@^2.2.4, gatsby-remark-smartypants@^2.3.0:
+gatsby-remark-smartypants@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/gatsby-remark-smartypants/-/gatsby-remark-smartypants-2.3.0.tgz#3c463b15f464b68a196be14dbaa03378fa66c034"
   integrity sha512-7Go43ZP4qgNEPOIgHub05IP6yzNy29dwIHMOEDByu7fufcdCLMh1feUZsvITh2ghyrWkM4xR+60UxE9XmXMY5Q==
