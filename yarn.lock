@@ -8058,12 +8058,12 @@ gatsby-remark-relative-images@^0.3.0:
     slash "^2.0.0"
     unist-util-select "^1.5.0"
 
-gatsby-remark-smartypants@^2.2.4:
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-smartypants/-/gatsby-remark-smartypants-2.2.4.tgz#a934f8f11795ea808383156839aef34a204373a3"
-  integrity sha512-zxk9dTI/uVx7JesXdOlow7VyB02LUkGSw4PtHKKxXsf2umTuv/yLsScbh9svrItZoGZmQwl+03WeSkF8n0fJlg==
+gatsby-remark-smartypants@^2.2.4, gatsby-remark-smartypants@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-smartypants/-/gatsby-remark-smartypants-2.3.0.tgz#3c463b15f464b68a196be14dbaa03378fa66c034"
+  integrity sha512-7Go43ZP4qgNEPOIgHub05IP6yzNy29dwIHMOEDByu7fufcdCLMh1feUZsvITh2ghyrWkM4xR+60UxE9XmXMY5Q==
   dependencies:
-    "@babel/runtime" "^7.8.7"
+    "@babel/runtime" "^7.9.2"
     retext "^5.0.0"
     retext-smartypants "^3.0.3"
     unist-util-visit "^1.4.1"
@@ -8157,10 +8157,10 @@ gatsby-theme-curiousity@^1.4.178:
     tinacms "^0.18.4"
     typescript "^3.8.3"
 
-gatsby-theme-early-bird@^1.8.140:
-  version "1.8.140"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.140.tgz#e725d746da74a276d52816696d624b3f8570eeed"
-  integrity sha512-flfcMWwGl/1NNSCUocFxuTI8nCRC+fUYwkfT1qs9vnfTOP5c3WoWzcqOsxiOPWjgRWFEvn3jnZwXHaMLkgB/Ew==
+gatsby-theme-early-bird@^1.8.141:
+  version "1.8.141"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.141.tgz#42e558b5768216b71165598420dd8bc25ae0b3ae"
+  integrity sha512-Dabngf4GLSqunNIvrps3knqcn8pD8Zo4tNDh3BuzxUpmIK3lTUtRxd75yzJHHyF7e3Z6unmrlZfs1buA8/+MCA==
   dependencies:
     "@emotion/core" "^10.0.28"
     "@mdx-js/mdx" "^1.5.9"
@@ -8176,7 +8176,7 @@ gatsby-theme-early-bird@^1.8.140:
     gatsby-plugin-typescript "^2.3.5"
     gatsby-remark-copy-linked-files "^2.2.4"
     gatsby-remark-images "^3.2.6"
-    gatsby-remark-smartypants "^2.2.4"
+    gatsby-remark-smartypants "^2.3.0"
     gatsby-source-filesystem "^2.2.5"
     gatsby-tinacms-git "^0.4.7"
     gatsby-tinacms-remark "^0.7.13"
