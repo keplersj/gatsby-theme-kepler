@@ -7953,12 +7953,12 @@ gatsby-plugin-feed@^2.4.4:
     lodash.merge "^4.6.2"
     rss "^1.2.2"
 
-gatsby-plugin-nprogress@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-nprogress/-/gatsby-plugin-nprogress-2.3.0.tgz#b3b0183d9370cc388b0f582fef39644ad813a4ea"
-  integrity sha512-E4kVr7X0HjhjSRrfwhFGTHYwe2G2MLVKfoPN1ALzm8fVxcQysZ7bGrZKy/swosEkY2b1miegIeHROpgCRK+36Q==
+gatsby-plugin-nprogress@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-nprogress/-/gatsby-plugin-nprogress-2.3.1.tgz#36fe27e5cca3dda9a1555e2cb75070157f8cebf4"
+  integrity sha512-K9msO/oK0AMQ8pM/++FNey8QwZL+tlwB03cdhxNXumMHwiqqHF28DT5MB6XWgql7SBFMYwvZUA7e8wH+jhKKVg==
   dependencies:
-    "@babel/runtime" "^7.9.2"
+    "@babel/runtime" "^7.9.6"
     nprogress "^0.2.0"
 
 gatsby-plugin-page-creator@^2.3.0:
