@@ -8402,10 +8402,10 @@ gatsby-theme-early-bird@^1.8.141:
     typescript "^3.8.3"
     uri-path-breakdown "^1.0.0"
 
-gatsby-tinacms-git@^0.4.10, gatsby-tinacms-git@^0.4.7:
-  version "0.4.10"
-  resolved "https://registry.yarnpkg.com/gatsby-tinacms-git/-/gatsby-tinacms-git-0.4.10.tgz#e829c8e6800f9561f8d5b47a885a50916604fd77"
-  integrity sha512-TplEIlGfJMyBTEcL62+7YbV+UcO35qe4x0pjjpT7EDn4Xulhisqt2hs2L+tj03eeXo6QIVkFoL32rltmwtGeDg==
+gatsby-tinacms-git@^0.4.11, gatsby-tinacms-git@^0.4.7:
+  version "0.4.11"
+  resolved "https://registry.yarnpkg.com/gatsby-tinacms-git/-/gatsby-tinacms-git-0.4.11.tgz#c0183fce20010deb980f118ce05bbd02c3c82122"
+  integrity sha512-VOX6O2fokzVGqP9e/qkeQCDTLHeXe94YT5fkUvdWJG1JYoJcAoIKle+u/yCMO0fxBibs1szm6lfqgpSWfhNHhQ==
   dependencies:
     "@tinacms/api-git" "^0.7.0"
     "@tinacms/git-client" "^0.6.7"
