@@ -7978,6 +7978,15 @@ gatsby-core-utils@^1.1.4, gatsby-core-utils@^1.2.1:
     configstore "^5.0.1"
     node-object-hash "^2.0.0"
 
+gatsby-core-utils@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.2.2.tgz#19ad6e3917e4748333d952a04ec30ade02fe81fd"
+  integrity sha512-EdVUq0K7C9t32V7wndldUmUGzZp8EwU8gNMc1dtI1whyDUaUuZa6zlkbkpJwbwhPhRHdao5zhvHJXydhgzTEog==
+  dependencies:
+    ci-info "2.0.0"
+    configstore "^5.0.1"
+    node-object-hash "^2.0.0"
+
 gatsby-graphiql-explorer@^0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-0.4.1.tgz#f83093b8ea24e65f91383e33d5d8bdc149a5bc0d"
@@ -8078,23 +8087,23 @@ gatsby-plugin-robots-txt@^1.5.0:
     "@babel/runtime" "^7.5.1"
     generate-robotstxt "^7.1.0"
 
-gatsby-plugin-sharp@^2.5.7, gatsby-plugin-sharp@^2.6.2:
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.6.2.tgz#be52a09b98c5191d8e40e93e00ceef42b39ef162"
-  integrity sha512-PjUjcZxr6pQpEFbv2KU1UkmDo5Amc4deU8Ih88EXoVU/4ZwreRKKC7pjKIeSm4V+E8RbRWAxLBQPxo0Qu81t0Q==
+gatsby-plugin-sharp@^2.5.7, gatsby-plugin-sharp@^2.6.2, gatsby-plugin-sharp@^2.6.3:
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.6.3.tgz#c152d051f23372270f731f1de5df92f8eb15f8ee"
+  integrity sha512-9ZcQpDSEUpWtfbGvmjRXNZsPxg6/8cK/NwHnAXcdRy3vpsrHM7WGJH6W0NdT+GuZLFDRApm3TgAfUhVuwkdzmw==
   dependencies:
     "@babel/runtime" "^7.9.6"
     async "^2.6.3"
     bluebird "^3.7.2"
     fs-extra "^8.1.0"
-    gatsby-core-utils "^1.2.1"
+    gatsby-core-utils "^1.2.2"
     got "^8.3.2"
     imagemin "^6.1.0"
     imagemin-mozjpeg "^8.0.0"
     imagemin-pngquant "^6.0.1"
     imagemin-webp "^5.1.0"
     lodash "^4.17.15"
-    mini-svg-data-uri "^1.1.3"
+    mini-svg-data-uri "^1.2.3"
     potrace "^2.1.6"
     probe-image-size "^4.1.1"
     progress "^2.0.3"
@@ -8474,17 +8483,17 @@ gatsby-transformer-sharp@^2.4.7, gatsby-transformer-sharp@^2.5.2:
     semver "^5.7.1"
     sharp "^0.25.1"
 
-gatsby-transformer-sqip@^2.2.7, gatsby-transformer-sqip@^2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-sqip/-/gatsby-transformer-sqip-2.3.2.tgz#bb5349c28726dd9db2a3d86fdde29dc3dd2fe302"
-  integrity sha512-GfjhGV1EoK6/QWipwHMlox5yTa5tOVwDoQO/9aNHKNeJvqbeYV9sh5ukn086UhNYsQU6Vszw3clq3Hom/KBEWg==
+gatsby-transformer-sqip@^2.2.7, gatsby-transformer-sqip@^2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-sqip/-/gatsby-transformer-sqip-2.3.3.tgz#d4decfa65d8bd61e4ec5ef0bfc97d9c41ba48020"
+  integrity sha512-MZ6cidMIXqLJ4NzM/TaYBYoYqilCMGXCToAuJmExHh6rt6iFVkLgeNpB/HDpnU99PEc7eIrc+/nSPzsscbl3Kg==
   dependencies:
     "@babel/runtime" "^7.9.6"
     bluebird "^3.7.2"
     fs-extra "^8.1.0"
-    gatsby-plugin-sharp "^2.6.2"
+    gatsby-plugin-sharp "^2.6.3"
     md5-file "^4.0.0"
-    mini-svg-data-uri "^1.1.3"
+    mini-svg-data-uri "^1.2.3"
     p-queue "^2.4.2"
     sqip "^0.3.3"
 
@@ -12871,10 +12880,10 @@ mini-css-extract-plugin@^0.8.2:
     schema-utils "^1.0.0"
     webpack-sources "^1.1.0"
 
-mini-svg-data-uri@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/mini-svg-data-uri/-/mini-svg-data-uri-1.1.3.tgz#9759ee5f4d89a4b724d089ce52eab4b623bfbc88"
-  integrity sha512-EeKOmdzekjdPe53/GdxmUpNgDQFkNeSte6XkJmOBt4BfWL6FQ9G9RtLNh+JMjFS3LhdpSICMIkZdznjiecASHQ==
+mini-svg-data-uri@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/mini-svg-data-uri/-/mini-svg-data-uri-1.2.3.tgz#e16baa92ad55ddaa1c2c135759129f41910bc39f"
+  integrity sha512-zd6KCAyXgmq6FV1mR10oKXYtvmA9vRoB6xPSTUJTbFApCtkefDnYueVR1gkof3KcdLZo1Y8mjF2DFmQMIxsHNQ==
 
 minimalistic-assert@^1.0.0, minimalistic-assert@^1.0.1:
   version "1.0.1"
