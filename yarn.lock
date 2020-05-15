@@ -2094,7 +2094,7 @@
   dependencies:
     type-detect "4.0.8"
 
-"@stryker-mutator/api@^3.1.0", "@stryker-mutator/api@^3.2.2", "@stryker-mutator/api@^3.2.3":
+"@stryker-mutator/api@^3.1.0", "@stryker-mutator/api@^3.2.3":
   version "3.2.3"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-3.2.3.tgz#f07762e455b9bffadcdfb0eeba9db65038614764"
   integrity sha512-lveSUaBzEyrDS66zpw0grb9wdGrUi6EGaMkbFm7kuhqFCVj74hlrDAspfK/mQwo9A5t+RffXPpjoGB6Uytuptw==
@@ -2103,13 +2103,13 @@
     surrial "~2.0.2"
     tslib "~2.0.0"
 
-"@stryker-mutator/core@^3.2.2":
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/core/-/core-3.2.2.tgz#c172ea0f5f5ff3fc6a4360f62e7ad02370313098"
-  integrity sha512-8+ypLtN/Tch+VlQv2/CGP3UWBAjBrNPqCAW5yV69d7uTW9rcCT9KodNqAW2U3WflBYHQ5cI7I6dg/Layq/j9AQ==
+"@stryker-mutator/core@^3.2.3":
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/core/-/core-3.2.3.tgz#ce51b08e6f7256a40c62cd8800f1d19432cb4bd4"
+  integrity sha512-b9HsfKy1ZHEOa93IOKVNt3Ur/7+bJZheiNfc8pNGMJXZhYql4KA6E8js1w6pDHAVmVx3ScYYyGVIWJPFd5/ZeA==
   dependencies:
-    "@stryker-mutator/api" "^3.2.2"
-    "@stryker-mutator/util" "^3.2.2"
+    "@stryker-mutator/api" "^3.2.3"
+    "@stryker-mutator/util" "^3.2.3"
     ajv "^6.12.0"
     chalk "~4.0.0"
     commander "~5.1.0"
@@ -2158,7 +2158,7 @@
     semver "~6.3.0"
     tslib "~2.0.0"
 
-"@stryker-mutator/util@^3.2.2", "@stryker-mutator/util@^3.2.3":
+"@stryker-mutator/util@^3.2.3":
   version "3.2.3"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-3.2.3.tgz#404a4a675a9fe77f0f6e66fe0f3e0237a1f98acc"
   integrity sha512-yU6sK2SkAvOsbvrhHmFBpCtianjeMtI71x1Pgb2IEaO1i+ttybLDjg/jHFOKEO3ngC/HyB/1HwfJLwd1StVBgQ==
