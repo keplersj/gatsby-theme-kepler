@@ -9521,10 +9521,10 @@ gatsby-theme-curiousity@^1.4.178:
     tinacms "^0.18.4"
     typescript "^3.8.3"
 
-gatsby-theme-early-bird@^1.8.229:
-  version "1.8.229"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.229.tgz#17546681294143074f85e120da485624b55b1fe9"
-  integrity sha512-Kr/bZxUQP+YHfuNQ0MhVIoIMBJJgtRjDmyt6po9+k7bhvg9s5b0DczKiHCO4X+nSdVoL5OqW7vkil8LVCWENHQ==
+gatsby-theme-early-bird@^1.8.231:
+  version "1.8.231"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.231.tgz#d2b58292ddca1deb00409ad6a5977f2f22618a11"
+  integrity sha512-WToaF6B6rZvdyjwl7wmpFXHXh/v3JSl0lWhWnSTSF0nKnOEe3xg/VkwnnbTlAvHu1QPigNz83K4jeMvMEYYDxw==
   dependencies:
     "@emotion/core" "^10.0.28"
     "@mdx-js/mdx" "^1.6.5"
@@ -9552,7 +9552,7 @@ gatsby-theme-early-bird@^1.8.229:
     react-schemaorg "^1.0.2"
     schema-dts "^0.6.0"
     slugify "^1.4.0"
-    starstuff-components "^2.1.12"
+    starstuff-components "^2.1.13"
     starstuff-style "^1.1.2"
     styled-components "^5.1.1"
     tinacms "^0.21.0"
@@ -19150,10 +19150,10 @@ stackframe@^1.1.1:
   resolved "https://registry.yarnpkg.com/stackframe/-/stackframe-1.1.1.tgz#ffef0a3318b1b60c3b58564989aca5660729ec71"
   integrity sha512-0PlYhdKh6AfFxRyK/v+6/k+/mMfyiEBbTM5L94D0ZytQnJ166wuwoTYLHFWGbs2dpA8Rgq763KGWmN1EQEYHRQ==
 
-starstuff-components@^2.1.12, starstuff-components@^2.1.7:
-  version "2.1.12"
-  resolved "https://registry.yarnpkg.com/starstuff-components/-/starstuff-components-2.1.12.tgz#1ee46d29bc2f43e898641cb942b679210165a3de"
-  integrity sha512-b5OxPcJzWRLtL+nWfi6D6Jokyhl2W8ifz30VY1K8VsvMGGyv0TofPHmVxZnYDggBuD0ABtulnGb961ZWLJPSKw==
+starstuff-components@^2.1.12, starstuff-components@^2.1.13, starstuff-components@^2.1.7:
+  version "2.1.13"
+  resolved "https://registry.yarnpkg.com/starstuff-components/-/starstuff-components-2.1.13.tgz#ffc5e8cf045456e3c9c235cd156b1d6ef982cfbd"
+  integrity sha512-2oohw4jOZ+oLDS+Y1MHKWniiPaCmnU3nKi8hLTbAc0tQGDttgBEi4A1OwHHgY8OrHQJXickmGMM9GhzHENQE9g==
   dependencies:
     "@emotion/styled" "^10.0.27"
     polished "^3.5.2"
