@@ -3391,7 +3391,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^16.9.34", "@types/react@^16.9.35", "@types/react@^16.9.36":
+"@types/react@*", "@types/react@^16.9.34", "@types/react@^16.9.36":
   version "16.9.36"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.36.tgz#ade589ff51e2a903e34ee4669e05dbfa0c1ce849"
   integrity sha512-mGgUb/Rk/vGx4NCvquRuSH0GHBQKb1OqpGS9cT9lFxlTLHZgkksgI60TuIxubmn7JuCb+sENHhQciqa0npm0AQ==
@@ -9412,7 +9412,7 @@ gatsby-remark-relative-images@^0.3.0:
     slash "^2.0.0"
     unist-util-select "^1.5.0"
 
-gatsby-remark-smartypants@^2.3.3, gatsby-remark-smartypants@^2.3.4:
+gatsby-remark-smartypants@^2.3.4:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/gatsby-remark-smartypants/-/gatsby-remark-smartypants-2.3.4.tgz#bc0398a8f3edcedcbf224e821dc46829043f2e06"
   integrity sha512-6iQHmu67L0JRje3vzCb/tS/pOSEMzXHSLbv7wOQ/czO2aeDkvmZl5nsHCUU4+WHZizuFmxoCBoqwdil8KYNkJA==
@@ -9526,15 +9526,15 @@ gatsby-theme-curiousity@^1.4.178:
     tinacms "^0.18.4"
     typescript "^3.8.3"
 
-gatsby-theme-early-bird@^1.8.237:
-  version "1.8.237"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.237.tgz#b0ec00ff6bdee6679ad0b1a028c8fc56ca659c82"
-  integrity sha512-BlKsVbnBYEF5fWI8+s/Zad2xjoc2fcyD/Byl10/ET7UvpsmMqgh2ydy3TtHEzr70ldNiIh0zSPVevshl7nP2DA==
+gatsby-theme-early-bird@^1.8.238:
+  version "1.8.238"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.238.tgz#a12d4fa27219b4ad187f0c8e133fe9df81cf7053"
+  integrity sha512-f1tCZ7Nm1JCEULIZ0J+6GHhB0RS2FwVcXN/vXhLiDaHkaq0tMtWa9+s1nQb3BXWxq6PAmC8VtIhJJeC6XR/F3Q==
   dependencies:
     "@emotion/core" "^10.0.28"
     "@mdx-js/mdx" "^1.6.5"
     "@mdx-js/react" "^1.6.5"
-    "@types/react" "^16.9.35"
+    "@types/react" "^16.9.36"
     "@types/react-helmet" "^6.0.0"
     gatsby-image "^2.4.2"
     gatsby-plugin-emotion "^4.3.4"
@@ -9545,7 +9545,7 @@ gatsby-theme-early-bird@^1.8.237:
     gatsby-plugin-typescript "^2.4.6"
     gatsby-remark-copy-linked-files "^2.3.5"
     gatsby-remark-images "^3.3.10"
-    gatsby-remark-smartypants "^2.3.3"
+    gatsby-remark-smartypants "^2.3.4"
     gatsby-source-filesystem "^2.3.11"
     gatsby-tinacms-git "^0.5.3"
     gatsby-tinacms-remark "^0.8.2"
