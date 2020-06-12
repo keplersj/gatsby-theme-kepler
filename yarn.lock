@@ -9564,7 +9564,7 @@ gatsby-theme-early-bird@^1.8.238:
     typescript "^3.9.5"
     uri-path-breakdown "^1.0.0"
 
-gatsby-tinacms-git@^0.4.12, gatsby-tinacms-git@^0.4.7:
+gatsby-tinacms-git@^0.4.7:
   version "0.4.12"
   resolved "https://registry.yarnpkg.com/gatsby-tinacms-git/-/gatsby-tinacms-git-0.4.12.tgz#b484740caad0ae670e41f4bc07b396bde3f32488"
   integrity sha512-lkJOsZqcdpsaGKia8pLZu/EHE58YvG9owexI2Fk539PXbxs4PQaIO9gCFQAPaGz8sIq+rEI5TkiK5qmJ89cNuQ==
