@@ -56,7 +56,7 @@
     "vscode-theme-onelight": "akamud/vscode-theme-onelight"
   },
   "devDependencies": {
-    "@stryker-mutator/core": "^3.2.4",
+    "@stryker-mutator/core": "^3.3.0",
     "@stryker-mutator/html-reporter": "^3.1.0",
     "@stryker-mutator/jest-runner": "^3.1.0",
     "@stryker-mutator/typescript": "^3.3.0",
