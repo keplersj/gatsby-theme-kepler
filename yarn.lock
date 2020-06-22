@@ -8645,7 +8645,7 @@ gatsby-cli@^2.12.47:
     yargs "^15.3.1"
     yurnalist "^1.1.2"
 
-gatsby-core-utils@^1.1.4, gatsby-core-utils@^1.3.5, gatsby-core-utils@^1.3.6:
+gatsby-core-utils@^1.1.4, gatsby-core-utils@^1.3.6:
   version "1.3.6"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.3.6.tgz#5a001593276b0c1cc4a3c6c9a34da428e9374590"
   integrity sha512-ptd//w6MX1/hUGO2KBffSUKSYIVU3SFRM2cKXN3CMmCQvn8ul2OHCjpNY8MyZQuluWk8nRtvhjEGrl+KJtcOnw==
@@ -16637,10 +16637,10 @@ react-refresh@^0.7.0:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.7.2.tgz#f30978d21eb8cac6e2f2fde056a7d04f6844dd50"
   integrity sha512-u5l7fhAJXecWUJzVxzMRU2Zvw8m4QmDNHlTrT5uo3KBlYBhmChd7syAakBoay1yIiVhx/8Fi7a6v6kQZfsw81Q==
 
-react-schemaorg@^1.0.1, react-schemaorg@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/react-schemaorg/-/react-schemaorg-1.0.2.tgz#3ae275f8033084441ba48809e0f0d73590e7a6ac"
-  integrity sha512-V3+7QNOsKW5I8eaTxfpaFMVCnODcv42mg6t9n+R2Sc10nzaHqmSlIIMv5HgJ7mRw4UionHnHRL4z7Vs0YQmwlg==
+react-schemaorg@^1.0.1, react-schemaorg@^1.0.2, react-schemaorg@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-schemaorg/-/react-schemaorg-1.1.0.tgz#a9d34d78763569e8ec911f7b08e28e196bf32afa"
+  integrity sha512-RJawkmB1dNoqsYcgrX47Dr4Z44Je7qDF8BhY/lih9vmYdy5dhHMmdxR+JX+OZaXT4dLxdJ5SKZPkHkjcI8lirA==
 
 react-test-renderer@^16.13.1:
   version "16.13.1"

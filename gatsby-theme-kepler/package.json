@@ -45,7 +45,7 @@
     "modern-normalize": "^0.6.0",
     "react-helmet-async": "^1.0.6",
     "react-icons": "^3.9.0",
-    "react-schemaorg": "^1.0.2",
+    "react-schemaorg": "^1.1.0",
     "schema-dts": "^0.6.0",
     "starstuff-components": "^2.1.15",
     "starstuff-style": "^1.1.2",
