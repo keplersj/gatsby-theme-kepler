@@ -8956,7 +8956,7 @@ gatsby-remark-vscode@^2.1.2:
     unist-util-visit "^1.4.1"
     vscode-textmate "4.2.2"
 
-gatsby-source-filesystem@^2.2.5, gatsby-source-filesystem@^2.3.12, gatsby-source-filesystem@^2.3.13:
+gatsby-source-filesystem@^2.2.5, gatsby-source-filesystem@^2.3.13:
   version "2.3.13"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.3.13.tgz#e90c9e0b39b2889af6aa93440f81ee16da5410ea"
   integrity sha512-x4YrPX8Y0Q32iO7E2lpOpIzT0C3RCcZtmHHrCdvkgGcOUSerEAEWHnBWYG2FQqnGsJ+YPBGwC2a2ENN4sLfc4Q==
