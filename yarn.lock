@@ -8574,7 +8574,7 @@ gatsby-plugin-tinacms@^0.2.5:
   dependencies:
     tinacms "^0.22.1"
 
-gatsby-plugin-typescript@^2.3.5, gatsby-plugin-typescript@^2.4.14, gatsby-plugin-typescript@^2.4.15, gatsby-plugin-typescript@^2.4.8:
+gatsby-plugin-typescript@^2.3.5, gatsby-plugin-typescript@^2.4.15, gatsby-plugin-typescript@^2.4.8:
   version "2.4.15"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-2.4.15.tgz#7bb67569b8a2f55700b20d2d7ba01f69e936c34c"
   integrity sha512-sh/BypdmqcpjGJBECPzRY1l7uDmVif8gqTPwcGb38WNENgRel619URc1bJEJRtfFpYEyBKTjVL0h2C5LQHQ1QQ==
@@ -8688,7 +8688,7 @@ gatsby-remark-copy-linked-files@^2.3.11:
     probe-image-size "^4.1.1"
     unist-util-visit "^1.4.1"
 
-gatsby-remark-images@^3.3.18, gatsby-remark-images@^3.3.19:
+gatsby-remark-images@^3.3.19:
   version "3.3.19"
   resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-3.3.19.tgz#2f0610f603683ac317f6ff5f205e06b7f765de6b"
   integrity sha512-37bmHbba/VNoehfrmCyt9mVtSV5s4wUW6d4e9JNb5xWP3Fihvz0Oz/cFeZzmd59eoYLEPlBv9Fsp9GXWkVEUhA==
@@ -8817,10 +8817,10 @@ gatsby-theme-curiousity@^1.4.178:
     tinacms "^0.18.4"
     typescript "^3.8.3"
 
-gatsby-theme-early-bird@^1.8.296:
-  version "1.8.296"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.296.tgz#8cc430df3b813842e9953df7de357e18b636cf5a"
-  integrity sha512-bHF241yv6qL4MJFfbiTW7R6LZUPvJxLdpo8CCwyrzrFJ4WvPNMr61CspFqqKNUD21824HwSH/kT60O3n9MMYlA==
+gatsby-theme-early-bird@^1.8.298:
+  version "1.8.298"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.298.tgz#3f8ca4ab300791c84dec792f45fde04e1815e422"
+  integrity sha512-UlEKTFgFinlBkpMOjF97Zkz5r66IGuDAse1H/6KHYXmhlb/GDuuVrwHUTiMr8sX+hBGcj7cp0c37LZtHSD8vaA==
   dependencies:
     "@emotion/core" "^10.0.28"
     "@mdx-js/mdx" "^1.6.6"
@@ -8833,9 +8833,9 @@ gatsby-theme-early-bird@^1.8.296:
     gatsby-plugin-react-helmet-async "^1.0.16"
     gatsby-plugin-sharp "^2.6.16"
     gatsby-plugin-tinacms "^0.2.5"
-    gatsby-plugin-typescript "^2.4.14"
+    gatsby-plugin-typescript "^2.4.15"
     gatsby-remark-copy-linked-files "^2.3.11"
-    gatsby-remark-images "^3.3.18"
+    gatsby-remark-images "^3.3.19"
     gatsby-remark-smartypants "^2.3.10"
     gatsby-source-filesystem "^2.3.17"
     gatsby-tinacms-git "^0.5.7"
