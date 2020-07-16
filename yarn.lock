@@ -11867,10 +11867,10 @@ jest-runner-prettier@^0.3.6:
     create-jest-runner "^0.5.3"
     jest-diff "^24.8.0"
 
-jest-runner-stylelint@^2.3.4:
-  version "2.3.4"
-  resolved "https://registry.yarnpkg.com/jest-runner-stylelint/-/jest-runner-stylelint-2.3.4.tgz#b8aee72bc4c0d173d5e9eedc5a3ccee9dacd6a8d"
-  integrity sha512-KYSEHziz/zH4k6p3lFJ2tND39e95pP4+LO/K2LpsAUaHUAFw0e2bYwpTVWhdMl5/7ekhr8jay342/9BoKFdl3w==
+jest-runner-stylelint@^2.3.5:
+  version "2.3.5"
+  resolved "https://registry.yarnpkg.com/jest-runner-stylelint/-/jest-runner-stylelint-2.3.5.tgz#d9ba336fb1edb1aee087032fc5faa713398ac031"
+  integrity sha512-1chdFCcDj0Zqgn1Uy/nUu4QTlAcFyvJ1/0qyCJaGFNo8HrQL6b5XlreCYrfbFKEOe21zKlgnPWko5bBDpIEcZg==
   dependencies:
     cosmiconfig "^6.0.0"
     create-jest-runner "^0.6.0"
