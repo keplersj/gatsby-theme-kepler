@@ -2253,24 +2253,24 @@
     core-js "^3.4.1"
     regenerator-runtime "^0.13.3"
 
-"@mdx-js/mdx@^1.6.11", "@mdx-js/mdx@^1.6.6":
-  version "1.6.11"
-  resolved "https://registry.yarnpkg.com/@mdx-js/mdx/-/mdx-1.6.11.tgz#48a9c87134a67830673859b3b2f59f693f439d5c"
-  integrity sha512-3Suqe+FVZvK62t+Lc7xjk3T7wSmh7QqzlVNkAx4jM8Q9GeuhcSWkwjS7VHY6KVoOw/jkBSlmzklyM7zACPSoIA==
+"@mdx-js/mdx@^1.6.13", "@mdx-js/mdx@^1.6.6":
+  version "1.6.13"
+  resolved "https://registry.yarnpkg.com/@mdx-js/mdx/-/mdx-1.6.13.tgz#6b2ba52e1b19131d0f99cad730a3dcd7b6cb1d02"
+  integrity sha512-xVZnzSQ/QsP6LnYnV5CC9sc92dzm0VsnFEbpDhB3ahbrCc0j/p4O5+q+OIic9H3AAYLIzoKah3Mj+wTnDpAeWg==
   dependencies:
     "@babel/core" "7.10.5"
     "@babel/plugin-syntax-jsx" "7.10.4"
     "@babel/plugin-syntax-object-rest-spread" "7.8.3"
-    "@mdx-js/util" "^1.6.11"
-    babel-plugin-apply-mdx-type-prop "^1.6.11"
-    babel-plugin-extract-import-names "^1.6.11"
+    "@mdx-js/util" "1.6.13"
+    babel-plugin-apply-mdx-type-prop "1.6.13"
+    babel-plugin-extract-import-names "1.6.13"
     camelcase-css "2.0.1"
     detab "2.0.3"
     hast-util-raw "6.0.0"
     lodash.uniq "4.5.0"
     mdast-util-to-hast "9.1.0"
     remark-footnotes "1.0.0"
-    remark-mdx "^1.6.11"
+    remark-mdx "1.6.13"
     remark-parse "8.0.2"
     remark-squeeze-paragraphs "4.0.0"
     style-to-object "0.3.0"
@@ -2278,10 +2278,10 @@
     unist-builder "2.0.3"
     unist-util-visit "2.0.3"
 
-"@mdx-js/react@^1.6.11", "@mdx-js/react@^1.6.6":
-  version "1.6.11"
-  resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-1.6.11.tgz#1796a22a06c404a4e82eb7300c25486ae14800d8"
-  integrity sha512-59qKdVmpxhGcQ7dJKQucKQHxXoS5A1U8x5IYJCitdGVwM6mXkCj1GYyb873oH4cRlxL8BhVHmGalkXTtLqV9Ag==
+"@mdx-js/react@^1.6.13", "@mdx-js/react@^1.6.6":
+  version "1.6.13"
+  resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-1.6.13.tgz#d58d2db408ee1fb2bfd6314d3cc86c444d08dc52"
+  integrity sha512-k8UfufP+eZbxHsprAvGvQB/vmiXpbhMYnM0c6xov5xEg3dYdtzrpjnf2kYsTIwyr3RG2SeZXGjE9tG9vzli53Q==
 
 "@mdx-js/runtime@^1.6.6":
   version "1.6.6"
@@ -2292,10 +2292,10 @@
     "@mdx-js/react" "^1.6.6"
     buble-jsx-only "^0.19.8"
 
-"@mdx-js/util@^1.6.11":
-  version "1.6.11"
-  resolved "https://registry.yarnpkg.com/@mdx-js/util/-/util-1.6.11.tgz#96599e8a959902cec0c1d39492a489a2a8151325"
-  integrity sha512-VbGXtjLOa7RK0w27o9eekGea190sXoJZgltFZzywmLNcBJn3sOynfyNUXH1rx2pyCOOfPcTBYg/Zf9Isfp3BNg==
+"@mdx-js/util@1.6.13":
+  version "1.6.13"
+  resolved "https://registry.yarnpkg.com/@mdx-js/util/-/util-1.6.13.tgz#36e4ed697de5797c368bea0b8f503215b6967b5a"
+  integrity sha512-IZP3UDGDaaaw0AchbXDofC//f+08w8FzW8EfTL/ZJNy6nKROe5xFwxnfRo5nL06l0CRCwNDmoReAerLuFMl1jA==
 
 "@mdx-js/util@^1.6.6":
   version "1.6.6"
@@ -2685,6 +2685,17 @@
   resolved "https://registry.yarnpkg.com/@tinacms/alerts/-/alerts-0.1.6.tgz#50184d16366a171193596de7d89bc7eb3872373b"
   integrity sha512-UTiJTVUxBQT64Fp1hNhBXzv27bCcIxXuN7y61uE+7XBTwuL7NHsSzNfVMxxntQi5dJtMLuS2lXKq+jvgMepA0A==
 
+"@tinacms/api-git@^0.24.0":
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/@tinacms/api-git/-/api-git-0.24.0.tgz#f2e9dbf81035fd1b2ca86fc21831f2bab707fd4f"
+  integrity sha512-uXYzkDAKETSwMf69YRLZYV1Xv1mnt3bORCy3PJTAdTViTcZ9EV+QitmkXRwmlPl2rjA2tfdWN8ZT0Lwd4QtJIQ==
+  dependencies:
+    atob "2.1.2"
+    cors "^2.8.5"
+    express "^4.17.1"
+    multer "1.4.2"
+    simple-git "1.126.0"
+
 "@tinacms/api-git@^0.7.0":
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/@tinacms/api-git/-/api-git-0.7.0.tgz#0690f928db02d413a3154dfabc7bfa8f2a8c8ca0"
@@ -2765,6 +2776,11 @@
   dependencies:
     final-form "^4.18.2"
     final-form-arrays "^3.0.1"
+
+"@tinacms/git-client@^0.24.0":
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/@tinacms/git-client/-/git-client-0.24.0.tgz#a7951d89421c4257b0ac8040ceeca6a32967058e"
+  integrity sha512-thSbTcldRVZkFHfQaCzyP4HdYgjvP7udcTAGQGOaPpgGti2Jjx2iwVzj/moJzhytXGXR4IJUzbvuXTHo2JG0pQ==
 
 "@tinacms/git-client@^0.6.7":
   version "0.6.7"
@@ -4139,13 +4155,13 @@ babel-plugin-add-module-exports@^0.3.3:
   optionalDependencies:
     chokidar "^2.0.4"
 
-babel-plugin-apply-mdx-type-prop@^1.6.11:
-  version "1.6.11"
-  resolved "https://registry.yarnpkg.com/babel-plugin-apply-mdx-type-prop/-/babel-plugin-apply-mdx-type-prop-1.6.11.tgz#feb14d3c3a134ed08dcc2998daabd63477148928"
-  integrity sha512-GCdljT0ofgEfEx3Ol3mQIS4f9A/P7m5XG6fLpbU7GIRdncNvQ8x1yhuGWnWJrlZj4/tjz+Hv96BBaGo1bfmiUA==
+babel-plugin-apply-mdx-type-prop@1.6.13:
+  version "1.6.13"
+  resolved "https://registry.yarnpkg.com/babel-plugin-apply-mdx-type-prop/-/babel-plugin-apply-mdx-type-prop-1.6.13.tgz#13c01e248addd293bb378fc0b2e49ba78d1d0296"
+  integrity sha512-G+vyur4OM+2iZih+vUeMzL/Aa0/4s/YZlDo6L0pfslgoX6eNGYT/NmjDZe99VxiaTaODX/bF/kt6oxZJYt8mJw==
   dependencies:
     "@babel/helper-plugin-utils" "7.10.4"
-    "@mdx-js/util" "^1.6.11"
+    "@mdx-js/util" "1.6.13"
 
 babel-plugin-dynamic-import-node@^2.3.3:
   version "2.3.3"
@@ -4170,10 +4186,10 @@ babel-plugin-emotion@^10.0.27:
     find-root "^1.1.0"
     source-map "^0.5.7"
 
-babel-plugin-extract-import-names@^1.6.11:
-  version "1.6.11"
-  resolved "https://registry.yarnpkg.com/babel-plugin-extract-import-names/-/babel-plugin-extract-import-names-1.6.11.tgz#e5493216398e26bf1b46ab7a3a41adad62b78fa3"
-  integrity sha512-vJRNOsWoxE9ufDm5XZR0KoKknA6loyiw0LNdLX1q4P+tLyzqi01HSLXyuBJqYpXYciVPCNHI7WBUnEhyQY+NTg==
+babel-plugin-extract-import-names@1.6.13:
+  version "1.6.13"
+  resolved "https://registry.yarnpkg.com/babel-plugin-extract-import-names/-/babel-plugin-extract-import-names-1.6.13.tgz#a87a44423c338e10fb4f3b607381ceaf434a448b"
+  integrity sha512-EKqKcGLmbegJji7qB7VRYQ6pJp74MGCjfCu1H6VOYr+ODqVMIsnxixYSvkuYTvwYaO1dWjSho85T4ctGMWpr+A==
   dependencies:
     "@babel/helper-plugin-utils" "7.10.4"
 
@@ -9006,14 +9022,14 @@ gatsby-theme-curiousity@^1.4.178:
     tinacms "^0.18.4"
     typescript "^3.8.3"
 
-gatsby-theme-early-bird@^1.8.311:
-  version "1.8.311"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.311.tgz#e7cc6131dc1e040837378a454c8e10fe221d3ad9"
-  integrity sha512-uSqyjpRAsljLeG3/dwLTHxpyFG478PdPtjlQqeOh17IUxjbIfHfx5ioE10QPcg+8cEDSbKA/tLDO2i6kH9uSeg==
+gatsby-theme-early-bird@^1.8.316:
+  version "1.8.316"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.316.tgz#60530298c0e7fc48f95ac2e754f26686f76dc043"
+  integrity sha512-Od4Mb/pI0QqYo4RSZJjbA/4+2/Z8EqoVBtctA5r/3G/XpwE2TdbtPCMZ1t+NA59tUt4axDZLfvysvs4iwIPc/w==
   dependencies:
     "@emotion/core" "^10.0.28"
-    "@mdx-js/mdx" "^1.6.11"
-    "@mdx-js/react" "^1.6.11"
+    "@mdx-js/mdx" "^1.6.13"
+    "@mdx-js/react" "^1.6.13"
     "@types/react" "^16.9.43"
     "@types/react-helmet" "^6.0.0"
     gatsby-image "^2.4.2"
@@ -9027,14 +9043,14 @@ gatsby-theme-early-bird@^1.8.311:
     gatsby-remark-images "^3.3.19"
     gatsby-remark-smartypants "^2.3.10"
     gatsby-source-filesystem "^2.3.17"
-    gatsby-tinacms-git "^0.5.7"
-    gatsby-tinacms-remark "^0.8.6"
+    gatsby-tinacms-git "^0.24.0"
+    gatsby-tinacms-remark "^0.24.0"
     gatsby-transformer-remark "^2.8.25"
     gatsby-transformer-sharp "^2.5.11"
-    gatsby-transformer-sqip "^2.3.19"
+    gatsby-transformer-sqip "^2.3.20"
     modern-normalize "^0.7.0"
     react-helmet-async "^1.0.6"
-    react-schemaorg "^1.1.0"
+    react-schemaorg "^1.2.0"
     schema-dts "^0.6.0"
     slugify "^1.4.4"
     starstuff-components "^2.1.17"
@@ -9043,6 +9059,14 @@ gatsby-theme-early-bird@^1.8.311:
     tinacms "^0.22.1"
     typescript "^3.9.7"
     uri-path-breakdown "^1.0.3"
+
+gatsby-tinacms-git@^0.24.0:
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/gatsby-tinacms-git/-/gatsby-tinacms-git-0.24.0.tgz#1ee40a1fda61d764a6e82e78c87c303d12e92f69"
+  integrity sha512-kzF63a2skpPc6ZYe06HgqSXJs+SFxVOIe8yI1vycGwYpitReTbz63xsCA6UuwFq1mssKv0K1gQ4sfrdA6zvbWA==
+  dependencies:
+    "@tinacms/api-git" "^0.24.0"
+    "@tinacms/git-client" "^0.24.0"
 
 gatsby-tinacms-git@^0.4.7:
   version "0.4.12"
@@ -9067,6 +9091,18 @@ gatsby-tinacms-json@^0.24.0:
   dependencies:
     slash "^3.0.0"
 
+gatsby-tinacms-remark@^0.24.0:
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/gatsby-tinacms-remark/-/gatsby-tinacms-remark-0.24.0.tgz#dda827561be5619b996eb8c41bd61e83d84c8eef"
+  integrity sha512-RgPgHy2Zdn3Hlxk3sSRUSxijN6EzqZotF4YjELKJokrXUU/ppo85SrjzUUy9oh9AlGL4i8ZF16LtuOYKm3YE5Q==
+  dependencies:
+    "@types/js-yaml" "^3.12.3"
+    gray-matter "^4.0.2"
+    js-yaml "^3.13.1"
+    react-tinacms-editor "^0.24.0"
+    react-tinacms-inline "^0.24.0"
+    slash "^3.0.0"
+
 gatsby-tinacms-remark@^0.7.13:
   version "0.7.13"
   resolved "https://registry.yarnpkg.com/gatsby-tinacms-remark/-/gatsby-tinacms-remark-0.7.13.tgz#f8d5d0caa4c21e4a11138e58a561cb982ed903fd"
@@ -9074,18 +9110,6 @@ gatsby-tinacms-remark@^0.7.13:
   dependencies:
     gray-matter "^4.0.2"
     js-yaml "^3.13.1"
-    slash "^3.0.0"
-
-gatsby-tinacms-remark@^0.8.6:
-  version "0.8.6"
-  resolved "https://registry.yarnpkg.com/gatsby-tinacms-remark/-/gatsby-tinacms-remark-0.8.6.tgz#67dd1a8da5dd9ce12569c1ff8298bd60e53bfdb3"
-  integrity sha512-Cfc1PZEbsahftn1xTyHkejaNi4b/ADHRnUIlyL9NmwPMS8X7p5c6TkSIVKR3o9NjY8rRAzpZDw4gB30vsrA0bw==
-  dependencies:
-    "@types/js-yaml" "^3.12.3"
-    gray-matter "^4.0.2"
-    js-yaml "^3.13.1"
-    react-tinacms-editor "^0.8.4"
-    react-tinacms-inline "^0.10.1"
     slash "^3.0.0"
 
 gatsby-transformer-json@^2.4.11:
@@ -9136,7 +9160,7 @@ gatsby-transformer-sharp@^2.4.7, gatsby-transformer-sharp@^2.5.11:
     semver "^5.7.1"
     sharp "^0.25.1"
 
-gatsby-transformer-sqip@^2.3.19, gatsby-transformer-sqip@^2.3.20:
+gatsby-transformer-sqip@^2.3.20:
   version "2.3.20"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-sqip/-/gatsby-transformer-sqip-2.3.20.tgz#6f8c4b6d0b56806addbf5d973bb6e087d1ab2fb4"
   integrity sha512-YYfJcebuvi6mpsT2b1+ge3d23I3OBz2Iv3V2PWQJ/j1lUfG9TseUbgtKdv32Ozr6PyQUeXZsJlHNBdII7hHwbg==
@@ -16629,10 +16653,10 @@ react-refresh@^0.7.0:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.7.2.tgz#f30978d21eb8cac6e2f2fde056a7d04f6844dd50"
   integrity sha512-u5l7fhAJXecWUJzVxzMRU2Zvw8m4QmDNHlTrT5uo3KBlYBhmChd7syAakBoay1yIiVhx/8Fi7a6v6kQZfsw81Q==
 
-react-schemaorg@^1.0.1, react-schemaorg@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/react-schemaorg/-/react-schemaorg-1.1.0.tgz#a9d34d78763569e8ec911f7b08e28e196bf32afa"
-  integrity sha512-RJawkmB1dNoqsYcgrX47Dr4Z44Je7qDF8BhY/lih9vmYdy5dhHMmdxR+JX+OZaXT4dLxdJ5SKZPkHkjcI8lirA==
+react-schemaorg@^1.0.1, react-schemaorg@^1.1.0, react-schemaorg@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-schemaorg/-/react-schemaorg-1.2.0.tgz#82454f7bf4aa6d52eb0e9e300c9dc4d5d220ba23"
+  integrity sha512-vtutPvE32n9b2d6qH1Gmyss4nJxRWsJKJR8WdVxxLzn6ErAIOOEE00paqC4rwI8gwm9mtnRBA2JLUfqv3AjDXw==
 
 react-test-renderer@^16.13.1:
   version "16.13.1"
@@ -16652,6 +16676,30 @@ react-textarea-autosize@>=7.1:
     "@babel/runtime" "^7.8.4"
     use-composed-ref "^1.0.0"
     use-latest "^1.0.0"
+
+react-tinacms-editor@^0.24.0:
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/react-tinacms-editor/-/react-tinacms-editor-0.24.0.tgz#ec9bd298b454931190a3d230b6cf4d88d70bb74c"
+  integrity sha512-JIQQOb+jEJNCba9NeDD4tR3Zq/cvcbodGgazGXUpDvbDCEfZVuNWIigwxfsNTMRs6gsK5LLWXKMyOhYl60TB7Q==
+  dependencies:
+    codemirror "^5.42.2"
+    lodash.debounce "^4.0.8"
+    lodash.get "^4.4.2"
+    markdown-it "^8.3.1"
+    prosemirror-commands "^1.0.8"
+    prosemirror-dropcursor "^1.1.2"
+    prosemirror-gapcursor "^1.0.4"
+    prosemirror-history "^1.0.4"
+    prosemirror-inputrules "^1.0.4"
+    prosemirror-keymap "^1.0.1"
+    prosemirror-model "^1.0.0"
+    prosemirror-schema-list "^1.0.3"
+    prosemirror-state "^1.2.4"
+    prosemirror-tables "1.0.0"
+    prosemirror-transform "^1.0.0"
+    prosemirror-utils "^0.9.6"
+    prosemirror-view "^1.11.3"
+    react-dismissible "^1.3.0"
 
 react-tinacms-editor@^0.4.0:
   version "0.4.0"
@@ -16681,34 +16729,10 @@ react-tinacms-editor@^0.4.0:
     prosemirror-view "^1.11.3"
     react-dismissible "^1.1.5"
 
-react-tinacms-editor@^0.8.4:
-  version "0.8.4"
-  resolved "https://registry.yarnpkg.com/react-tinacms-editor/-/react-tinacms-editor-0.8.4.tgz#5597f9f0ad8b245d1b0745bbd46eccf41440a290"
-  integrity sha512-kOB8HS6kA1WbtCMAZwkPDqNjZ+/4DB3GEPZ019Wcc7OtHYqDLPBOb5CuilA3dyeneO2eyoy1Acf3+A22v/kgOg==
-  dependencies:
-    codemirror "^5.42.2"
-    lodash.debounce "^4.0.8"
-    lodash.get "^4.4.2"
-    markdown-it "^8.3.1"
-    prosemirror-commands "^1.0.8"
-    prosemirror-dropcursor "^1.1.2"
-    prosemirror-gapcursor "^1.0.4"
-    prosemirror-history "^1.0.4"
-    prosemirror-inputrules "^1.0.4"
-    prosemirror-keymap "^1.0.1"
-    prosemirror-model "^1.0.0"
-    prosemirror-schema-list "^1.0.3"
-    prosemirror-state "^1.2.4"
-    prosemirror-tables "1.0.0"
-    prosemirror-transform "^1.0.0"
-    prosemirror-utils "^0.9.6"
-    prosemirror-view "^1.11.3"
-    react-dismissible "^1.3.0"
-
-react-tinacms-inline@^0.10.1:
-  version "0.10.1"
-  resolved "https://registry.yarnpkg.com/react-tinacms-inline/-/react-tinacms-inline-0.10.1.tgz#705034fc8972010b22700054fa91f74833af181d"
-  integrity sha512-owdUJJ+GbHJI84ZoMrSezwd3FJBnpV4n+1RxpF54vH8KIlPM7JhAaPY8DfeYtjHeqP0hF/fd1OLLpbTWZ3oJUg==
+react-tinacms-inline@^0.24.0:
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/react-tinacms-inline/-/react-tinacms-inline-0.24.0.tgz#4034474442a4e38430f7ae7160b928114a83480e"
+  integrity sha512-i5jZ4zETjKspKB2dImdGcZKJhENfEIMridcEZNEAOSM124pggsMbGsq1h/AcQGfMqYYimKqokbPFvCQ1RI2Kkw==
   dependencies:
     react-dismissible "^1.3.0"
     react-textarea-autosize ">=7.1"
@@ -17116,16 +17140,16 @@ remark-footnotes@1.0.0:
   resolved "https://registry.yarnpkg.com/remark-footnotes/-/remark-footnotes-1.0.0.tgz#9c7a97f9a89397858a50033373020b1ea2aad011"
   integrity sha512-X9Ncj4cj3/CIvLI2Z9IobHtVi8FVdUrdJkCNaL9kdX8ohfsi18DXHsCVd/A7ssARBdccdDb5ODnt62WuEWaM/g==
 
-remark-mdx@^1.6.11:
-  version "1.6.11"
-  resolved "https://registry.yarnpkg.com/remark-mdx/-/remark-mdx-1.6.11.tgz#36028636d27e7c14c70eb415c21f99eb36691d0c"
-  integrity sha512-nijtvQqyv2B6vBAcyi1GEWQl6VKepL2TX8b/vxcAKee6ZBd5AZKJDpIB2V5BbU015iReU/hs6UjYPXSt/d8bvg==
+remark-mdx@1.6.13:
+  version "1.6.13"
+  resolved "https://registry.yarnpkg.com/remark-mdx/-/remark-mdx-1.6.13.tgz#e85c98bb2256f4e6436aaeaa5703799f77ef9565"
+  integrity sha512-LlaW2PpGl13THFHajl0EEpAnMkrZO2vmn4PPGJzy7vKfKf2UMioKa7zszfV3cEwKu1aHqqnjH5ZwuZj1hexHJw==
   dependencies:
     "@babel/core" "7.10.5"
     "@babel/helper-plugin-utils" "7.10.4"
     "@babel/plugin-proposal-object-rest-spread" "7.10.4"
     "@babel/plugin-syntax-jsx" "7.10.4"
-    "@mdx-js/util" "^1.6.11"
+    "@mdx-js/util" "1.6.13"
     is-alphabetical "1.0.4"
     remark-parse "8.0.2"
     unified "9.0.0"
