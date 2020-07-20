@@ -8715,10 +8715,10 @@ gatsby-plugin-robots-txt@^1.5.1:
     "@babel/runtime" "^7.10.0"
     generate-robotstxt "^8.0.3"
 
-gatsby-plugin-sharp@^2.5.7, gatsby-plugin-sharp@^2.6.16, gatsby-plugin-sharp@^2.6.19:
-  version "2.6.19"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.6.19.tgz#027e9a55e44fafff80e1c4c4811242a2fae8d12c"
-  integrity sha512-0SVP2xk8Ml+hml30+oBP/SRm/ztGV6sDOlOUoEHuv6SssxkDcKc9aSScn0qB1HsKGDYDm1gcmDmw48Bq4U78rA==
+gatsby-plugin-sharp@^2.5.7, gatsby-plugin-sharp@^2.6.16, gatsby-plugin-sharp@^2.6.19, gatsby-plugin-sharp@^2.6.20:
+  version "2.6.20"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.6.20.tgz#c0e5bfb537a8df5be9650544ba8cec65759b366a"
+  integrity sha512-5M6wYzxer+yWEIhq+eE7XwcDWpJqm2Nr6V14UCfbR5KYmYpkEbDVm2dw1raBFonf/XUQ15idYjPp3U0mY6xfAg==
   dependencies:
     "@babel/runtime" "^7.10.3"
     async "^2.6.3"
@@ -9136,15 +9136,15 @@ gatsby-transformer-sharp@^2.4.7, gatsby-transformer-sharp@^2.5.11:
     semver "^5.7.1"
     sharp "^0.25.1"
 
-gatsby-transformer-sqip@^2.3.18, gatsby-transformer-sqip@^2.3.19:
-  version "2.3.19"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-sqip/-/gatsby-transformer-sqip-2.3.19.tgz#464a4ff25b8143f25790983106da62d15bdeae5e"
-  integrity sha512-kSnmyYccoahk607dTwuSb2WNhA9+Zh82OAq3+nZY6EpDARxj/s9g/WKcF1u8WhQwkdrBR1ZUMA5zYpMHBKwkpg==
+gatsby-transformer-sqip@^2.3.19, gatsby-transformer-sqip@^2.3.20:
+  version "2.3.20"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-sqip/-/gatsby-transformer-sqip-2.3.20.tgz#6f8c4b6d0b56806addbf5d973bb6e087d1ab2fb4"
+  integrity sha512-YYfJcebuvi6mpsT2b1+ge3d23I3OBz2Iv3V2PWQJ/j1lUfG9TseUbgtKdv32Ozr6PyQUeXZsJlHNBdII7hHwbg==
   dependencies:
     "@babel/runtime" "^7.10.3"
     bluebird "^3.7.2"
     fs-extra "^8.1.0"
-    gatsby-plugin-sharp "^2.6.19"
+    gatsby-plugin-sharp "^2.6.20"
     md5-file "^4.0.0"
     mini-svg-data-uri "^1.2.3"
     p-queue "^2.4.2"
