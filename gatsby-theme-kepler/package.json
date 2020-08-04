@@ -26,7 +26,7 @@
     "gatsby-plugin-robots-txt": "^1.5.1",
     "gatsby-plugin-sharp": "^2.6.19",
     "gatsby-plugin-sitemap": "^2.4.11",
-    "gatsby-plugin-tinacms": "^0.1.33",
+    "gatsby-plugin-tinacms": "^0.26.0",
     "gatsby-plugin-typescript": "^2.4.15",
     "gatsby-remark-autolink-headers": "^2.3.11",
     "gatsby-remark-images": "^3.3.19",
