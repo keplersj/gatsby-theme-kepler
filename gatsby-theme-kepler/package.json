@@ -42,7 +42,7 @@
     "gatsby-transformer-remark": "^2.8.25",
     "gatsby-transformer-sharp": "^2.5.11",
     "gatsby-transformer-sqip": "^2.3.28",
-    "modern-normalize": "^0.7.0",
+    "modern-normalize": "^1.0.0",
     "react-helmet-async": "^1.0.6",
     "react-icons": "^3.9.0",
     "react-schemaorg": "^1.1.0",
