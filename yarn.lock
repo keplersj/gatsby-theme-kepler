@@ -14224,6 +14224,11 @@ modern-normalize@^0.7.0:
   resolved "https://registry.yarnpkg.com/modern-normalize/-/modern-normalize-0.7.0.tgz#023a110fb00eafc65c7e01681a6e00db64c152aa"
   integrity sha512-EiotlP2YuHgasvDZcgM5OAHAo9TV5d+GG6MNPO0wSaBRqVEc0ROPq7MuRRO7lfTGtAB6B72hTCfwA8mS6FeNeg==
 
+modern-normalize@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/modern-normalize/-/modern-normalize-1.0.0.tgz#539d84a1e141338b01b346f3e27396d0ed17601e"
+  integrity sha512-1lM+BMLGuDfsdwf3rsgBSrxJwAZHFIrQ8YR61xIqdHo0uNKI9M52wNpHSrliZATJp51On6JD0AfRxd4YGSU0lw==
+
 modify-values@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/modify-values/-/modify-values-1.0.1.tgz#b3939fa605546474e3e3e3c63d64bd43b4ee6022"
