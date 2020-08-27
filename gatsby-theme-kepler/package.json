@@ -30,7 +30,7 @@
     "gatsby-plugin-typescript": "^2.4.15",
     "gatsby-remark-autolink-headers": "^2.3.11",
     "gatsby-remark-images": "^3.3.19",
-    "gatsby-remark-relative-images": "^0.3.0",
+    "gatsby-remark-relative-images": "^1.1.1",
     "gatsby-remark-smartypants": "^2.3.10",
     "gatsby-remark-vscode": "^3.0.1",
     "gatsby-source-filesystem": "^2.3.25",
