@@ -8858,16 +8858,16 @@ gatsby-plugin-robots-txt@^1.5.1:
     "@babel/runtime" "^7.10.0"
     generate-robotstxt "^8.0.3"
 
-gatsby-plugin-sharp@^2.5.7, gatsby-plugin-sharp@^2.6.16, gatsby-plugin-sharp@^2.6.19, gatsby-plugin-sharp@^2.6.28:
-  version "2.6.28"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.6.28.tgz#f5b9597d100c16c568f66e68ee68271691a57934"
-  integrity sha512-7gAbrpOas7u0TlKJ1fnFHvRDaAodxoo0T9PuWc4guL8ZjfODPBvJ+hbuBr6ov4FJJyfHaCwxXLYV8yivwvmPYg==
+gatsby-plugin-sharp@^2.5.7, gatsby-plugin-sharp@^2.6.16, gatsby-plugin-sharp@^2.6.19, gatsby-plugin-sharp@^2.6.29:
+  version "2.6.29"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.6.29.tgz#f48f437138b94f5f8fda524b5c899bc3ec2efc6f"
+  integrity sha512-mhk4k4RIPdRASj8gD51rLpc7eTxUcNIvBpntaEs3vltrz6dZqoLXHwPHrv3j8345ETeE3e3eGFt3qWp4VLxHtg==
   dependencies:
     "@babel/runtime" "^7.10.3"
     async "^2.6.3"
     bluebird "^3.7.2"
     fs-extra "^8.1.0"
-    gatsby-core-utils "^1.3.16"
+    gatsby-core-utils "^1.3.17"
     got "^8.3.2"
     imagemin "^6.1.0"
     imagemin-mozjpeg "^8.0.0"
@@ -9294,15 +9294,15 @@ gatsby-transformer-sharp@^2.4.7, gatsby-transformer-sharp@^2.5.11, gatsby-transf
     semver "^7.3.2"
     sharp "^0.25.1"
 
-gatsby-transformer-sqip@^2.3.19, gatsby-transformer-sqip@^2.3.28:
-  version "2.3.28"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-sqip/-/gatsby-transformer-sqip-2.3.28.tgz#7d940b3e1aa65df25656c19ed16367c8702cd552"
-  integrity sha512-1uDpQgGbONs0/+Y+fDK3zRiBE4h6w4/7Zwt9D4nhWMdZCEcQf+lfQrq9d2QfPWS/AC8w/KpU0yv3E6rhYCuBew==
+gatsby-transformer-sqip@^2.3.19, gatsby-transformer-sqip@^2.3.29:
+  version "2.3.29"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-sqip/-/gatsby-transformer-sqip-2.3.29.tgz#684015c5b1a118489b7e2a9191a7ef4170aff07b"
+  integrity sha512-31RDwk7qf2eECHWgpvk4DqEfhLZSp2uVkXQ8TxQq3v01FGgsTJrJeJ0T6HFa1xNT+1IUpLQ5qE4wn5AP37fOLA==
   dependencies:
     "@babel/runtime" "^7.10.3"
     bluebird "^3.7.2"
     fs-extra "^8.1.0"
-    gatsby-plugin-sharp "^2.6.28"
+    gatsby-plugin-sharp "^2.6.29"
     md5-file "^4.0.0"
     mini-svg-data-uri "^1.2.3"
     p-queue "^2.4.2"
@@ -16041,7 +16041,7 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.13, postcss@^7.0.14, postcss@^7.0.1
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-potrace@^2.1.6, potrace@^2.1.8:
+potrace@^2.1.8:
   version "2.1.8"
   resolved "https://registry.yarnpkg.com/potrace/-/potrace-2.1.8.tgz#50f6fba92e1e39ddef6f979b0a0f841809e0acf2"
   integrity sha512-V9hI7UMJyEhNZjM8CbZaP/804ZRLgzWkCS9OOYnEZkszzj3zKR/erRdj0uFMcN3pp6x4B+AIZebmkQgGRinG/g==
