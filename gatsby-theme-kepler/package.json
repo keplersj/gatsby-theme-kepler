@@ -41,7 +41,7 @@
     "gatsby-transformer-json": "^2.4.11",
     "gatsby-transformer-remark": "^2.8.25",
     "gatsby-transformer-sharp": "^2.5.13",
-    "gatsby-transformer-sqip": "^2.3.28",
+    "gatsby-transformer-sqip": "^2.3.29",
     "modern-normalize": "^1.0.0",
     "react-helmet-async": "^1.0.6",
     "react-icons": "^3.9.0",
