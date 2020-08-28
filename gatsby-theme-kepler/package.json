@@ -44,7 +44,7 @@
     "gatsby-transformer-sqip": "^2.3.29",
     "modern-normalize": "^1.0.0",
     "react-helmet-async": "^1.0.6",
-    "react-icons": "^3.9.0",
+    "react-icons": "^3.11.0",
     "react-schemaorg": "^1.2.0",
     "schema-dts": "^0.7.1",
     "starstuff-components": "^2.1.18",
