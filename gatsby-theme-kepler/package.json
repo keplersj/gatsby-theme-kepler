@@ -51,7 +51,7 @@
     "starstuff-style": "^1.1.4",
     "styled-components": "^5.1.1",
     "typescript": "^4.0.2",
-    "uri-path-breakdown": "^1.0.4",
+    "uri-path-breakdown": "^1.0.5",
     "vscode-theme-onedark": "akamud/vscode-theme-onedark",
     "vscode-theme-onelight": "akamud/vscode-theme-onelight"
   },
