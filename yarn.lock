@@ -2621,7 +2621,7 @@
   dependencies:
     type-detect "4.0.8"
 
-"@stryker-mutator/api@^3.1.0", "@stryker-mutator/api@^3.3.1":
+"@stryker-mutator/api@^3.3.1":
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-3.3.1.tgz#1a003c6ab21b4477e6251754451deb009107bd98"
   integrity sha512-t3TZyzxZYwZHUF1aCCpqLOQJjW0DZMZTrwGP/zGuDBUjr1/Opq+S6emeLFVjSJiDeMyqkqh9X01ZzHIWJPD+Sg==
@@ -2666,12 +2666,12 @@
   resolved "https://registry.yarnpkg.com/@stryker-mutator/html-reporter/-/html-reporter-3.1.0.tgz#b89692338037a0d168f9153457f5c71360c0c8c6"
   integrity sha512-Lpn9YGt4NS9lLYhjBNZ1yZ9tCX9FWa66skR6Ieij3wMMtQvPlSswar6fmVqUiyPl/wmpTGSoptOcWDFEZ5qp8A==
 
-"@stryker-mutator/jest-runner@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-3.1.0.tgz#97051a9a81b620e6f09a9821f88ef4b1ce821b0f"
-  integrity sha512-IbnMjMEAiKmSuXJRYeScGEI1sssM4hNj82X0UGHfUlDbz8k1HWxfYjueHQ/DXurf6qXPd0LXwKh5rW1WLEYF6A==
+"@stryker-mutator/jest-runner@^3.3.1":
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-3.3.1.tgz#9f42d5a5afeea11aa41de76bd192588173e3985f"
+  integrity sha512-TAZ/TUTxZawASHPqc+iRgNyYMu3zYT4FlT/SJkf/hOsOTJk/QDu1woueTQGDb1cRs+OA0j5oOjh/mvdPvbxm3A==
   dependencies:
-    "@stryker-mutator/api" "^3.1.0"
+    "@stryker-mutator/api" "^3.3.1"
     semver "~6.3.0"
 
 "@stryker-mutator/typescript@^3.3.1":
