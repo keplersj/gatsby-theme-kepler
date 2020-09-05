@@ -49,7 +49,7 @@
     "schema-dts": "^0.7.1",
     "starstuff-components": "^2.1.20",
     "starstuff-style": "^1.1.4",
-    "styled-components": "^5.1.1",
+    "styled-components": "^5.2.0",
     "typescript": "^4.0.2",
     "uri-path-breakdown": "^1.0.5",
     "vscode-theme-onedark": "akamud/vscode-theme-onedark",
