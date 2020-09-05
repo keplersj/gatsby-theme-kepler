@@ -19010,10 +19010,10 @@ stackframe@^1.1.1:
   resolved "https://registry.yarnpkg.com/stackframe/-/stackframe-1.1.1.tgz#ffef0a3318b1b60c3b58564989aca5660729ec71"
   integrity sha512-0PlYhdKh6AfFxRyK/v+6/k+/mMfyiEBbTM5L94D0ZytQnJ166wuwoTYLHFWGbs2dpA8Rgq763KGWmN1EQEYHRQ==
 
-starstuff-components@^2.1.17, starstuff-components@^2.1.19, starstuff-components@^2.1.7:
-  version "2.1.19"
-  resolved "https://registry.yarnpkg.com/starstuff-components/-/starstuff-components-2.1.19.tgz#4e609c2dec2b73e6d7879ca13783891b4105f287"
-  integrity sha512-73SGv2hQDbdCDGF19Af4VufALzs/DWeis1fMTk2JxJb8W1TFuHI+5OJPgefvakx0TdJ+nnPtJVrBQAMGnVOOpQ==
+starstuff-components@^2.1.17, starstuff-components@^2.1.20, starstuff-components@^2.1.7:
+  version "2.1.20"
+  resolved "https://registry.yarnpkg.com/starstuff-components/-/starstuff-components-2.1.20.tgz#c3cb45a88dc642a5191fd3c578cca5852875e3e4"
+  integrity sha512-NG4mD/gmh90HIhHpOOa4EAVuIFOI0eX/NM6KuPrmEiAEuBlxKN+ImkTJTo1E4KZd52OQiOh0NCiSrMlgwjZ1DQ==
   dependencies:
     "@emotion/styled" "^10.0.27"
     polished "^3.5.2"
