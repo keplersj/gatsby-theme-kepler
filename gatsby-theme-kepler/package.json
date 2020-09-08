@@ -39,7 +39,7 @@
     "gatsby-tinacms-git": "^0.5.7",
     "gatsby-tinacms-json": "^0.29.0",
     "gatsby-transformer-json": "^2.4.11",
-    "gatsby-transformer-remark": "^2.8.32",
+    "gatsby-transformer-remark": "^2.8.33",
     "gatsby-transformer-sharp": "^2.5.14",
     "gatsby-transformer-sqip": "^2.3.32",
     "modern-normalize": "^1.0.0",
