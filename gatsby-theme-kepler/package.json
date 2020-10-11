@@ -24,7 +24,7 @@
     "gatsby-plugin-nprogress": "^2.3.10",
     "gatsby-plugin-react-helmet-async": "^1.1.0",
     "gatsby-plugin-robots-txt": "^1.5.1",
-    "gatsby-plugin-sharp": "^2.6.34",
+    "gatsby-plugin-sharp": "^2.6.40",
     "gatsby-plugin-sitemap": "^2.4.12",
     "gatsby-plugin-tinacms": "^0.1.33",
     "gatsby-plugin-typescript": "^2.4.19",
