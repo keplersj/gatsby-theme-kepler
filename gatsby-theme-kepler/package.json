@@ -67,7 +67,7 @@
     "eslint": "^7.8.1",
     "eslint-config-starstuff": "^1.4.42",
     "eslint-plugin-jest": "^24.0.0",
-    "gatsby": "^2.24.56",
+    "gatsby": "^2.24.85",
     "jest": "^25.5.4",
     "jest-emotion": "^10.0.32",
     "jest-preset-gatsby": "^1.0.79",
@@ -86,7 +86,7 @@
     "stylelint-config-starstuff": "^1.1.6"
   },
   "peerDependencies": {
-    "gatsby": "^2.24.56",
+    "gatsby": "^2.24.85",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
