@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`404 Page renders correctly 1`] = `
-.emotion-1 {
+.emotion-0 {
   position: relative;
 }
 
-.emotion-1::before,
-.emotion-1::after {
+.emotion-0::before,
+.emotion-0::after {
   position: absolute;
   top: 0;
   left: 0;
@@ -22,31 +22,31 @@ exports[`404 Page renders correctly 1`] = `
 }
 
 @media screen and (prefers-reduced-motion:reduce) {
-  .emotion-1::before,
-  .emotion-1::after {
+  .emotion-0::before,
+  .emotion-0::after {
     -webkit-transition: none;
     transition: none;
   }
 }
 
-.emotion-1::after {
+.emotion-0::after {
   z-index: -100;
   opacity: 0;
 }
 
-.emotion-1::before {
+.emotion-0::before {
   z-index: -101;
   opacity: 1;
   background-image: url("data+image/svg+xml");
 }
 
 @media screen and (prefers-color-scheme:dark) {
-  .emotion-1::before {
+  .emotion-0::before {
     background-image: url("data+image/svg+xml");
   }
 }
 
-.emotion-0 {
+.emotion-1 {
   color: #505050;
   font-size: 1.5em;
   font-weight: 500;
@@ -58,8 +58,8 @@ exports[`404 Page renders correctly 1`] = `
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -70,14 +70,14 @@ exports[`404 Page renders correctly 1`] = `
   backdrop-filter: blur(5px);
 }
 
-@media (prefers-color-scheme:dark) {
-  .emotion-0 {
+@media (prefers-color-scheme: dark) {
+  .emotion-1 {
     color: white;
   }
 }
 
 <div
-  className="emotion-1"
+  className="emotion-0"
   data-testid="BackgroundImageContainerElement"
 >
   <noscript
@@ -92,7 +92,7 @@ exports[`404 Page renders correctly 1`] = `
     />
   </noscript>
   <div
-    className="emotion-0"
+    className="emotion-1"
   >
     <div>
       <h1>

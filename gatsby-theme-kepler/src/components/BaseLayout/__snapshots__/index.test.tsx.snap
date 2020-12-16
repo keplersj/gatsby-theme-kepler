@@ -46,12 +46,12 @@ Array [
   >
     Skip to content
   </a>,
-  .emotion-7 {
+  .emotion-0 {
   position: relative;
 }
 
-.emotion-7::before,
-.emotion-7::after {
+.emotion-0::before,
+.emotion-0::after {
   position: absolute;
   top: 0;
   left: 0;
@@ -67,31 +67,31 @@ Array [
 }
 
 @media screen and (prefers-reduced-motion:reduce) {
-  .emotion-7::before,
-  .emotion-7::after {
+  .emotion-0::before,
+  .emotion-0::after {
     -webkit-transition: none;
     transition: none;
   }
 }
 
-.emotion-7::after {
+.emotion-0::after {
   z-index: -100;
   opacity: 0;
 }
 
-.emotion-7::before {
+.emotion-0::before {
   z-index: -101;
   opacity: 1;
   background-image: url("data+image/svg+xml");
 }
 
 @media screen and (prefers-color-scheme:dark) {
-  .emotion-7::before {
+  .emotion-0::before {
     background-image: url("data+image/svg+xml");
   }
 }
 
-.emotion-6 {
+.emotion-1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -102,7 +102,6 @@ Array [
   align-items: center;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   max-width: 100vw;
   height: 3rem;
@@ -112,41 +111,41 @@ Array [
   backdrop-filter: blur(5px);
 }
 
-.emotion-1 {
+.emotion-2 {
   max-width: 50%;
   text-align: start;
 }
 
-.emotion-0 {
+.emotion-3 {
   color: #141414;
   font-weight: 600;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.emotion-0:hover,
-.emotion-0:focus {
+.emotion-3:hover,
+.emotion-3:focus {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-@media (prefers-color-scheme:dark) {
-  .emotion-0 {
+@media (prefers-color-scheme: dark) {
+  .emotion-3 {
     color: white;
   }
 }
 
-.emotion-5 {
+.emotion-4 {
   max-width: 50%;
   text-align: end;
 }
 
-.emotion-5 > :not(:last-child) {
+.emotion-4>:not(:last-child) {
   margin-right: 1em;
 }
 
 <div
-    className="emotion-7"
+    className="emotion-0"
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
@@ -161,35 +160,35 @@ Array [
       />
     </noscript>
     <div
-      className="emotion-6"
+      className="emotion-1"
     >
       <div
-        className="emotion-1"
+        className="emotion-2"
       >
         <a
-          className="emotion-0"
+          className="emotion-3"
           href="/"
         >
           Kepler Sticka-Jones
         </a>
       </div>
       <div
-        className="emotion-5"
+        className="emotion-4"
       >
         <a
-          className="emotion-0"
+          className="emotion-3"
           href="/blog"
         >
           Blog
         </a>
         <a
-          className="emotion-0"
+          className="emotion-3"
           href="/projects"
         >
           Projects
         </a>
         <a
-          className="emotion-0"
+          className="emotion-3"
           href="/about"
         >
           About

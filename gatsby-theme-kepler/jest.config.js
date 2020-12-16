@@ -6,7 +6,7 @@ module.exports = {
       displayName: "test",
       preset: "jest-preset-gatsby/typescript",
       snapshotSerializers: [
-        "jest-emotion",
+        "@emotion/jest/serializer",
         "jest-serializer-react-helmet-async",
         "jest-serializer-json-ld-script",
       ],

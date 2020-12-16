@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`SocialLinks renders correctly 1`] = `
-.emotion-8 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -9,21 +9,22 @@ exports[`SocialLinks renders correctly 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
-.emotion-0 {
+.emotion-1 {
   padding: 0.5em;
 }
 
 <address
-  className="emotion-8"
+  className="emotion-0"
   role="list"
 >
   <a
-    className="emotion-0"
+    className="emotion-1"
     href="mailto:test@example.dev"
     id="test@example.dev"
     name="Email"
@@ -34,7 +35,6 @@ exports[`SocialLinks renders correctly 1`] = `
     <svg
       fill="currentColor"
       height="1.5em"
-      size="1.5em"
       stroke="currentColor"
       strokeWidth="0"
       style={
@@ -55,7 +55,7 @@ exports[`SocialLinks renders correctly 1`] = `
     </svg>
   </a>
   <a
-    className="emotion-0"
+    className="emotion-1"
     href="https://example.dev/pub.asc"
     id="XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX"
     name="PGP"
@@ -66,7 +66,6 @@ exports[`SocialLinks renders correctly 1`] = `
     <svg
       fill="currentColor"
       height="1.5em"
-      size="1.5em"
       stroke="currentColor"
       strokeWidth="0"
       style={
@@ -87,7 +86,7 @@ exports[`SocialLinks renders correctly 1`] = `
     </svg>
   </a>
   <a
-    className="emotion-0"
+    className="emotion-1"
     href="https://github.dev/test"
     id="test"
     name="GitHub"
@@ -98,7 +97,6 @@ exports[`SocialLinks renders correctly 1`] = `
     <svg
       fill="currentColor"
       height="1.5em"
-      size="1.5em"
       stroke="currentColor"
       strokeWidth="0"
       style={
@@ -119,7 +117,7 @@ exports[`SocialLinks renders correctly 1`] = `
     </svg>
   </a>
   <a
-    className="emotion-0"
+    className="emotion-1"
     href="https://twitter.dev/test"
     id="@test"
     name="Twitter"
@@ -130,7 +128,6 @@ exports[`SocialLinks renders correctly 1`] = `
     <svg
       fill="currentColor"
       height="1.5em"
-      size="1.5em"
       stroke="currentColor"
       strokeWidth="0"
       style={
@@ -151,7 +148,7 @@ exports[`SocialLinks renders correctly 1`] = `
     </svg>
   </a>
   <a
-    className="emotion-0"
+    className="emotion-1"
     href="https://linkedin.dev/in/test"
     id="test"
     name="LinkedIn"
@@ -162,7 +159,6 @@ exports[`SocialLinks renders correctly 1`] = `
     <svg
       fill="currentColor"
       height="1.5em"
-      size="1.5em"
       stroke="currentColor"
       strokeWidth="0"
       style={
@@ -183,7 +179,7 @@ exports[`SocialLinks renders correctly 1`] = `
     </svg>
   </a>
   <a
-    className="emotion-0"
+    className="emotion-1"
     href="https://keybase.dev/test"
     id="test"
     name="Keybase"
@@ -194,7 +190,6 @@ exports[`SocialLinks renders correctly 1`] = `
     <svg
       fill="currentColor"
       height="1.5em"
-      size="1.5em"
       stroke="currentColor"
       strokeWidth="0"
       style={
@@ -215,7 +210,7 @@ exports[`SocialLinks renders correctly 1`] = `
     </svg>
   </a>
   <a
-    className="emotion-0"
+    className="emotion-1"
     href="https://instagram.dev/test"
     id="@test"
     name="Instagram"
@@ -226,7 +221,6 @@ exports[`SocialLinks renders correctly 1`] = `
     <svg
       fill="currentColor"
       height="1.5em"
-      size="1.5em"
       stroke="currentColor"
       strokeWidth="0"
       style={
@@ -247,7 +241,7 @@ exports[`SocialLinks renders correctly 1`] = `
     </svg>
   </a>
   <a
-    className="emotion-0"
+    className="emotion-1"
     href="https://🤷🏼‍♂️.dev/test"
     id="test"
     name="Unknown Platform of the Future"
@@ -258,7 +252,6 @@ exports[`SocialLinks renders correctly 1`] = `
     <svg
       fill="currentColor"
       height="1.5em"
-      size="1.5em"
       stroke="currentColor"
       strokeWidth="0"
       style={

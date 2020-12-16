@@ -48,12 +48,12 @@ Array [
     "url": "https://site.dev",
   }
   </script>,
-  .emotion-11 {
+  .emotion-0 {
   position: relative;
 }
 
-.emotion-11::before,
-.emotion-11::after {
+.emotion-0::before,
+.emotion-0::after {
   position: absolute;
   top: 0;
   left: 0;
@@ -69,31 +69,31 @@ Array [
 }
 
 @media screen and (prefers-reduced-motion:reduce) {
-  .emotion-11::before,
-  .emotion-11::after {
+  .emotion-0::before,
+  .emotion-0::after {
     -webkit-transition: none;
     transition: none;
   }
 }
 
-.emotion-11::after {
+.emotion-0::after {
   z-index: -100;
   opacity: 0;
 }
 
-.emotion-11::before {
+.emotion-0::before {
   z-index: -101;
   opacity: 1;
   background-image: url("data+image/svg+xml");
 }
 
 @media screen and (prefers-color-scheme:dark) {
-  .emotion-11::before {
+  .emotion-0::before {
     background-image: url("data+image/svg+xml");
   }
 }
 
-.emotion-10 {
+.emotion-1 {
   min-height: 66vh;
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
@@ -110,11 +110,10 @@ Array [
   flex-direction: column;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
-.emotion-9 {
+.emotion-2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -134,8 +133,8 @@ Array [
   color: #fff;
 }
 
-.emotion-8 {
-  text-align: center !important;
+.emotion-3 {
+  text-align: center!important;
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
@@ -148,19 +147,19 @@ Array [
   width: auto;
 }
 
-@media screen and (min-width:1024px) {
-  .emotion-8 {
+@media screen and (min-width: 1024px) {
+  .emotion-3 {
     max-width: 960px;
   }
 }
 
-@media screen and (min-width:1216px) {
-  .emotion-8 {
+@media screen and (min-width: 1216px) {
+  .emotion-3 {
     max-width: 1152px;
   }
 }
 
-.emotion-7 {
+.emotion-4 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -170,11 +169,11 @@ Array [
   margin-top: -0.75rem;
 }
 
-.emotion-7:last-child {
+.emotion-4:last-child {
   margin-bottom: -0.75rem;
 }
 
-.emotion-6 {
+.emotion-5 {
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -185,24 +184,24 @@ Array [
   width: 66.6666%;
 }
 
-.emotion-0 {
+.emotion-6 {
   margin-bottom: 10px;
   border-radius: 140px;
 }
 
-.emotion-1 {
+.emotion-7 {
   font-size: 2.5rem;
   font-weight: 600;
   line-height: 1.125;
   margin-bottom: 1.5rem;
 }
 
-.emotion-5 {
+.emotion-8 {
   margin-left: auto;
   margin-right: auto;
 }
 
-.emotion-2 {
+.emotion-9 {
   position: relative;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -213,8 +212,8 @@ Array [
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   height: 2.25em;
   padding-top: calc(0.375em - 1px);
@@ -240,32 +239,32 @@ Array [
   color: #fff;
 }
 
-.emotion-2:hover,
-.emotion-2:focus {
+.emotion-9:hover,
+.emotion-9:focus {
   background-color: #5f5f5f;
 }
 
-.emotion-2:active {
+.emotion-9:active {
   background-color: #373737;
 }
 
-@media (prefers-color-scheme:dark) {
-  .emotion-2 {
+@media (prefers-color-scheme: dark) {
+  .emotion-9 {
     color: #fff;
   }
 
-  .emotion-2:hover,
-  .emotion-2:focus {
+  .emotion-9:hover,
+  .emotion-9:focus {
     background-color: #a0a0a0;
   }
 
-  .emotion-2:active {
+  .emotion-9:active {
     background-color: #c8c8c8;
   }
 }
 
 <div
-    className="emotion-11"
+    className="emotion-0"
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
@@ -280,26 +279,26 @@ Array [
       />
     </noscript>
     <section
-      className="emotion-10"
+      className="emotion-1"
     >
       <div
-        className="emotion-9"
+        className="emotion-2"
       >
         <div
-          className="emotion-8"
+          className="emotion-3"
         >
           <div
-            className="emotion-7"
+            className="emotion-4"
           >
             <div
-              className="emotion-6"
+              className="emotion-5"
             >
               <div
                 aria-label="Avatar"
                 role="img"
               >
                 <div
-                  className="emotion-0 gatsby-image-wrapper"
+                  className="emotion-6 gatsby-image-wrapper"
                   style={
                     Object {
                       "display": "inline-block",
@@ -373,27 +372,27 @@ Array [
                 </div>
               </div>
               <h1
-                className="emotion-1"
+                className="emotion-7"
               >
                 Example Site
               </h1>
               <div
-                className="emotion-5"
+                className="emotion-8"
               >
                 <a
-                  className="emotion-2"
+                  className="emotion-9"
                   href="/blog"
                 >
                   Blog
                 </a>
                 <a
-                  className="emotion-2"
+                  className="emotion-9"
                   href="/portfolio"
                 >
                   Portfolio
                 </a>
                 <a
-                  className="emotion-2"
+                  className="emotion-9"
                   href="/about"
                 >
                   About
@@ -409,13 +408,13 @@ Array [
   padding: 1em;
 }
 
-@media screen and (min-width:512px) {
+@media screen and (min-width: 512px) {
   .emotion-0 {
     padding: 1em 2.5em;
   }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
   .emotion-0 {
     padding: 1em 5em;
   }
@@ -442,23 +441,23 @@ Array [
       Read More...
     </a>
   </section>,
-  .emotion-8 {
+  .emotion-0 {
   padding: 1em;
 }
 
-@media screen and (min-width:512px) {
-  .emotion-8 {
+@media screen and (min-width: 512px) {
+  .emotion-0 {
     padding: 1em 2.5em;
   }
 }
 
-@media screen and (min-width:1024px) {
-  .emotion-8 {
+@media screen and (min-width: 1024px) {
+  .emotion-0 {
     padding: 1em 5em;
   }
 }
 
-.emotion-7 {
+.emotion-1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -468,9 +467,9 @@ Array [
 
 .emotion-2 {
   margin: 1em;
-  background-color: rgba(var(--starstuff-card-default-background-color),0.5);
+  background-color: rgba(var(--starstuff-card-default-background-color), 0.5);
   border-radius: 10px;
-  box-shadow: 0.5em 0.5em 0.75em rgba(var(--starstuff-card-default-shadow-color),0.3);
+  box-shadow: 0.5em 0.5em 0.75em rgba(var(--starstuff-card-default-shadow-color), 0.3);
   -webkit-transition: box-shadow 1s;
   transition: box-shadow 1s;
   --starstuff-card-default-background-color: 245,245,245;
@@ -483,16 +482,16 @@ Array [
 .emotion-2:focus,
 .emotion-2:focus-within,
 .emotion-2:hover {
-  box-shadow: 0.8em 0.8em 1em rgba(var(--starstuff-card-default-shadow-color),0.4);
+  box-shadow: 0.8em 0.8em 1em rgba(var(--starstuff-card-default-shadow-color), 0.4);
 }
 
-@media screen and (prefers-color-scheme:dark) {
+@media screen and (prefers-color-scheme: dark) {
   .emotion-2 {
     --starstuff-card-default-background-color: 55,55,55;
   }
 }
 
-.emotion-1 {
+.emotion-3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -503,19 +502,19 @@ Array [
   padding: 0.5em;
 }
 
-.emotion-0 {
+.emotion-4 {
   -webkit-align-self: flex-end;
-  -ms-flex-item-align: end;
+  -ms-flex-item-align: flex-end;
   align-self: flex-end;
 }
 
-.emotion-3 .gatsby-image-wrapper {
+.emotion-6 .gatsby-image-wrapper {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
 <section
-    className="emotion-8"
+    className="emotion-0"
   >
     <script
       type="application/ld+json"
@@ -542,7 +541,7 @@ Array [
       Blog Posts
     </h2>
     <div
-      className="emotion-7"
+      className="emotion-1"
     >
       <div
         className="emotion-2"
@@ -562,7 +561,7 @@ Array [
         }
         </script>
         <div
-          className="emotion-1"
+          className="emotion-3"
         >
           <a
             href="/blog/01-post-without-image"
@@ -580,7 +579,7 @@ Array [
             This is an example of a blog post without a featured image.
           </p>
           <a
-            className="emotion-0"
+            className="emotion-4"
             href="/blog/01-post-without-image"
           >
             Read More...
@@ -613,7 +612,7 @@ Array [
           href="/blog/02-post-with-image"
         >
           <figure
-            className="emotion-3"
+            className="emotion-6"
           >
             <script
               type="application/ld+json"
@@ -703,7 +702,7 @@ Array [
           </figure>
         </a>
         <div
-          className="emotion-1"
+          className="emotion-3"
         >
           <a
             href="/blog/02-post-with-image"
@@ -721,7 +720,7 @@ Array [
             This is an example of a blog post with a featured image.
           </p>
           <a
-            className="emotion-0"
+            className="emotion-4"
             href="/blog/02-post-with-image"
           >
             Read More...
