@@ -82,7 +82,13 @@ module.exports = () => ({
           "gatsby-remark-autolink-headers",
           // gatsby-remark-relative-images must
           // go before gatsby-remark-images
-          "gatsby-remark-relative-images",
+          {
+            resolve: "gatsby-remark-relative-images",
+            options: {
+              // Temporary fix to get behavior equivilant to `gatsby-remark-relative-images` v1
+              staticFolderName: "/",
+            },
+          },
           {
             resolve: "gatsby-remark-images",
             options: {
