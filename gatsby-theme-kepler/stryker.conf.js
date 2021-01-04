@@ -19,6 +19,7 @@ module.exports = function (config) {
       projectType: "custom",
       // Only use the unit test project
       config: require(path.resolve(__dirname, "./jest.config.js")).projects[0],
+      configFile: path.resolve(__dirname, "./jest.config.js"),
       enableFindRelatedTests: true,
     },
   });
