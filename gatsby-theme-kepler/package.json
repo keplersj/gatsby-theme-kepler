@@ -42,7 +42,7 @@
     "gatsby-tinacms-remark": "^0.35.0",
     "gatsby-transformer-json": "^2.9.0",
     "gatsby-transformer-remark": "^2.13.1",
-    "gatsby-transformer-sharp": "^2.5.14",
+    "gatsby-transformer-sharp": "^2.10.0",
     "gatsby-transformer-sqip": "^2.8.2",
     "modern-normalize": "^1.0.0",
     "react-helmet-async": "^1.0.6",
