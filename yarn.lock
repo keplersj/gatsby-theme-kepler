@@ -20868,8 +20868,9 @@ vscode-textmate@^5.2.0:
   integrity sha512-Uw5ooOQxRASHgu6C7GVvUxisKXfSgW4oFlO+aa+PAkgmH89O3CXxEEzNRNtHSqtXFTl0nAC1uYj0GMSH27uwtQ==
 
 vscode-theme-onedark@akamud/vscode-theme-onedark:
-  version "2.2.2"
-  resolved "https://codeload.github.com/akamud/vscode-theme-onedark/tar.gz/302baf238166c27ad7104f9ce3dbae38d47dc330"
+  version "2.2.3"
+  uid c6e35a3ade0e7ac65b994d148a6d4544a314cd86
+  resolved "https://codeload.github.com/akamud/vscode-theme-onedark/tar.gz/c6e35a3ade0e7ac65b994d148a6d4544a314cd86"
 
 vscode-theme-onelight@akamud/vscode-theme-onelight:
   version "2.2.3"
