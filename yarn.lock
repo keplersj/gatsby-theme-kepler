@@ -9081,10 +9081,10 @@ gatsby-theme-curiousity@^1.4.499:
     tinacms "^0.34.0"
     typescript "^4.1.3"
 
-gatsby-theme-early-bird@^1.8.537:
-  version "1.8.537"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.537.tgz#28b467fcd24d1a0d6dfe211d6df4f49065e3984f"
-  integrity sha512-Yy9vf6uTzyVXvQXq7K6lu9bvgQR7/xhDy7B24n/MH8Fi94WFsud1oYb4sa9Ix4ejJIEolZ817w5sX+foKUn95g==
+gatsby-theme-early-bird@^1.8.538:
+  version "1.8.538"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.538.tgz#cbe85e5d7c14c08617d6b0f1412a9fd13c0da2d6"
+  integrity sha512-uNq309AIUZUxxfsnSjH3oW0deMtCV2ftxIIOtdjUSSURAv3h9DeRSXGieftxG5udp8NBWmbonJ7FqHrQSOUBPw==
   dependencies:
     "@emotion/react" "^11.1.4"
     "@emotion/styled" "^11.0.0"
@@ -9118,7 +9118,7 @@ gatsby-theme-early-bird@^1.8.537:
     styled-components "^5.2.1"
     tinacms "^0.34.0"
     typescript "^4.1.3"
-    uri-path-breakdown "^1.0.13"
+    uri-path-breakdown "^1.0.14"
 
 gatsby-tinacms-git@^0.34.0:
   version "0.34.0"
@@ -20477,10 +20477,10 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-uri-path-breakdown@^1.0.13:
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/uri-path-breakdown/-/uri-path-breakdown-1.0.13.tgz#8f26a939cbfe4362541c22c8d59741b27daddf21"
-  integrity sha512-w/FhCTif51In2KpLBpBg4tEOtgZubVMKBmGfKIAMKj4uwz+aPZ0CPIsUlRGQE1UCTpEGMsMB4ls2EVhjGYKEww==
+uri-path-breakdown@^1.0.13, uri-path-breakdown@^1.0.14:
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/uri-path-breakdown/-/uri-path-breakdown-1.0.14.tgz#66c861d04eb82e98a866e555127689a15a0e6261"
+  integrity sha512-0p+ciCRj8AH6Rsm+hHcPw5b3ZnlLh6/S6XL4ctZdwb/d5I8SyZ53ZdH3sF7SsVL67eDENZ2ldz10lZSecQUGnQ==
   dependencies:
     uri-js "^4.2.2"
 
