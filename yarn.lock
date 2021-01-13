@@ -9048,26 +9048,6 @@ gatsby-telemetry@^1.8.1:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-telemetry@^1.8.1:
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-1.8.1.tgz#c9fefb0a16d437c9ddb4722fd92909c390bf0c4e"
-  integrity sha512-Az+2rArUf2Qxef6dOxYIo6SadRSFHWCckZGThiedwWguvjz4WLF4G4d7k1q/6BvzIu+tk/SrH+/fQ/Un6WOXPQ==
-  dependencies:
-    "@babel/code-frame" "^7.10.4"
-    "@babel/runtime" "^7.12.5"
-    "@turist/fetch" "^7.1.7"
-    "@turist/time" "^0.0.1"
-    async-retry-ng "^2.0.1"
-    boxen "^4.2.0"
-    configstore "^5.0.1"
-    fs-extra "^8.1.0"
-    gatsby-core-utils "^1.8.0"
-    git-up "^4.0.2"
-    is-docker "^2.1.1"
-    lodash "^4.17.20"
-    node-fetch "^2.6.1"
-    uuid "3.4.0"
-
 gatsby-theme-curiousity@^1.4.501:
   version "1.4.501"
   resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.501.tgz#b2390e33202adbc8db2103125fe04196d6b6c8d0"
@@ -17875,10 +17855,10 @@ selfsigned@^1.10.7:
   dependencies:
     node-forge "0.9.0"
 
-semantic-release@^17.3.1:
-  version "17.3.1"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-17.3.1.tgz#8904ef1ca8e704394de0e204b284f6c252284da4"
-  integrity sha512-NSdxvnBTklrRBYRexVUx44Hri9sTu9b8x+1HfWDGIWemDTFQfWOTbT1N3oy5l8WcZHodhRvtyI7gm50SfAa3Fg==
+semantic-release@^17.3.2:
+  version "17.3.2"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-17.3.2.tgz#89c793ed64fe00b7bfe1c36bc389fb04855a4df9"
+  integrity sha512-S8ppLzFFeznDXvRGEvltuwpRT7Tb7o3gBIqaVnahi0sAzrxD/WdWZQoHOpwypzTBD7i9gCxZ+RqVpaHa9WFD3w==
   dependencies:
     "@semantic-release/commit-analyzer" "^8.0.0"
     "@semantic-release/error" "^2.2.0"
