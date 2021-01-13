@@ -9081,10 +9081,10 @@ gatsby-theme-curiousity@^1.4.501:
     tinacms "^0.34.0"
     typescript "^4.1.3"
 
-gatsby-theme-early-bird@^1.8.538:
-  version "1.8.538"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.538.tgz#cbe85e5d7c14c08617d6b0f1412a9fd13c0da2d6"
-  integrity sha512-uNq309AIUZUxxfsnSjH3oW0deMtCV2ftxIIOtdjUSSURAv3h9DeRSXGieftxG5udp8NBWmbonJ7FqHrQSOUBPw==
+gatsby-theme-early-bird@^1.8.541:
+  version "1.8.541"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.541.tgz#4644769bb3ae9c689cf122a3efe888629d920cb6"
+  integrity sha512-Zj2Qf4OpwBpnOzHeCzzfBCa8cFKu6OQ9z+n/0VS5QTpLzSgzMKVLkGA79b+X9kMWdveuRkfu43XmcZPsmby3Hg==
   dependencies:
     "@emotion/react" "^11.1.4"
     "@emotion/styled" "^11.0.0"
@@ -9096,7 +9096,7 @@ gatsby-theme-early-bird@^1.8.538:
     gatsby-plugin-emotion "^5.2.0"
     gatsby-plugin-feed "^2.11.0"
     gatsby-plugin-react-helmet-async "^1.1.0"
-    gatsby-plugin-sharp "^2.12.0"
+    gatsby-plugin-sharp "^2.12.1"
     gatsby-plugin-tinacms "^0.34.0"
     gatsby-plugin-typescript "^2.10.0"
     gatsby-remark-copy-linked-files "^2.8.0"
@@ -9106,8 +9106,8 @@ gatsby-theme-early-bird@^1.8.538:
     gatsby-tinacms-git "^0.34.0"
     gatsby-tinacms-remark "^0.35.0"
     gatsby-transformer-remark "^2.14.0"
-    gatsby-transformer-sharp "^2.10.0"
-    gatsby-transformer-sqip "^2.9.0"
+    gatsby-transformer-sharp "^2.10.1"
+    gatsby-transformer-sqip "^2.9.1"
     modern-normalize "^1.0.0"
     react-helmet-async "^1.0.7"
     react-schemaorg "^1.3.1"
@@ -9182,7 +9182,7 @@ gatsby-transformer-remark@^2.14.0:
     unist-util-select "^1.5.0"
     unist-util-visit "^1.4.1"
 
-gatsby-transformer-sharp@^2.10.0, gatsby-transformer-sharp@^2.10.1:
+gatsby-transformer-sharp@^2.10.1:
   version "2.10.1"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.10.1.tgz#0bbe90b6f62bca2bb8d57db69c321aaf9ad78f88"
   integrity sha512-s1niLGthcKbKDj1gVIDSanjmxpxn4NgO2wMlmKqAUZSaDaoC29KEIywf5LSE89U/adAme+UlVGMgudMy0iz1sA==
@@ -9195,7 +9195,7 @@ gatsby-transformer-sharp@^2.10.0, gatsby-transformer-sharp@^2.10.1:
     semver "^7.3.4"
     sharp "^0.27.0"
 
-gatsby-transformer-sqip@^2.9.0, gatsby-transformer-sqip@^2.9.1:
+gatsby-transformer-sqip@^2.9.1:
   version "2.9.1"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-sqip/-/gatsby-transformer-sqip-2.9.1.tgz#cb78025e796d984824ab9bae543d61813d1226ef"
   integrity sha512-JlSWNu4sa8dXkZJd6ObVlFJMScZxRK2TCXNxXakiQVZQD+VkIbnlDng51UlOPjb4oct3rBLh6ydQyO0+jZu2sA==
