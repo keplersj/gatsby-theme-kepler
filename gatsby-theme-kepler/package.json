@@ -70,7 +70,7 @@
     "eslint": "^7.18.0",
     "eslint-config-starstuff": "^1.4.42",
     "eslint-plugin-jest": "^24.0.0",
-    "gatsby": "^2.30.2",
+    "gatsby": "^2.30.3",
     "jest": "^26.6.3",
     "jest-preset-gatsby": "^1.0.107",
     "jest-runner-eslint": "^0.10.0",
