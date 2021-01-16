@@ -8999,7 +8999,7 @@ gatsby-remark-vscode@^3.0.1:
     vscode-oniguruma "^1.4.0"
     vscode-textmate "^5.2.0"
 
-gatsby-source-filesystem@^2.9.0, gatsby-source-filesystem@^2.9.1:
+gatsby-source-filesystem@^2.9.1:
   version "2.9.1"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.9.1.tgz#25d603739d0ee818a72391f7711c3a6a0385c05e"
   integrity sha512-irXzH0EK3Y+jSwzhpnxG02fzvXBfkFFsT7tvv5Gp3CosPNX5LWz14PiKYFlylPC0rj2Q/zR7sgHVvkIeqgs3vA==
@@ -9038,10 +9038,10 @@ gatsby-telemetry@^1.8.1:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-theme-curiousity@^1.4.501:
-  version "1.4.501"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.501.tgz#b2390e33202adbc8db2103125fe04196d6b6c8d0"
-  integrity sha512-/fIoGlPgDt1Yzg4YrfbxdANxFhuCcmh14D7iWzGshwg5Hg+X/UpTsWOFl0necgyAUEGRKEGClCiTKIer3r4zHw==
+gatsby-theme-curiousity@^1.4.503:
+  version "1.4.503"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.503.tgz#73ab60de8bf93c9cc910fba4268bad330c0706ea"
+  integrity sha512-wGGK4Z3eWb68iIxWGGV3ZUhQ1eyFM9dQ5zN58lxlfnV6VYV39sIyy82U4BxKTWC0Yw+G0561wtUJKMrq4FvkVA==
   dependencies:
     "@emotion/react" "^11.1.4"
     "@emotion/styled" "^11.0.0"
@@ -9051,10 +9051,10 @@ gatsby-theme-curiousity@^1.4.501:
     gatsby-image "^2.9.0"
     gatsby-plugin-emotion "^5.2.0"
     gatsby-plugin-react-helmet-async "^1.1.0"
-    gatsby-plugin-sharp "^2.12.1"
+    gatsby-plugin-sharp "^2.12.2"
     gatsby-plugin-tinacms "^0.34.0"
     gatsby-plugin-typescript "^2.10.0"
-    gatsby-source-filesystem "^2.9.0"
+    gatsby-source-filesystem "^2.9.1"
     gatsby-tinacms-git "^0.34.0"
     gatsby-tinacms-remark "^0.35.0"
     gatsby-transformer-remark "^2.14.0"
@@ -9185,7 +9185,7 @@ gatsby-transformer-sharp@^2.10.1:
     semver "^7.3.4"
     sharp "^0.27.0"
 
-gatsby-transformer-sqip@^2.9.1, gatsby-transformer-sqip@^2.9.2:
+gatsby-transformer-sqip@^2.9.2:
   version "2.9.2"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-sqip/-/gatsby-transformer-sqip-2.9.2.tgz#f985685d17b968a7c39b5c11ae315eedb7f60a45"
   integrity sha512-WvLRl+NAj6VXiwbCIsD0MhVk9vdEhU7q34mvGsxXGdph6ydx2fyLt7nPsNWfoePK28QrPoGgQE8oGHovz1Xqrw==
