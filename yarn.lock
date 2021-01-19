@@ -8984,7 +8984,7 @@ gatsby-remark-relative-images@^2.0.2:
     traverse "0.6.6"
     unist-util-select "3.0.1"
 
-gatsby-remark-smartypants@^2.8.0, gatsby-remark-smartypants@^2.9.0:
+gatsby-remark-smartypants@^2.9.0:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/gatsby-remark-smartypants/-/gatsby-remark-smartypants-2.9.0.tgz#7e824370301dd9f6873f38b281d2ec4ff9591632"
   integrity sha512-tNYFW31FWgccKDg7A+O5yy4PMK6uMLt8+tcb9CBD3LF39QeyBMMGBxnSrK6wLasi9QsEKgyMc9vsJAM0VdQ1eg==
@@ -9079,10 +9079,10 @@ gatsby-theme-curiousity@^1.4.503:
     tinacms "^0.34.0"
     typescript "^4.1.3"
 
-gatsby-theme-early-bird@^1.8.542:
-  version "1.8.542"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.542.tgz#d9ba2409c738edb2993331d6677eb168e24d3c7d"
-  integrity sha512-7hjOmQtWyvQ9TWkFBEEJCdH06PI3Rbx6TuXkDV0pX4pxWzX2S/zGN07chSpgexjgWiwbumwAgkkJMt99nmoidw==
+gatsby-theme-early-bird@^1.8.544:
+  version "1.8.544"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.544.tgz#caf5a6bfd6eebebc6252d3e279bf41363752b941"
+  integrity sha512-Iw4E58DCP5mXQpD5yIsa2Dv9XkWzwUfTJ7/qFANf0oMDMKY88DfZSWiThZKAh6xqJ+yBUFSuL0fYl74YGX91oA==
   dependencies:
     "@emotion/react" "^11.1.4"
     "@emotion/styled" "^11.0.0"
@@ -9090,7 +9090,7 @@ gatsby-theme-early-bird@^1.8.542:
     "@mdx-js/react" "^1.6.22"
     "@types/react" "^17.0.0"
     "@types/react-helmet" "^6.1.0"
-    gatsby-image "^2.9.0"
+    gatsby-image "^2.10.0"
     gatsby-plugin-emotion "^5.2.0"
     gatsby-plugin-feed "^2.11.0"
     gatsby-plugin-react-helmet-async "^1.1.0"
@@ -9099,7 +9099,7 @@ gatsby-theme-early-bird@^1.8.542:
     gatsby-plugin-typescript "^2.10.0"
     gatsby-remark-copy-linked-files "^2.8.0"
     gatsby-remark-images "^3.9.0"
-    gatsby-remark-smartypants "^2.8.0"
+    gatsby-remark-smartypants "^2.9.0"
     gatsby-source-filesystem "^2.9.1"
     gatsby-tinacms-git "^0.34.0"
     gatsby-tinacms-remark "^0.35.0"
