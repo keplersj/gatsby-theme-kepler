@@ -8675,10 +8675,10 @@ gatsby-cli@^2.17.1:
     yoga-layout-prebuilt "^1.9.6"
     yurnalist "^1.1.2"
 
-gatsby-core-utils@^1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.8.0.tgz#712579cd94d28c71f50202f073e15b8781f8b195"
-  integrity sha512-MurWnytVVG9rOai0oAdcCsLODqj7P7Y9ndoAswHDk6hrlsWwiRMOsDS1kEyL7n2BM7lhgzZ+gz9OaOukqU1BhA==
+gatsby-core-utils@^1.8.0, gatsby-core-utils@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.9.0.tgz#ff349cc2013fd06a85099b3aee061b01f64ceabb"
+  integrity sha512-AWq9E+rBY+fWJrhdOx0rn/LlZ0eCjpqLYlDcUmLZ5NjwLARgkEXNf4JsvDETLtThcNlSOibEMQex8arsYatmkA==
   dependencies:
     ci-info "2.0.0"
     configstore "^5.0.1"
@@ -8742,10 +8742,10 @@ gatsby-plugin-catch-links@^2.9.0:
     "@babel/runtime" "^7.12.5"
     escape-string-regexp "^1.0.5"
 
-gatsby-plugin-emotion@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-emotion/-/gatsby-plugin-emotion-5.2.0.tgz#2a4083dff6c4128dcb655b2cedcd9943b6ef5789"
-  integrity sha512-Oq4DJJ6kQ2TyRB8xVi8FkxB4JTadynB+MCRjmUc7OeaHPfk+wEgu9GijxDb07D8vqBlIoJ7yXGbVgnDjRs6CgQ==
+gatsby-plugin-emotion@^5.2.0, gatsby-plugin-emotion@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-emotion/-/gatsby-plugin-emotion-5.3.0.tgz#4f1a42ddd38f3d2620aa87b02d4b0e9a87efb38e"
+  integrity sha512-zDbEOb5MvL4ve1OTZCtgVuEJUoyBgqJBByPO+xq87TsuKPJyzE2aRD7mtCcwivh4Yo7KBl1X9bl3EiOm5m50IA==
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@emotion/babel-preset-css-prop" "^11.0.0"
@@ -9047,18 +9047,18 @@ gatsby-telemetry@^1.8.1:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-theme-curiousity@^1.4.503:
-  version "1.4.503"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.503.tgz#73ab60de8bf93c9cc910fba4268bad330c0706ea"
-  integrity sha512-wGGK4Z3eWb68iIxWGGV3ZUhQ1eyFM9dQ5zN58lxlfnV6VYV39sIyy82U4BxKTWC0Yw+G0561wtUJKMrq4FvkVA==
+gatsby-theme-curiousity@^1.4.505:
+  version "1.4.505"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.505.tgz#0dae405ca068ef8d5d3b20daa0e7d5ea82a6c1e2"
+  integrity sha512-PM4u5A8I0SmH6BUQbb10fTm/jQm6lFXT7xAiYbLwHE4dSPKsC4gTiAXCMN4j7xn8JPtkr08ugVRCgEO40XkKsg==
   dependencies:
     "@emotion/react" "^11.1.4"
     "@emotion/styled" "^11.0.0"
     "@types/react" "^17.0.0"
     "@types/react-helmet" "^6.1.0"
-    gatsby-core-utils "^1.8.0"
+    gatsby-core-utils "^1.9.0"
     gatsby-image "^2.9.0"
-    gatsby-plugin-emotion "^5.2.0"
+    gatsby-plugin-emotion "^5.3.0"
     gatsby-plugin-react-helmet-async "^1.1.0"
     gatsby-plugin-sharp "^2.12.2"
     gatsby-plugin-tinacms "^0.34.0"
