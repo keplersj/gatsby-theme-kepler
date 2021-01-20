@@ -9012,10 +9012,10 @@ gatsby-telemetry@^1.9.0:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-theme-curiousity@^1.4.507:
-  version "1.4.507"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.507.tgz#d9f94b5d3ff162331bbb1cf3504011e53da35fbd"
-  integrity sha512-d6IW+FG81+6Z2oNohu4O94ZcwkRneSuqCAVry/p1ReCYWQGbw8GjlAZv5J9ZIrQtmxH2y0QUVW9QJVKC4B1mLA==
+gatsby-theme-curiousity@^1.4.508:
+  version "1.4.508"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.508.tgz#4dd2e271826bf96a6e9c6a60f34985da478b4fc6"
+  integrity sha512-BiDChyHdxsqDzLxdd/1LJCJP6RV8ZSRmAtsH93wX7L//mh9lu16Ic3EJ4c4XFBTGT5PYbU+ZV4A4GP0ZbyytKA==
   dependencies:
     "@emotion/react" "^11.1.4"
     "@emotion/styled" "^11.0.0"
