@@ -2436,17 +2436,26 @@
     surrial "~2.0.2"
     tslib "~2.0.0"
 
-"@stryker-mutator/core@^4.3.1":
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/core/-/core-4.3.1.tgz#f6a5fffadb255709a76401a084029e3531e6b785"
-  integrity sha512-QjLaO7tvIOlKou6D1iOys46fmbJM42Ps2Wn5hP7G2cBZHB3DgjfYtCSgwF/fgoFybHPukI/8O/2gm302N/jgow==
+"@stryker-mutator/api@4.4.0":
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-4.4.0.tgz#c8949998814c5a6b5576ff3c1ddb6c612ff4c772"
+  integrity sha512-JGHc1OCWZr530VM+I9GYWnZVDpqp3eKE+qsB7j6YNx3+3CvCF5D6j74jJrxoF/mzcmrSn/v1koqlOSe95ffvaQ==
   dependencies:
-    "@stryker-mutator/api" "4.3.1"
-    "@stryker-mutator/instrumenter" "4.3.1"
-    "@stryker-mutator/util" "4.3.1"
-    ajv "~6.12.0"
+    mutation-testing-report-schema "~1.5.2"
+    surrial "~2.0.2"
+    tslib "~2.1.0"
+
+"@stryker-mutator/core@^4.4.0":
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/core/-/core-4.4.0.tgz#dd519c53dc8bcb93ff1d8b040ee4513b1f7cd80b"
+  integrity sha512-84LKeeEuiLYKnVmT7CCoc9C8pqFIzksygdTH1cz8d4bzgrsLiZ3qYxMl3bNsKDq8B6YPFqkHG8SSGFde3nZJPQ==
+  dependencies:
+    "@stryker-mutator/api" "4.4.0"
+    "@stryker-mutator/instrumenter" "4.4.0"
+    "@stryker-mutator/util" "4.4.0"
+    ajv "~7.0.2"
     chalk "~4.1.0"
-    commander "~6.2.0"
+    commander "~7.0.0"
     execa "~5.0.0"
     file-url "~3.0.0"
     get-port "~5.0.0"
@@ -2466,7 +2475,7 @@
     source-map "~0.7.3"
     surrial "~2.0.2"
     tree-kill "~1.2.2"
-    tslib "~2.0.0"
+    tslib "~2.1.0"
     typed-inject "~3.0.0"
     typed-rest-client "~1.8.0"
 
@@ -2475,10 +2484,10 @@
   resolved "https://registry.yarnpkg.com/@stryker-mutator/html-reporter/-/html-reporter-3.1.0.tgz#b89692338037a0d168f9153457f5c71360c0c8c6"
   integrity sha512-Lpn9YGt4NS9lLYhjBNZ1yZ9tCX9FWa66skR6Ieij3wMMtQvPlSswar6fmVqUiyPl/wmpTGSoptOcWDFEZ5qp8A==
 
-"@stryker-mutator/instrumenter@4.3.1":
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/instrumenter/-/instrumenter-4.3.1.tgz#e23aefe5340eae7212b6aa70b4162c261f26a086"
-  integrity sha512-NaYopLzD7VrwsryeNDrDEZ3YLXNZXmzQn6A4PukX7t1ETc+4YW0cj0q57IN0UydnYLCEhj6MHmxZAuUZmvTL4Q==
+"@stryker-mutator/instrumenter@4.4.0":
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/instrumenter/-/instrumenter-4.4.0.tgz#0fe21c8d0fc2c7b68574f762f9b68528f5b628cb"
+  integrity sha512-SoCJSeYdauCi7zfq6pi72E+r1nCiJiGCP0QKetUNCIRwoBNWxjuDOdNS0HZOEyMaqAL9bE9CWgT5h+0QZr+FBw==
   dependencies:
     "@babel/core" "~7.12.3"
     "@babel/generator" "~7.12.1"
@@ -2487,9 +2496,10 @@
     "@babel/plugin-proposal-decorators" "~7.12.1 "
     "@babel/plugin-proposal-private-methods" "^7.12.1"
     "@babel/preset-typescript" "~7.12.1 "
-    "@stryker-mutator/api" "4.3.1"
-    "@stryker-mutator/util" "4.3.1"
+    "@stryker-mutator/api" "4.4.0"
+    "@stryker-mutator/util" "4.4.0"
     angular-html-parser "~1.7.0"
+    weapon-regex "~0.3.0"
 
 "@stryker-mutator/jest-runner@^4.3.1":
   version "4.3.1"
@@ -2510,6 +2520,13 @@
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-4.3.1.tgz#594c7b15e4c98caa5abf73dc541013b1885af6d3"
   integrity sha512-H5XHukO22BLnn0uIl39AUIabTqNTC7rVtrz8Hb1CeGxYF5d5fn5dUGqjUprW9jsxRzt8N3o/j2ysW1ikfB24iA==
+  dependencies:
+    lodash.flatmap "~4.5.0"
+
+"@stryker-mutator/util@4.4.0":
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-4.4.0.tgz#81e58516b18d065929fc8d202695ba5ad14d19e7"
+  integrity sha512-ZxQKak1XFtTzFuZhOjFkhyVeJNct3Y+IkJSkIX/QtHhgnchrhAfKPM2e+7ohfzosFKme2OYUEuGDdwuHBObypA==
   dependencies:
     lodash.flatmap "~4.5.0"
 
@@ -3488,7 +3505,7 @@ ajv-keywords@^3.5.2:
   resolved "https://registry.yarnpkg.com/ajv-keywords/-/ajv-keywords-3.5.2.tgz#31f29da5ab6e00d1c2d329acf7b5929614d5014d"
   integrity sha512-5p6WTN0DdTGVQk6VjcEju19IgaHudalcfabD7yhDGeA6bcQnmL+CpveLJq/3hvfwd1aof6L386Ougkx6RfyMIQ==
 
-ajv@^6.1.0, ajv@^6.10.0, ajv@^6.10.2, ajv@^6.12.0, ajv@^6.12.3, ajv@^6.12.4, ajv@~6.12.0:
+ajv@^6.1.0, ajv@^6.10.0, ajv@^6.10.2, ajv@^6.12.0, ajv@^6.12.3, ajv@^6.12.4:
   version "6.12.6"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.6.tgz#baf5a62e802b07d977034586f8c3baf5adf26df4"
   integrity sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==
@@ -3498,7 +3515,7 @@ ajv@^6.1.0, ajv@^6.10.0, ajv@^6.10.2, ajv@^6.12.0, ajv@^6.12.3, ajv@^6.12.4, ajv
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-ajv@^7.0.2:
+ajv@^7.0.2, ajv@~7.0.2:
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-7.0.3.tgz#13ae747eff125cafb230ac504b2406cf371eece2"
   integrity sha512-R50QRlXSxqXcQP5SvKUrw8VZeypvo12i2IX0EeR5PiZ7bEKeHWgzgo264LDadUsCU42lTJVhFikTqJwNeH34gQ==
@@ -5494,10 +5511,10 @@ commander@^2.20.0, commander@^2.20.3, commander@^2.8.1:
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
 
-commander@~6.2.0:
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-6.2.1.tgz#0792eb682dfbc325999bb2b84fddddba110ac73c"
-  integrity sha512-U7VdrJFnJgo4xjrHpTzu0yrHPGImdsmD95ZlgYSEajAn2JKzDhDTPG9kBTefmObL2w/ngeZnilk+OV9CG3d7UA==
+commander@~7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-7.0.0.tgz#3e2bbfd8bb6724760980988fb5b22b7ee6b71ab2"
+  integrity sha512-ovx/7NkTrnPuIV8sqk/GjUIIM1+iUQeqA3ye2VNpq9sVoiZsooObWlQy+OPWGI17GDaEoybuAGJm6U8yC077BA==
 
 common-tags@^1.8.0:
   version "1.8.0"
@@ -17655,17 +17672,10 @@ rx-lite@*, rx-lite@^4.0.8:
   resolved "https://registry.yarnpkg.com/rx-lite/-/rx-lite-4.0.8.tgz#0b1e11af8bc44836f04a6407e92da42467b79444"
   integrity sha1-Cx4Rr4vESDbwSmQH6S2kJGe3lEQ=
 
-rxjs@^6.6.0:
+rxjs@^6.6.0, rxjs@~6.6.0:
   version "6.6.3"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.3.tgz#8ca84635c4daa900c0d3967a6ee7ac60271ee552"
   integrity sha512-trsQc+xYYXZ3urjOiJOuCOa5N3jAZ3eiSpQB5hIT8zGlL2QfnHLJ2r7GMkBGuIausdJN1OneaI6gQlsqNHHmZQ==
-  dependencies:
-    tslib "^1.9.0"
-
-rxjs@~6.6.0:
-  version "6.6.0"
-  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.0.tgz#af2901eedf02e3a83ffa7f886240ff9018bbec84"
-  integrity sha512-3HMA8z/Oz61DUHe+SdOiQyzIf4tOx5oQHmMir7IZEu6TMqCLHT4LRcmNaUS0NwOz8VLvmmBduMsoaUvMaIiqzg==
   dependencies:
     tslib "^1.9.0"
 
@@ -19835,25 +19845,20 @@ tsconfig-paths@^3.9.0:
     minimist "^1.2.0"
     strip-bom "^3.0.0"
 
-tslib@^1.10.0:
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
-  integrity sha512-i/6DQjL8Xf3be4K/E6Wgpekn5Qasl1usyw++dAA35Ue5orEn65VIxOA+YvNNl9HV3qv70T7CNwjODHZrLwvd1Q==
-
-tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
+tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2, tslib@^2.0.1, tslib@^2.0.3, tslib@~2.0.0, tslib@~2.0.1, tslib@~2.0.3:
+tslib@^2, tslib@^2.0.0, tslib@^2.0.1, tslib@^2.0.3, tslib@~2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.1.0.tgz#da60860f1c2ecaa5703ab7d39bc05b6bf988b97a"
+  integrity sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==
+
+tslib@~2.0.0, tslib@~2.0.1, tslib@~2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.0.3.tgz#8e0741ac45fc0c226e58a17bfc3e64b9bc6ca61c"
   integrity sha512-uZtkfKblCEQtZKBF6EBXVZeQNl82yqtDQdv+eck8u7tdPxjLu2/lp5/uPW+um2tpuxINHWy3GhiccY7QgEaVHQ==
-
-tslib@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.0.0.tgz#18d13fc2dce04051e20f074cc8387fd8089ce4f3"
-  integrity sha512-lTqkx847PI7xEDYJntxZH89L2/aXInsyF2luSafe/+0fHOMjlBNXdH6th7f70qxLDhul7KZK0zC8V5ZIyHl0/g==
 
 tsutils@^3.17.1:
   version "3.17.1"
@@ -20779,6 +20784,11 @@ wcwidth@^1.0.0:
   integrity sha1-8LDc+RW8X/FSivrbLA4XtTLaL+g=
   dependencies:
     defaults "^1.0.3"
+
+weapon-regex@~0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/weapon-regex/-/weapon-regex-0.3.0.tgz#21fc74d04b1fafd9b1e694e5797655c59864b7a8"
+  integrity sha512-IctFbNWZJ7n8mBmEqVAdirWZbLhFlv+2so3FEiZjhzlUuhs07drvKHXiU+DppO8Fz/EbYfbcTt7HGeNzinXUlw==
 
 web-namespaces@^1.0.0, web-namespaces@^1.1.2:
   version "1.1.4"
