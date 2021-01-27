@@ -2436,6 +2436,15 @@
     surrial "~2.0.2"
     tslib "~2.1.0"
 
+"@stryker-mutator/api@4.4.1":
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-4.4.1.tgz#e4271909824211c1f342abb2487261dc409eb02d"
+  integrity sha512-qjkkdsOepy0NEGyxU2hvqQ70JFBaukkCO1MoWdG1e2oWpPQaTYNF+1W38fOF0QWGO0FVm50cA0wbf7Apqp5wIA==
+  dependencies:
+    mutation-testing-report-schema "~1.5.2"
+    surrial "~2.0.2"
+    tslib "~2.1.0"
+
 "@stryker-mutator/core@^4.4.0":
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/core/-/core-4.4.0.tgz#dd519c53dc8bcb93ff1d8b040ee4513b1f7cd80b"
@@ -2492,13 +2501,13 @@
     angular-html-parser "~1.7.0"
     weapon-regex "~0.3.0"
 
-"@stryker-mutator/jest-runner@^4.4.0":
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-4.4.0.tgz#6ee6ba91ee43f39abd94aee826e3f0fd6a70d70f"
-  integrity sha512-JxzRXLjH+e2avasqiTCVs0IkYzZTT5qJSDPVRQ9D3yAcdUCzdohUoo1axtDI3CUCW7jjmTlk4Pq1NUJmdJFzEA==
+"@stryker-mutator/jest-runner@^4.4.1":
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-4.4.1.tgz#288476a4af1c0179eebc5dd77a781d44a9a9eb33"
+  integrity sha512-5sNE+kGaHe6pFK8D4t0WFM9Qx05ZvCdRkadcnHff+RvMCmVqRd4mUvH/VU35FPsrnBZb/IhnhP2wydijyc9e4w==
   dependencies:
-    "@stryker-mutator/api" "4.4.0"
-    "@stryker-mutator/util" "4.4.0"
+    "@stryker-mutator/api" "4.4.1"
+    "@stryker-mutator/util" "4.4.1"
     semver "~6.3.0"
     tslib "~2.1.0"
 
@@ -2511,6 +2520,13 @@
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-4.4.0.tgz#81e58516b18d065929fc8d202695ba5ad14d19e7"
   integrity sha512-ZxQKak1XFtTzFuZhOjFkhyVeJNct3Y+IkJSkIX/QtHhgnchrhAfKPM2e+7ohfzosFKme2OYUEuGDdwuHBObypA==
+  dependencies:
+    lodash.flatmap "~4.5.0"
+
+"@stryker-mutator/util@4.4.1":
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-4.4.1.tgz#bc9587a5d54584173350b0fc622b5bd6bfbb4649"
+  integrity sha512-F0IFpjU6cc4H/exn8iI08QLqa7d5yLod+p5lI0IeddzQJQCs0ztMX5g9zqLU7nTCTcEbL2XgI9S8815/YbNjDQ==
   dependencies:
     lodash.flatmap "~4.5.0"
 
