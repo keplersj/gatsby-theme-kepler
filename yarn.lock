@@ -9051,10 +9051,10 @@ gatsby-theme-curiousity@^1.4.515:
     tinacms "^0.36.0"
     typescript "^4.1.3"
 
-gatsby-theme-early-bird@^1.8.552:
-  version "1.8.552"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.552.tgz#5852dbc428477635c881ed9afb5440ee7b447b23"
-  integrity sha512-afN+yhN4mr+5OqfVl6jaea7t5nk8bioAMcEe40eNhBu9XQOePZI1j3vUyKF1e0tB6JtM7YdKJgigGknHxnU9KQ==
+gatsby-theme-early-bird@^1.8.553:
+  version "1.8.553"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.553.tgz#3061bce9bf92d5e5763d0c09f7ea99cd7c17fbaa"
+  integrity sha512-mH5J4dG4CeX2PlFl4cA6PvnJZF2TNWTrIqL0BMoNmTo44ySm4nwEqN54aCxCqhTNdZbxJmBHAkKjuG8hZVsiXg==
   dependencies:
     "@emotion/react" "^11.1.4"
     "@emotion/styled" "^11.0.0"
@@ -9077,7 +9077,7 @@ gatsby-theme-early-bird@^1.8.552:
     gatsby-tinacms-remark "^0.36.0"
     gatsby-transformer-remark "^2.15.0"
     gatsby-transformer-sharp "^2.11.0"
-    gatsby-transformer-sqip "^2.10.2"
+    gatsby-transformer-sqip "^2.10.3"
     modern-normalize "^1.0.0"
     react-helmet-async "^1.0.7"
     react-schemaorg "^1.3.1"
@@ -9165,14 +9165,14 @@ gatsby-transformer-sharp@^2.11.0:
     semver "^7.3.4"
     sharp "^0.27.0"
 
-gatsby-transformer-sqip@^2.10.2:
-  version "2.10.2"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-sqip/-/gatsby-transformer-sqip-2.10.2.tgz#5a7ff49aa7e748b448452984f38b444d646684c3"
-  integrity sha512-Y+YaXj6otkgvAKs9+mL166hKuAyUYKZC817nKD9O6cpImleYuT9NbZ7ngv6XOhag6Eq/+SYVtyVM//+9xyVbpQ==
+gatsby-transformer-sqip@^2.10.2, gatsby-transformer-sqip@^2.10.3:
+  version "2.10.3"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-sqip/-/gatsby-transformer-sqip-2.10.3.tgz#d7c8ef9267fb2a42d905aea4ddb0079e58ab7199"
+  integrity sha512-Jv86MhpmlI0uAWehbI7tmKmagQ6buaJfn9DRieSvIuFwHoKFTmb9a6jn5rGz7X/CPmYJpHy46lbNwgTeQxVtQQ==
   dependencies:
     "@babel/runtime" "^7.12.5"
     fs-extra "^8.1.0"
-    gatsby-plugin-sharp "^2.13.2"
+    gatsby-plugin-sharp "^2.13.3"
     md5-file "^5.0.0"
     mini-svg-data-uri "^1.2.3"
     p-queue "^6.6.2"
