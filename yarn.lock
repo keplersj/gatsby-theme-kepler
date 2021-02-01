@@ -2635,10 +2635,10 @@
   resolved "https://registry.yarnpkg.com/@tinacms/react-screens/-/react-screens-0.36.0.tgz#5bb374c7fc5588bbd6e2fdabf5369d716f21dc82"
   integrity sha512-HgHBNtnCARBXuCZ3mFMKc8O0E6+hHQTs9iJdmaLcjb41+A6BXB9SMSwHprA+lzEPgjnwZBTmrnES9PYqlwhRPA==
 
-"@tinacms/react-sidebar@^0.36.0":
-  version "0.36.0"
-  resolved "https://registry.yarnpkg.com/@tinacms/react-sidebar/-/react-sidebar-0.36.0.tgz#46a9c14ce8234499819f47d096acbee4f0075dbe"
-  integrity sha512-jnWVXR7d121U00RCVKkFPGSZbTDNx6WisJk4/ZsTdhP3QBZGiCxkIJv+elcIBfV//MEUH7ZSywX9QIEntERFiw==
+"@tinacms/react-sidebar@^0.36.1":
+  version "0.36.1"
+  resolved "https://registry.yarnpkg.com/@tinacms/react-sidebar/-/react-sidebar-0.36.1.tgz#9209c99c867aa54b53a946cb97c94ad3492da925"
+  integrity sha512-bygoJfIfaYVgztZ/zSLdf6ryOSbSVtoowfIry/p/ej+P5ce0EWXqcFHdXfQ1ShKI68m9NNQpGNn19j/h61P2YA==
   dependencies:
     "@tinacms/core" "^0.33.0"
     "@tinacms/forms" "^0.33.0"
@@ -8805,12 +8805,12 @@ gatsby-plugin-sitemap@^2.11.0:
     pify "^3.0.0"
     sitemap "^1.13.0"
 
-gatsby-plugin-tinacms@^0.36.0:
-  version "0.36.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-tinacms/-/gatsby-plugin-tinacms-0.36.0.tgz#022d93fb9d23de5731959bb96dd7e581e9e870f0"
-  integrity sha512-BIxGwcILGXd0Uj3TOti3YJsEzRFRPEfFfSpyV4UsPTtwC9vFoGWIhaLNQpCriZ0cAs1wBxtOQHsG1qSGmNL3ig==
+gatsby-plugin-tinacms@^0.36.0, gatsby-plugin-tinacms@^0.36.1:
+  version "0.36.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-tinacms/-/gatsby-plugin-tinacms-0.36.1.tgz#fcfa96993578e43cbe4e572dd2377be6d76991c5"
+  integrity sha512-ZSovs4Sga9Ice+ODDpaKr5tyBu6tRZgVmxAp12J3pGqyGKnjoScRVJLcuqSyKDl+qvsGOLYYK6SQiEgUSOCxHw==
   dependencies:
-    tinacms "^0.36.0"
+    tinacms "^0.36.1"
 
 gatsby-plugin-typescript@^2.11.0:
   version "2.11.0"
@@ -19581,10 +19581,10 @@ timsort@^0.3.0:
   resolved "https://registry.yarnpkg.com/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
-tinacms@^0.36.0:
-  version "0.36.0"
-  resolved "https://registry.yarnpkg.com/tinacms/-/tinacms-0.36.0.tgz#799d0f85ac2f869ef3cc84c13e4101beeb4144a5"
-  integrity sha512-CO110/MLyCL2mq8YrxA9XvFVtQzevlQNzT/lrcoL41hlj3NN/M6oxRGccdSqdYVI3TWETc7CWzgJ1dJYDFneRg==
+tinacms@^0.36.0, tinacms@^0.36.1:
+  version "0.36.1"
+  resolved "https://registry.yarnpkg.com/tinacms/-/tinacms-0.36.1.tgz#80310b45e5239354a58dd47500294f592a07954b"
+  integrity sha512-vH4+CONNm5tjkLsxxWjXlBvTh0B+1fXxoDkejW1gHlIDcWuK2Og/6nwwzPcmF5BImqwA+tsv6Ls2/n6fEwHzhw==
   dependencies:
     "@tinacms/alerts" "^0.33.0"
     "@tinacms/core" "^0.33.0"
@@ -19597,7 +19597,7 @@ tinacms@^0.36.0:
     "@tinacms/react-forms" "^0.36.0"
     "@tinacms/react-modals" "^0.36.0"
     "@tinacms/react-screens" "^0.36.0"
-    "@tinacms/react-sidebar" "^0.36.0"
+    "@tinacms/react-sidebar" "^0.36.1"
     "@tinacms/react-toolbar" "^0.36.0"
     "@tinacms/styles" "^0.33.0"
     react-dropzone "^11.1.0"
