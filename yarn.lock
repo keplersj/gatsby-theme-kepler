@@ -9051,10 +9051,10 @@ gatsby-theme-curiousity@^1.4.517:
     tinacms "^0.36.0"
     typescript "^4.1.3"
 
-gatsby-theme-early-bird@^1.8.555:
-  version "1.8.555"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.555.tgz#b0bbd40b0fcde2b5ac4224b551cc5104c65d2d71"
-  integrity sha512-kbbVzoLVzjqyPEw94Uo9rhopaZyoAR707RvUEBQ8WUMz9WeGcK+OlptaTF5hdhfWvEJb9QvOgt77k9Ix/1xvfQ==
+gatsby-theme-early-bird@^1.8.556:
+  version "1.8.556"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.556.tgz#c858ce5247b6bd44b7df8c93a6e6a3c6ed0c2ff7"
+  integrity sha512-NVQbSY5uGWEVLECY7EYbeNS/NJEVYOelHoPjYcZQUQF4Gyvti6MaM6BeDLUpxWtPytj/7rTpUDyb1ZPOOO4WXg==
   dependencies:
     "@emotion/react" "^11.1.4"
     "@emotion/styled" "^11.0.0"
@@ -9067,13 +9067,13 @@ gatsby-theme-early-bird@^1.8.555:
     gatsby-plugin-feed "^2.12.0"
     gatsby-plugin-react-helmet-async "^1.1.0"
     gatsby-plugin-sharp "^2.13.4"
-    gatsby-plugin-tinacms "^0.36.0"
+    gatsby-plugin-tinacms "^0.36.1"
     gatsby-plugin-typescript "^2.11.0"
     gatsby-remark-copy-linked-files "^2.9.0"
     gatsby-remark-images "^3.10.0"
     gatsby-remark-smartypants "^2.9.0"
     gatsby-source-filesystem "^2.10.0"
-    gatsby-tinacms-git "^0.36.0"
+    gatsby-tinacms-git "^0.36.1"
     gatsby-tinacms-remark "^0.36.0"
     gatsby-transformer-remark "^2.15.0"
     gatsby-transformer-sharp "^2.11.0"
@@ -9090,10 +9090,10 @@ gatsby-theme-early-bird@^1.8.555:
     typescript "^4.1.3"
     uri-path-breakdown "^1.0.14"
 
-gatsby-tinacms-git@^0.36.0:
-  version "0.36.0"
-  resolved "https://registry.yarnpkg.com/gatsby-tinacms-git/-/gatsby-tinacms-git-0.36.0.tgz#a160c42812f9e0177115f9422290ab464d171637"
-  integrity sha512-AY0jbNQuDvY/nLNHbnnlhqmZBolw+q8SDJXyrN2OA+i77WH1MNLqIYGuGkVIsL/4bbC2DpaWxMNUG99JY4JxOg==
+gatsby-tinacms-git@^0.36.0, gatsby-tinacms-git@^0.36.1:
+  version "0.36.1"
+  resolved "https://registry.yarnpkg.com/gatsby-tinacms-git/-/gatsby-tinacms-git-0.36.1.tgz#9a9f21c8731f1aab7950d9e1fb89c7d61d342876"
+  integrity sha512-rHKcSx/i4dmDmrap1Az+aWUpkKj2JZbWNii52+IWlWpr3Ktss4fVNCJ+yeBjRgl1XFbYX4FtSxCYtrdaVVgBOg==
   dependencies:
     "@tinacms/api-git" "^0.31.0"
     "@tinacms/git-client" "^0.34.0"
