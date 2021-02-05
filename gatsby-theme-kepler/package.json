@@ -43,7 +43,7 @@
     "gatsby-transformer-json": "^2.11.0",
     "gatsby-transformer-remark": "^2.16.0",
     "gatsby-transformer-sharp": "^2.12.0",
-    "gatsby-transformer-sqip": "^2.11.0",
+    "gatsby-transformer-sqip": "^2.11.1",
     "modern-normalize": "^1.0.0",
     "react-helmet-async": "^1.0.6",
     "react-icons": "^4.1.0",
