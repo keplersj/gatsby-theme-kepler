@@ -2576,6 +2576,18 @@
     react-dismissible "^1.3.0"
     react-dropzone "10.1.8"
 
+"@tinacms/fields@^0.37.0":
+  version "0.37.0"
+  resolved "https://registry.yarnpkg.com/@tinacms/fields/-/fields-0.37.0.tgz#4ee1597b8b281cfed5d952826f3385b296f81922"
+  integrity sha512-ZfoHfrmVQn0BZEHsnW8RPAOYdA+dKDmrxWqoM3CNm89dsnBiaHzmpZAreKhGyZdpei4cvupaga7dtPoR9Q4dwg==
+  dependencies:
+    "@sambego/storybook-styles" "^1.0.0"
+    "@types/react-select" "^2.0.11"
+    color-string "^1.5.3"
+    react-color "^2.17.3"
+    react-dismissible "^1.3.0"
+    react-dropzone "10.1.8"
+
 "@tinacms/form-builder@^0.34.0":
   version "0.34.0"
   resolved "https://registry.yarnpkg.com/@tinacms/form-builder/-/form-builder-0.34.0.tgz#0fd39dfe6796907818ebd8a38bd07694cda97737"
@@ -2651,6 +2663,16 @@
   dependencies:
     "@tinacms/core" "^0.33.0"
     "@tinacms/fields" "^0.36.0"
+    "@tinacms/forms" "^0.33.0"
+    react-dismissible "^1.3.0"
+
+"@tinacms/react-toolbar@^0.37.0":
+  version "0.37.0"
+  resolved "https://registry.yarnpkg.com/@tinacms/react-toolbar/-/react-toolbar-0.37.0.tgz#34a9405c45b0861b5c371cd64b4a2c315d86cc54"
+  integrity sha512-ZqNcvPBJiULAuEn7KX174hPRCPYatdyEmR/Vxzd8/1cy4qsAiKv7uYu0cA3TmymcTR39kozddh/N6W+4G0dR7Q==
+  dependencies:
+    "@tinacms/core" "^0.33.0"
+    "@tinacms/fields" "^0.37.0"
     "@tinacms/forms" "^0.33.0"
     react-dismissible "^1.3.0"
 
@@ -8875,6 +8897,13 @@ gatsby-plugin-tinacms@^0.36.1:
   integrity sha512-ZSovs4Sga9Ice+ODDpaKr5tyBu6tRZgVmxAp12J3pGqyGKnjoScRVJLcuqSyKDl+qvsGOLYYK6SQiEgUSOCxHw==
   dependencies:
     tinacms "^0.36.1"
+
+gatsby-plugin-tinacms@^0.37.0:
+  version "0.37.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-tinacms/-/gatsby-plugin-tinacms-0.37.0.tgz#905a94e225b0687dc6fa1a53cabad35810999a35"
+  integrity sha512-g9QeXMNL/1OQ2+jIAylwnRzTXiAx1iXHJOgSZLgQjVPOI0Gw7ETMDEC4c8/iBxhbmhOxumrMIvaSWlhn5ZgqfQ==
+  dependencies:
+    tinacms "^0.37.0"
 
 gatsby-plugin-typescript@^2.12.0:
   version "2.12.0"
@@ -19700,6 +19729,27 @@ tinacms@^0.36.0, tinacms@^0.36.1:
     "@tinacms/react-screens" "^0.36.0"
     "@tinacms/react-sidebar" "^0.36.1"
     "@tinacms/react-toolbar" "^0.36.0"
+    "@tinacms/styles" "^0.33.0"
+    react-dropzone "^11.1.0"
+
+tinacms@^0.37.0:
+  version "0.37.0"
+  resolved "https://registry.yarnpkg.com/tinacms/-/tinacms-0.37.0.tgz#81e2cad483a36bbc45320a57d34dada62e691ac9"
+  integrity sha512-7JlMaaq2pyXgpEJqUwsg3MqGarh/QjauGDCpxKlIqgbHZ/Wvcy7kT46TFGWaowd2aGbci//E3RlG0xWYT1HwzA==
+  dependencies:
+    "@tinacms/alerts" "^0.33.0"
+    "@tinacms/core" "^0.33.0"
+    "@tinacms/fields" "^0.37.0"
+    "@tinacms/form-builder" "^0.34.0"
+    "@tinacms/forms" "^0.33.0"
+    "@tinacms/icons" "^0.36.0"
+    "@tinacms/react-alerts" "^0.36.0"
+    "@tinacms/react-core" "^0.34.0"
+    "@tinacms/react-forms" "^0.36.0"
+    "@tinacms/react-modals" "^0.36.0"
+    "@tinacms/react-screens" "^0.36.0"
+    "@tinacms/react-sidebar" "^0.36.1"
+    "@tinacms/react-toolbar" "^0.37.0"
     "@tinacms/styles" "^0.33.0"
     react-dropzone "^11.1.0"
 
