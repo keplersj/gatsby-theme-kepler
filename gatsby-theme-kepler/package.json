@@ -58,7 +58,7 @@
     "vscode-theme-onelight": "akamud/vscode-theme-onelight"
   },
   "devDependencies": {
-    "@emotion/jest": "^11.1.0",
+    "@emotion/jest": "^11.2.0",
     "@stryker-mutator/core": "^4.4.1",
     "@stryker-mutator/html-reporter": "^3.1.0",
     "@stryker-mutator/jest-runner": "^4.4.1",
