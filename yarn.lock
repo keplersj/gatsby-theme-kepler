@@ -8819,10 +8819,10 @@ gatsby-plugin-page-creator@^2.10.0:
     globby "^11.0.2"
     lodash "^4.17.20"
 
-gatsby-plugin-react-helmet-async@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet-async/-/gatsby-plugin-react-helmet-async-1.1.0.tgz#680995b67588a4d4de1f63e41bd929e1f7fe1c86"
-  integrity sha512-qJkFIcDKg9b27Z3tXp5uXugVzne2MEsTi4hIm5erTSlGmOIj2EuoKfC8Tc/bGUkHazbY71AUFAZj15aonAXPzw==
+gatsby-plugin-react-helmet-async@^1.1.0, gatsby-plugin-react-helmet-async@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet-async/-/gatsby-plugin-react-helmet-async-1.1.1.tgz#ad8bb89346b21eedac3c503dbbd81ef655b7c939"
+  integrity sha512-cL8iYuKxnWRKQ1A5p325Mjox5dOvua/SrUHOOgvz5zgi9Xf5H410iLeEbwhEMr/LyV0TxRTchEw+XLwDVlyo9g==
 
 gatsby-plugin-robots-txt@^1.5.5:
   version "1.5.5"
