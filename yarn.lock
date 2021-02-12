@@ -3010,10 +3010,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^17.0.1":
-  version "17.0.1"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.1.tgz#eb1f1407dea8da3bc741879c1192aa703ab9975b"
-  integrity sha512-w8t9f53B2ei4jeOqf/gxtc2Sswnc3LBK5s0DyJcg5xd10tMHXts2N31cKjWfH9IC/JvEPa/YF1U4YeP1t4R6HQ==
+"@types/react@*", "@types/react@^17.0.1", "@types/react@^17.0.2":
+  version "17.0.2"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.2.tgz#3de24c4efef902dd9795a49c75f760cbe4f7a5a8"
+  integrity sha512-Xt40xQsrkdvjn1EyWe1Bc0dJLcil/9x2vAuW7ya+PuQip4UYUaXyhzWmAbwRsdMgwOFHpfp7/FFZebDU6Y8VHA==
   dependencies:
     "@types/prop-types" "*"
     csstype "^3.0.2"
@@ -8819,7 +8819,7 @@ gatsby-plugin-page-creator@^2.10.0:
     globby "^11.0.2"
     lodash "^4.17.20"
 
-gatsby-plugin-react-helmet-async@^1.1.0, gatsby-plugin-react-helmet-async@^1.1.1:
+gatsby-plugin-react-helmet-async@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet-async/-/gatsby-plugin-react-helmet-async-1.1.1.tgz#ad8bb89346b21eedac3c503dbbd81ef655b7c939"
   integrity sha512-cL8iYuKxnWRKQ1A5p325Mjox5dOvua/SrUHOOgvz5zgi9Xf5H410iLeEbwhEMr/LyV0TxRTchEw+XLwDVlyo9g==
@@ -9115,21 +9115,21 @@ gatsby-theme-curiousity@^1.4.529:
     tinacms "^0.37.0"
     typescript "^4.1.5"
 
-gatsby-theme-early-bird@^1.8.567:
-  version "1.8.567"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.567.tgz#e5db123bad3c8010d316632893ff92d01035642a"
-  integrity sha512-IMOmlxVL3EIP+R3m0wz8jucqkb/oeHAXg4Ln6jgYnuYGl2AcYkkSZcfHZZJwi/3kiR5QwH9Yo1IB6iwaXPue4g==
+gatsby-theme-early-bird@^1.8.569:
+  version "1.8.569"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.569.tgz#9f72aa17e210800e9047c48a7840f214ee29d30c"
+  integrity sha512-nBWABEdtTt0O1Y6Jg+4KxcrPKtlYraJ5qSxfitxj1j9+jvLRCNr4/Fftlj9RrRTVVMk+yfXmB6Fz4YnN1xGsew==
   dependencies:
     "@emotion/react" "^11.1.5"
     "@emotion/styled" "^11.1.5"
     "@mdx-js/mdx" "^1.6.22"
     "@mdx-js/react" "^1.6.22"
-    "@types/react" "^17.0.1"
+    "@types/react" "^17.0.2"
     "@types/react-helmet" "^6.1.0"
     gatsby-image "^2.11.0"
     gatsby-plugin-emotion "^5.4.0"
     gatsby-plugin-feed "^2.13.0"
-    gatsby-plugin-react-helmet-async "^1.1.0"
+    gatsby-plugin-react-helmet-async "^1.1.1"
     gatsby-plugin-sharp "^2.14.1"
     gatsby-plugin-tinacms "^0.37.0"
     gatsby-plugin-typescript "^2.12.0"
