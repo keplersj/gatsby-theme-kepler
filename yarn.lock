@@ -2285,11 +2285,6 @@
   resolved "https://registry.yarnpkg.com/@sambego/storybook-styles/-/storybook-styles-1.0.0.tgz#4f840ee26dd0b25dcb803a75caa42e16071dcaae"
   integrity sha512-n0SqZwDewUDRaStEcoNMiYy9qovaLVStsh4Gb2dc2LLiG3IIK0UXdeR1N7puVuRihJq/192uOyGPCjZ/NAteuA==
 
-"@scarf/scarf@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@scarf/scarf/-/scarf-1.1.0.tgz#b84b4a91cd938a688d36245b7a7db6fbc476a499"
-  integrity sha512-b2iE8kjjzzUo2WZ0xuE2N77kfnTds7ClrDxcz3Atz7h2XrNVoAPUoT75i7CY0st5x++70V91Y+c6RpBX9MX7Jg==
-
 "@semantic-release/commit-analyzer@^8.0.0":
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/@semantic-release/commit-analyzer/-/commit-analyzer-8.0.1.tgz#5d2a37cd5a3312da0e3ac05b1ca348bf60b90bca"
@@ -9082,10 +9077,10 @@ gatsby-telemetry@^1.10.0:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-theme-curiousity@^1.4.530:
-  version "1.4.530"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.530.tgz#df699ced01b4438cd4749035a994cfa90fcef643"
-  integrity sha512-u/WeVaJmWNrwM+wNNMsB0pCIItq7Q3a4RSz3U/UU/QGGpkkisIEw8ytXpFvBQwneTXlElurmJK4k+mYjS0Z7mQ==
+gatsby-theme-curiousity@^1.4.531:
+  version "1.4.531"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.531.tgz#4fb74cf5ca2fc6c60847aa22abd217dd812f44b1"
+  integrity sha512-y+KdWAroc9NXJrkdVsyY4n7n+lzRm0J60gmGh5umEvAirP3SxClbWTm8SIgefpdIkpkoeCw3+vDgH6kj9qVl6g==
   dependencies:
     "@emotion/react" "^11.1.5"
     "@emotion/styled" "^11.1.5"
@@ -9104,7 +9099,7 @@ gatsby-theme-curiousity@^1.4.530:
     gatsby-transformer-remark "^2.16.0"
     gatsby-transformer-sharp "^2.12.0"
     modern-normalize "^1.0.0"
-    polished "^4.1.0"
+    polished "^4.1.1"
     react-helmet-async "^1.0.7"
     react-schemaorg "^1.3.1"
     schema-dts "^0.8.2"
@@ -15569,13 +15564,12 @@ pnp-webpack-plugin@^1.6.4:
   dependencies:
     ts-pnp "^1.1.6"
 
-polished@^4.0.1, polished@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/polished/-/polished-4.1.0.tgz#ab80c10e04fdf8795faee723b59577de18d2936b"
-  integrity sha512-y8IInTGHuwku7+O+wsJ7OOvNpJF7EPP/IDzF1uj9UJfEEKpMAfeq5gZ5UrtOksM7Jk4+hBAk6Ce8rFOOF4msZg==
+polished@^4.0.1, polished@^4.1.0, polished@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/polished/-/polished-4.1.1.tgz#40442cc973348e466f2918cdf647531bb6c29bfb"
+  integrity sha512-4MZTrfPMPRLD7ac8b+2JZxei58zw6N1hFkdBDERif5Tlj19y3vPoPusrLG+mJIlPTGnUlKw3+yWz0BazvMx1vg==
   dependencies:
     "@babel/runtime" "^7.12.5"
-    "@scarf/scarf" "^1.1.0"
 
 portfinder@^1.0.26:
   version "1.0.26"
