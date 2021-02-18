@@ -9110,10 +9110,10 @@ gatsby-theme-curiousity@^1.4.531:
     tinacms "^0.37.0"
     typescript "^4.1.5"
 
-gatsby-theme-early-bird@^1.8.569:
-  version "1.8.569"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.569.tgz#9f72aa17e210800e9047c48a7840f214ee29d30c"
-  integrity sha512-nBWABEdtTt0O1Y6Jg+4KxcrPKtlYraJ5qSxfitxj1j9+jvLRCNr4/Fftlj9RrRTVVMk+yfXmB6Fz4YnN1xGsew==
+gatsby-theme-early-bird@^1.8.570:
+  version "1.8.570"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.570.tgz#0950d29a4bb219fbdc72051d930f0259051bf810"
+  integrity sha512-n98OUAYKxvNOQwxICXobttPAOF4qLN/otB0pNHmJCUtrpfaeXVuNlHMXbi9LnIZuxmX6HhHBBLakHegAk6It1g==
   dependencies:
     "@emotion/react" "^11.1.5"
     "@emotion/styled" "^11.1.5"
@@ -9142,7 +9142,7 @@ gatsby-theme-early-bird@^1.8.569:
     react-schemaorg "^1.3.1"
     schema-dts "^0.8.2"
     slugify "^1.4.6"
-    starstuff-components "^2.1.39"
+    starstuff-components "^2.1.40"
     starstuff-style "^1.1.12"
     styled-components "^5.2.1"
     tinacms "^0.37.0"
@@ -18672,10 +18672,10 @@ stackframe@^1.1.1:
   resolved "https://registry.yarnpkg.com/stackframe/-/stackframe-1.1.1.tgz#ffef0a3318b1b60c3b58564989aca5660729ec71"
   integrity sha512-0PlYhdKh6AfFxRyK/v+6/k+/mMfyiEBbTM5L94D0ZytQnJ166wuwoTYLHFWGbs2dpA8Rgq763KGWmN1EQEYHRQ==
 
-starstuff-components@^2.1.39:
-  version "2.1.39"
-  resolved "https://registry.yarnpkg.com/starstuff-components/-/starstuff-components-2.1.39.tgz#31d4c82f22400ef5324ea6de271dd40c985d63b7"
-  integrity sha512-qR9dw52uohjSCj4MwLUX1L/HG7pWTKyCJkJqBq5PDZ5keyi3mKNvlyBcNzZf2YhDj4MAoOUVF7xNIMfs5X44Wg==
+starstuff-components@^2.1.39, starstuff-components@^2.1.40:
+  version "2.1.40"
+  resolved "https://registry.yarnpkg.com/starstuff-components/-/starstuff-components-2.1.40.tgz#7adcea8bae18b14a8faee7bd5a6983b214a769c1"
+  integrity sha512-tmKMPrHq0gAD0Bb0TS/gWWOd70SftkSa43V0lCWpzD/NxxlP/zzwmgJFiRBsn+CQiPP0KSniH/Tt24q9mc7chw==
   dependencies:
     "@emotion/react" "^11.1.4"
     "@emotion/styled" "^11.0.0"
