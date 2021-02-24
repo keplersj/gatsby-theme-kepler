@@ -9077,16 +9077,16 @@ gatsby-telemetry@^1.10.0, gatsby-telemetry@^1.10.1:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-theme-curiousity@^1.4.533:
-  version "1.4.533"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.533.tgz#22f861e0f8daae9a9f0205b547e81cd692bbf689"
-  integrity sha512-KzHQJfcHgRu+uGKElWpn5h/Cb9IjYt4bI//2rmg2hZ41VA5E2KH9dXh+p5pg+43negzIpy9yoADn0yGachw1MA==
+gatsby-theme-curiousity@^1.4.535:
+  version "1.4.535"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.535.tgz#b4b592ee0244b09edcb9684f12916d2fc2e482f7"
+  integrity sha512-CqtTqLbzgD2pGPA2CKjOOBNvCNTij+L/z76kY0+L792r4QhrQYq1L4izGyy8q6Ii3MMPsM5s5v9QJOYG0dKI1A==
   dependencies:
     "@emotion/react" "^11.1.5"
     "@emotion/styled" "^11.1.5"
     "@types/react" "^17.0.2"
     "@types/react-helmet" "^6.1.0"
-    gatsby-core-utils "^1.10.0"
+    gatsby-core-utils "^1.10.1"
     gatsby-image "^2.11.0"
     gatsby-plugin-emotion "^5.4.0"
     gatsby-plugin-react-helmet-async "^1.1.1"
@@ -9108,7 +9108,7 @@ gatsby-theme-curiousity@^1.4.533:
     starstuff-style "^1.1.12"
     styled-components "^5.2.1"
     tinacms "^0.37.0"
-    typescript "^4.1.5"
+    typescript "^4.2.2"
 
 gatsby-theme-early-bird@^1.8.572:
   version "1.8.572"
