@@ -41,7 +41,7 @@
     "gatsby-tinacms-json": "^0.37.0",
     "gatsby-tinacms-remark": "^0.37.0",
     "gatsby-transformer-json": "^2.11.0",
-    "gatsby-transformer-remark": "^2.16.0",
+    "gatsby-transformer-remark": "^2.16.1",
     "gatsby-transformer-sharp": "^2.12.0",
     "gatsby-transformer-sqip": "^2.11.2",
     "modern-normalize": "^1.0.0",
