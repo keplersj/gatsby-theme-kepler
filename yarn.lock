@@ -8827,10 +8827,10 @@ gatsby-plugin-robots-txt@^1.5.5:
     "@babel/runtime" "^7.11.2"
     generate-robotstxt "^8.0.3"
 
-gatsby-plugin-sharp@^2.14.1, gatsby-plugin-sharp@^2.14.2:
-  version "2.14.2"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.14.2.tgz#9ffe1490d7466f932b8d7095eab64c6a36233e1a"
-  integrity sha512-XzBxWfcqfj7M0q2YR97hV5LHaOIZ2SYDCHSvXSJbhly8LTMMhpLBhJeFiTjCUfKz4ldeERqvx7wZia1lABxdiA==
+gatsby-plugin-sharp@^2.14.1, gatsby-plugin-sharp@^2.14.2, gatsby-plugin-sharp@^2.14.3:
+  version "2.14.3"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.14.3.tgz#80970bd9604cdbb0005a222fb61bcd0e093e1a23"
+  integrity sha512-cUzaRA9DE6VzUREStNIy3gFujUefwlPmqumHm8YJGJspW9x8jxNBTXh2kc7tR8GqINFXneoEY4ywnR1WiWB7fA==
   dependencies:
     "@babel/runtime" "^7.12.5"
     async "^3.2.0"
@@ -9224,14 +9224,14 @@ gatsby-transformer-sharp@^2.12.0:
     semver "^7.3.4"
     sharp "^0.27.0"
 
-gatsby-transformer-sqip@^2.11.1, gatsby-transformer-sqip@^2.11.2:
-  version "2.11.2"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-sqip/-/gatsby-transformer-sqip-2.11.2.tgz#a9aa75a84e86b00f16fd7ddb6679f2cf37f6a539"
-  integrity sha512-kkmiKjKn+coNg7KoTg6ouq+Vv9ZTePt1PlJECcJNljegvJEIya6qDlGJdRlNUa1YFE/0erttg9+7DrAIcS21Uw==
+gatsby-transformer-sqip@^2.11.1, gatsby-transformer-sqip@^2.11.3:
+  version "2.11.3"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-sqip/-/gatsby-transformer-sqip-2.11.3.tgz#20f88d9fb59e4b09a9ce9a8af0196b63d718c5aa"
+  integrity sha512-TyU0fx+kPGj0i9HleFwsltfeOHraf8b68hOEadQqd7Y2peraRqffiNCrZQkfW1MghcFUfbLjefBbqG2GC1fuMA==
   dependencies:
     "@babel/runtime" "^7.12.5"
     fs-extra "^8.1.0"
-    gatsby-plugin-sharp "^2.14.2"
+    gatsby-plugin-sharp "^2.14.3"
     md5-file "^5.0.0"
     mini-svg-data-uri "^1.2.3"
     p-queue "^6.6.2"
