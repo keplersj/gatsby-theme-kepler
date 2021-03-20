@@ -9359,10 +9359,10 @@ gatsby-telemetry@^2.1.0:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-theme-curiousity@^1.4.553:
-  version "1.4.553"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.553.tgz#8fed22c7c60fa94e23283cacdf3f912d85a1a66b"
-  integrity sha512-euZgS3FQWKL0Pi2NLTM008LbIIITtjU8ajHlju9Y4mU0O7Bw/41sOVlGmvrzixdLKAWhSh8HVK2n9X9d2OVGhA==
+gatsby-theme-curiousity@^1.4.554:
+  version "1.4.554"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.554.tgz#1f493644efd042530b8a40d82b3ffd53925ed17c"
+  integrity sha512-iPfVEQFb/+z89a4ekFb5Cait8ijWu/qftzOV1YdsAK6Z18qFESeikaS/kdgAal7ZhPI0czxMn72QAL4xrTQjwg==
   dependencies:
     "@emotion/react" "^11.1.5"
     "@emotion/styled" "^11.1.5"
@@ -9385,7 +9385,7 @@ gatsby-theme-curiousity@^1.4.553:
     react-helmet-async "^1.0.9"
     react-schemaorg "^1.3.1"
     schema-dts "^0.8.2"
-    slugify "^1.4.7"
+    slugify "^1.5.0"
     starstuff-components "^2.1.41"
     starstuff-style "^1.1.12"
     styled-components "^5.2.1"
@@ -18606,10 +18606,10 @@ slide@^1.1.6, slide@~1.1.3, slide@~1.1.6:
   resolved "https://registry.yarnpkg.com/slide/-/slide-1.1.6.tgz#56eb027d65b4d2dce6cb2e2d32c4d4afc9e1d707"
   integrity sha1-VusCfWW00tzmyy4tMsTUr8nh1wc=
 
-slugify@^1.4.4, slugify@^1.4.7:
-  version "1.4.7"
-  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.4.7.tgz#e42359d505afd84a44513280868e31202a79a628"
-  integrity sha512-tf+h5W1IrjNm/9rKKj0JU2MDMruiopx0jjVA5zCdBtcGjfp0+c5rHw/zADLC3IeKlGHtVbHtpfzvYA0OYT+HKg==
+slugify@^1.4.4, slugify@^1.4.7, slugify@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.5.0.tgz#5f3c8e2a84105b54eb51486db1b468a599b3c9b8"
+  integrity sha512-Q2UPZ2udzquy1ElHfOLILMBMqBEXkiD3wE75qtBvV+FsDdZZjUqPZ44vqLTejAVq+wLLHacOMcENnP8+ZbzmIA==
 
 smart-buffer@^4.1.0:
   version "4.1.0"
