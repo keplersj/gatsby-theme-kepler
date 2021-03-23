@@ -65,7 +65,7 @@
     "@stryker-mutator/typescript": "^4.0.0",
     "@types/deepmerge": "^2.2.0",
     "@types/jest": "^26.0.21",
-    "@types/react-test-renderer": "^17.0.0",
+    "@types/react-test-renderer": "^17.0.1",
     "deepmerge": "^4.2.2",
     "eslint": "^7.22.0",
     "eslint-config-starstuff": "^1.4.42",
