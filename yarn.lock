@@ -9203,7 +9203,7 @@ gatsby-remark-copy-linked-files@^3.1.0:
     probe-image-size "^6.0.0"
     unist-util-visit "^1.4.1"
 
-gatsby-remark-images@^4.1.0, gatsby-remark-images@^4.1.1:
+gatsby-remark-images@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-4.1.1.tgz#ae851169951a40c5ad7ba5a1bf19a33730aeee35"
   integrity sha512-n28M87lAGgF5ootav7Gb+xnIbwWJ6MbnozVJlAwB5/Z7A5yDDfGtAdMrj8+KXa0menMIjHHLUaPmMbPQDGnCow==
@@ -9346,10 +9346,10 @@ gatsby-theme-curiousity@^1.4.555:
     tinacms "^0.37.0"
     typescript "^4.2.3"
 
-gatsby-theme-early-bird@^1.8.591:
-  version "1.8.591"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.591.tgz#d0081f445e180d983d25e583892645ec6f5f8a4a"
-  integrity sha512-DeRONL/yYN3wag6I/X4OgwGwUcE/x6JbHARjWlWC9SrHx8iEzts5UVQ01ZzYXRmGbtmtDDHtbcvEjyPeXriHkw==
+gatsby-theme-early-bird@^1.8.592:
+  version "1.8.592"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.592.tgz#c49ac5a79b7f78e807e0df256be6cfa7a049128a"
+  integrity sha512-7pKBHuXOg7aAQ4J2h8BLuFNQj7lpcq919RmXfu/qZDPEu/N4izEcEWxXqPh/AIdbQ4WGx91cGefkdJozO48YEQ==
   dependencies:
     "@emotion/react" "^11.1.5"
     "@emotion/styled" "^11.1.5"
@@ -9365,7 +9365,7 @@ gatsby-theme-early-bird@^1.8.591:
     gatsby-plugin-tinacms "^0.37.0"
     gatsby-plugin-typescript "^2.12.1"
     gatsby-remark-copy-linked-files "^3.1.0"
-    gatsby-remark-images "^4.1.0"
+    gatsby-remark-images "^4.1.1"
     gatsby-remark-smartypants "^3.1.0"
     gatsby-source-filesystem "^3.1.0"
     gatsby-tinacms-git "^0.38.0"
