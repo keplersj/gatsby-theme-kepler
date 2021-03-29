@@ -9502,10 +9502,10 @@ gatsby-telemetry@^2.1.0:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-theme-curiousity@^1.4.555:
-  version "1.4.555"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.555.tgz#45169be2754359e104ae59be5f7c24cef8d9e24e"
-  integrity sha512-YqIDNFgv5F5+kg2OD1IW7htxm+bXYFuE30cHSkbQJSdknPKcXt0NUacOKjcZNTEQG0WpwbrB5izS4KAm4dq0+w==
+gatsby-theme-curiousity@^1.4.557:
+  version "1.4.557"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.557.tgz#0ad6515a873f984161dfa5cc6c4a5bf7c7ba3a05"
+  integrity sha512-mw0eWEnmCbFW7X5X7hTnfSxdmuVASneblOnuAxz4kM95KvYkQ+28wT0KgHUuvoxyCWpDhnYTAMRfxFUfI7CG7g==
   dependencies:
     "@emotion/react" "^11.1.5"
     "@emotion/styled" "^11.1.5"
@@ -9529,8 +9529,8 @@ gatsby-theme-curiousity@^1.4.555:
     react-schemaorg "^1.3.1"
     schema-dts "^0.8.2"
     slugify "^1.5.0"
-    starstuff-components "^2.1.41"
-    starstuff-style "^1.1.12"
+    starstuff-components "^2.1.42"
+    starstuff-style "^1.1.13"
     styled-components "^5.2.1"
     tinacms "^0.37.0"
     typescript "^4.2.3"
@@ -19179,7 +19179,7 @@ stacktrace-js@^2.0.2:
     stack-generator "^2.0.5"
     stacktrace-gps "^3.0.4"
 
-starstuff-components@^2.1.41, starstuff-components@^2.1.42:
+starstuff-components@^2.1.42:
   version "2.1.42"
   resolved "https://registry.yarnpkg.com/starstuff-components/-/starstuff-components-2.1.42.tgz#daf32022aec0942c486236c725e4e076072e62b0"
   integrity sha512-Josnf8/gMKazb0Wmqwz+XzyB4QIRWRSY/jnLeyRAJVBsmrqew6qeJNA84BZBzWOXHbOXhGtKUjgE7fI6rUt12w==
