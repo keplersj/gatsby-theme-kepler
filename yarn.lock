@@ -19204,10 +19204,10 @@ stacktrace-js@^2.0.2:
     stack-generator "^2.0.5"
     stacktrace-gps "^3.0.4"
 
-starstuff-components@^2.1.41:
-  version "2.1.41"
-  resolved "https://registry.yarnpkg.com/starstuff-components/-/starstuff-components-2.1.41.tgz#0ff880cf588b3aa3e9510f2ae207902d1484a071"
-  integrity sha512-VRUCwzHPmpfVapuDhkWMAPoQqiwkuukOppYEfIt2W28IQ/8fDibDa2hrRCeEB1RL/O3MGD+qJ0uyDCekIditRA==
+starstuff-components@^2.1.41, starstuff-components@^2.1.42:
+  version "2.1.42"
+  resolved "https://registry.yarnpkg.com/starstuff-components/-/starstuff-components-2.1.42.tgz#daf32022aec0942c486236c725e4e076072e62b0"
+  integrity sha512-Josnf8/gMKazb0Wmqwz+XzyB4QIRWRSY/jnLeyRAJVBsmrqew6qeJNA84BZBzWOXHbOXhGtKUjgE7fI6rUt12w==
   dependencies:
     "@emotion/react" "^11.1.4"
     "@emotion/styled" "^11.0.0"
