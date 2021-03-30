@@ -9604,10 +9604,10 @@ gatsby-tinacms-git@^0.38.0:
     "@tinacms/api-git" "^0.31.0"
     "@tinacms/git-client" "^0.38.0"
 
-gatsby-tinacms-json@^0.38.0:
-  version "0.38.0"
-  resolved "https://registry.yarnpkg.com/gatsby-tinacms-json/-/gatsby-tinacms-json-0.38.0.tgz#a272cde122c567d72b597fe0c883b1c66dba889d"
-  integrity sha512-XowgpZtweAOp9PjLkHHI/vu3Jwo6cIpfRPLbA4Dqly29ssdolU+CinpPUZs++OIupx3VrVD9Y9jz0vDGwuOd4A==
+gatsby-tinacms-json@^0.39.0:
+  version "0.39.0"
+  resolved "https://registry.yarnpkg.com/gatsby-tinacms-json/-/gatsby-tinacms-json-0.39.0.tgz#ee5eb1ca6b8d51d0f24dd987fbf91d4b9c8773a7"
+  integrity sha512-LHguE59xPbW4j+djMS6Emv6+8zoshfw+HQrjpE2mx0/6QolLZMhWyiT8TUKmdg/dazN9jwUmvCSBeLOuDnOo8g==
   dependencies:
     slash "^3.0.0"
 

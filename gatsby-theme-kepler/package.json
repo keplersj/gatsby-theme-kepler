@@ -38,7 +38,7 @@
     "gatsby-theme-curiousity": "^1.4.557",
     "gatsby-theme-early-bird": "^1.8.595",
     "gatsby-tinacms-git": "^0.38.0",
-    "gatsby-tinacms-json": "^0.38.0",
+    "gatsby-tinacms-json": "^0.39.0",
     "gatsby-tinacms-remark": "^0.38.0",
     "gatsby-transformer-json": "^3.1.0",
     "gatsby-transformer-remark": "^3.1.0",
