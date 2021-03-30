@@ -9720,6 +9720,19 @@ gatsby-transformer-sqip@^2.11.3:
     p-queue "^6.6.2"
     sqip "^0.3.3"
 
+gatsby-transformer-sqip@^3.1.3:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-sqip/-/gatsby-transformer-sqip-3.1.3.tgz#62c43a50ccc2ffa5d4cd76b88aad84218939a549"
+  integrity sha512-7k850vC9QRnskUnfb3LbK4B7AGSaEezdkxEa5MwSFcsmWsodLDwupIHKW7GVj8yCOuEIuUBbmZoMgur8N41vNw==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+    fs-extra "^8.1.0"
+    gatsby-plugin-sharp "^3.1.3"
+    md5-file "^5.0.0"
+    mini-svg-data-uri "^1.2.3"
+    p-queue "^6.6.2"
+    sqip "^0.3.3"
+
 gatsby@^2.32.11:
   version "2.32.11"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.32.11.tgz#2f4fdf5b8a007e5a3596107992388e6c4d1de4c7"
