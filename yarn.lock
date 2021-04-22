@@ -9213,10 +9213,10 @@ gatsby-plugin-sharp@^2.14.2, gatsby-plugin-sharp@^2.14.3:
     svgo "1.3.2"
     uuid "3.4.0"
 
-gatsby-plugin-sharp@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-3.3.0.tgz#e6992c1a8175031edad3c2ea6c831e4a4de27771"
-  integrity sha512-56jRS02/Ir4t4AZ3sGNi+Ia+MVKui3IC7X9vSyrptf7jvOM8Ckc9JLqubjy2KG6+UYsXuOPcZVtn6l4mmTqnuQ==
+gatsby-plugin-sharp@^3.3.0, gatsby-plugin-sharp@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-3.3.1.tgz#103c967ba23789a522ffedbb42920f181834e6b0"
+  integrity sha512-mwY9L/9PiLQuNmKNAx2H1OaMHYqBhePxa80yI4gW3RzUl4gsKIDLS+UonmQVogVg+LFhaEMwZ8tiQ6tM+8RZjg==
   dependencies:
     "@babel/runtime" "^7.12.5"
     async "^3.2.0"
@@ -9666,6 +9666,19 @@ gatsby-transformer-sqip@^2.11.3:
     "@babel/runtime" "^7.12.5"
     fs-extra "^8.1.0"
     gatsby-plugin-sharp "^2.14.3"
+    md5-file "^5.0.0"
+    mini-svg-data-uri "^1.2.3"
+    p-queue "^6.6.2"
+    sqip "^0.3.3"
+
+gatsby-transformer-sqip@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-sqip/-/gatsby-transformer-sqip-3.3.1.tgz#f81889a6beafb8e0d82930951d41fc10dda43bf2"
+  integrity sha512-bC1XQTKXMPXF00IUIj0qfU13ZzMS274h0WwKOCHBVrA+yJyc5q64SAOhc/oU1wmliOdJgimqk3k5NkU65uBjnw==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+    fs-extra "^8.1.0"
+    gatsby-plugin-sharp "^3.3.1"
     md5-file "^5.0.0"
     mini-svg-data-uri "^1.2.3"
     p-queue "^6.6.2"
