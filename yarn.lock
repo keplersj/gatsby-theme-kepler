@@ -19294,10 +19294,10 @@ starstuff-components@^2.1.43, starstuff-components@^2.1.44:
     "@emotion/styled" "^11.0.0"
     polished "^4.0.1"
 
-starstuff-style@^1.1.12, starstuff-style@^1.1.13:
-  version "1.1.13"
-  resolved "https://registry.yarnpkg.com/starstuff-style/-/starstuff-style-1.1.13.tgz#02677d8d160309c8ceb005373297e11b3eb7ada8"
-  integrity sha512-8NOsVJResnzcSIalFtXhnCkHdM6bsFV94KFQHXpt3oKdyqO81pEHjdkHgzOIbuGzEx3Zq6JaIvSL8OtfGBtxrw==
+starstuff-style@^1.1.13, starstuff-style@^1.1.14:
+  version "1.1.14"
+  resolved "https://registry.yarnpkg.com/starstuff-style/-/starstuff-style-1.1.14.tgz#c2bba2638677762c43ae593096bddf3f3bf73127"
+  integrity sha512-3wzIgFj+T1oDoZU6LUKSZuqaxEyTAVQPK/dJasubru0fmu3srZGuGVs5JEPdEYsxQE+UWRn1CXaXHWn0InNTcg==
 
 state-toggle@^1.0.0:
   version "1.0.3"
