@@ -1,0 +1,132 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "12:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: gatsby-plugin-sharp
+    versions:
+    - 2.14.1
+    - 2.14.3
+    - 3.0.0
+    - 3.0.1
+    - 3.1.0
+    - 3.1.1
+    - 3.1.2
+    - 3.1.3
+    - 3.2.0
+    - 3.2.1
+    - 3.3.0
+    - 3.3.1
+  - dependency-name: gatsby-plugin-nprogress
+    versions:
+    - 3.0.0
+  - dependency-name: gatsby-theme-curiousity
+    versions:
+    - 1.4.518
+    - 1.4.520
+    - 1.4.523
+    - 1.4.525
+    - 1.4.527
+    - 1.4.532
+    - 1.4.534
+    - 1.4.536
+    - 1.4.539
+    - 1.4.540
+    - 1.4.541
+    - 1.4.542
+    - 1.4.552
+  - dependency-name: semantic-release
+    versions:
+    - 17.4.0
+    - 17.4.1
+  - dependency-name: gatsby-theme-early-bird
+    versions:
+    - 1.8.556
+    - 1.8.562
+    - 1.8.563
+    - 1.8.568
+    - 1.8.570
+    - 1.8.571
+    - 1.8.573
+    - 1.8.574
+    - 1.8.577
+    - 1.8.578
+    - 1.8.579
+    - 1.8.607
+    - 1.8.609
+  - dependency-name: jest-preset-gatsby
+    versions:
+    - 1.0.109
+    - 1.0.111
+    - 1.0.116
+    - 1.0.120
+  - dependency-name: gatsby
+    versions:
+    - 2.32.2
+    - 2.32.7
+    - 2.32.8
+    - 3.1.1
+  - dependency-name: gatsby-plugin-typescript
+    versions:
+    - 2.12.1
+    - 3.1.0
+    - 3.2.0
+  - dependency-name: typescript
+    versions:
+    - 4.2.2
+  - dependency-name: "@reach/skip-nav"
+    versions:
+    - 0.13.2
+    - 0.14.0
+  - dependency-name: starstuff-components
+    versions:
+    - 2.1.40
+  - dependency-name: "@types/react"
+    versions:
+    - 17.0.2
+  - dependency-name: "@emotion/jest"
+    versions:
+    - 11.2.0
+  - dependency-name: "@emotion/react"
+    versions:
+    - 11.1.5
+  - dependency-name: gatsby-tinacms-git
+    versions:
+    - 0.36.1
+  - dependency-name: gatsby-background-image-lite
+    versions:
+    - 1.0.25
+    - 1.0.26
+    - 1.0.27
+    - 1.0.28
+    - 1.0.29
+    - 1.0.30
+  - dependency-name: gatsby-transformer-sqip
+    versions:
+    - 3.1.1
+    - 3.1.2
+    - 3.1.3
+    - 3.2.0
+    - 3.2.1
+    - 3.3.0
+    - 3.3.1
+  - dependency-name: gatsby-transformer-json
+    versions:
+    - 3.3.0
+  - dependency-name: gatsby-remark-images
+    versions:
+    - 4.2.0
+  - dependency-name: gatsby-image
+    versions:
+    - 3.2.0
+  - dependency-name: gatsby-plugin-emotion
+    versions:
+    - 6.2.0
+  commit-message:
+    prefix: fix
+    prefix-development: chore
+    include: scope
