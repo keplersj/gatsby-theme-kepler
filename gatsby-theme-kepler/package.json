@@ -59,7 +59,7 @@
   },
   "devDependencies": {
     "@emotion/jest": "^11.2.1",
-    "@stryker-mutator/core": "^4.5.1",
+    "@stryker-mutator/core": "^4.6.0",
     "@stryker-mutator/html-reporter": "^3.1.0",
     "@stryker-mutator/jest-runner": "^4.5.1",
     "@stryker-mutator/typescript": "^4.0.0",
