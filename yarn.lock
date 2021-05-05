@@ -9608,10 +9608,10 @@ gatsby-theme-early-bird@^1.8.628:
     typescript "^4.2.4"
     uri-path-breakdown "^1.0.16"
 
-gatsby-tinacms-git@^0.40.0:
-  version "0.40.0"
-  resolved "https://registry.yarnpkg.com/gatsby-tinacms-git/-/gatsby-tinacms-git-0.40.0.tgz#10a95e55800411b8b3454e7479b306885f01e852"
-  integrity sha512-i78Hj7nunrhq8v9DglGHieBVcwGLIkRWNSKRA9rY3I7nzGLIJUqAupyEaTpdAsc7sFt2P2VK+MwcTAyT+XY6wg==
+gatsby-tinacms-git@^0.40.0, gatsby-tinacms-git@^0.40.1:
+  version "0.40.1"
+  resolved "https://registry.yarnpkg.com/gatsby-tinacms-git/-/gatsby-tinacms-git-0.40.1.tgz#32f381ace3698a4be73afc421b9b8c99c4bcb2a6"
+  integrity sha512-hEW6MvKV0Juv52Ngi41cb/KhIBITzRan2LD2s8FNNNtbWYHBCUkRCuqDJiaveq3R1mjuKoqPEU0+ekKVZfR9Sg==
   dependencies:
     "@tinacms/api-git" "^0.39.0"
     "@tinacms/git-client" "^0.39.0"
