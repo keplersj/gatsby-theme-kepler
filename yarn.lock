@@ -9623,16 +9623,16 @@ gatsby-tinacms-json@^0.40.1:
   dependencies:
     slash "^3.0.0"
 
-gatsby-tinacms-remark@^0.40.0:
-  version "0.40.0"
-  resolved "https://registry.yarnpkg.com/gatsby-tinacms-remark/-/gatsby-tinacms-remark-0.40.0.tgz#0812b0768e08c22b295d1ce125ff95774c544c6c"
-  integrity sha512-t4/XTUNkUXZ+zgbXKtsq3G3kapB/mS7vyK86tQcmsvjtwbfUN4c+I3WTNhWQ/MR/anjLIZYAOUdifJX/eAc3zg==
+gatsby-tinacms-remark@^0.40.0, gatsby-tinacms-remark@^0.40.1:
+  version "0.40.1"
+  resolved "https://registry.yarnpkg.com/gatsby-tinacms-remark/-/gatsby-tinacms-remark-0.40.1.tgz#bfc3bbd070cff45a1cfb34a4752418639de8eb3d"
+  integrity sha512-mqI2A4vjAu4GVrlYruQmBnkElsa5KLE8CtMvL5vcNR+qTRBjLpnEyzSB8AWpy/brp+VpYQgBVj4vO+xy2yzRgg==
   dependencies:
     "@types/js-yaml" "^3.12.3"
     gray-matter "^4.0.2"
     js-yaml "^3.13.1"
-    react-tinacms-editor "^0.40.0"
-    react-tinacms-inline "^0.40.0"
+    react-tinacms-editor "^0.40.1"
+    react-tinacms-inline "^0.40.1"
     slash "^3.0.0"
 
 gatsby-transformer-json@^3.4.0:
@@ -17361,10 +17361,10 @@ react-textarea-autosize@>=7.1:
     use-composed-ref "^1.0.0"
     use-latest "^1.0.0"
 
-react-tinacms-editor@^0.40.0:
-  version "0.40.0"
-  resolved "https://registry.yarnpkg.com/react-tinacms-editor/-/react-tinacms-editor-0.40.0.tgz#e73a0aba788c9290266d7298738b2e99346e24fa"
-  integrity sha512-wL3O1oF2QYMTTRqp94bhss4T/lZ/uAarlJfYCKjKPyDSDFNxl+5isX5mCqCX8+wBjvBgEiVHdkmuNBmagTmT2Q==
+react-tinacms-editor@^0.40.1:
+  version "0.40.1"
+  resolved "https://registry.yarnpkg.com/react-tinacms-editor/-/react-tinacms-editor-0.40.1.tgz#2371eac3cb25f78a74e08a88f1fc0e4ad347571f"
+  integrity sha512-T7tKQ6k9dRaKnM0zQ96tT4sfTOEmMIca2yqmOhL9ObvNTR1FGchtnknUD22X94PU3PM4soY/wUOnQI+JAqhGQA==
   dependencies:
     codemirror "^5.42.2"
     lodash.debounce "^4.0.8"
@@ -17385,10 +17385,10 @@ react-tinacms-editor@^0.40.0:
     prosemirror-view "^1.11.3"
     react-dismissible "^1.3.0"
 
-react-tinacms-inline@^0.40.0:
-  version "0.40.0"
-  resolved "https://registry.yarnpkg.com/react-tinacms-inline/-/react-tinacms-inline-0.40.0.tgz#44e3a09a1015d9fa2bc8466ee59822e7f0e54586"
-  integrity sha512-CQ/MLKgvOPkO2Drj7IQ6XymCTeohBVxesY02hMLMC6yMkcVOef2iWY2R+9PSu8BeAhyLdu4mUa5+5jWz+qqcSg==
+react-tinacms-inline@^0.40.1:
+  version "0.40.1"
+  resolved "https://registry.yarnpkg.com/react-tinacms-inline/-/react-tinacms-inline-0.40.1.tgz#d21fc2d62b2be248dbea109f23f1ddeb319b3a4f"
+  integrity sha512-IHZ/6SuCERcuT3EOVRQyOpTPY+W+Qmti3nI4xNRcVtKSUCCyJf6EOG5/jTEqNOniq9F2+QyD1sYjikVs0ri16g==
   dependencies:
     react-dismissible "^1.3.0"
     react-textarea-autosize ">=7.1"
