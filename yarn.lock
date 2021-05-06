@@ -9536,10 +9536,10 @@ gatsby-telemetry@^2.4.1:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-theme-curiousity@^1.4.591:
-  version "1.4.591"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.591.tgz#fe328ccb320caf97f17f61b6f9c5b8e4e02abcdc"
-  integrity sha512-+vpBzcLPMgFd4A3QEKcnYdWUUnVsS/4GWDgfA6MACjs1he6DKod6GtVC3uDY1MvKjzcT3lwx2+X+uR/DRXaDAA==
+gatsby-theme-curiousity@^1.4.593:
+  version "1.4.593"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.593.tgz#2946d6712f01d197155ab00dd60d012b687f6bde"
+  integrity sha512-hWikUhhI2fbJkEZwrn3svY2yL2e+PaGrqhNmuCk2CyTLFl1AyQ2xHghqtOWzcR7ZMyWuUn6IRCHG9xtuHOXkiw==
   dependencies:
     "@emotion/react" "^11.1.5"
     "@emotion/styled" "^11.3.0"
@@ -9553,8 +9553,8 @@ gatsby-theme-curiousity@^1.4.591:
     gatsby-plugin-tinacms "^0.37.0"
     gatsby-plugin-typescript "^3.4.0"
     gatsby-source-filesystem "^3.4.0"
-    gatsby-tinacms-git "^0.40.0"
-    gatsby-tinacms-remark "^0.40.0"
+    gatsby-tinacms-git "^0.40.1"
+    gatsby-tinacms-remark "^0.40.1"
     gatsby-transformer-remark "^4.1.0"
     gatsby-transformer-sharp "^3.4.0"
     modern-normalize "^1.1.0"
@@ -9608,7 +9608,7 @@ gatsby-theme-early-bird@^1.8.630:
     typescript "^4.2.4"
     uri-path-breakdown "^1.0.16"
 
-gatsby-tinacms-git@^0.40.0, gatsby-tinacms-git@^0.40.1:
+gatsby-tinacms-git@^0.40.1:
   version "0.40.1"
   resolved "https://registry.yarnpkg.com/gatsby-tinacms-git/-/gatsby-tinacms-git-0.40.1.tgz#32f381ace3698a4be73afc421b9b8c99c4bcb2a6"
   integrity sha512-hEW6MvKV0Juv52Ngi41cb/KhIBITzRan2LD2s8FNNNtbWYHBCUkRCuqDJiaveq3R1mjuKoqPEU0+ekKVZfR9Sg==
@@ -9623,7 +9623,7 @@ gatsby-tinacms-json@^0.40.1:
   dependencies:
     slash "^3.0.0"
 
-gatsby-tinacms-remark@^0.40.0, gatsby-tinacms-remark@^0.40.1:
+gatsby-tinacms-remark@^0.40.1:
   version "0.40.1"
   resolved "https://registry.yarnpkg.com/gatsby-tinacms-remark/-/gatsby-tinacms-remark-0.40.1.tgz#bfc3bbd070cff45a1cfb34a4752418639de8eb3d"
   integrity sha512-mqI2A4vjAu4GVrlYruQmBnkElsa5KLE8CtMvL5vcNR+qTRBjLpnEyzSB8AWpy/brp+VpYQgBVj4vO+xy2yzRgg==
