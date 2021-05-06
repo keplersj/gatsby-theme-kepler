@@ -72,7 +72,7 @@
     "eslint-plugin-jest": "^24.3.6",
     "gatsby": "^2.32.13",
     "jest": "^26.6.3",
-    "jest-preset-gatsby": "^1.0.122",
+    "jest-preset-gatsby": "^1.0.123",
     "jest-runner-eslint": "^0.10.0",
     "jest-runner-prettier": "^0.3.6",
     "jest-runner-stylelint": "^2.3.7",
