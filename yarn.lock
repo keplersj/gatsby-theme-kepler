@@ -9558,10 +9558,10 @@ gatsby-theme-curiousity@^1.4.599:
     tinacms "^0.37.0"
     typescript "^4.2.4"
 
-gatsby-theme-early-bird@^1.8.637:
-  version "1.8.637"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.637.tgz#f8ef0f2cf20e108c679f172d1a0995e8f6781af5"
-  integrity sha512-uVFuneTexOGHdgP3cxGCOnKE/xIV5hhKoCThpp3yCHliZI9hqt8VkeTX3fhhV/J//H0eC40bKGrs1d9zPj3M2g==
+gatsby-theme-early-bird@^1.8.638:
+  version "1.8.638"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.638.tgz#031de245c4f9582bc5d75e3452d918e0be0be675"
+  integrity sha512-3PuYUTPabtlhp65e9ZmI1LhLvBMVSqJvX+LDFVqMFzEOdq9lr+ky7bklIv76rDjpUi8RHvJ9x9izUGK8VHxxLA==
   dependencies:
     "@emotion/react" "^11.4.0"
     "@emotion/styled" "^11.3.0"
@@ -9591,7 +9591,7 @@ gatsby-theme-early-bird@^1.8.637:
     schema-dts "^0.8.2"
     slugify "^1.5.1"
     starstuff-components "^2.1.47"
-    starstuff-style "^1.1.15"
+    starstuff-style "^1.1.16"
     styled-components "^5.3.0"
     tinacms "^0.37.0"
     typescript "^4.2.4"
@@ -19349,10 +19349,10 @@ starstuff-components@^2.1.47:
     "@emotion/styled" "^11.0.0"
     polished "^4.0.1"
 
-starstuff-style@^1.1.12, starstuff-style@^1.1.15:
-  version "1.1.15"
-  resolved "https://registry.yarnpkg.com/starstuff-style/-/starstuff-style-1.1.15.tgz#f051261ebb5d5fa15b97ac5a379fe196519b2391"
-  integrity sha512-nNUQprOlv8QNxVVwpPyz/39D6zicLB6EhWbztCFLG3oejnuGWEBTqMVZYXpf8w6V8Wrb0eWeI057Ga2FiPqiKw==
+starstuff-style@^1.1.12, starstuff-style@^1.1.15, starstuff-style@^1.1.16:
+  version "1.1.16"
+  resolved "https://registry.yarnpkg.com/starstuff-style/-/starstuff-style-1.1.16.tgz#717f56cc835b366ec467dfed596b60315247257c"
+  integrity sha512-GJyFKdZKCnDqTrN7k6agCkqjgOLakZQkAqOWhaGidYlDYCM8lIdeVxsecMXWqz+uG23wBPPyQDC0GEO+qlU2tg==
 
 state-toggle@^1.0.0:
   version "1.0.3"
