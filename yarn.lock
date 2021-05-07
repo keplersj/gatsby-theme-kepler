@@ -1431,7 +1431,7 @@
   resolved "https://registry.yarnpkg.com/@emotion/memoize/-/memoize-0.7.5.tgz#2c40f81449a4e554e9fc6396910ed4843ec2be50"
   integrity sha512-igX9a37DR2ZPGYtV6suZ6whr8pTFtyHL3K/oLUotxpSVO2ASaprmAe2Dkq7tBo7CRY7MMDrAa9nuQP9/YG8FxQ==
 
-"@emotion/react@^11.1.4", "@emotion/react@^11.1.5", "@emotion/react@^11.4.0":
+"@emotion/react@^11.1.4", "@emotion/react@^11.4.0":
   version "11.4.0"
   resolved "https://registry.yarnpkg.com/@emotion/react/-/react-11.4.0.tgz#2465ad7b073a691409b88dfd96dc17097ddad9b7"
   integrity sha512-4XklWsl9BdtatLoJpSjusXhpKv9YVteYKh9hPKP1Sxl+mswEFoUe0WtmtWjxEjkA51DQ2QRMCNOvKcSlCQ7ivg==
@@ -9558,12 +9558,12 @@ gatsby-theme-curiousity@^1.4.599:
     tinacms "^0.37.0"
     typescript "^4.2.4"
 
-gatsby-theme-early-bird@^1.8.632:
-  version "1.8.632"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.632.tgz#c45374f91692c42a4232805ceed40c3e57aee48d"
-  integrity sha512-Rsaeg5hm2i0Anvqb2UVOGzSK0EiTA4N/1dNUPrOeEjaGsMQbH+KSKZOBrMu9TFjnTrUnVdQUxrwSgfUSZBTRFA==
+gatsby-theme-early-bird@^1.8.637:
+  version "1.8.637"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-early-bird/-/gatsby-theme-early-bird-1.8.637.tgz#f8ef0f2cf20e108c679f172d1a0995e8f6781af5"
+  integrity sha512-uVFuneTexOGHdgP3cxGCOnKE/xIV5hhKoCThpp3yCHliZI9hqt8VkeTX3fhhV/J//H0eC40bKGrs1d9zPj3M2g==
   dependencies:
-    "@emotion/react" "^11.1.5"
+    "@emotion/react" "^11.4.0"
     "@emotion/styled" "^11.3.0"
     "@mdx-js/mdx" "^1.6.22"
     "@mdx-js/react" "^1.6.22"
@@ -9590,12 +9590,12 @@ gatsby-theme-early-bird@^1.8.632:
     react-schemaorg "^1.3.1"
     schema-dts "^0.8.2"
     slugify "^1.5.1"
-    starstuff-components "^2.1.45"
-    starstuff-style "^1.1.14"
+    starstuff-components "^2.1.47"
+    starstuff-style "^1.1.15"
     styled-components "^5.3.0"
     tinacms "^0.37.0"
     typescript "^4.2.4"
-    uri-path-breakdown "^1.0.16"
+    uri-path-breakdown "^1.0.17"
 
 gatsby-tinacms-git@^0.40.1:
   version "0.40.1"
@@ -19340,7 +19340,7 @@ stacktrace-js@^2.0.2:
     stack-generator "^2.0.5"
     stacktrace-gps "^3.0.4"
 
-starstuff-components@^2.1.45, starstuff-components@^2.1.47:
+starstuff-components@^2.1.47:
   version "2.1.47"
   resolved "https://registry.yarnpkg.com/starstuff-components/-/starstuff-components-2.1.47.tgz#05cfe351b63e56e19222d3793258575ef5f84331"
   integrity sha512-U6nGw0bCVRrUOmsS9dcqEm5mvFjBWjEwYsvaQVF6/J0Uj1t0tuQFQCh7sgcX4xJi9JZkrUie8zi4juolckiApA==
@@ -19349,7 +19349,7 @@ starstuff-components@^2.1.45, starstuff-components@^2.1.47:
     "@emotion/styled" "^11.0.0"
     polished "^4.0.1"
 
-starstuff-style@^1.1.12, starstuff-style@^1.1.14, starstuff-style@^1.1.15:
+starstuff-style@^1.1.12, starstuff-style@^1.1.15:
   version "1.1.15"
   resolved "https://registry.yarnpkg.com/starstuff-style/-/starstuff-style-1.1.15.tgz#f051261ebb5d5fa15b97ac5a379fe196519b2391"
   integrity sha512-nNUQprOlv8QNxVVwpPyz/39D6zicLB6EhWbztCFLG3oejnuGWEBTqMVZYXpf8w6V8Wrb0eWeI057Ga2FiPqiKw==
@@ -21186,7 +21186,7 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-uri-path-breakdown@^1.0.16, uri-path-breakdown@^1.0.17:
+uri-path-breakdown@^1.0.17:
   version "1.0.17"
   resolved "https://registry.yarnpkg.com/uri-path-breakdown/-/uri-path-breakdown-1.0.17.tgz#0446bf28a6cd67f3cec0c8fdfdeddf9661e53399"
   integrity sha512-ngmKd5FEaUk6qbjgUae9fL1EL/hRiKgNWP+NePTlReSiPQ9BOpedUAl77DRR+YBSCsaDxZEG0OIb1mTAzllYgA==
