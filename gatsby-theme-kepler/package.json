@@ -50,7 +50,7 @@
     "react-schemaorg": "^1.2.0",
     "schema-dts": "^0.8.2",
     "starstuff-components": "^2.1.47",
-    "starstuff-style": "^1.1.12",
+    "starstuff-style": "^1.1.16",
     "styled-components": "^5.2.0",
     "typescript": "^4.1.5",
     "uri-path-breakdown": "^1.0.17",
