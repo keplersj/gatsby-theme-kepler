@@ -17,7 +17,7 @@
     "@reach/skip-nav": "^0.13.0",
     "@types/reach__skip-nav": "^0.1.0",
     "@types/react": "^17.0.5",
-    "gatsby-background-image-lite": "^1.0.24",
+    "gatsby-background-image-lite": "^1.0.34",
     "gatsby-image": "^3.3.0",
     "gatsby-link": "^2.11.0",
     "gatsby-plugin-catch-links": "^3.4.0",
