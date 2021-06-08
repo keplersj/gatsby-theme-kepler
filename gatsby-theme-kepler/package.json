@@ -79,7 +79,7 @@
     "jest-serializer-json-ld-script": "^1.0.7",
     "jest-serializer-react-helmet-async": "^1.0.18",
     "jest-transform-stub": "^2.0.0",
-    "prettier": "^2.1.1",
+    "prettier": "^2.3.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-test-renderer": "^17.0.2",
