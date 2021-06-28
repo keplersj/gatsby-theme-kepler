@@ -14,7 +14,7 @@
   "dependencies": {
     "@emotion/react": "^11.4.0",
     "@emotion/styled": "^11.1.5",
-    "@reach/skip-nav": "^0.13.0",
+    "@reach/skip-nav": "^0.15.2",
     "@types/reach__skip-nav": "^0.1.0",
     "@types/react": "^17.0.5",
     "gatsby-background-image-lite": "^1.0.24",
