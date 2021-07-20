@@ -10106,6 +10106,19 @@ gatsby-transformer-sqip@^2.11.3:
     p-queue "^6.6.2"
     sqip "^0.3.3"
 
+gatsby-transformer-sqip@^3.10.0:
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-sqip/-/gatsby-transformer-sqip-3.10.0.tgz#5036a409dbf698ed59ed5d8db37335db6d717609"
+  integrity sha512-grp7dk7YFQDA2TC/Py/vI+8RLcfdOS4FtId47qk27k4le3gy3OXP4PgkeXf6zD8X3jmXzrPl2DbdGZaqcua7Hw==
+  dependencies:
+    "@babel/runtime" "^7.14.6"
+    fs-extra "^8.1.0"
+    gatsby-plugin-sharp "^3.10.0"
+    md5-file "^5.0.0"
+    mini-svg-data-uri "^1.3.3"
+    p-queue "^6.6.2"
+    sqip "^0.3.3"
+
 gatsby@^2.32.13:
   version "2.32.13"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.32.13.tgz#f4b1959b96d1fd853f9e6a2ce2451250e96bdeb4"
@@ -14612,10 +14625,10 @@ mini-css-extract-plugin@^0.11.2:
     schema-utils "^1.0.0"
     webpack-sources "^1.1.0"
 
-mini-svg-data-uri@^1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/mini-svg-data-uri/-/mini-svg-data-uri-1.2.3.tgz#e16baa92ad55ddaa1c2c135759129f41910bc39f"
-  integrity sha512-zd6KCAyXgmq6FV1mR10oKXYtvmA9vRoB6xPSTUJTbFApCtkefDnYueVR1gkof3KcdLZo1Y8mjF2DFmQMIxsHNQ==
+mini-svg-data-uri@^1.2.3, mini-svg-data-uri@^1.3.3:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/mini-svg-data-uri/-/mini-svg-data-uri-1.3.3.tgz#91d2c09f45e056e5e1043340b8b37ba7b50f4fac"
+  integrity sha512-+fA2oRcR1dJI/7ITmeQJDrYWks0wodlOz0pAEhKYJ2IVc1z0AnwJUsKY2fzFmPAM3Jo9J0rBx8JAA9QQSJ5PuA==
 
 minimalistic-assert@^1.0.0, minimalistic-assert@^1.0.1:
   version "1.0.1"
