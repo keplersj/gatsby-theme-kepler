@@ -9627,10 +9627,10 @@ gatsby-plugin-sharp@^2.14.2, gatsby-plugin-sharp@^2.14.3:
     svgo "1.3.2"
     uuid "3.4.0"
 
-gatsby-plugin-sharp@^3.10.1:
-  version "3.10.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-3.10.1.tgz#bcfe088a997a90e2cac15229806ac17de46312e8"
-  integrity sha512-Nn4SuNPK9mG6Q0PX5E3Eb2mI2OhBU0jqiGyVgaPUwRQWElvQB+2qbJoBRvjW1pt5lbAX2tQqbG7Gs2s51RP44w==
+gatsby-plugin-sharp@^3.10.2:
+  version "3.10.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-3.10.2.tgz#0354d5dea20cd21ac607f0a022cde167bac97c21"
+  integrity sha512-aaoxfsYgfS2LqGLxLHit9fRAH8mbpltyEni+l9SYMUwjfZAJHFnY0tqstsIYijMZyeatAzm3UWt7lQnEUEtGTg==
   dependencies:
     "@babel/runtime" "^7.14.6"
     async "^3.2.0"
@@ -9924,10 +9924,10 @@ gatsby-telemetry@^2.10.0:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-theme-curiousity@^1.4.665:
-  version "1.4.665"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.665.tgz#54f3d151da00ab81d47e6029eb60f3301c034561"
-  integrity sha512-cdBZw44Bdpr/73AdtJjUX5Thkq6lkJfN6ClCWPOZQFa9CDicUcU0BLLWbwbWKu7hdLMH7tFBqH3GVkRvTmV/1g==
+gatsby-theme-curiousity@^1.4.666:
+  version "1.4.666"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-curiousity/-/gatsby-theme-curiousity-1.4.666.tgz#238373f4d3c4868a75bd8ecbdd676a5b8e8cad94"
+  integrity sha512-0JS+cbMZmOI1qoXGTaLV/f1ABUq1QWRpJEq5DPxsZqJlIgKK1Ms0YEHa6gz1Cr5nF6OtNx9YzuWcRLaj6NB2mA==
   dependencies:
     "@emotion/react" "^11.4.0"
     "@emotion/styled" "^11.3.0"
@@ -9937,7 +9937,7 @@ gatsby-theme-curiousity@^1.4.665:
     gatsby-image "^3.10.0"
     gatsby-plugin-emotion "^6.10.0"
     gatsby-plugin-react-helmet-async "^1.2.0"
-    gatsby-plugin-sharp "^3.10.1"
+    gatsby-plugin-sharp "^3.10.2"
     gatsby-plugin-tinacms "^0.37.0"
     gatsby-plugin-typescript "^3.10.0"
     gatsby-source-filesystem "^3.10.0"
