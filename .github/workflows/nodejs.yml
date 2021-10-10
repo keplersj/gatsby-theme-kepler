@@ -6,24 +6,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [12.x, 14.x]
-
     steps:
-      - uses: actions/checkout@v1
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
         with:
-          node-version: ${{ matrix.node-version }}
-      - run: yarn install
-        env:
-          CI: true
-      - run: yarn test -- --ci
-        env:
-          CI: true
+          node-version: lts/*
+      - run: npm ci
+      - run: npm run test
       - name: stryker run
-        run: yarn workspace gatsby-theme-kepler test:mutation
+        run: npm run test:mutation -w=gatsby-theme-kepler
       - uses: codecov/codecov-action@v1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}

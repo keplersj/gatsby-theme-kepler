@@ -3,9 +3,9 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "test": "yarn workspace gatsby-theme-kepler test",
-    "develop": "yarn workspace example develop",
-    "build": "yarn workspace example build",
+    "test": "npm run test -w=gatsby-theme-kepler",
+    "develop": "npm run develop -w=example",
+    "build": "npm run build -w=example",
     "semantic-release": "semantic-release"
   },
   "workspaces": [
